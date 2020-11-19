@@ -1,2 +1,2 @@
-# MKT-MarioVsLuigi2020
-These files are Mario Kart Tour Halloween 2020 datamine files.
+# Mario Kart Tour Mario vs. Luigi 2020
+## Datamine Files
