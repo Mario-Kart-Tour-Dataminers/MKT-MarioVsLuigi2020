@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "BbDaisy"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -5046937325522761020
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -1404134992640720772
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3971649281461113041
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7060934536108598302
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8047642997140258096
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4896745291502517419
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1287023837562216709
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6153595025413458619
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3006785413379361915
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -8274235184132056960
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -6214116574940970488
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -3415329220874060622
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisy.png"
+				string mGuid = "ac4a018ef74a0514a991d68d529f9993"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisyMap.png"
+				string mGuid = "85e7ea0cc387f154cabdf9a1a21dcd1e"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisyFaceEntry.png"
+				string mGuid = "c9e46ea02f813494bae0584cd991fede"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisyWholeBody.png"
+				string mGuid = "7b31465b45c92b045939c4ecc00a4963"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisyUpperBody.png"
+				string mGuid = "4639dc1c6ad660e4b9255b509da5636b"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisy_Small.png"
+				string mGuid = "375f599f96bb16144ad5f5ad72119ab8"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisyFaceEntry_Small.png"
+				string mGuid = "a4d7e0145db6b4f438e17901355af0de"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisyWholeBody_Small.png"
+				string mGuid = "dfd282ff40c195c49b4a559ccd774467"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbDaisy/Icons/BbDaisyUpperBody_Small.png"
+				string mGuid = "b685b43cc0a4b4845812698faf97a606"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -378156569576264712
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ベビィデイジー"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,56 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6888412163677188206
+	string m_Name = "CourseGMat"
+	CollisionGndColMaterialInKCol mAllMaterialsInKCol
+		Array Array
+		int size = 11
+			[0]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 3
+			[1]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 4
+				UInt8 mMaterialId = 2
+			[2]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 5
+			[3]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 1
+			[4]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 4
+			[5]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 18
+				UInt8 mMaterialId = 0
+			[6]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 2
+				UInt8 mMaterialId = 1
+			[7]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 9
+			[8]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 20
+				UInt8 mMaterialId = 0
+			[9]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 2
+			[10]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 3

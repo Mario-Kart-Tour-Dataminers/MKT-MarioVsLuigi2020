@@ -1,0 +1,49 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -372548278802479368
+	string m_Name = "Vignette"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	VignetteModeParameter mode
+		UInt8 overrideState = 0
+		int value = 0
+	ColorParameter color
+		UInt8 overrideState = 0
+		ColorRGBA value
+			float r = 0
+			float g = 0
+			float b = 0
+			float a = 1
+	Vector2Parameter center
+		UInt8 overrideState = 0
+		Vector2f value
+			float x = 0.5
+			float y = 0.5
+	FloatParameter intensity
+		UInt8 overrideState = 1
+		float value = 0.3
+	FloatParameter smoothness
+		UInt8 overrideState = 1
+		float value = 0.5
+	FloatParameter roundness
+		UInt8 overrideState = 1
+		float value = 1
+	BoolParameter rounded
+		UInt8 overrideState = 0
+		UInt8 value = 0
+	TextureParameter mask
+		UInt8 overrideState = 0
+		PPtr<$Texture> value
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		int defaultState = 1
+	FloatParameter opacity
+		UInt8 overrideState = 0
+		float value = 1

@@ -1,0 +1,212 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8127481489339046486
+	string m_Name = "SpriteListsHolder"
+	PPtr<$UISpriteList> parameterIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteList> commonIconPathList
+		int m_FileID = 4
+		SInt64 m_PathID = 582562137047282830
+	PPtr<$UISpriteList> raceRankIconPathList
+		int m_FileID = 5
+		SInt64 m_PathID = -2893800201445074505
+	PPtr<$UISpriteList> rankingRankIconPathList
+		int m_FileID = 6
+		SInt64 m_PathID = -7396722092471006587
+	PPtr<$UISpriteList> userRankPathList
+		int m_FileID = 0
+		SInt64 m_PathID = -8606800244404597743
+	PPtr<$UISpriteList> hitItemList
+		int m_FileID = 7
+		SInt64 m_PathID = -2525209802991670139
+	PPtr<$UISpriteList> teamIconList
+		int m_FileID = 8
+		SInt64 m_PathID = -2216256564359795752
+	PPtr<$UISpriteList> rarityFrameList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteList> rarityMinFrameList
+		int m_FileID = 0
+		SInt64 m_PathID = 7178546690094520157
+	PPtr<$UISpriteList> notDriverRarityMinFrameList
+		int m_FileID = 0
+		SInt64 m_PathID = -136997640607286977
+	PPtr<$UISpriteList> notPartsRarityMinFrameList
+		int m_FileID = 0
+		SInt64 m_PathID = 4722570247992780840
+	PPtr<$UISpriteList> notPartsRarityMinFrameListForOverlapItems
+		int m_FileID = 0
+		SInt64 m_PathID = 2724833873940673436
+	PPtr<$UISpriteList> rarityLongFrameList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteList> rarityMessageBaseList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector rarityGraphicTextList
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$UISpriteList> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6675453533907610811
+			[1]
+			PPtr<$UISpriteList> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+	PPtr<$UISpriteList> coinRaceBackgroundPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteIntDictionary> virtualCurrencyIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 7537464608645425064
+	PPtr<$UISpriteIntDictionary> coinIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 8337888144506868168
+	PPtr<$UISpriteIntDictionary> staminaIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteIntDictionary> treasureBoxProductImageList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteList> ruleTitlePathList
+		int m_FileID = 0
+		SInt64 m_PathID = -8606800244404597743
+	PPtr<$UILocalizeSprite> ccIconLocalizeSprite
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteList> shopTopContentTypePathList
+		int m_FileID = 0
+		SInt64 m_PathID = -6201473033701126013
+	PPtr<$UISpriteIntDictionary> ccIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 9222008585193449087
+	PPtr<$UISpriteIntDictionary> ccKartIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = -7232181431591530671
+	PPtr<$UISpriteList> driverBackgroundLargeImagePathList
+		int m_FileID = 0
+		SInt64 m_PathID = -301551016170703046
+	PPtr<$UISpriteList> partsBackgroundLargeImagePathList
+		int m_FileID = 0
+		SInt64 m_PathID = -2934576936837223400
+	PPtr<$UISpriteList> defaultBackgroundLargeImagePathList
+		int m_FileID = 0
+		SInt64 m_PathID = 41587641059228543
+	PPtr<$UISpriteList> subMenuButtonIconPathList
+		int m_FileID = 9
+		SInt64 m_PathID = -6834889350792660170
+	PPtr<$UISpriteList> mainMenuCourseIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteList> mainMenuCourseLinkIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UISpriteList> startIconList
+		int m_FileID = 0
+		SInt64 m_PathID = 5968332530685860492
+	PPtr<$UISpriteList> comboRankList
+		int m_FileID = 10
+		SInt64 m_PathID = -2684422601146308876
+	PPtr<$UISpriteList> dlgResultActionBaseList
+		int m_FileID = 11
+		SInt64 m_PathID = -87763236563823962
+	PPtr<$UISpriteList> celebrationMessagePathList
+		int m_FileID = 0
+		SInt64 m_PathID = -5575806432040134540
+	PPtr<$UISpriteList> clearStatusImageList
+		int m_FileID = 0
+		SInt64 m_PathID = 5408431886545380390
+	PPtr<$UISpriteList> notOpenCupImageList
+		int m_FileID = 12
+		SInt64 m_PathID = 9129155203743338845
+	PPtr<$UISpriteList> tutorialGuideList
+		int m_FileID = 0
+		SInt64 m_PathID = 215500884294974168
+	PPtr<$UISpriteList> cupOptionButtonImageList
+		int m_FileID = 13
+		SInt64 m_PathID = -8708522726098696012
+	PPtr<$UISpriteList> passBoxImageList
+		int m_FileID = 0
+		SInt64 m_PathID = -8754866226942326118
+	PPtr<$UISpriteList> passBannerImageList
+		int m_FileID = 14
+		SInt64 m_PathID = 6474555028772707147
+	PPtr<$UISpriteList> passLicenseImageList
+		int m_FileID = 0
+		SInt64 m_PathID = -3577607498000179881
+	PPtr<$UISpriteList> passGetImageList
+		int m_FileID = 0
+		SInt64 m_PathID = -5592259658266176456
+	PPtr<$UISpriteList> mainMenuItemBackgroundImageList
+		int m_FileID = 15
+		SInt64 m_PathID = -4783483433389575827
+	PPtr<$UISpriteList> mainMenuItemBackgroundImageList2
+		int m_FileID = 0
+		SInt64 m_PathID = -3842286050630368804
+	PPtr<$UISpriteList> mainMenuItemBackgroundDisableImageList
+		int m_FileID = 16
+		SInt64 m_PathID = 1697824468660805034
+	PPtr<$UISpriteList> settingToggleItemOnImagePathList
+		int m_FileID = 0
+		SInt64 m_PathID = 2234880695411384463
+	PPtr<$UISpriteList> settingToggleItemOffImagePathList
+		int m_FileID = 0
+		SInt64 m_PathID = -180792756272045559
+	PPtr<$UISpriteList> snsSpriteList
+		int m_FileID = 0
+		SInt64 m_PathID = -5561969536024631763
+	PPtr<$UISpriteList> subInfoButtonIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 4569042780955054354
+	PPtr<$UISpriteList> userRankOpenInfoIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = -7152068685146225114
+	PPtr<$UISpriteList> lockIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = 6621473714067899236
+	PPtr<$UISpriteList> ticketIconPathList
+		int m_FileID = 0
+		SInt64 m_PathID = -9146089406557959444
+	PPtr<$UISpriteList> availableItemIconImageList
+		int m_FileID = 0
+		SInt64 m_PathID = 5964192647332648854
+	PPtr<$UISpriteIntDictionary> treasureBoxTypeImageList
+		int m_FileID = 0
+		SInt64 m_PathID = 6780139833544053236
+	PPtr<$UISpriteList> levelMeterStateImageList
+		int m_FileID = 0
+		SInt64 m_PathID = -4192819903185743046
+	PPtr<$UISpriteList> powerUpImageList
+		int m_FileID = 0
+		SInt64 m_PathID = 2007157228242953289
+	PPtr<$UISpriteList> netPlayLobbyContentBaseList
+		int m_FileID = 0
+		SInt64 m_PathID = 2693394986516389547
+	PPtr<$UISpriteList> menuButtonIconImageList
+		int m_FileID = 9
+		SInt64 m_PathID = -6834889350792660170
+	PPtr<$UISpriteList> tourGiftIconImageList
+		int m_FileID = 17
+		SInt64 m_PathID = -6167418194414527739
+	PPtr<$UISpriteList> mainMenuEmphasisIconImageList
+		int m_FileID = 18
+		SInt64 m_PathID = 4114796963321617877
+	PPtr<$UISpriteList> raceBtnDlgRetryImageList
+		int m_FileID = 0
+		SInt64 m_PathID = 2519832338225118760
+	PPtr<$UISpriteList> itemImageList
+		int m_FileID = 0
+		SInt64 m_PathID = 8519589425037672673
+	PPtr<$UISpriteList> eventCoinImageList
+		int m_FileID = 0
+		SInt64 m_PathID = 9111347917271047648
+	PPtr<$UISpriteList> remainingTimeList
+		int m_FileID = 19
+		SInt64 m_PathID = -1811514566641430259

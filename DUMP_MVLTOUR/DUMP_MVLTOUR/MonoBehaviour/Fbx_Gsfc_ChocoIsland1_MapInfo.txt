@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gsfc_ChocoIsland1_MapInfo"
+	Rectf rect
+		float x = -194.0202
+		float y = -190.1997
+		float width = 390.2252
+		float height = 390.2252
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -1008154776914448811
+	Vector2f offset
+		float x = 0
+		float y = 0

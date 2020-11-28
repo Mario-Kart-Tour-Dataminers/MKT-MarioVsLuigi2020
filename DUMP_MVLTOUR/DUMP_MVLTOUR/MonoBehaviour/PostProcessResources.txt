@@ -1,0 +1,209 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -610103151655255854
+	string m_Name = "PostProcessResources"
+	vector blueNoise64
+		Array Array
+		int size = 10
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8039260549255123449
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7777709987182929203
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 9137274969534507930
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5305733666126132078
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3417735746195909655
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -28057106415562169
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9035240911314833302
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7346558235494332024
+			[8]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1891538249334844255
+			[9]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -276239683851060628
+	vector blueNoise256
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6780244411793225739
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7158123275701190224
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 68557498493584347
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3993662405645653317
+	SMAALuts smaaLuts
+		PPtr<$Texture2D> area
+			int m_FileID = 0
+			SInt64 m_PathID = 4034367648152015234
+		PPtr<$Texture2D> search
+			int m_FileID = 0
+			SInt64 m_PathID = 7370602297995014801
+	Shaders shaders
+		PPtr<$Shader> bloom
+			int m_FileID = 0
+			SInt64 m_PathID = 8988913726339783424
+		PPtr<$Shader> copy
+			int m_FileID = 0
+			SInt64 m_PathID = -4973038200040909824
+		PPtr<$Shader> copyStd
+			int m_FileID = 0
+			SInt64 m_PathID = 298710939669815259
+		PPtr<$Shader> copyStdFromTexArray
+			int m_FileID = 0
+			SInt64 m_PathID = -6650416373133120969
+		PPtr<$Shader> copyStdFromDoubleWide
+			int m_FileID = 0
+			SInt64 m_PathID = 2195987627329493049
+		PPtr<$Shader> discardAlpha
+			int m_FileID = 0
+			SInt64 m_PathID = 7465293567043087699
+		PPtr<$Shader> depthOfField
+			int m_FileID = 0
+			SInt64 m_PathID = -2953848807474662952
+		PPtr<$Shader> finalPass
+			int m_FileID = 0
+			SInt64 m_PathID = -5858001442653136649
+		PPtr<$Shader> grainBaker
+			int m_FileID = 0
+			SInt64 m_PathID = 5624038553360078666
+		PPtr<$Shader> motionBlur
+			int m_FileID = 0
+			SInt64 m_PathID = -3307523492377991637
+		PPtr<$Shader> temporalAntialiasing
+			int m_FileID = 0
+			SInt64 m_PathID = 5405191335456954674
+		PPtr<$Shader> subpixelMorphologicalAntialiasing
+			int m_FileID = 0
+			SInt64 m_PathID = 3423760132543892835
+		PPtr<$Shader> texture2dLerp
+			int m_FileID = 0
+			SInt64 m_PathID = 2453043317722098349
+		PPtr<$Shader> uber
+			int m_FileID = 0
+			SInt64 m_PathID = -8743461278535665275
+		PPtr<$Shader> lut2DBaker
+			int m_FileID = 0
+			SInt64 m_PathID = -1937864785665725807
+		PPtr<$Shader> lightMeter
+			int m_FileID = 0
+			SInt64 m_PathID = 6709672099904423032
+		PPtr<$Shader> gammaHistogram
+			int m_FileID = 0
+			SInt64 m_PathID = -4709796742613844951
+		PPtr<$Shader> waveform
+			int m_FileID = 0
+			SInt64 m_PathID = 3383880505755123392
+		PPtr<$Shader> vectorscope
+			int m_FileID = 0
+			SInt64 m_PathID = -9047065357358581336
+		PPtr<$Shader> debugOverlays
+			int m_FileID = 0
+			SInt64 m_PathID = -3916141043457383556
+		PPtr<$Shader> deferredFog
+			int m_FileID = 0
+			SInt64 m_PathID = 1025418840632815531
+		PPtr<$Shader> scalableAO
+			int m_FileID = 0
+			SInt64 m_PathID = -5322518601826005645
+		PPtr<$Shader> multiScaleAO
+			int m_FileID = 0
+			SInt64 m_PathID = -4679685286374723708
+		PPtr<$Shader> screenSpaceReflections
+			int m_FileID = 0
+			SInt64 m_PathID = 5718197366326960878
+		PPtr<$Shader> tilingTextureColor
+			int m_FileID = 0
+			SInt64 m_PathID = 4333097386843567138
+		PPtr<$Shader> tilingSubtractiveColor
+			int m_FileID = 0
+			SInt64 m_PathID = 5238367707136503287
+		PPtr<$Shader> radialBlur
+			int m_FileID = 0
+			SInt64 m_PathID = 4875190101384049256
+		PPtr<$Shader> oilPainting
+			int m_FileID = 0
+			SInt64 m_PathID = 533499792569453117
+		PPtr<$Shader> outline
+			int m_FileID = 0
+			SInt64 m_PathID = -3901505896678296984
+		PPtr<$Shader> silhouette
+			int m_FileID = 0
+			SInt64 m_PathID = 4667013560333181313
+		PPtr<$Shader> halftone
+			int m_FileID = 0
+			SInt64 m_PathID = 6197827467725084020
+	ComputeShaders computeShaders
+		PPtr<$ComputeShader> autoExposure
+			int m_FileID = 0
+			SInt64 m_PathID = -6878930987012681530
+		PPtr<$ComputeShader> exposureHistogram
+			int m_FileID = 0
+			SInt64 m_PathID = -4005128471460205571
+		PPtr<$ComputeShader> lut3DBaker
+			int m_FileID = 0
+			SInt64 m_PathID = 1732566613643786149
+		PPtr<$ComputeShader> texture3dLerp
+			int m_FileID = 0
+			SInt64 m_PathID = -5229478451446583189
+		PPtr<$ComputeShader> gammaHistogram
+			int m_FileID = 0
+			SInt64 m_PathID = -4350754158382115031
+		PPtr<$ComputeShader> waveform
+			int m_FileID = 0
+			SInt64 m_PathID = 7864625063792381804
+		PPtr<$ComputeShader> vectorscope
+			int m_FileID = 0
+			SInt64 m_PathID = 6273259233585234184
+		PPtr<$ComputeShader> multiScaleAODownsample1
+			int m_FileID = 0
+			SInt64 m_PathID = -5713464771417595651
+		PPtr<$ComputeShader> multiScaleAODownsample2
+			int m_FileID = 0
+			SInt64 m_PathID = -6121789328081435096
+		PPtr<$ComputeShader> multiScaleAORender
+			int m_FileID = 0
+			SInt64 m_PathID = 1957954629993433079
+		PPtr<$ComputeShader> multiScaleAOUpsample
+			int m_FileID = 0
+			SInt64 m_PathID = 8175472720999050358
+		PPtr<$ComputeShader> gaussianDownsample
+			int m_FileID = 0
+			SInt64 m_PathID = 8060206236703827143

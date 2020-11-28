@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "BbRosetta"
+	PPtr<$GameObject> mModel
+		int m_FileID = 3
+		SInt64 m_PathID = 4279081870342746718
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 5229598974387904778
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4372782227684712747
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -52652142299171963
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4252286569905879194
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4738029037020079676
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2475939725506614589
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 537948232087012091
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5164007601548469627
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 4739361546367598711
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 1
+		SInt64 m_PathID = 2840136582660373945
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -4210745837603395170
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosetta.png"
+				string mGuid = "64e32f3eb3a823a4e9f248de9441ddda"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosettaMap.png"
+				string mGuid = "b2a9d9e5e098a554eb4ed307a3845867"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosettaFaceEntry.png"
+				string mGuid = "5ac1c75c82e46924c9d00d93568bfa37"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosettaWholeBody.png"
+				string mGuid = "d85571d3b2a2b1d4c9e6b172517495fc"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosettaUpperBody.png"
+				string mGuid = "d7a2c4fb231db9a42a494075e4b8a055"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosetta_Small.png"
+				string mGuid = "ceaa7492358c0d54384a54441761a5f6"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosettaFaceEntry_Small.png"
+				string mGuid = "5ac3f10842b801a4b91d2fcca5e3dc62"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosettaWholeBody_Small.png"
+				string mGuid = "fc88b0fa6a71377459778427ca8c4bef"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbRosetta/Icons/BbRosettaUpperBody_Small.png"
+				string mGuid = "e5f58bf7b49f2a54a87baeed756bfd17"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -7098398787836620782
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ベビィロゼッタ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

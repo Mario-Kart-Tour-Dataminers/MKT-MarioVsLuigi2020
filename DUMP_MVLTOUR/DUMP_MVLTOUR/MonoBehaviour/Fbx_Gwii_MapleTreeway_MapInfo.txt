@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gwii_MapleTreeway_MapInfo"
+	Rectf rect
+		float x = -442.8742
+		float y = -507.5422
+		float width = 1022.168
+		float height = 1022.168
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -6334995134026467503
+	Vector2f offset
+		float x = 0
+		float y = 0

@@ -1,0 +1,35 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3528712136297729501
+	string m_Name = "TreasureListAll00"
+	UInt8 savePath = 1
+	AssetIntDictionaryKeyValuePair assetDataList
+		Array Array
+		int size = 2
+			[0]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 1
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 6335206725660831812
+					string path = ""
+					string guid = ""
+					int substitutedKey = 0
+			[1]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 10
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 8668352638950929634
+					string path = ""
+					string guid = ""
+					int substitutedKey = 0
+	int notContainKeyAction = 3
+	int assetType = 2

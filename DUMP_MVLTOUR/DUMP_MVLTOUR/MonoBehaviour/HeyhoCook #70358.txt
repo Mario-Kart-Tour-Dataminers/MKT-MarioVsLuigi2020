@@ -1,0 +1,100 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "HeyhoCook"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 8457320199082088975
+	vector mFaceTextures
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 3786646346804974922
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 4828575325864161347
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -8692601388174177229
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -439653955160659867
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCook.png"
+				string mGuid = "e24a030d22a13e54d899d6ba6ede2a1f"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCookMap.png"
+				string mGuid = "57a68a6e37b3b4c469f73d56dd0b577a"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCookFaceEntry.png"
+				string mGuid = "605adaa9cb0074f439ca3b3310a257a5"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCookWholeBody.png"
+				string mGuid = "1c794ae3a51d0334db685e206ba06afd"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCookUpperBody.png"
+				string mGuid = "f1cf2beae28de1741b9aa5e4e96f0ae7"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCook_Small.png"
+				string mGuid = "33ebd3df26501be49b1b57dcb779f7b3"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCookFaceEntry_Small.png"
+				string mGuid = "105a7f5f9dbcc1f44aa9ba4334aa16aa"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCookWholeBody_Small.png"
+				string mGuid = "9b0303679e73a1446b3db9f32edd4fc7"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HeyhoCook/Icons/HeyhoCookUpperBody_Small.png"
+				string mGuid = "c93cd3809a792754d84b99636752ea3e"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -4862509021131279933
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

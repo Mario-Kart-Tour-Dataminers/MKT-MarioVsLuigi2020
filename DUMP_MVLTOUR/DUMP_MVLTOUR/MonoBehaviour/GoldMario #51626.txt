@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "GoldMario"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -3619696136675629960
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 3692819209678131418
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6161915060379284653
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8965494610262456259
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 748603555392587894
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1149558610684260140
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1509539529307226436
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6530103842024647331
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 103786398321471675
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 5938828960004262399
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -1803551314013278234
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 6425337440258837331
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMario.png"
+				string mGuid = "9ebe098466b43d14296f7d27214d9ecd"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMarioMap.png"
+				string mGuid = "7d2b14e3a900e38468c1679d3bdb67d3"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMarioFaceEntry.png"
+				string mGuid = "a437ef73df02f354d9fc30256ccdf34b"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMarioWholeBody.png"
+				string mGuid = "60d6c7ddfbab4eb4fb70f11b12384f05"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMarioUpperBody.png"
+				string mGuid = "9575cfcf4d6b64d4b84017d88b4239ab"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMario_Small.png"
+				string mGuid = "f0532d0f5371a8b47858eb6687a612af"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMarioFaceEntry_Small.png"
+				string mGuid = "ae3a6046ce919534493a1c538c48d321"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMarioWholeBody_Small.png"
+				string mGuid = "9a91c85643b57ec47aa3ec20d613ef03"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/GoldMario/Icons/GoldMarioUpperBody_Small.png"
+				string mGuid = "0f1d6c4c31d56bf4ba60f684fda4a684"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 6472843269843721253
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ゴールドマリオ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

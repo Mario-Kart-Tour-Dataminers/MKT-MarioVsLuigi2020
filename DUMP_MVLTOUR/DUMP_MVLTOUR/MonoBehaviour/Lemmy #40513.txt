@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Lemmy"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -182925871993295307
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 3769288622466043886
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3253705933021327458
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2403788844336400983
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4182924365278931443
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6964380948768294429
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1323370454292474803
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 754033529957390711
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1401267982338773143
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 7731729160564797756
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 8156464442510916600
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 6182879218760946817
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/Lemmy.png"
+				string mGuid = "4de4f3af8b70fbe4dacb628456db5f2a"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/LemmyMap.png"
+				string mGuid = "ee52d195310ae64408e650800fe500ab"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/LemmyFaceEntry.png"
+				string mGuid = "acaf570c959054647acc327c56876ef6"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/LemmyWholeBody.png"
+				string mGuid = "5a202edce550d4b41baa6477d8033a67"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/LemmyUpperBody.png"
+				string mGuid = "813791142c1fea9448693fae4120e8b1"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/Lemmy_Small.png"
+				string mGuid = "0a834760b606c2e4c9124ffc53c3d4b5"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/LemmyFaceEntry_Small.png"
+				string mGuid = "fefb21d4b9ad55b48bbbe161296322b6"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/LemmyWholeBody_Small.png"
+				string mGuid = "c95235ce6ad86e9489afef1826c1fc4f"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Lemmy/Icons/LemmyUpperBody_Small.png"
+				string mGuid = "02484d568f9b0ff429e89dbcc03ac399"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -484853804852132441
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "レミー"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

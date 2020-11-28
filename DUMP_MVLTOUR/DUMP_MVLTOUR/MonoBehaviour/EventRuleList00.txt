@@ -1,0 +1,328 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "EventRuleList00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 39
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventRuleGatePass.png"
+				string guid = "d07d9892f3179274abcbdaae866c144b"
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 3
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 4
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 5
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventRuleCountCoin.png"
+				string guid = "3a532d611d0e1e449a3527ba971b0b7f"
+				int substitutedArrayIndex = 6
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventRuleCountMiniTurbo.png"
+				string guid = "c78fe97a16293134d92c74efb0397c98"
+				int substitutedArrayIndex = 7
+			[8]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventRuleCountJumpAction.png"
+				string guid = "6738759eccebb274ba6e7ca9bbae0799"
+				int substitutedArrayIndex = 8
+			[9]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventRuleCountAvoidDossun.png"
+				string guid = "ecebc750625aa274893a4f3bc894a590"
+				int substitutedArrayIndex = 9
+			[10]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventRuleCountBeatKuribo.png"
+				string guid = "f2478f9e7c94e7646bda69b5a85af294"
+				int substitutedArrayIndex = 10
+			[11]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 11
+			[12]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventRuleRecordGlide.png"
+				string guid = "a7dcab5c06040bb4284381676335cbba"
+				int substitutedArrayIndex = 12
+			[13]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 13
+			[14]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 14
+			[15]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 15
+			[16]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 16
+			[17]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 17
+			[18]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 18
+			[19]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 19
+			[20]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 20
+			[21]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 21
+			[22]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventRuleItemBoxChase.png"
+				string guid = "74dcf3c3cb57cab49b84a50c3206f5ed"
+				int substitutedArrayIndex = 22
+			[23]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventDontCrash.png"
+				string guid = "3c8a15c389375ad4499a5006b74bc290"
+				int substitutedArrayIndex = 9
+			[24]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 24
+			[25]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 25
+			[26]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 26
+			[27]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 27
+			[28]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 28
+			[29]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 10
+			[30]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/CountStampEnemy.png"
+				string guid = "b3718fe1b59d6184c9b29d0db6b65242"
+				int substitutedArrayIndex = 30
+			[31]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 31
+			[32]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 32
+			[33]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 33
+			[34]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 34
+			[35]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 35
+			[36]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 36
+			[37]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 37
+			[38]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/RaceEvent/EventComboAttack.png"
+				string guid = "30ca2e08125e1dc4289b5a678cdf9535"
+				int substitutedArrayIndex = 38
+	int assetType = 0
+	int keyType = 9

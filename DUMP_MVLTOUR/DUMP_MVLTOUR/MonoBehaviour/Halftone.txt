@@ -1,0 +1,19 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6642888406821692591
+	string m_Name = "Halftone"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	IntParameter dotPatternRowColumnNumber
+		UInt8 overrideState = 1
+		int value = 180
+	FloatParameter darkeningFactor
+		UInt8 overrideState = 1
+		float value = 0.8

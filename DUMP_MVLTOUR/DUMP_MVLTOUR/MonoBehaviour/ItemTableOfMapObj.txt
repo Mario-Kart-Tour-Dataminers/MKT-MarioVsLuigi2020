@@ -1,0 +1,115 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3359257035081449835
+	string m_Name = "ItemTableOfMapObj"
+	ItemEmitListOfMapObj mTable
+		Array Array
+		int size = 7
+			[0]
+			ItemEmitListOfMapObj data
+				ItemEmitSet mTable
+					Array Array
+					int size = 3
+						[0]
+						ItemEmitSet data
+							int mItemToEmit = 1
+							int mRelativeProbability = 1
+						[1]
+						ItemEmitSet data
+							int mItemToEmit = 2
+							int mRelativeProbability = 1
+						[2]
+						ItemEmitSet data
+							int mItemToEmit = 0
+							int mRelativeProbability = 2
+			[1]
+			ItemEmitListOfMapObj data
+				ItemEmitSet mTable
+					Array Array
+					int size = 3
+						[0]
+						ItemEmitSet data
+							int mItemToEmit = 4
+							int mRelativeProbability = 2
+						[1]
+						ItemEmitSet data
+							int mItemToEmit = 1
+							int mRelativeProbability = 3
+						[2]
+						ItemEmitSet data
+							int mItemToEmit = 2
+							int mRelativeProbability = 3
+			[2]
+			ItemEmitListOfMapObj data
+				ItemEmitSet mTable
+					Array Array
+					int size = 2
+						[0]
+						ItemEmitSet data
+							int mItemToEmit = 4
+							int mRelativeProbability = 1
+						[1]
+						ItemEmitSet data
+							int mItemToEmit = 1
+							int mRelativeProbability = 3
+			[3]
+			ItemEmitListOfMapObj data
+				ItemEmitSet mTable
+					Array Array
+					int size = 3
+						[0]
+						ItemEmitSet data
+							int mItemToEmit = 1
+							int mRelativeProbability = 1
+						[1]
+						ItemEmitSet data
+							int mItemToEmit = 2
+							int mRelativeProbability = 1
+						[2]
+						ItemEmitSet data
+							int mItemToEmit = 3
+							int mRelativeProbability = 1
+			[4]
+			ItemEmitListOfMapObj data
+				ItemEmitSet mTable
+					Array Array
+					int size = 1
+						[0]
+						ItemEmitSet data
+							int mItemToEmit = 5
+							int mRelativeProbability = 2
+			[5]
+			ItemEmitListOfMapObj data
+				ItemEmitSet mTable
+					Array Array
+					int size = 1
+						[0]
+						ItemEmitSet data
+							int mItemToEmit = 3
+							int mRelativeProbability = 1
+			[6]
+			ItemEmitListOfMapObj data
+				ItemEmitSet mTable
+					Array Array
+					int size = 4
+						[0]
+						ItemEmitSet data
+							int mItemToEmit = 0
+							int mRelativeProbability = 5
+						[1]
+						ItemEmitSet data
+							int mItemToEmit = 3
+							int mRelativeProbability = 3
+						[2]
+						ItemEmitSet data
+							int mItemToEmit = 2
+							int mRelativeProbability = 1
+						[3]
+						ItemEmitSet data
+							int mItemToEmit = 1
+							int mRelativeProbability = 1

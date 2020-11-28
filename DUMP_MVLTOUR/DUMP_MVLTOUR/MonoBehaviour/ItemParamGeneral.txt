@@ -1,0 +1,371 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7378415499601706176
+	string m_Name = "ItemParamGeneral"
+	PrmSlot mSlot
+		float mStopSec = 2
+		float mNetStopSec = 2.1
+		int mRotCountToDecide = 38
+		AnimationCurve mRotVel
+			vector m_Curve
+				Array Array
+				int size = 5
+					[0]
+					Keyframe data
+						float time = -0.006080253
+						float value = 0.2096353
+						float inSlope = 0.2927055
+						float outSlope = 0.2927055
+						int weightedMode = 0
+						float inWeight = 0.3333333
+						float outWeight = 0.3333333
+					[1]
+					Keyframe data
+						float time = 0.148286
+						float value = 0.3194321
+						float inSlope = -8.012926E-05
+						float outSlope = -8.012926E-05
+						int weightedMode = 0
+						float inWeight = 0.3333333
+						float outWeight = 0.3333333
+					[2]
+					Keyframe data
+						float time = 1.600963
+						float value = 0.3190659
+						float inSlope = 1.633491E-05
+						float outSlope = 1.633491E-05
+						int weightedMode = 0
+						float inWeight = 0.3333333
+						float outWeight = 0.3333333
+					[3]
+					Keyframe data
+						float time = 2.130019
+						float value = 0.08177477
+						float inSlope = -0.002188891
+						float outSlope = -0.002188891
+						int weightedMode = 0
+						float inWeight = 0.3333333
+						float outWeight = 0.3333333
+					[4]
+					Keyframe data
+						float time = 5.00378
+						float value = 0.08183637
+						float inSlope = 0
+						float outSlope = 0
+						int weightedMode = 0
+						float inWeight = 0.3333333
+						float outWeight = 0.3333333
+			int m_PreInfinity = 2
+			int m_PostInfinity = 2
+			int m_RotationOrder = 4
+		float mSlotDecideIntervalRotRatio = 0.8
+		float mEnableUseSecAfterDecide = 0.1
+		float mButtonTimeRatio = 0.333
+	PrmItemBox mItemBox
+		float mGenerateTime = 0.833333
+		float mGetCoolTime = 0
+	PrmItemBox mItemBoxFixed
+		float mGenerateTime = 1.5
+		float mGetCoolTime = 0.2
+	PrmAlert mAlert
+		DistanceParam mAlertDistanceOfKouraR
+			float mAlert1Distance = 150
+			float mAlert2Distance = 90
+			float mAlertDisappearNear = 10
+		DistanceParam mAlertDistanceOfKouraB
+			float mAlert1Distance = 180
+			float mAlert2Distance = 120
+			float mAlertDisappearNear = 10
+		DistanceParam mAlertDistanceOfKartState
+			Array Array
+			int size = 6
+				[0]
+				DistanceParam data
+					float mAlert1Distance = 50
+					float mAlert2Distance = 30
+					float mAlertDisappearNear = 10
+				[1]
+				DistanceParam data
+					float mAlert1Distance = 50
+					float mAlert2Distance = 30
+					float mAlertDisappearNear = 10
+				[2]
+				DistanceParam data
+					float mAlert1Distance = 50
+					float mAlert2Distance = 30
+					float mAlertDisappearNear = 10
+				[3]
+				DistanceParam data
+					float mAlert1Distance = 50
+					float mAlert2Distance = 30
+					float mAlertDisappearNear = 10
+				[4]
+				DistanceParam data
+					float mAlert1Distance = 50
+					float mAlert2Distance = 30
+					float mAlertDisappearNear = 10
+				[5]
+				DistanceParam data
+					float mAlert1Distance = 50
+					float mAlert2Distance = 30
+					float mAlertDisappearNear = 10
+		DistanceParam mAlertDistanceOfBossKart
+			float mAlert1Distance = 15
+			float mAlert2Distance = 10
+			float mAlertDisappearNear = 3
+		DistanceParam mAlertDistanceOfNormalKart
+			float mAlert1Distance = 30
+			float mAlert2Distance = 0
+			float mAlertDisappearNear = 3
+		float mDistanceThresholdRatioOnKartAlreadyTarget = 1.1
+		ItemCurve_Old mAlertDistanceRatioPerCC
+			UInt8 mType = 1
+			vector mTypeParams
+				Array Array
+				int size = 0
+			AnimationCurve mAnimationCurve
+				vector m_Curve
+					Array Array
+					int size = 2
+						[0]
+						Keyframe data
+							float time = 0
+							float value = 1
+							float inSlope = 0
+							float outSlope = 0
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+						[1]
+						Keyframe data
+							float time = 200
+							float value = 1
+							float inSlope = 0
+							float outSlope = 0
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+				int m_PreInfinity = 2
+				int m_PostInfinity = 2
+				int m_RotationOrder = 4
+		float mKartAlertStartSpeedRatio = 1
+		float mKartAlertEndSpeedRatio = 0.9
+		float mAlertWingOffsetMin = 8
+		float mAlertWingOffsetMax = 60
+		float mAlertDistOffsetMin = 8
+		float mAlertDistOffsetMax = 80
+		float mOffsetLerpRatio = 0.01
+	PrmEquipHang mEquipHang
+		float mScaleInEquipHang = 1.25
+		float mPosLerpRatio = 0.1
+		float mAngleLerpRatio = 0.08
+		float mNoBreakSecAfterBreak = 1
+		float mOffsetHangWingZL = 1
+		float mOffsetHangWingZLLerpRatio = 0.1
+	PrmEquipAround mEquipMulti
+		float mScaleEquipMultiAppear = 0.01
+		float mRadiusMultiMax = 5
+		float mRadiusMultiMin = 1.62
+		float mDirEquipMultiLerpRatio = 0.3
+		float mSelfRotVelDegMulti = -7.04
+		float mColCoolSecondAfterHit = 0.5
+	PrmFever mFever
+		float mFeverSec = 9
+		int mFeverCountMaxInOneRace = 3
+		int mMaxFeverProbPercent = 50
+		float mItemUseEnabledSecAfterFeverAction = 0.15
+	PrmThrow mThrow
+		float mWaitSecondForOwner = 0.25
+		float mWaitSecondForOwnerWall = 0.25
+		float mWaitSecondFarFromEquip = 0.1666667
+	PrmMove mMove
+		float mAirCoef = 0.998
+		float mGndNrmLerpRatio = 0.4
+		int mReflectMaxNum = 13
+		float mWallReflectMinSpeed = 0.22
+		float mReflectRateJumpUpVecter = 0.6
+		float mUseGravityDirAsJumpUpVecterThreshold = 0.8
+		float mTrampolineRefVNrmMin = 0.3
+		float mTrampolineRefVNrmMax = 1.1
+		float mTrampolineRefVParMin = 0.2
+		float mTrampolineRefVParMax = 0.7
+		float mTrampolineBoundIntervalSec = 0.1
+		float mGndColFloorRejectDistanceForKouraR = 0.2
+		float mNoAccidentToSameTeamSecAfterMoveStart = 0
+	PrmDrop mDrop
+		float mYRatioDrop = 2
+		float mInitSpeedDrop = 0.35
+		float mGravityDrop = 0.03
+	PrmStand mStand
+		float mITRoadStandVanishSec = 3
+		float mGravity = 0.17
+	PrmAutoItem mAutoItem
+		float mLinearDistanceMax = 180
+		float mLinearDistanceMin = 5
+		float mChaseFrontCos = 1
+	PrmNet mNet
+		float mEquipTargetOffset = 3
+		float mEquipTargetSecMax = 3
+		float mFakeItemBreakSec = 2
+		float mSecToBreakAfterFake = 3
+		float mRecvHitKartAllowSec = 0.5
+	PrmFastCannon mFastCannonUp
+		UInt8 mIsUseKartMiddleDirOnFastCannon = 0
+		float mStartDecelerationSecByOverspeed = 1
+		float mDecelerationCoefByOverspeed = 0.95
+		float mThrowSpeedCoefOnFastCannon = 1
+		float mStraightSpeedCoefOnFastCannon = 1
+		float mThrowDegOnFastCannon = 0
+		float mStraightDegOnFastCannon = 0
+		float mThrowYSpeedLimitOnFastCannon = 4
+		UInt8 mIsDecelerationIfKartSpeedDownOnFastCannon = 1
+		float mMinGravityOnFastCannon = 0.03
+		UInt8 mIsAddDiffKartSpeedOnFastCannon = 1
+		float mStartSecAddDiffKartSpeedOnFastCannon = 0
+		float mEndSecAddDiffKartSpeedOnFastCannon = 0
+		UInt8 mIsSyncKartSpeedXZOnFastCannon = 1
+		float mKartSpeedXZCriteriaRatioOnFastCannon = 0.9
+		float mKartSpeedXZCriteriaRatioPathItemOnFastCannon = 1
+		float mSyncKartSpeedXZRatioOnFastCannon = 0.15
+		float mSyncBrakingKartSpeedXZRatioOnFastCannon = 1
+		float mStartSecSyncKartSpeedXZOnFastCannon = 0.1
+		UInt8 mIsSyncKartSpeedYOnFastCannon = 1
+		float mSyncKartSpeedYRatioOnFastCannon = 0.15
+		float mStartSecSyncKartSpeedYOnFastCannon = 0
+		UInt8 mIsAddDownForceOnFastCannon = 1
+		float mAddDownForceOnFastCannon = 0.1
+		float mAddDownForceConditionPosYOnFastCannon = 3
+		float mAddDownForceConditionVelYOnFastCannon = -5
+		float mStartSecIgnoreGravityOnFastCannon = 10
+		float mMinSpeedOnFastCannon = 0.5
+		float mSpeedMultiplyGeneratedFromCannonOnFastCannon = 1
+		float mMinGravityGeneratedFromCannonOnFastCannon = 0.045
+		float mThrowDegGeneratedFromCannonOnFastCannon = 0
+	PrmFastCannon mFastCannonDown
+		UInt8 mIsUseKartMiddleDirOnFastCannon = 0
+		float mStartDecelerationSecByOverspeed = 1
+		float mDecelerationCoefByOverspeed = 0.8
+		float mThrowSpeedCoefOnFastCannon = 1
+		float mStraightSpeedCoefOnFastCannon = 1
+		float mThrowDegOnFastCannon = 0
+		float mStraightDegOnFastCannon = 1
+		float mThrowYSpeedLimitOnFastCannon = 4
+		UInt8 mIsDecelerationIfKartSpeedDownOnFastCannon = 1
+		float mMinGravityOnFastCannon = 0.055
+		UInt8 mIsAddDiffKartSpeedOnFastCannon = 1
+		float mStartSecAddDiffKartSpeedOnFastCannon = 0
+		float mEndSecAddDiffKartSpeedOnFastCannon = 0.2
+		UInt8 mIsSyncKartSpeedXZOnFastCannon = 1
+		float mKartSpeedXZCriteriaRatioOnFastCannon = 1
+		float mKartSpeedXZCriteriaRatioPathItemOnFastCannon = 1
+		float mSyncKartSpeedXZRatioOnFastCannon = 0.15
+		float mSyncBrakingKartSpeedXZRatioOnFastCannon = 1
+		float mStartSecSyncKartSpeedXZOnFastCannon = 0.2
+		UInt8 mIsSyncKartSpeedYOnFastCannon = 1
+		float mSyncKartSpeedYRatioOnFastCannon = 0.1
+		float mStartSecSyncKartSpeedYOnFastCannon = 1
+		UInt8 mIsAddDownForceOnFastCannon = 0
+		float mAddDownForceOnFastCannon = 0.015
+		float mAddDownForceConditionPosYOnFastCannon = -100
+		float mAddDownForceConditionVelYOnFastCannon = -5
+		float mStartSecIgnoreGravityOnFastCannon = 10
+		float mMinSpeedOnFastCannon = 0.5
+		float mSpeedMultiplyGeneratedFromCannonOnFastCannon = 1
+		float mMinGravityGeneratedFromCannonOnFastCannon = 0.045
+		float mThrowDegGeneratedFromCannonOnFastCannon = 0
+	PrmOthers mOthers
+		float mWallColRadiusMin = 0.5
+		float mScaledGndColRadiusMax = 6
+		float mGndColAreaMergin = 50
+		float mIgnoreColSecAfterObjDrop = 0.1
+		float mProjectedShadowLocalScale = 0.9
+		float mReflectMinDepth = 0.0001
+		float mCoolTimeAfterItemUse = 0.2
+		float mItemUseDisableSecAfterKiller = 0.4
+		float mAutoUseSec = 0.2
+		float mAutoUseSecAfterSlotDecide = 0.3
+		float mCoolTimeAfterShareItem = 0.4
+		float mAutoItemIntervalSec = 0.25
+		float mSameKartGuardIntervalSec = 2
+		float mKillerHeadPosOffsetY = 4
+		ItemCurve_Old mSpecialItemProbUp
+			UInt8 mType = 1
+			vector mTypeParams
+				Array Array
+				int size = 0
+			AnimationCurve mAnimationCurve
+				vector m_Curve
+					Array Array
+					int size = 2
+						[0]
+						Keyframe data
+							float time = 0
+							float value = 0
+							float inSlope = 2.091725
+							float outSlope = 2.091725
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+						[1]
+						Keyframe data
+							float time = 50
+							float value = 100
+							float inSlope = 2.115652
+							float outSlope = 2.115652
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+				int m_PreInfinity = 2
+				int m_PostInfinity = 2
+				int m_RotationOrder = 4
+		float mReflectCoolSec = 0.5
+		float mPrimColScaleForNetRecvKart = 0.2
+		float mPullVelRatio = 0.1
+		float mKartHitIgnoreSecAfterStartEquip = 1
+	PrmCollisionGndCol mCollisionGndCol
+		float mRayYStartPosFromTargetPos = 20
+		float mRayYLen = 100
+		ItemCurve_Old mFallPosThresholdY
+			UInt8 mType = 1
+			vector mTypeParams
+				Array Array
+				int size = 0
+			AnimationCurve mAnimationCurve
+				vector m_Curve
+					Array Array
+					int size = 3
+						[0]
+						Keyframe data
+							float time = 0
+							float value = 0
+							float inSlope = 0.01812354
+							float outSlope = 0.01812354
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+						[1]
+						Keyframe data
+							float time = 20.17017
+							float value = 3.96159
+							float inSlope = 0.3881637
+							float outSlope = -0.004103262
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+						[2]
+						Keyframe data
+							float time = 40
+							float value = 3.948824
+							float inSlope = -0.01117787
+							float outSlope = -0.01117787
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+				int m_PreInfinity = 2
+				int m_PostInfinity = 2
+				int m_RotationOrder = 4

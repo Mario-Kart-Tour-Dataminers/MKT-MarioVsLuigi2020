@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_Donut"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 4936446514003499351
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Donut/Icons/Wing_Donut.png"
+				string mGuid = "57a107d42300ad147a12bc06901102a8"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Donut/Icons/Wing_Donut_Large.png"
+				string mGuid = "17358a29184bf26429d4f1892df95a2d"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Donut/Icons/Wing_Donut_Small.png"
+				string mGuid = "b879a9b33a1f71c4483745bae6cf8ba6"
+	int mWingType = 1
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 8696939738465202274
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

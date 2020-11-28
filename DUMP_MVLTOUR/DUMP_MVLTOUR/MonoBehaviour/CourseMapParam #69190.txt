@@ -1,0 +1,211 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1253097590706675564
+	string m_Name = "CourseMapParam"
+	vector mMapObjArray
+		Array Array
+		int size = 34
+			[0]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 1
+				SInt64 m_PathID = -6323849852381108288
+			[1]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 2
+				SInt64 m_PathID = -435317211074978859
+			[2]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 3
+				SInt64 m_PathID = -1099803160674548907
+			[3]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 4
+				SInt64 m_PathID = 757040245166943341
+			[4]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 5
+				SInt64 m_PathID = -8422229088281927072
+			[5]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 6
+				SInt64 m_PathID = -7992127826733754745
+			[6]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 7
+				SInt64 m_PathID = -3917006358116989840
+			[7]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 8
+				SInt64 m_PathID = 7902925131818173625
+			[8]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 9
+				SInt64 m_PathID = -8716633617450654241
+			[9]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 10
+				SInt64 m_PathID = 1743987333103629139
+			[10]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 11
+				SInt64 m_PathID = 1783806711236351291
+			[11]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 12
+				SInt64 m_PathID = -7683271295301486976
+			[12]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 13
+				SInt64 m_PathID = 5290030480101958523
+			[13]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 14
+				SInt64 m_PathID = 2047467482819929645
+			[14]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 15
+				SInt64 m_PathID = 6354370913827613679
+			[15]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 16
+				SInt64 m_PathID = 7005971610154430519
+			[16]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 17
+				SInt64 m_PathID = 3089172396742571038
+			[17]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 18
+				SInt64 m_PathID = 3179527181048846069
+			[18]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 19
+				SInt64 m_PathID = -2467717485903709680
+			[19]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 20
+				SInt64 m_PathID = -1661494899871940326
+			[20]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 21
+				SInt64 m_PathID = -7155815057850072226
+			[21]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 22
+				SInt64 m_PathID = -5363283418415604746
+			[22]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 23
+				SInt64 m_PathID = -369205056034167682
+			[23]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 24
+				SInt64 m_PathID = -7433275637427446320
+			[24]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 25
+				SInt64 m_PathID = 5661814164476727614
+			[25]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 26
+				SInt64 m_PathID = -1062230996956218320
+			[26]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 27
+				SInt64 m_PathID = 5881784520332391441
+			[27]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 28
+				SInt64 m_PathID = -3689391981113644437
+			[28]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 29
+				SInt64 m_PathID = -9024148423735019537
+			[29]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 30
+				SInt64 m_PathID = -3323656512772689678
+			[30]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 31
+				SInt64 m_PathID = -1351954998463601693
+			[31]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 32
+				SInt64 m_PathID = -5721121439395460536
+			[32]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 33
+				SInt64 m_PathID = 9041340070739842001
+			[33]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 34
+				SInt64 m_PathID = 2771806175360589030
+	PPtr<$ScriptableEffectContainer> mEffectAreaEnv
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableEffectContainer> mEffectAreaCamera
+		int m_FileID = 35
+		SInt64 m_PathID = 7293701459533287670
+	PPtr<$Material> mStartGridMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mStartGridMaterials
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$Material> data
+				int m_FileID = 36
+				SInt64 m_PathID = 3677075346786556131
+			[1]
+			PPtr<$Material> data
+				int m_FileID = 37
+				SInt64 m_PathID = 5491884916092815743
+	UInt8 mIsOverrideStartGridParam = 0
+	StartGridParam mStartGridParam
+		int Row = 4
+		int Column = 2
+		float Width = 20
+		float Height = 3.5
+		float Slide1 = 7
+		float Slide2 = 2
+		float SlideZ = -10
+	vector mCombinedMapObject
+		Array Array
+		int size = 6
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1033268095035875977
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8107899351672556789
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4103443545211420002
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8306527888533900747
+			[4]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8317255803069140420
+			[5]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3578578698412082009
+	CourseParam mCourseParam
+		float DriveSpeedRatioMin = 0
+		float DriveSpeedRatioMax = 0
+		float PosMoveTotalMin = 0
+		float PosMoveTotalMax = 0
+		float LapTimeAveMin = 0
+		float LapTimeAveMax = 0

@@ -1,0 +1,80 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "SeasonRewardIconList01"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 8
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Cup/CupBase01.png"
+				string guid = "82e80c1edf83f784092c328252154a70"
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/SeasonRewardIconSilver01.png"
+				string guid = "379d0874c3926f44f8cc008e0579281c"
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/SeasonRewardIconSilverOpen01.png"
+				string guid = "06bf0282b9237ce4ca177e0a96e6d07d"
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/SeasonRewardIconGold01.png"
+				string guid = "eb5dc7547eeef9c47baf54a32a6166fb"
+				int substitutedArrayIndex = 3
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/SeasonRewardIconGoldOpen01.png"
+				string guid = "bb877f43a20b6684785d9874ec7569e6"
+				int substitutedArrayIndex = 4
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/TreasureIcon01.png"
+				string guid = "97529ac3cffba1e4c90f5e8f35797c4b"
+				int substitutedArrayIndex = 5
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/TreasureGoldIcon01.png"
+				string guid = "6dc7fdc0e0dcaa24e94b74f50b148036"
+				int substitutedArrayIndex = 7
+	int assetType = 0
+	int keyType = 24

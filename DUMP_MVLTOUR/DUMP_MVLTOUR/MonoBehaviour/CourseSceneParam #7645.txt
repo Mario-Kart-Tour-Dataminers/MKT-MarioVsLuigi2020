@@ -1,0 +1,67 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8094386303974766579
+	string m_Name = "CourseSceneParam"
+	float mProjectorShadowGlobalCutOffDistanceY = 0
+	FieldFogTimeChangeData mFogChangeData
+		Element mElements
+			Array Array
+			int size = 2
+				[0]
+				Element data
+					int mEffBit = 1
+					int mFogPattern = 1
+					ColorRGBA mColor
+						float r = 0.04313726
+						float g = 0.1333333
+						float b = 0.1607843
+						float a = 1
+					float mDistanceBegin = 0.1
+					float mDistanceEnd = 300
+					float mRaceStartTimeSecond = 0
+					float mDurationSecond = 0
+					float mAreaStartSecond = 2
+					float mAreaEndSecond = 2
+					UInt8 mReferenceWater = 0
+				[1]
+				Element data
+					int mEffBit = 2
+					int mFogPattern = 1
+					ColorRGBA mColor
+						float r = 0.04313726
+						float g = 0.1333333
+						float b = 0.1607843
+						float a = 1
+					float mDistanceBegin = 0.1
+					float mDistanceEnd = 150
+					float mRaceStartTimeSecond = 0
+					float mDurationSecond = 0
+					float mAreaStartSecond = 2
+					float mAreaEndSecond = 2
+					UInt8 mReferenceWater = 0
+	FieldFlareTimeChangeData mFlareChangeData
+		UInt8 mDefaultOn = 0
+		Element mElements
+			Array Array
+			int size = 0
+	Vector4f mPowerSavingAdjustColor
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	UInt8 mIsDisableProjectionShadowStencil = 0
+	int mProjectionShadowRenderQueue = -1
+	UInt8 mIsMapObjShadowRenderAfterTransparent = 0
+	FieldLightParametersChangeData mLightParametersChangeData
+		Element mElements
+			Array Array
+			int size = 0
+	FieldLightProbeChangeData mLightProbeChangeData
+		Element mElements
+			Array Array
+			int size = 0

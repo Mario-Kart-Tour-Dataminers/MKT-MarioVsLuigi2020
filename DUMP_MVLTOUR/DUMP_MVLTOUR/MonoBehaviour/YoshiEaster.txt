@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "YoshiEaster"
+	PPtr<$GameObject> mModel
+		int m_FileID = 3
+		SInt64 m_PathID = -3734027247906170281
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -1779500548539995245
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3001962912930125751
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6541488188368657511
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1167691261972934540
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9120465618311392296
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7365365179966690264
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2815078977816450870
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4834686265080495691
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 5843285030788916166
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 1
+		SInt64 m_PathID = 6176897389238713798
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -1787774788842475433
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEaster.png"
+				string mGuid = "cd0243f1180774241a82eac631982e85"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEasterMap.png"
+				string mGuid = "a982f1243bdf8084ea9216c4b334504c"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEasterFaceEntry.png"
+				string mGuid = "fa80df8c83afc914c8b9160d8d42df10"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEasterWholeBody.png"
+				string mGuid = "5cbe8a09fb4efaf48acc0547df9ac417"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEasterUpperBody.png"
+				string mGuid = "6071a5a1aeb9eaf4283eee0d677b3157"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEaster_Small.png"
+				string mGuid = "a0270e3c07dc0d94fbf2276cdac8bb4e"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEasterFaceEntry_Small.png"
+				string mGuid = "775abeeceaacc3742a86d53f04bc07e3"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEasterWholeBody_Small.png"
+				string mGuid = "e49c6995aff04bb44a77c1263ce2eeaf"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiEaster/Icons/YoshiEasterUpperBody_Small.png"
+				string mGuid = "9db67cb0c6f2cd549b62709739b257be"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

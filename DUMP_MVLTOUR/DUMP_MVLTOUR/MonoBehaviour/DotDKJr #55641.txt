@@ -1,0 +1,96 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "DotDKJr"
+	PPtr<$GameObject> mModel
+		int m_FileID = 0
+		SInt64 m_PathID = -3706751933361173902
+	vector mFaceTextures
+		Array Array
+		int size = 0
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -5707317827993685635
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJr.png"
+				string mGuid = "af78b48cca0e0e84eb5071b8135a5281"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJrMap.png"
+				string mGuid = "136171f0d50f32d4d942880ab295c00c"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJrFaceEntry.png"
+				string mGuid = "21c29529ebb8522459556b452f3836f0"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJrWholeBody.png"
+				string mGuid = "5790d3573eff0c4418c8170579610ee4"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJrUpperBody.png"
+				string mGuid = "bf0ddf1841e158746b793233204de9bd"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJr_Small.png"
+				string mGuid = "f8b04381521e0c6468a2cb7280f626f8"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJrFaceEntry_Small.png"
+				string mGuid = "c2d7bc6b111d51044abed498bc464287"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJrWholeBody_Small.png"
+				string mGuid = "8bb29d21e01c1e04cac346390fe5894c"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DotDKJr/Icons/DotDKJrUpperBody_Small.png"
+				string mGuid = "ce07556eb046e0a4d8c097d5bae7eeeb"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 3346362714118113751
+	string mDescription = "ドット絵マリオ(仮)"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

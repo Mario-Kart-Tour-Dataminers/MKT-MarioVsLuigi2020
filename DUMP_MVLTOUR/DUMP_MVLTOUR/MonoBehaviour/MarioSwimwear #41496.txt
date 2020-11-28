@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "MarioSwimwear"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = 5114372654336541446
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 3
+				SInt64 m_PathID = -486155980082281073
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7741990847631264962
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -244049791180833734
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5942293651316100428
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4583198787185928765
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3178681604303562164
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1571894210945198364
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3109091930044083851
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -2420127473999322161
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 1
+		SInt64 m_PathID = 8222950395192691521
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 5373077978598700815
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwear.png"
+				string mGuid = "6dcd28a2fb6f83c4e9fcced88a6f2d11"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwearMap.png"
+				string mGuid = "1a8344b2541dbb14bb46a4808e959bdd"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwearFaceEntry.png"
+				string mGuid = "aae4cc02a758f1d44b8234fbc6bcd9b8"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwearWholeBody.png"
+				string mGuid = "802de376a2a35ad4a9648f3e5d389c03"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwearUpperBody.png"
+				string mGuid = "aac16435c8828cc4b889da4e957abd91"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwear_Small.png"
+				string mGuid = "276f08ae4e6d552478fca54fd5851546"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwearFaceEntry_Small.png"
+				string mGuid = "07369cb15de0edf4d8524d8d1e40f6b7"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwearWholeBody_Small.png"
+				string mGuid = "29b892ee8362b904784cdb9fe642e82e"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSwimwear/Icons/MarioSwimwearUpperBody_Small.png"
+				string mGuid = "9dcd1bd6c973f9945abc2902dbf483be"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -4654000096774940748
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

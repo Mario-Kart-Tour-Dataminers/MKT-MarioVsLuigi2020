@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_Std_Pink"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Std/Icons/Wing_Std_Pink.png"
+				string mGuid = "2747f524635a9f24596c2a79bfe79b0a"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Std/Icons/Wing_Std_Pink_Large.png"
+				string mGuid = "cce18bb512558864db96e34ae6e9629e"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Std/Icons/Wing_Std_Pink_Small.png"
+				string mGuid = "074a74357defa9d448c779076c557371"
+	int mWingType = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 3
+		SInt64 m_PathID = 2790807988414546290
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 4358664987492949147
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = "スーパーカイト（ピンク）"
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 3
+		SInt64 m_PathID = 2790807988414546290

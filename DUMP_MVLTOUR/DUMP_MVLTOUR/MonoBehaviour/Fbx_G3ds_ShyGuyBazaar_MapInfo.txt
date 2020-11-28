@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_G3ds_ShyGuyBazaar_MapInfo"
+	Rectf rect
+		float x = -524.4548
+		float y = -488.3473
+		float width = 914.7749
+		float height = 914.7749
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 2544973751587191450
+	Vector2f offset
+		float x = -20
+		float y = 0

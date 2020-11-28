@@ -1,0 +1,33 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3875019554938154149
+	string m_Name = "ItemParamKouraCommon"
+	float mGravity = 0.04
+	float mGravityWing = 0.02
+	float mInitSpeedAdd = 0.3
+	float mInitSpeedBaseCannon = 1.5
+	float mInitSpeedKartRatio = 1.66
+	float mTermSpeedAdd = 0.6
+	float mTermSpeedKartRatio = 1.2
+	float mCheckIniVelMax = 4
+	float mCheckIniVelMin = 0.25
+	float mBackInitVelKartRatio = 0.06
+	float mBackInitVelMax = 1.5
+	float mBackInitVelMin = 0.25
+	float mThrowUpOffset = 0.7
+	float mCruiseSpeedCannonPath = 2.7
+	float mSpeedLerpRatio = 0.05
+	float mVelDirLerpRatioOnGnd = 0.5
+	float mNrmLerpRatio = 0.05
+	float mSpeedRefSE = 0.5
+	float mRatioWallNrmY = 0.01
+	float mReflectUpLerpRatio = 0.3
+	float mTrampolineReflectVelNrmMin = 0.3
+	float mTrampolineReflectVelNrmMax = 1.1
+	float mTrampolineReflectVelParMin = 0.2
+	float mTrampolineReflectVelParMax = 0.7

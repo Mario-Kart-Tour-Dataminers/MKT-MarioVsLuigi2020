@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "KinopioBrigade"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = -5856137536059899413
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = -1389204875831348420
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4360364930411705317
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5831085452770951491
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5248178181216910779
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7760544098193026850
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8792478808165886144
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 332148725857095351
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5943547612320126207
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -4285750713408626530
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -864590887658260328
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 8994197996239262326
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigade.png"
+				string mGuid = "bc90fecc37bb9ab4c83e05302d266469"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigadeMap.png"
+				string mGuid = "a1a9fb1f593b6144c85d5c2b69545319"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigadeFaceEntry.png"
+				string mGuid = "9e7e1fe829d8a814b91e8091d6e9a0cb"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigadeWholeBody.png"
+				string mGuid = "6ea41a2c93fd8344992a1cf222cfbdf0"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigadeUpperBody.png"
+				string mGuid = "dcec08a07562fe14d9949a786066c2aa"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigade_Small.png"
+				string mGuid = "e2e02952958470945a0a9c70bdb347fe"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigadeFaceEntry_Small.png"
+				string mGuid = "65d8817f43cf2444f8f73d06421d36bd"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigadeWholeBody_Small.png"
+				string mGuid = "89d141dd54c718b40a5dc630c511f91f"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBrigade/Icons/KinopioBrigadeUpperBody_Small.png"
+				string mGuid = "c1f9d02b3c23e54469b0a8d38bff4de1"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

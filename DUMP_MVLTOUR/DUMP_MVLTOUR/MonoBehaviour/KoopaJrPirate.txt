@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "KoopaJrPirate"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -6838881835933766486
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 1259547701969393266
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6531569503227681488
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -726698041753568921
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2853376275087513753
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4703644569987087389
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8092295656987015365
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9196167868102504336
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5298114036468473432
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -5620906493018010601
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 528133852139271889
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 2602305944074225438
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirate.png"
+				string mGuid = "48acf92186763c94697cb65aab570cfa"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirateMap.png"
+				string mGuid = "700fce1a73c5ebb4d81f2fe5ed93d85e"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirateFaceEntry.png"
+				string mGuid = "699f3fb024f9a994a8a06f340adae36a"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirateWholeBody.png"
+				string mGuid = "37781130c8fc71146a56ec3c34bf25ee"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirateUpperBody.png"
+				string mGuid = "6861d81815a9c064198c254855113de0"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirate_Small.png"
+				string mGuid = "06bbad175690a274da59d4bfada23f7b"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirateFaceEntry_Small.png"
+				string mGuid = "afe6d69096708e34d920e3ce2b9782f8"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirateWholeBody_Small.png"
+				string mGuid = "b3e86b6608c8d2c41ab153f7d407a267"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KoopaJrPirate/Icons/KoopaJrPirateUpperBody_Small.png"
+				string mGuid = "6bf193f3e615b3846a7687b5141e0c5f"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 2484069878154279841
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

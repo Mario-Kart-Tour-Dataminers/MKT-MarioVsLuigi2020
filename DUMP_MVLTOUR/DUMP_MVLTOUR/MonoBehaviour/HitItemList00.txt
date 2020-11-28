@@ -1,0 +1,456 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "HitItemList00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 55
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0001.png"
+				string guid = "8496f0072472a9c4d9f67a047ab3ccc0"
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0002.png"
+				string guid = "e7459d0b3793b6b47ad5919eef47d39c"
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0003.png"
+				string guid = "6c1f9ca3ac9a7da4881bc97fd6a4c735"
+				int substitutedArrayIndex = 3
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 4
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0005.png"
+				string guid = "9b9b9e6b5af4c5b4fa0927053a8aa097"
+				int substitutedArrayIndex = 5
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0006.png"
+				string guid = "4137829e70a53cb40a58e16fb8b165cc"
+				int substitutedArrayIndex = 6
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0007.png"
+				string guid = "bf111bce07a539443aa1904482df1fd9"
+				int substitutedArrayIndex = 7
+			[8]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 8
+			[9]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 9
+			[10]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0010.png"
+				string guid = "0d742b5b2f9614441a041ed3fef2f3e5"
+				int substitutedArrayIndex = 10
+			[11]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0011.png"
+				string guid = "afd33b4518f5f1442a961a9ea6e030bc"
+				int substitutedArrayIndex = 11
+			[12]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0012.png"
+				string guid = "989b02d841f594044b9bfd89a62d41a5"
+				int substitutedArrayIndex = 12
+			[13]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0013.png"
+				string guid = "4c258322b13bc7b46a8968e3408a9102"
+				int substitutedArrayIndex = 13
+			[14]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0014.png"
+				string guid = "c5b0f0a430957e24ca3fb1926c060455"
+				int substitutedArrayIndex = 14
+			[15]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0015.png"
+				string guid = "3ba5aca55fec4eb4089cfe17287b4241"
+				int substitutedArrayIndex = 15
+			[16]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 16
+			[17]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 17
+			[18]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0018.png"
+				string guid = "44ccace8ef9d541458382e246343dbf1"
+				int substitutedArrayIndex = 18
+			[19]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0019.png"
+				string guid = "97619bf41dc0c90418f1d8973af4caa5"
+				int substitutedArrayIndex = 19
+			[20]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0020.png"
+				string guid = "5e97fe458f910494faf389e400ff850c"
+				int substitutedArrayIndex = 20
+			[21]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0021.png"
+				string guid = "7cbde39b052ab354d9a958da2e0abe40"
+				int substitutedArrayIndex = 21
+			[22]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0022.png"
+				string guid = "95a2391db568c2c4ab4a0a67ae3fec6b"
+				int substitutedArrayIndex = 22
+			[23]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0023.png"
+				string guid = "5807d9a0d831a264fad46b39cb65137a"
+				int substitutedArrayIndex = 23
+			[24]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0021.png"
+				string guid = "7cbde39b052ab354d9a958da2e0abe40"
+				int substitutedArrayIndex = 24
+			[25]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0021.png"
+				string guid = "7cbde39b052ab354d9a958da2e0abe40"
+				int substitutedArrayIndex = 25
+			[26]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0021.png"
+				string guid = "7cbde39b052ab354d9a958da2e0abe40"
+				int substitutedArrayIndex = 26
+			[27]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0027.png"
+				string guid = "f3123cae56cdb3045aad8fbcce9aa7e2"
+				int substitutedArrayIndex = 27
+			[28]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 15
+			[29]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0029.png"
+				string guid = "9c6825c186ac6d445950661453fe465c"
+				int substitutedArrayIndex = 29
+			[30]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 30
+			[31]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 1
+			[32]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 32
+			[33]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 33
+			[34]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 34
+			[35]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 35
+			[36]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0036.png"
+				string guid = "8ff114a5a2045374e8075d741aadeb3c"
+				int substitutedArrayIndex = 36
+			[37]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 37
+			[38]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 38
+			[39]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 39
+			[40]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 40
+			[41]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0041.png"
+				string guid = "db9c0e513e1ed604ba671e63dd7c6920"
+				int substitutedArrayIndex = 41
+			[42]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 42
+			[43]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 43
+			[44]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 44
+			[45]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 45
+			[46]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 46
+			[47]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 47
+			[48]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0048.png"
+				string guid = "9dbfa492f0d7f0f4a8f1543587cc9f19"
+				int substitutedArrayIndex = 48
+			[49]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 49
+			[50]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 50
+			[51]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 51
+			[52]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 52
+			[53]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 53
+			[54]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Item/HitItem0054.png"
+				string guid = "0dc80a4a4adc341449dbfdcc85cd32aa"
+				int substitutedArrayIndex = 54
+	int assetType = 0
+	int keyType = 6

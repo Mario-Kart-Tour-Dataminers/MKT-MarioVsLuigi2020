@@ -1,0 +1,124 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "DixieKong"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -7985299641853615472
+	vector mFaceTextures
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -5046557035008308885
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6445113561932045337
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6190463865218616581
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8470908682503996754
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7461469668633356872
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 794871195290300551
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -387412967302930743
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 2909806523806330762
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 1107969624916358660
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -2529131608790851671
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKong.png"
+				string mGuid = "a7609da3e257b3d4d927a4a23cfbdf4c"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKongMap.png"
+				string mGuid = "7cf0712f0e734b844b543f874cf88d21"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKongFaceEntry.png"
+				string mGuid = "1cd2b445cd3e0f046b4f02291cffa472"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKongWholeBody.png"
+				string mGuid = "6ab0852127d68b24988c2d1e2c31361b"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKongUpperBody.png"
+				string mGuid = "c04d0279311aa3b41a6e4ebe5f722f8b"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKong_Small.png"
+				string mGuid = "2b5b0819844c76a47b60cff3fc49bdbc"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKongFaceEntry_Small.png"
+				string mGuid = "b100228c13dbb6d4eb81e817a31c65ac"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKongWholeBody_Small.png"
+				string mGuid = "977cb472a426a6245b7ae16898a23a48"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DixieKong/Icons/DixieKongUpperBody_Small.png"
+				string mGuid = "0ea8c02febb49024ab617af68e2dcc9f"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 1832792897419139278
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

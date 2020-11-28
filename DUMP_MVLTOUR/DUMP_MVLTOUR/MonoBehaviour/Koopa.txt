@@ -1,0 +1,116 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Koopa"
+	PPtr<$GameObject> mModel
+		int m_FileID = 8
+		SInt64 m_PathID = 5535852410287598003
+	vector mFaceTextures
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 7
+				SInt64 m_PathID = -7444666873080207283
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6069152204581160332
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8545481849720233461
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8263363866792047539
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7591104994500967589
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 3590642095388192501
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 6
+		SInt64 m_PathID = -2094546254717559780
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -3626267392113959331
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/Koopa.png"
+				string mGuid = "951cf480ecfb47a4e90e41deccb768f3"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/KoopaMap.png"
+				string mGuid = "687d6755474dc42499649c6bc3c29b8b"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/KoopaFaceEntry.png"
+				string mGuid = "289975e9153f52046804b3724e7476db"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/KoopaWholeBody.png"
+				string mGuid = "992b8e386f14a914eb2ea9ab288890ef"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/KoopaUpperBody.png"
+				string mGuid = "103f3ea0022fb104581e223c668a751c"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/Koopa_Small.png"
+				string mGuid = "a73e7b00a9e94334a962d469ef766b8b"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/KoopaFaceEntry_Small.png"
+				string mGuid = "ca608ff8d773fc448a9b964c1eaa2d3b"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/KoopaWholeBody_Small.png"
+				string mGuid = "63e7bba8c1d14fe48bd074d6f6789a20"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Koopa/Icons/KoopaUpperBody_Small.png"
+				string mGuid = "ecb85d35711bb624083d2273565d4c66"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -338651500537860608
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "クッパ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4497319476702838498

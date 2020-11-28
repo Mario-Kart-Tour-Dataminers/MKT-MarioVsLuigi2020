@@ -1,0 +1,529 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2590768194287000671
+	string m_Name = "Kinopico_DynamicUnitInit"
+	DynamicRigDynamicUnitInitProperty m_arInitProp
+		Array Array
+		int size = 2
+			[0]
+			DynamicRigDynamicUnitInitProperty data
+				string strParentName = ""
+				RigProp rigProp
+					Vector3f pos
+						float x = -0.1
+						float y = -0.1
+						float z = 0.15
+					Vector3f rot
+						float x = 150
+						float y = -135
+						float z = 0
+					Vector3f posHandleDef
+						float x = 0
+						float y = 0
+						float z = 0.3
+					float fRigRangeLimit = 0.3
+					float fGravRate = 0
+					float fAttract = 100
+					float fFriction = 0.1
+					float fUnderLimit = -1
+				ObjProp objProp
+					float fZReflectRate = 0
+					vector arFlapCycle
+						Array Array
+						int size = 3
+							[0]
+							float data = 0.3
+							[1]
+							float data = 0.2
+							[2]
+							float data = 0.15
+				NodeProp arNodeProp
+					Array Array
+					int size = 3
+						[0]
+						NodeProp data
+							string name = "Hair1L"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 15
+										float y = -50
+										float z = 160
+									[1]
+									Vector3f data
+										float x = 5
+										float y = -30
+										float z = 135
+									[2]
+									Vector3f data
+										float x = -5
+										float y = -20
+										float z = 120
+									[3]
+									Vector3f data
+										float x = 15
+										float y = -50
+										float z = 170
+									[4]
+									Vector3f data
+										float x = 5
+										float y = -30
+										float z = 159
+									[5]
+									Vector3f data
+										float x = -5
+										float y = -20
+										float z = 155
+									[6]
+									Vector3f data
+										float x = 15
+										float y = -50
+										float z = -170
+									[7]
+									Vector3f data
+										float x = 5
+										float y = -30
+										float z = -175
+									[8]
+									Vector3f data
+										float x = -5
+										float y = -20
+										float z = 160
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[1]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = 0
+								float y = 0
+								float z = 5
+							float fFlapTiming = 0
+						[1]
+						NodeProp data
+							string name = "Hair2L"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 0
+										float y = 30
+										float z = -30
+									[1]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = -20
+									[2]
+									Vector3f data
+										float x = 0
+										float y = -30
+										float z = -10
+									[3]
+									Vector3f data
+										float x = 0
+										float y = 30
+										float z = -10
+									[4]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = -10
+									[5]
+									Vector3f data
+										float x = 0
+										float y = -30
+										float z = -10
+									[6]
+									Vector3f data
+										float x = 0
+										float y = 30
+										float z = 30
+									[7]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = 10
+									[8]
+									Vector3f data
+										float x = 0
+										float y = -30
+										float z = -10
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+									[1]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = 2
+								float y = 2
+								float z = 5
+							float fFlapTiming = 0.2
+						[2]
+						NodeProp data
+							string name = "Hair3L"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 0
+										float y = 40
+										float z = -40
+									[1]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = -30
+									[2]
+									Vector3f data
+										float x = 0
+										float y = -40
+										float z = -10
+									[3]
+									Vector3f data
+										float x = 0
+										float y = 40
+										float z = -10
+									[4]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = -10
+									[5]
+									Vector3f data
+										float x = 0
+										float y = -40
+										float z = -10
+									[6]
+									Vector3f data
+										float x = 0
+										float y = 40
+										float z = 50
+									[7]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = 20
+									[8]
+									Vector3f data
+										float x = 0
+										float y = -40
+										float z = -10
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+									[1]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = 5
+								float y = 5
+								float z = 20
+							float fFlapTiming = 0.4
+			[1]
+			DynamicRigDynamicUnitInitProperty data
+				string strParentName = ""
+				RigProp rigProp
+					Vector3f pos
+						float x = -0.1
+						float y = -0.1
+						float z = -0.15
+					Vector3f rot
+						float x = 150
+						float y = -45
+						float z = 0
+					Vector3f posHandleDef
+						float x = 0
+						float y = 0
+						float z = 0.3
+					float fRigRangeLimit = 0.3
+					float fGravRate = 0
+					float fAttract = 100
+					float fFriction = 0.1
+					float fUnderLimit = -1
+				ObjProp objProp
+					float fZReflectRate = 0
+					vector arFlapCycle
+						Array Array
+						int size = 3
+							[0]
+							float data = 0.3
+							[1]
+							float data = 0.2
+							[2]
+							float data = 0.15
+				NodeProp arNodeProp
+					Array Array
+					int size = 3
+						[0]
+						NodeProp data
+							string name = "Hair1R"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = -5
+										float y = 20
+										float z = -60
+									[1]
+									Vector3f data
+										float x = 5
+										float y = 30
+										float z = -45
+									[2]
+									Vector3f data
+										float x = 15
+										float y = 50
+										float z = -20
+									[3]
+									Vector3f data
+										float x = -5
+										float y = 20
+										float z = -25
+									[4]
+									Vector3f data
+										float x = 5
+										float y = 30
+										float z = -21
+									[5]
+									Vector3f data
+										float x = 15
+										float y = 50
+										float z = -10
+									[6]
+									Vector3f data
+										float x = -5
+										float y = 20
+										float z = -20
+									[7]
+									Vector3f data
+										float x = 5
+										float y = 30
+										float z = 5
+									[8]
+									Vector3f data
+										float x = 15
+										float y = 50
+										float z = 10
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[1]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = 0
+								float y = 0
+								float z = 5
+							float fFlapTiming = 0
+						[1]
+						NodeProp data
+							string name = "Hair2R"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 0
+										float y = -30
+										float z = -10
+									[1]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = -20
+									[2]
+									Vector3f data
+										float x = 0
+										float y = 30
+										float z = -30
+									[3]
+									Vector3f data
+										float x = 0
+										float y = -30
+										float z = -10
+									[4]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = -10
+									[5]
+									Vector3f data
+										float x = 0
+										float y = 30
+										float z = -10
+									[6]
+									Vector3f data
+										float x = 0
+										float y = -30
+										float z = -10
+									[7]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = 10
+									[8]
+									Vector3f data
+										float x = 0
+										float y = 30
+										float z = 30
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+									[1]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = 2
+								float y = 2
+								float z = 5
+							float fFlapTiming = 0.2
+						[2]
+						NodeProp data
+							string name = "Hair3R"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 0
+										float y = -40
+										float z = -10
+									[1]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = -30
+									[2]
+									Vector3f data
+										float x = 0
+										float y = 40
+										float z = -40
+									[3]
+									Vector3f data
+										float x = 0
+										float y = -40
+										float z = -10
+									[4]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = -10
+									[5]
+									Vector3f data
+										float x = 0
+										float y = 40
+										float z = -10
+									[6]
+									Vector3f data
+										float x = 0
+										float y = -40
+										float z = -10
+									[7]
+									Vector3f data
+										float x = 0
+										float y = 10
+										float z = 20
+									[8]
+									Vector3f data
+										float x = 0
+										float y = 40
+										float z = 50
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+									[1]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = 5
+								float y = 5
+								float z = 20
+							float fFlapTiming = 0.45
+	vector m_arInvalidMotion
+		Array Array
+		int size = 9
+			[0]
+			int data = 8
+			[1]
+			int data = 9
+			[2]
+			int data = 10
+			[3]
+			int data = 0
+			[4]
+			int data = 6
+			[5]
+			int data = 12
+			[6]
+			int data = 11
+			[7]
+			int data = 14
+			[8]
+			int data = 7

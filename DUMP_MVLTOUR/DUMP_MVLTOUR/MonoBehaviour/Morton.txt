@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Morton"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 5765781129679222238
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -9113532919944138634
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2984963886577023897
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2067399828399941420
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7321807418404355005
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6088808684863956451
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6450167803060276634
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -59436668170786628
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4268220195729404396
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -2587872213038723835
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -193730992456118424
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 6417903354883309263
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/Morton.png"
+				string mGuid = "2cb330da3a74de04995601a7a290473c"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/MortonMap.png"
+				string mGuid = "e82499cac83206e4e91aba8e97fc05c8"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/MortonFaceEntry.png"
+				string mGuid = "8353a65ee27359d49b0cc3e246d10ba5"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/MortonWholeBody.png"
+				string mGuid = "4e9b9ac1df2f5ed4c87c9349414af221"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/MortonUpperBody.png"
+				string mGuid = "c02f16909670e0544a339c158de10bea"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/Morton_Small.png"
+				string mGuid = "7580388ad6f02bf47a42c7ae56389c94"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/MortonFaceEntry_Small.png"
+				string mGuid = "ef80260412501bc40a5203db8ee6a4ea"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/MortonWholeBody_Small.png"
+				string mGuid = "85d79aa39d58109499d90faa733f3250"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Morton/Icons/MortonUpperBody_Small.png"
+				string mGuid = "4572187f2be8ee44fba6a1ab5dee4877"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 804605347500403400
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "モートン"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

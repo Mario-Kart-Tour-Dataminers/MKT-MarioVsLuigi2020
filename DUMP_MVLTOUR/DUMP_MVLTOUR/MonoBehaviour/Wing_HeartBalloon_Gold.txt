@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_HeartBalloon_Gold"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_HeartBalloon/Icons/Wing_HeartBalloon_Gold.png"
+				string mGuid = "ef761dada7c7c7741a49d261cfaacebd"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_HeartBalloon/Icons/Wing_HeartBalloon_Gold_Large.png"
+				string mGuid = "0041ae7de2ea59e4ca005a60b5e65706"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_HeartBalloon/Icons/Wing_HeartBalloon_Gold_Small.png"
+				string mGuid = "303a63774c32a7949991d6e10c125a55"
+	int mWingType = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 1
+		SInt64 m_PathID = 7801121490571077740
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 8987835566048130209
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

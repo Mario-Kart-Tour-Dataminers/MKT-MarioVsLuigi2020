@@ -1,0 +1,32 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "BtnSubIconList00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 2
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/BtnSubInfoIcon00.png"
+				string guid = "9d0ba62b030d08c4a81430559afe69a2"
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/BtnSubAddIcon00.png"
+				string guid = "b796b91422c57b64bb03537e9cf31939"
+				int substitutedArrayIndex = 1
+	int assetType = 0
+	int keyType = 26

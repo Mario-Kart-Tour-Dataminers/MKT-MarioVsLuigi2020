@@ -1,0 +1,124 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "BombKing"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -2697601341935279476
+	vector mFaceTextures
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -5902707575202315967
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1777521416090249910
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5316921669263517438
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4346104892074339727
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 9181830379885875499
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7802452704024104512
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6634410192637134593
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -1989845730713905950
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -5500973415288752935
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 4745506379646365495
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKing.png"
+				string mGuid = "9468e5aad53889841a466b6fa80c75e8"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKingMap.png"
+				string mGuid = "f34ee772b5cde1441918a5ee3d7f3f06"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKingFaceEntry.png"
+				string mGuid = "7674602e4bcf33e49af18f2f6cd4b6eb"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKingWholeBody.png"
+				string mGuid = "66ac9926921ed0e49a7cb16976333e64"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKingUpperBody.png"
+				string mGuid = "ef0bea9e9f707bb40abcd9c741280686"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKing_Small.png"
+				string mGuid = "0452b186fd826f243b000d204f63887e"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKingFaceEntry_Small.png"
+				string mGuid = "90dd078695df8b94dbf82c77fe1bf576"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKingWholeBody_Small.png"
+				string mGuid = "0687c0b2db8a0d84ba8fa5eacbc35c2c"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BombKing/Icons/BombKingUpperBody_Small.png"
+				string mGuid = "a33b5d3fe51e2ed49bf5e1ecb0c4d107"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 2463243451936833505
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

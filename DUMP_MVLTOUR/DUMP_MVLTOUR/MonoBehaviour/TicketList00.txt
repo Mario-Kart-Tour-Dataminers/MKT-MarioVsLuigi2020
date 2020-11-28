@@ -1,0 +1,216 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "TicketList00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 25
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketItemSlot.png"
+				string guid = "edad25747323dd84b95251f4968ed8bd"
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUp_Driver.png"
+				string guid = "d00cdfce8e97e164fb6cf6f13189ed3e"
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUp_Machine.png"
+				string guid = "d569257781c59e04798cefb008ceae53"
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUp_Glide.png"
+				string guid = "b244862ffc4d9bc43b91a71d5e0603c2"
+				int substitutedArrayIndex = 3
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Driver_Normal.png"
+				string guid = "b12a0bac056bf8141b846c6801c8ae77"
+				int substitutedArrayIndex = 4
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Machine_Normal.png"
+				string guid = "a088da58eb31cb34395a15cf42f85173"
+				int substitutedArrayIndex = 5
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Glide_Normal.png"
+				string guid = "d949c7a7bdeffa84ba0ac277d4fad859"
+				int substitutedArrayIndex = 6
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Driver_Rare.png"
+				string guid = "f7fae9ba02828064096565b16fcba848"
+				int substitutedArrayIndex = 7
+			[8]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Machine_Rare.png"
+				string guid = "fc142604e2595134eadf6dee6c74809a"
+				int substitutedArrayIndex = 8
+			[9]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Glide_Rare.png"
+				string guid = "174fbcb0d40cdf549a4087a3a7cbb0e4"
+				int substitutedArrayIndex = 9
+			[10]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Driver_Ultra.png"
+				string guid = "bb46040a69ea0d5459d2ef93945c18ad"
+				int substitutedArrayIndex = 10
+			[11]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Machine_Ultra.png"
+				string guid = "107798f8e8f46c947b0057e37c8cb89c"
+				int substitutedArrayIndex = 11
+			[12]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketSkillUp_Glide_Ultra.png"
+				string guid = "09849e5c8fdba294eb05b53080fef0fc"
+				int substitutedArrayIndex = 12
+			[13]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketCoinRace.png"
+				string guid = "008b0102ec0332342ab48f453e2780bd"
+				int substitutedArrayIndex = 13
+			[14]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketStar.png"
+				string guid = "67de550a329134846bb3e6177712694d"
+				int substitutedArrayIndex = 14
+			[15]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketCupTimeSaving.png"
+				string guid = "9a14e9f2fa8d9cf4e8ad1abaa9d6b260"
+				int substitutedArrayIndex = 15
+			[16]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Driver_Normal.png"
+				string guid = "556ad80157af41e49a42bcfbd1401e0e"
+				int substitutedArrayIndex = 16
+			[17]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Machine_Normal.png"
+				string guid = "5d6842ff5caea9a49b56752671e4638b"
+				int substitutedArrayIndex = 17
+			[18]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Glide_Normal.png"
+				string guid = "17728562f97458247bf1089f23d278bc"
+				int substitutedArrayIndex = 18
+			[19]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Driver_Rare.png"
+				string guid = "107a7bd49c15606409184a72a7e3e674"
+				int substitutedArrayIndex = 19
+			[20]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Machine_Rare.png"
+				string guid = "9d54223347132a8488827cc8e2735d52"
+				int substitutedArrayIndex = 20
+			[21]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Glide_Rare.png"
+				string guid = "e1bffc47d2f71d540bcfa4c6ded05409"
+				int substitutedArrayIndex = 21
+			[22]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Driver_Ultra.png"
+				string guid = "5b548a5402d435a47bcc6b9b34ef4c3b"
+				int substitutedArrayIndex = 22
+			[23]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Machine_Ultra.png"
+				string guid = "096bf8f1699d86f4a83da9aa55cc7b55"
+				int substitutedArrayIndex = 23
+			[24]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Ticket/TicketScoreUpUnlock_Glide_Ultra.png"
+				string guid = "40aee804cc7396b449d2505ad2228ada"
+				int substitutedArrayIndex = 24
+	int assetType = 0
+	int keyType = 0

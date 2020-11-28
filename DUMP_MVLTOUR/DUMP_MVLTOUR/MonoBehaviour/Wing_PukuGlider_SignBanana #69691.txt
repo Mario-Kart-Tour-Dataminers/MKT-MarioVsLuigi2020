@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_PukuGlider_SignBanana"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_PukuGlider/Icons/Wing_PukuGlider_SignBanana.png"
+				string mGuid = "63ddf6b01d19bc34fa9bc91e566acfa8"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_PukuGlider/Icons/Wing_PukuGlider_SignBanana_Large.png"
+				string mGuid = "58473160dfbbf6545a2529a943172cd8"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_PukuGlider/Icons/Wing_PukuGlider_SignBanana_Small.png"
+				string mGuid = "eb72950f40557f24ca813a352b9f8c4d"
+	int mWingType = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 6
+		SInt64 m_PathID = -1163890223536989472
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -7217433321577211182
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

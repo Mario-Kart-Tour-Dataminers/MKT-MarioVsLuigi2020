@@ -1,0 +1,25 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2954206603855530343
+	string m_Name = "TilingTextureColor"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	FloatParameter tileScale
+		UInt8 overrideState = 1
+		float value = 0.0023
+	FloatParameter colorThreshold
+		UInt8 overrideState = 0
+		float value = 1
+	TextureParameter clut
+		UInt8 overrideState = 1
+		PPtr<$Texture> value
+			int m_FileID = 0
+			SInt64 m_PathID = -306510026981083884
+		int defaultState = 1

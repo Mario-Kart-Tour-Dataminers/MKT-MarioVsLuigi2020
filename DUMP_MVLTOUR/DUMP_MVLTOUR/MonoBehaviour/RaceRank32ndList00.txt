@@ -1,0 +1,134 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6390104249597991665
+	string m_Name = "RaceRank32ndList00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 15
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/RaceRank/RaceRank32ndJPja.png"
+				string guid = "d99d2ae19202b8643aaa69ff72512abc"
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 1
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/RaceRank/RaceRank32ndUSes.png"
+				string guid = "e64eef0717de66e498c2be005c5418e5"
+				int substitutedArrayIndex = 0
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 3
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 1
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/RaceRank/RaceRank32ndEUfr.png"
+				string guid = "fe5fcc15530b218438f6feb1f1e67a99"
+				int substitutedArrayIndex = 0
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/RaceRank/RaceRank32ndEUde.png"
+				string guid = "921d0af43e40a934dbc4623194373acf"
+				int substitutedArrayIndex = 0
+			[8]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 11
+			[9]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 1
+			[10]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 1
+			[11]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/RaceRank/RaceRank32ndUSpt.png"
+				string guid = "a07b8a4116480e44ca2c06fda5cd0f32"
+				int substitutedArrayIndex = 0
+			[12]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[13]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[14]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0

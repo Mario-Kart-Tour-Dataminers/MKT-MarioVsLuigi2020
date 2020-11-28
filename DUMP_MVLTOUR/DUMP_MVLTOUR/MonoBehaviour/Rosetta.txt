@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Rosetta"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 91446046092110694
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -5216852229307626021
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2322713816957112126
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2181901731660139558
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1775547229666429691
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3723669080980144277
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4941557820890163164
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8657741438336725633
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4264209104052022603
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 5366365426685881983
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -2210143624078590335
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 8397268970410319852
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/Rosetta.png"
+				string mGuid = "e031fd103702acc4294c594cef996f52"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/RosettaMap.png"
+				string mGuid = "7611ba8f75bfa064c853d3d1c4fd8189"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/RosettaFaceEntry.png"
+				string mGuid = "6c4206b9e17a19f42a43416fe68d616f"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/RosettaWholeBody.png"
+				string mGuid = "a8665256135353f47925303ce6029183"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/RosettaUpperBody.png"
+				string mGuid = "303552ea7cf93ed4196ed7ba86a28bd0"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/Rosetta_Small.png"
+				string mGuid = "ddb0daab3a024f344910d44a2eb3c3c2"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/RosettaFaceEntry_Small.png"
+				string mGuid = "efbf6f5394f999146a6fc9efe5aaae58"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/RosettaWholeBody_Small.png"
+				string mGuid = "28e722e50a4f78146a05c21ee9336c14"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Rosetta/Icons/RosettaUpperBody_Small.png"
+				string mGuid = "450be61ecadf5e241b6e1d99d5be5803"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -7610869575440107346
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ロゼッタ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5205133077489607599
+	string m_Name = "LensDistortion"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	FloatParameter intensity
+		UInt8 overrideState = 1
+		float value = 90
+	FloatParameter intensityX
+		UInt8 overrideState = 0
+		float value = 1
+	FloatParameter intensityY
+		UInt8 overrideState = 0
+		float value = 1
+	FloatParameter centerX
+		UInt8 overrideState = 0
+		float value = 0
+	FloatParameter centerY
+		UInt8 overrideState = 0
+		float value = 0
+	FloatParameter scale
+		UInt8 overrideState = 1
+		float value = 1.15

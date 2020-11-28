@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_ButterflyW_EmeraldGreen"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_ButterflyW/Icons/Wing_ButterflyW_EmeraldGreen.png"
+				string mGuid = "fe3048fef2c59644a97474e9a3c69868"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_ButterflyW/Icons/Wing_ButterflyW_EmeraldGreen_Large.png"
+				string mGuid = "9ad3139b92f963e4f9622a0a6b101217"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_ButterflyW/Icons/Wing_ButterflyW_EmeraldGreen_Small.png"
+				string mGuid = "d61165aacc92bdc449864fd5c1e26001"
+	int mWingType = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 2
+		SInt64 m_PathID = -7601625198101821159
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 2962768573174988939
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

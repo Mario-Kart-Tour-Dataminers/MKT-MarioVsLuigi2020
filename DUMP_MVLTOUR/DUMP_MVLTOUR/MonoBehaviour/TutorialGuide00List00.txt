@@ -1,0 +1,134 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6390104249597991665
+	string m_Name = "TutorialGuide00List00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 15
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00JPja.png"
+				string guid = "606892c0a4df51e419257431087b1eca"
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00USen.png"
+				string guid = "6132908201d15c2489425262e70faa21"
+				int substitutedArrayIndex = 0
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 1
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00USes.png"
+				string guid = "cb34d44b3147fbf44afa284ff178dde8"
+				int substitutedArrayIndex = 0
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 3
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00EUfr.png"
+				string guid = "ff15b31493e4a3446be2ed0bfde7da22"
+				int substitutedArrayIndex = 0
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00EUde.png"
+				string guid = "93d357a3944b4684ca5a32a9c83724f7"
+				int substitutedArrayIndex = 0
+			[8]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00EUit.png"
+				string guid = "e5b126d036c5ead40b404a585e30f676"
+				int substitutedArrayIndex = 0
+			[9]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[10]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[11]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00USpt.png"
+				string guid = "8d9ab67ce0b46c54a8fee2f6b42279a4"
+				int substitutedArrayIndex = 0
+			[12]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00KRko.png"
+				string guid = "10d43718081e1924eb4cae603b6c8bb4"
+				int substitutedArrayIndex = 0
+			[13]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00CNzh.png"
+				string guid = "c1b571a756890a94290a93be9663b8b5"
+				int substitutedArrayIndex = 0
+			[14]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Race/TutorialGuide00TWzh.png"
+				string guid = "835b0efc48d707d46b43d338b8ad0f03"
+				int substitutedArrayIndex = 0

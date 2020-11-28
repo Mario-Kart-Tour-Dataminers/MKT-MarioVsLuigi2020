@@ -1,0 +1,83 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1150354629195081500
+	string m_Name = "CarBusRed_prm"
+	string mMapObjName = "CarBusRed"
+	vector mResource
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 1
+				SInt64 m_PathID = 8038441781494348907
+	KColSet mKCol
+		Array Array
+		int size = 1
+			[0]
+			KColSet data
+				string Name = "CarBusRed_cl"
+				PPtr<$ScriptableKCollision> KCol
+					int m_FileID = 0
+					SInt64 m_PathID = 6993939577503175762
+				PPtr<$ScriptableKCollision> KCol_0_5
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$ScriptableKCollision> KCol_0_1
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+	UInt8 mKColScale = 0
+	int mModelOrigin = 0
+	Vector3 mOffset
+		float x = 0
+		float y = 0
+		float z = 0
+	MapObjCollisionParam mCollision
+		Array Array
+		int size = 0
+	PPtr<$RuntimeAnimatorController> mAnimatorController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mSubAnimatorController
+		Array Array
+		int size = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mEnableClip = 0
+	UInt8 mEnableReceiveShadow = 0
+	int mShadowType = 2
+	PPtr<$Material> mProjectionMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	Vector3 mShadowSize
+		float x = 40
+		float y = 0
+		float z = 100
+	float mShadowDensity = 0.5
+	float mGndColRayLen = 10
+	float mReactionInterval = 0
+	vector mLodScreenRelativeTransitionHeights
+		Array Array
+		int size = 0
+	UInt8 mIsUseLodSettingsForPowerSaving = 0
+	vector mLodScreenRelativeTransitionHegihtsForPowerSaving
+		Array Array
+		int size = 0
+	float mDistancedDiscardHeight = 0
+	UInt8 mIsDisableReverseScroll = 1
+	vector mDurationOnlyList
+		Array Array
+		int size = 0
+	UInt8 mIsDisableEvent = 0
+	int mScoreUpMetaId = 0
+	vector mAlternateColorMaterials
+		Array Array
+		int size = 0
+	vector mVariationNameList
+		Array Array
+		int size = 0

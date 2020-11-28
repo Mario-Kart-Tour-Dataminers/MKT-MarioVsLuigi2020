@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "PeachExplorer"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 5209543812107526011
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -6083389809154059562
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1333743301463166629
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2574414489092975259
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5579974309934172167
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5649439593640498845
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6684101544757501732
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7989564767814325175
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5897944317213009481
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 4338968449353990879
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 6453494274082038369
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 2271210983333443092
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorer.png"
+				string mGuid = "a063e4312717ee441a761d99549b4ded"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorerMap.png"
+				string mGuid = "85202b1aaa8b87543b6369d9dfa0afe3"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorerFaceEntry.png"
+				string mGuid = "83e57184e7dd2404aa77f279ffecda5e"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorerWholeBody.png"
+				string mGuid = "735b87e345f3e604ba366faf915869c4"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorerUpperBody.png"
+				string mGuid = "cf29c76959102ac4b9250f4141a0155a"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorer_Small.png"
+				string mGuid = "52c5465cd80d6394a958feab34796b99"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorerFaceEntry_Small.png"
+				string mGuid = "edbd30c3cf267ce4c8ae70252ec36aa0"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorerWholeBody_Small.png"
+				string mGuid = "3cae85fba4792b943a4dc48a30615c4d"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachExplorer/Icons/PeachExplorerUpperBody_Small.png"
+				string mGuid = "b4079382604ce4140a217e882d538304"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -2999873707490034093
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ぼうけんピーチ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

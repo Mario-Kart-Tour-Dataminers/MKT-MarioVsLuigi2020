@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "MetalPeach"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = -3280349715877173393
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 3
+				SInt64 m_PathID = -749599013792565695
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1226207569090729113
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -350464587911596144
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 808141904468038003
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2306267616555103562
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2694844918038193001
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5349550409198051917
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2995177743053640478
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 5002077973265784777
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 1
+		SInt64 m_PathID = 8802047364412885852
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 2155891852633440511
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeach.png"
+				string mGuid = "309304980f78b624381548c5fa5e5e91"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeachMap.png"
+				string mGuid = "cae5cadec8841b34d99a98a9d264d8f1"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeachFaceEntry.png"
+				string mGuid = "55187220e19596a42811839d307112cc"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeachWholeBody.png"
+				string mGuid = "2299a0a6f24410a499cf275f02b446a7"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeachUpperBody.png"
+				string mGuid = "0cc73ebee5b640448b2ed1709fcb62dc"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeach_Small.png"
+				string mGuid = "e10feeb30e98cd84691876ce8ef25bf8"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeachFaceEntry_Small.png"
+				string mGuid = "7725d5d1d2448904188addb9c3c41d98"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeachWholeBody_Small.png"
+				string mGuid = "991846d36fda9984f9f4a3067f7377fe"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalPeach/Icons/MetalPeachUpperBody_Small.png"
+				string mGuid = "85c6bfca310f31240b968acd53eb658f"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -3834717177545805587
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ピンクゴールドピーチ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

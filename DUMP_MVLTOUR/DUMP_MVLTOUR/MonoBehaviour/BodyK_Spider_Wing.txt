@@ -1,0 +1,75 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7327887701616763327
+	string m_Name = "BodyK_Spider_Wing"
+	KartBodyWingSettings mWingTypeSettings
+		Array Array
+		int size = 3
+			[0]
+			KartBodyWingSettings data
+				int mWingType = 0
+				KartBodyWingDriverSettings mWingList
+					Array Array
+					int size = 1
+						[0]
+						KartBodyWingDriverSettings data
+							int mJointType = 0
+							Vector3f mJointPos
+								float x = 0
+								float y = 0.42
+								float z = -0.89
+							Vector3f mScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mRot
+								float x = 0
+								float y = 0
+								float z = 0
+			[1]
+			KartBodyWingSettings data
+				int mWingType = 1
+				KartBodyWingDriverSettings mWingList
+					Array Array
+					int size = 1
+						[0]
+						KartBodyWingDriverSettings data
+							int mJointType = 0
+							Vector3f mJointPos
+								float x = 0
+								float y = 0.6
+								float z = -0.8
+							Vector3f mScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mRot
+								float x = 0
+								float y = 0
+								float z = 0
+			[2]
+			KartBodyWingSettings data
+				int mWingType = 2
+				KartBodyWingDriverSettings mWingList
+					Array Array
+					int size = 1
+						[0]
+						KartBodyWingDriverSettings data
+							int mJointType = 0
+							Vector3f mJointPos
+								float x = 0
+								float y = 0
+								float z = 0
+							Vector3f mScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mRot
+								float x = 0
+								float y = 0
+								float z = 0

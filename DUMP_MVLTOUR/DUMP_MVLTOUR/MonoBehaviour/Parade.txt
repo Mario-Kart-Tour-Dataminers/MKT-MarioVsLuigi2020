@@ -1,0 +1,281 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4418261267758462990
+	string m_Name = "Parade"
+	Setting mSettings
+		Array Array
+		int size = 8
+			[0]
+			Setting data
+				vector mFormations
+					Array Array
+					int size = 1
+						[0]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 15
+							SInt64 m_PathID = 482542347624068624
+			[1]
+			Setting data
+				vector mFormations
+					Array Array
+					int size = 3
+						[0]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 15
+							SInt64 m_PathID = 482542347624068624
+						[1]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 8
+							SInt64 m_PathID = 3336321257543303666
+						[2]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 10
+							SInt64 m_PathID = 8322217188140435490
+			[2]
+			Setting data
+				vector mFormations
+					Array Array
+					int size = 5
+						[0]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 15
+							SInt64 m_PathID = 482542347624068624
+						[1]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 19
+							SInt64 m_PathID = 2416065733215575713
+						[2]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 10
+							SInt64 m_PathID = 8322217188140435490
+						[3]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 7
+							SInt64 m_PathID = 3985018597922584847
+						[4]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 20
+							SInt64 m_PathID = 4535656080290807812
+			[3]
+			Setting data
+				vector mFormations
+					Array Array
+					int size = 7
+						[0]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 15
+							SInt64 m_PathID = 482542347624068624
+						[1]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 12
+							SInt64 m_PathID = 2589129948369419104
+						[2]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 10
+							SInt64 m_PathID = 8322217188140435490
+						[3]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 2
+							SInt64 m_PathID = -5336142436941736743
+						[4]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 20
+							SInt64 m_PathID = 4535656080290807812
+						[5]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 6
+							SInt64 m_PathID = 4394863733442993265
+						[6]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 26
+							SInt64 m_PathID = -4314503998809356438
+			[4]
+			Setting data
+				vector mFormations
+					Array Array
+					int size = 7
+						[0]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 15
+							SInt64 m_PathID = 482542347624068624
+						[1]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 14
+							SInt64 m_PathID = 7243304905879646354
+						[2]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 10
+							SInt64 m_PathID = 8322217188140435490
+						[3]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 23
+							SInt64 m_PathID = -8232247444097072383
+						[4]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 20
+							SInt64 m_PathID = 4535656080290807812
+						[5]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 4
+							SInt64 m_PathID = -5820573919669487065
+						[6]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 1
+							SInt64 m_PathID = -6340701051311771473
+			[5]
+			Setting data
+				vector mFormations
+					Array Array
+					int size = 7
+						[0]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 15
+							SInt64 m_PathID = 482542347624068624
+						[1]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 16
+							SInt64 m_PathID = -8039167247066206009
+						[2]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 10
+							SInt64 m_PathID = 8322217188140435490
+						[3]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 11
+							SInt64 m_PathID = 4722174007881150619
+						[4]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 20
+							SInt64 m_PathID = 4535656080290807812
+						[5]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 22
+							SInt64 m_PathID = -8745907502377237541
+						[6]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 24
+							SInt64 m_PathID = 1791090704867175829
+			[6]
+			Setting data
+				vector mFormations
+					Array Array
+					int size = 7
+						[0]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 15
+							SInt64 m_PathID = 482542347624068624
+						[1]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 3
+							SInt64 m_PathID = 556611274062292538
+						[2]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 10
+							SInt64 m_PathID = 8322217188140435490
+						[3]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 25
+							SInt64 m_PathID = -5583953724646107141
+						[4]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 20
+							SInt64 m_PathID = 4535656080290807812
+						[5]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 9
+							SInt64 m_PathID = 8244528023257510350
+						[6]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 5
+							SInt64 m_PathID = -517797935335437735
+			[7]
+			Setting data
+				vector mFormations
+					Array Array
+					int size = 7
+						[0]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 15
+							SInt64 m_PathID = 482542347624068624
+						[1]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 13
+							SInt64 m_PathID = 8412426115939653989
+						[2]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 10
+							SInt64 m_PathID = 8322217188140435490
+						[3]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 21
+							SInt64 m_PathID = 8574590984802975975
+						[4]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 20
+							SInt64 m_PathID = 4535656080290807812
+						[5]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 17
+							SInt64 m_PathID = -168824939600589215
+						[6]
+						PPtr<$ScriptableParadeFormation> data
+							int m_FileID = 18
+							SInt64 m_PathID = 1944142409116697634
+	SpeedParam mSpeedParam
+		float cSpeedRatioMin = 0.2
+		float cSpeedRatioMax = 3
+		float cMargin = 50
+		float cFreeDistanceFront = 60
+		float cFreeDistanceRear = 40
+		float cFreeMargin = 30
+	CameraParam mCameraParam
+		float LerpTimeOnChangeTarget = 0.25
+		DistanceParam Distance
+			float L = 8
+			float M = 7.5
+			float S = 7
+			float Giant = 8
+			float Glide = 8
+		PrimColParam PrimCol
+			UInt8 IsEnablePrimCol = 1
+			float RadiusS = 1.5
+			float RadiusL = 2.5
+		RotationGyroParam RotationGyro
+			float PitchOffset = 0
+			float GyroAttAveSec = 1
+			float GyroAttLerpRate = 0.2
+			float GyroPitchMax = 50
+			float GyroPitchMin = -90
+		StartCameraParam StartCamera
+			float DegX = -5
+			float DegY = -15
+			float DegZ = 0
+			float Distance = 5
+			Vector3 AtOffset
+				float x = 0
+				float y = 2
+				float z = 1
+			float Fovy = 100
+	MotionParam mMotionParam
+		Common mCommon
+			float WaitTime = 2
+		WinninRun mWinningRun
+			float Time = 5
+			int DelayMax = 60
+		GutsPose mGutsPose
+			int DelayMax = 15
+		Spin mSpin
+			int DelayMax = 15
+			float AccelThreshold = 0.8
+	InputParam mInputParam
+		float TouchTimeShort = 0.8
+		float DoubleTapInterval = 1
+		float KartTouchRange = 1.5
+		float TouchNotMoveLen = 0.1
+		float DoubleTapDistance = 100
+	float MaxRouteRatio = 0.2

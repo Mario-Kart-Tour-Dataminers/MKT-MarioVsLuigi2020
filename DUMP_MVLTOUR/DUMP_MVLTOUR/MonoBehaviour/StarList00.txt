@@ -1,0 +1,48 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "StarList00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 4
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/StarOff00.png"
+				string guid = "b999148b85b92e04db3c1cb3f8da41a8"
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/StarOn00.png"
+				string guid = "81f3a15f08099564ebdc81e3b9cebcfa"
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Currency/CurrencyOff00.png"
+				string guid = "2526487fe68243646ab2d11f5018f579"
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Currency/CurrencyOn00.png"
+				string guid = "c65b40ea12a689444b3e4e75aa5e9b1b"
+				int substitutedArrayIndex = 3
+	int assetType = 0
+	int keyType = 0

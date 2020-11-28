@@ -1,0 +1,60 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -9010386195217986162
+	string m_Name = "CameraKart"
+	UInt8 cEditFlag = 0
+	float cTopHeightSizeS = 2
+	float cTopHeightSizeL = 5
+	vector cPosYCenterGroundRaceS
+		Array Array
+		int size = 1
+			[0]
+			float data = 0.2
+	vector cPosYCenterGroundRaceL
+		Array Array
+		int size = 1
+			[0]
+			float data = 0.6
+	float cLookDirYLengthWaterFloatingS = 0.18
+	float cLookDirYLengthWaterFloatingL = 0.5
+	float cLookDirYLengthAerialS = 0.2
+	float cLookDirYLengthAerialL = 0.6
+	float cLookDirYLengthJugemS = 0.2
+	float cLookDirYLengthJugemL = 0.6
+	float cLookDirYLengthGlideMinS = 0.1
+	float cLookDirYLengthGlideMinL = 0.4
+	float cLookDirYLengthGlideMaxS = 0.2
+	float cLookDirYLengthGlideMaxL = 0.6
+	Vector3 cPosOffsetBackS
+		float x = 0
+		float y = 0
+		float z = 10
+	Vector3 cPosOffsetBackL
+		float x = 0
+		float y = 5
+		float z = 10
+	Vector3 cAtOffsetBackS
+		float x = 0
+		float y = -1.2
+		float z = 0
+	Vector3 cAtOffsetBackL
+		float x = 0
+		float y = -6
+		float z = 0
+	float cBackFovy = 80
+	float cShakeForceRot = 0
+	float cShakeSpringPosDt = 1
+	float cShakeSpringRotDt = 1.25
+	float cShakeDRate = 0.02
+	float cShakeSpringRatePos = 0.1
+	float cShakeDampExpRatePos = 0.3
+	float cShakeDampContRatePos = 0.005
+	float cShakeSpringRateRot = 0.2
+	float cShakeDampExpRateRot = 0.2
+	float cShakeDampContRateRot = 0.2
+	float cNearClipPlane = 1

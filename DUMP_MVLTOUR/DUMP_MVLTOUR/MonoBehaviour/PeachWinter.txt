@@ -1,0 +1,132 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "PeachWinter"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -5855522093406434935
+	vector mFaceTextures
+		Array Array
+		int size = 9
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2900371411031138144
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -5644906876580683698
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6213179430583119486
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7076669771933258249
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6545322674745978437
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2962655353968499993
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2283759643440046745
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1901323849977470056
+			[8]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3669068497202684498
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 7673786799071070161
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -7298864438311713545
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -2775825574809206743
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinter.png"
+				string mGuid = "0fc9bf861b103354b90214cfac3bc958"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinterMap.png"
+				string mGuid = "bf6a51fd61339e9428d9a47372ac6a74"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinterFaceEntry.png"
+				string mGuid = "e51ca17d3bc679d408bb104669fda50f"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinterWholeBody.png"
+				string mGuid = "a11500de7a80bc843bcdd97b536c8daf"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinterUpperBody.png"
+				string mGuid = "cc6e680b1d8f6164abc7c00731bdd5cd"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinter_Small.png"
+				string mGuid = "b1c0386a7175fb640ac048c5d5b8df71"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinterFaceEntry_Small.png"
+				string mGuid = "d4fd5066b81950844b0670f3ff64f16f"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinterWholeBody_Small.png"
+				string mGuid = "f5ef0dc7e5818c542b95d3281b4f57fd"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachWinter/Icons/PeachWinterUpperBody_Small.png"
+				string mGuid = "d0debb1cdafc51741b0ad7fbcd8844ec"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 2509722871634005067
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

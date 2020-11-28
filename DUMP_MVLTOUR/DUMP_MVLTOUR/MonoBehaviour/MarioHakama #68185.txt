@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "MarioHakama"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = -5564144553363890214
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 3
+				SInt64 m_PathID = 4339914361774027054
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6880601018678995651
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5921344151734258522
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3342490793455374120
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7104019088419528122
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3250540870667917228
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6819824184949770642
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3327960706364924251
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 6527267703838352312
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 1
+		SInt64 m_PathID = 1989029323259804078
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -629277121327898890
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakama.png"
+				string mGuid = "fedcb13ef4b4da5448b7d279e747e9c5"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakamaMap.png"
+				string mGuid = "662c0f8d1303aae48ba2f1f17b5883ed"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakamaFaceEntry.png"
+				string mGuid = "841c5f5880e13f14cb79356a07b662f1"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakamaWholeBody.png"
+				string mGuid = "b89a321aa2a9f3c4481944c422cf9309"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakamaUpperBody.png"
+				string mGuid = "1ec6d86f4ea621d4fb4f55ac681a5af1"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakama_Small.png"
+				string mGuid = "71b050cbb86735b498bc40b9abaf072a"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakamaFaceEntry_Small.png"
+				string mGuid = "21961125cd44ee64dbf4821965d8ee32"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakamaWholeBody_Small.png"
+				string mGuid = "5e0f313a53d88e9429f7106312b0df59"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioHakama/Icons/MarioHakamaUpperBody_Small.png"
+				string mGuid = "680a98be011f66645ac433066e8ed5cc"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -3836476230632771309
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "はかまマリオ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

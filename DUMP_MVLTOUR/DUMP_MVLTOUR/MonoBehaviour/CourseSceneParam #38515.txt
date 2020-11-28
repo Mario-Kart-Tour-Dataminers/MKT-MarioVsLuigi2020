@@ -1,0 +1,77 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8094386303974766579
+	string m_Name = "CourseSceneParam"
+	float mProjectorShadowGlobalCutOffDistanceY = 0
+	FieldFogTimeChangeData mFogChangeData
+		Element mElements
+			Array Array
+			int size = 1
+				[0]
+				Element data
+					int mEffBit = 0
+					int mFogPattern = 0
+					ColorRGBA mColor
+						float r = 0.09883915
+						float g = 0.09515571
+						float b = 0.3235294
+						float a = 0.747
+					float mDistanceBegin = -200
+					float mDistanceEnd = 1000
+					float mRaceStartTimeSecond = 56
+					float mDurationSecond = 8
+					float mAreaStartSecond = 0
+					float mAreaEndSecond = 0
+					UInt8 mReferenceWater = 0
+	FieldFlareTimeChangeData mFlareChangeData
+		UInt8 mDefaultOn = 0
+		Element mElements
+			Array Array
+			int size = 0
+	Vector4f mPowerSavingAdjustColor
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	UInt8 mIsDisableProjectionShadowStencil = 0
+	int mProjectionShadowRenderQueue = -1
+	UInt8 mIsMapObjShadowRenderAfterTransparent = 0
+	FieldLightParametersChangeData mLightParametersChangeData
+		Element mElements
+			Array Array
+			int size = 2
+				[0]
+				Element data
+					string mLightName = "D_Dynamic"
+					float mStartTime = 56
+					float mDuration = 8
+					float mFinalIntensity = 1
+					ColorRGBA mFinalColor
+						float r = 0.2867647
+						float g = 0.3838961
+						float b = 1
+						float a = 1
+				[1]
+				Element data
+					string mLightName = "D_Static"
+					float mStartTime = 56
+					float mDuration = 8
+					float mFinalIntensity = 2
+					ColorRGBA mFinalColor
+						float r = 0.2867647
+						float g = 0.3838961
+						float b = 1
+						float a = 1
+	FieldLightProbeChangeData mLightProbeChangeData
+		Element mElements
+			Array Array
+			int size = 1
+				[0]
+				Element data
+					float mStartTime = 0
+					float mScale = 0.5

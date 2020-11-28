@@ -1,0 +1,300 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8840372896776316124
+	string m_Name = "AIParam"
+	vector mHateIncreaseRate
+		Array Array
+		int size = 23
+			[0]
+			float data = 15
+			[1]
+			float data = 20
+			[2]
+			float data = 15
+			[3]
+			float data = 20
+			[4]
+			float data = 20
+			[5]
+			float data = 20
+			[6]
+			float data = 20
+			[7]
+			float data = 30
+			[8]
+			float data = 20
+			[9]
+			float data = 20
+			[10]
+			float data = 25
+			[11]
+			float data = 20
+			[12]
+			float data = 15
+			[13]
+			float data = 25
+			[14]
+			float data = 15
+			[15]
+			float data = 20
+			[16]
+			float data = 0
+			[17]
+			float data = 30
+			[18]
+			float data = 30
+			[19]
+			float data = 0
+			[20]
+			float data = 0
+			[21]
+			float data = 0
+			[22]
+			float data = 0
+	float mHateRateMax = 180
+	PlayerSkill mPlayerSkill
+		vector mFactorWeight
+			Array Array
+			int size = 4
+				[0]
+				int data = 700
+				[1]
+				int data = 500
+				[2]
+				int data = 0
+				[3]
+				int data = 0
+		float mPathTotalLengthRateBase = 1
+	PSParam mPSParam_JumpActionProb
+		float Min = 0
+		float Max = 90
+	PSParam mPSParam_TimeToUseItem
+		float Min = 0.5
+		float Max = 3
+	PSParam mPSParam_StandOutSpeedRate_CatchUp
+		float Min = 1
+		float Max = 1.06
+	PSParam mPSParam_StandOutSpeedRate_CatchDown
+		float Min = 0.8
+		float Max = 1
+	PSParam mPSParam_SpeedRateEasy
+		float Min = 0.96
+		float Max = 0.98
+	PSParam mPSParam_SpeedRateNormal
+		float Min = 0.98
+		float Max = 1
+	PSParam mPSParam_SpeedRateHard
+		float Min = 1
+		float Max = 1.02
+	PSParam mPSParam_SpeedRateFinalCatchDown
+		float Min = 0.8
+		float Max = 0.98
+	float mStandOutDistancePlayerMin = 120
+	float mStandOutDistancePlayerMax = 280
+	PSParam mStandOutDistanceCpuEasy
+		float Min = -40
+		float Max = 20
+	PSParam mStandOutDistanceCpuNormal
+		float Min = 30
+		float Max = 120
+	PSParam mStandOutDistanceCpuHard
+		float Min = 80
+		float Max = 200
+	float mStandOutMarginDistance = 50
+	float mTimeToUseItemFeverMin = 1
+	float mTimeToUseItemFeverMax = 2
+	float mTimeToUseItemNormalMin_Parade = 0.5
+	float mTimeToUseItemNormalMax_Parade = 3
+	float mTimeToUseItemNormalRetrySec_Parade = 0.5
+	float mTimeToUseItemFeverMin_Parade = 1
+	float mTimeToUseItemFeverMax_Parade = 2
+	float mDistanceForKouraB = 80
+	vector mProbabilityForAvoidTargetEasy
+		Array Array
+		int size = 4
+			[0]
+			int data = 0
+			[1]
+			int data = 50
+			[2]
+			int data = 50
+			[3]
+			int data = 0
+	vector mProbabilityForAvoidTargetNormal
+		Array Array
+		int size = 4
+			[0]
+			int data = 0
+			[1]
+			int data = 20
+			[2]
+			int data = 30
+			[3]
+			int data = 50
+	vector mProbabilityForAvoidTargetHard
+		Array Array
+		int size = 4
+			[0]
+			int data = 0
+			[1]
+			int data = 10
+			[2]
+			int data = 10
+			[3]
+			int data = 80
+	vector mProbabilityForAvoidTargetGesso
+		Array Array
+		int size = 4
+			[0]
+			int data = 0
+			[1]
+			int data = 50
+			[2]
+			int data = 50
+			[3]
+			int data = 0
+	BoolArray IsModuleActive
+		Array Array
+		int size = 7
+			[0]
+			BoolArray data
+				vector Value
+					Array Array
+					int size = 7
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+			[1]
+			BoolArray data
+				vector Value
+					Array Array
+					int size = 7
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+			[2]
+			BoolArray data
+				vector Value
+					Array Array
+					int size = 7
+						[0]
+						UInt8 data = 1
+						[1]
+						UInt8 data = 1
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 1
+						[6]
+						UInt8 data = 0
+			[3]
+			BoolArray data
+				vector Value
+					Array Array
+					int size = 7
+						[0]
+						UInt8 data = 1
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 1
+			[4]
+			BoolArray data
+				vector Value
+					Array Array
+					int size = 7
+						[0]
+						UInt8 data = 1
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 1
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+			[5]
+			BoolArray data
+				vector Value
+					Array Array
+					int size = 8
+						[0]
+						UInt8 data = 1
+						[1]
+						UInt8 data = 1
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+			[6]
+			BoolArray data
+				vector Value
+					Array Array
+					int size = 8
+						[0]
+						UInt8 data = 1
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 1
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0

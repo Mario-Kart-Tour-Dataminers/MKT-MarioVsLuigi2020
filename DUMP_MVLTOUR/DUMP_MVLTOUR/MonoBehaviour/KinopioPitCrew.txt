@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "KinopioPitCrew"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -4264444290308103537
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 250225150171254210
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3250319307133134186
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4595512650716361377
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8970517937334057055
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1558423618085884353
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8440867965934723755
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7616415637894852173
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3748678212673847014
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -6100836261024339435
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 8044508322237710518
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -6599263790447166174
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrew.png"
+				string mGuid = "35e3cdea9226aaf489c9e9afc3c1d1d7"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrewMap.png"
+				string mGuid = "726beb3b4b0241448939b0c4903d5491"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrewFaceEntry.png"
+				string mGuid = "27868c6a682be5542b6d1e1ae9247bd9"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrewWholeBody.png"
+				string mGuid = "0895d539c9670f04085fab4a624dfde4"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrewUpperBody.png"
+				string mGuid = "fc44c72850bcc054592d0846d5ca9fba"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrew_Small.png"
+				string mGuid = "84a7d48e3a3e411468e3ffc523679995"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrewFaceEntry_Small.png"
+				string mGuid = "fea260fe91d6d6d448c7ff31d0a3e0bb"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrewWholeBody_Small.png"
+				string mGuid = "14ba97bd82be2b7489f77a3f1863e222"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioPitCrew/Icons/KinopioPitCrewUpperBody_Small.png"
+				string mGuid = "6bb6891072969574cafba4f4a5e30329"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

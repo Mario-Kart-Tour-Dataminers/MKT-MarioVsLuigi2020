@@ -1,0 +1,14 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1791257038322169069
+	string m_Name = "ItemSlotResultInRaceResult031"
+	ItemSlotResultInRace mSlotResultInRace
+		PPtr<$ScriptableMapObjModelShadow> mItemBoxFixedPrefab
+			int m_FileID = 1
+			SInt64 m_PathID = -385060418753174711
+		string mName = "Boomerang"

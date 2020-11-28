@@ -1,0 +1,159 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4450292051221925171
+	string m_Name = "TourEndingParade"
+	IntroCutParam mIntroCut
+		float Time = 1.5
+		int Formation = 0
+		UInt8 IsWarpCamera = 0
+		float BrakeTime = 1
+		float MarginTime = 0.8
+	CharacterCutParam mCharacterCutList
+		Array Array
+		int size = 8
+			[0]
+			CharacterCutParam data
+				float Time = 2.8
+				int Formation = 0
+				UInt8 IsWarpCamera = 1
+				Vector3 AtOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				float DegX = 5.5
+				float DegY = 180
+				UInt8 IsFocusedCharaAnimEnable = 1
+				UInt8 IsAllCharaAnimEnable = 0
+				UInt8 IsDisplayTelop = 0
+				UInt8 IsTelopSyncCut = 1
+				float TelopDisplaySec = 0
+			[1]
+			CharacterCutParam data
+				float Time = 2.8
+				int Formation = 0
+				UInt8 IsWarpCamera = 0
+				Vector3 AtOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				float DegX = 5.5
+				float DegY = 180
+				UInt8 IsFocusedCharaAnimEnable = 1
+				UInt8 IsAllCharaAnimEnable = 0
+				UInt8 IsDisplayTelop = 0
+				UInt8 IsTelopSyncCut = 1
+				float TelopDisplaySec = 0
+			[2]
+			CharacterCutParam data
+				float Time = 2.8
+				int Formation = 0
+				UInt8 IsWarpCamera = 0
+				Vector3 AtOffset
+					float x = 0
+					float y = -0.5
+					float z = 0
+				float DegX = 5.5
+				float DegY = 180
+				UInt8 IsFocusedCharaAnimEnable = 1
+				UInt8 IsAllCharaAnimEnable = 0
+				UInt8 IsDisplayTelop = 1
+				UInt8 IsTelopSyncCut = 1
+				float TelopDisplaySec = 0
+			[3]
+			CharacterCutParam data
+				float Time = 2.8
+				int Formation = 0
+				UInt8 IsWarpCamera = 0
+				Vector3 AtOffset
+					float x = 0
+					float y = -0.5
+					float z = 0
+				float DegX = 5.5
+				float DegY = 180
+				UInt8 IsFocusedCharaAnimEnable = 1
+				UInt8 IsAllCharaAnimEnable = 0
+				UInt8 IsDisplayTelop = 1
+				UInt8 IsTelopSyncCut = 1
+				float TelopDisplaySec = 0
+			[4]
+			CharacterCutParam data
+				float Time = 2.8
+				int Formation = 0
+				UInt8 IsWarpCamera = 0
+				Vector3 AtOffset
+					float x = 0
+					float y = -0.5
+					float z = 0
+				float DegX = 5.5
+				float DegY = 180
+				UInt8 IsFocusedCharaAnimEnable = 1
+				UInt8 IsAllCharaAnimEnable = 0
+				UInt8 IsDisplayTelop = 1
+				UInt8 IsTelopSyncCut = 1
+				float TelopDisplaySec = 0
+			[5]
+			CharacterCutParam data
+				float Time = 2.8
+				int Formation = 0
+				UInt8 IsWarpCamera = 0
+				Vector3 AtOffset
+					float x = 0
+					float y = -0.5
+					float z = 0
+				float DegX = 5.5
+				float DegY = 180
+				UInt8 IsFocusedCharaAnimEnable = 1
+				UInt8 IsAllCharaAnimEnable = 0
+				UInt8 IsDisplayTelop = 1
+				UInt8 IsTelopSyncCut = 1
+				float TelopDisplaySec = 0
+			[6]
+			CharacterCutParam data
+				float Time = 2.8
+				int Formation = 0
+				UInt8 IsWarpCamera = 0
+				Vector3 AtOffset
+					float x = 0
+					float y = -0.5
+					float z = 0
+				float DegX = 5.5
+				float DegY = 180
+				UInt8 IsFocusedCharaAnimEnable = 1
+				UInt8 IsAllCharaAnimEnable = 0
+				UInt8 IsDisplayTelop = 1
+				UInt8 IsTelopSyncCut = 1
+				float TelopDisplaySec = 0
+			[7]
+			CharacterCutParam data
+				float Time = 1
+				int Formation = 1
+				UInt8 IsWarpCamera = 0
+				Vector3 AtOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				float DegX = 5.5
+				float DegY = 180
+				UInt8 IsFocusedCharaAnimEnable = 0
+				UInt8 IsAllCharaAnimEnable = 1
+				UInt8 IsDisplayTelop = 1
+				UInt8 IsTelopSyncCut = 0
+				float TelopDisplaySec = 3
+	RotationParam mRotation
+		float LerpRate = 0.2
+		float TimeOut = 0.5
+	TargetParam mTarget
+		float FollowRate = 1
+	StartParam mStart
+		float BackwardSectorNum = 2
+	AnimParam mAnim
+		float TelopFadeOutMargin = 0.5
+	PictureParam mPicture
+		float Time = 3
+	CameraParam mCamera
+		float DefaultFovy = 60

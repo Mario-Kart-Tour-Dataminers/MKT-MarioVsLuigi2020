@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "MarioCook"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -591237219019080262
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -6786878288032948942
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6468032259515622590
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2065574741177690739
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8318002210039396120
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1162048175076893587
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7778693060183843829
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3023577150812618547
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8226159181767738973
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 687383082161649502
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -3397227025232816351
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -222112098075627406
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCook.png"
+				string mGuid = "d9abf8a77a6dda845b0a071f7034bca5"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCookMap.png"
+				string mGuid = "58bcfd85a93bc9c42b6399deae5fc287"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCookFaceEntry.png"
+				string mGuid = "1cda44c1af9f17c4aaf183b522ed6315"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCookWholeBody.png"
+				string mGuid = "641afe5c94c0edc4ea306724a3998978"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCookUpperBody.png"
+				string mGuid = "b8dbc6de1b416514fb2be6a0dcf3ff72"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCook_Small.png"
+				string mGuid = "c42bfef455e678f4180ef8ee41b6ae38"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCookFaceEntry_Small.png"
+				string mGuid = "806534d79342d9a479983ee519692d66"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCookWholeBody_Small.png"
+				string mGuid = "0e69970e09801ce43ad24edfc3883fe6"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioCook/Icons/MarioCookUpperBody_Small.png"
+				string mGuid = "982eccc9ea9cd3e4a911c41fab2e371f"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

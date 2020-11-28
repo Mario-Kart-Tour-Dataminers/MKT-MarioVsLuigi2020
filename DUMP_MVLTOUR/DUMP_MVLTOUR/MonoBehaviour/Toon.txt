@@ -1,0 +1,32 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4454195247659244470
+	string m_Name = "Toon"
+	vector settings
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3186721356947715563
+			[1]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6671852420344207281
+			[2]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6965109745495702779
+			[3]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6701050286563501221
+			[4]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5353865844762885173

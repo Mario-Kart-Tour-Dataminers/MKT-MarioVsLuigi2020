@@ -1,0 +1,564 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5909979623682706310
+	string m_Name = "BodyK_Apple_Tire"
+	KartTireTypeSettings mTireTypeSettings
+		Array Array
+		int size = 4
+			[0]
+			KartTireTypeSettings data
+				int mTireType = 0
+				UInt8 mUseGearBox = 0
+				KartShaftSettings mShaftList
+					Array Array
+					int size = 4
+						[0]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 5
+							Vector3f mShaftScale
+								float x = 0.7
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = -0.3
+								float y = -0.375
+								float z = 0.58
+							Vector3f mTireOffset
+								float x = -0.1394672
+								float y = -0.0122018
+								float z = 0
+							Vector3f mTireScale
+								float x = 0.9
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 1
+							UInt8 mMirrorLeft = 0
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[1]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = -5
+							Vector3f mShaftScale
+								float x = 0.7
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = 0.3
+								float y = -0.375
+								float z = 0.58
+							Vector3f mTireOffset
+								float x = 0.1394672
+								float y = -0.0122018
+								float z = 0
+							Vector3f mTireScale
+								float x = 0.9
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 1
+							UInt8 mMirrorLeft = 1
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[2]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 5
+							Vector3f mShaftScale
+								float x = 0.65
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = -0.3
+								float y = -0.325
+								float z = -0.14
+							Vector3f mTireOffset
+								float x = -0.1295053
+								float y = -0.01133025
+								float z = 0
+							Vector3f mTireScale
+								float x = 1.1
+								float y = 1.3
+								float z = 1.3
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 0
+							UInt8 mMirrorLeft = 0
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[3]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = -5
+							Vector3f mShaftScale
+								float x = 0.65
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = 0.3
+								float y = -0.325
+								float z = -0.14
+							Vector3f mTireOffset
+								float x = 0.1295053
+								float y = -0.01133025
+								float z = 0
+							Vector3f mTireScale
+								float x = 1.1
+								float y = 1.3
+								float z = 1.3
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 0
+							UInt8 mMirrorLeft = 1
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+				UInt8 mHasSuspension = 1
+				float mSuspensionDepth = 0.03
+				float mSuspensionFloatDepth = 0.03
+			[1]
+			KartTireTypeSettings data
+				int mTireType = 1
+				UInt8 mUseGearBox = 0
+				KartShaftSettings mShaftList
+					Array Array
+					int size = 4
+						[0]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							Vector3f mShaftScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = -0.28
+								float y = -0.375
+								float z = 0.58
+							Vector3f mTireOffset
+								float x = -0.17
+								float y = -0.06999999
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 1
+							UInt8 mMirrorLeft = 0
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[1]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							Vector3f mShaftScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = 0.28
+								float y = -0.375
+								float z = 0.58
+							Vector3f mTireOffset
+								float x = 0.17
+								float y = -0.06999999
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 1
+							UInt8 mMirrorLeft = 1
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[2]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 10
+							Vector3f mShaftScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = -0.28
+								float y = -0.325
+								float z = -0.135
+							Vector3f mTireOffset
+								float x = -0.1552619
+								float y = -0.09845673
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1.18
+								float z = 1.18
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 0
+							UInt8 mMirrorLeft = 0
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[3]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = -10
+							Vector3f mShaftScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = 0.28
+								float y = -0.325
+								float z = -0.135
+							Vector3f mTireOffset
+								float x = 0.1552619
+								float y = -0.09845673
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1.18
+								float z = 1.18
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 0
+							UInt8 mMirrorLeft = 1
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+				UInt8 mHasSuspension = 1
+				float mSuspensionDepth = 0.02
+				float mSuspensionFloatDepth = 0.02
+			[2]
+			KartTireTypeSettings data
+				int mTireType = 3
+				UInt8 mUseGearBox = 0
+				KartShaftSettings mShaftList
+					Array Array
+					int size = 4
+						[0]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							Vector3f mShaftScale
+								float x = 0.8
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = -0.28
+								float y = -0.375
+								float z = 0.58
+							Vector3f mTireOffset
+								float x = -0.16
+								float y = 0
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 1
+							UInt8 mMirrorLeft = 0
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[1]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							Vector3f mShaftScale
+								float x = 0.8
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = 0.28
+								float y = -0.375
+								float z = 0.58
+							Vector3f mTireOffset
+								float x = 0.16
+								float y = 0
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 1
+							UInt8 mMirrorLeft = 1
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[2]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							Vector3f mShaftScale
+								float x = 0.75
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = -0.28
+								float y = -0.325
+								float z = -0.14
+							Vector3f mTireOffset
+								float x = -0.15
+								float y = 0
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1.2
+								float z = 1.2
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 0
+							UInt8 mMirrorLeft = 0
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[3]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							Vector3f mShaftScale
+								float x = 0.75
+								float y = 1
+								float z = 1
+							Vector3f mShaftPosition
+								float x = 0.28
+								float y = -0.325
+								float z = -0.14
+							Vector3f mTireOffset
+								float x = 0.15
+								float y = 0
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1.2
+								float z = 1.2
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 0
+							UInt8 mMirrorLeft = 1
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+				UInt8 mHasSuspension = 1
+				float mSuspensionDepth = 0.05
+				float mSuspensionFloatDepth = 0.05
+			[3]
+			KartTireTypeSettings data
+				int mTireType = 2
+				UInt8 mUseGearBox = 1
+				KartShaftSettings mShaftList
+					Array Array
+					int size = 4
+						[0]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 5
+							Vector3f mShaftScale
+								float x = 1.3
+								float y = 1.2
+								float z = 1.2
+							Vector3f mShaftPosition
+								float x = -0.28
+								float y = -0.375
+								float z = 0.58
+							Vector3f mTireOffset
+								float x = -0.2590106
+								float y = -0.02266049
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 1
+							UInt8 mMirrorLeft = 0
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[1]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = -5
+							Vector3f mShaftScale
+								float x = 1.3
+								float y = 1.2
+								float z = 1.2
+							Vector3f mShaftPosition
+								float x = 0.28
+								float y = -0.375
+								float z = 0.58
+							Vector3f mTireOffset
+								float x = 0.2590106
+								float y = -0.02266049
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 1
+							UInt8 mMirrorLeft = 1
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[2]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = 5
+							Vector3f mShaftScale
+								float x = 1.35
+								float y = 1.2
+								float z = 1.2
+							Vector3f mShaftPosition
+								float x = -0.3
+								float y = -0.325
+								float z = -0.14
+							Vector3f mTireOffset
+								float x = -0.2689725
+								float y = -0.02353205
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 0
+							UInt8 mMirrorLeft = 0
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+						[3]
+						KartShaftSettings data
+							Vector3f mShaftAngle
+								float x = 0
+								float y = 0
+								float z = -5
+							Vector3f mShaftScale
+								float x = 1.35
+								float y = 1.2
+								float z = 1.2
+							Vector3f mShaftPosition
+								float x = 0.3
+								float y = -0.325
+								float z = -0.14
+							Vector3f mTireOffset
+								float x = 0.2689725
+								float y = -0.02353205
+								float z = 0
+							Vector3f mTireScale
+								float x = 1
+								float y = 1
+								float z = 1
+							Vector3f mTireAngle
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsAxis = 0
+							UInt8 mMirrorLeft = 1
+							Vector3f mTireJointOffset
+								float x = 0
+								float y = 0
+								float z = 0
+				UInt8 mHasSuspension = 1
+				float mSuspensionDepth = 0.07
+				float mSuspensionFloatDepth = 0.07

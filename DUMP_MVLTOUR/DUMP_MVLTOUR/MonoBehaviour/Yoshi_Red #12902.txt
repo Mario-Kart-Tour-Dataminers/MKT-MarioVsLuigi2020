@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Yoshi_Red"
+	PPtr<$GameObject> mModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 3829718205578136850
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6407393043704051660
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8298519581287720059
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4173371752569781318
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3900146984045233538
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6054699161621897013
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6295316196024991378
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1459244720515695773
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 8843251022316324152
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float mKartScaleSize = 0
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_Red.png"
+				string mGuid = "2f0ca1a8f22e7e34fb3e4469c9607c35"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_RedMap.png"
+				string mGuid = "d2d96d31c55d901478cd0d88e98f7240"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_RedFaceEntry.png"
+				string mGuid = "b77b7b978f828144e9e50558752ae2e5"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_RedWholeBody.png"
+				string mGuid = "98bef0ece049319468421d4164d17035"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_RedUpperBody.png"
+				string mGuid = "52055c5bfd5aaf04ab4b9b5bd422a9fc"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_Red_Small.png"
+				string mGuid = "04ba8ec2c6af2804baafcacf8fbb699f"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_RedFaceEntry_Small.png"
+				string mGuid = "493524c71ab2c7643a86e449c4b295df"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_RedWholeBody_Small.png"
+				string mGuid = "e700d1c9ad0dd62408f16b9121b1314e"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Yoshi/Icons/Yoshi_RedUpperBody_Small.png"
+				string mGuid = "077cc2ac19c2ab842a6faf4e30f1f07c"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 4
+		SInt64 m_PathID = -301030022051292950
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 8648914589817297260
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 1809451323477273682
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

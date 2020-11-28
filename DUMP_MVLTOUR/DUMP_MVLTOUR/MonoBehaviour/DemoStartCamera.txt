@@ -1,0 +1,33 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4763855514933715190
+	string m_Name = "DemoStartCamera"
+	float cBeginSecond = 1
+	float cMasterSpeed = 0.007
+	float cDegY = 150
+	float cFovy = 70
+	float cDegX_SingleL = 1
+	Vector3 cTargetOffset_SingleL
+		float x = 0
+		float y = 0.7
+		float z = 1
+	float cDist_SingleL = 6
+	float cDegX_SingleM = 1
+	Vector3 cTargetOffset_SingleM
+		float x = 0
+		float y = 0
+		float z = 0.6
+	float cDist_SingleM = 4
+	float cDegX_SingleS = 1
+	Vector3 cTargetOffset_SingleS
+		float x = 0
+		float y = -0.2
+		float z = 0.2
+	float cDist_SingleS = 2
+	float mColRadius = 2
+	float mCheckWallCollisionRadius = 1.5

@@ -1,0 +1,115 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6196479991189854357
+	string m_Name = "AudioCourseObj"
+	AnimationEventParam CourseObjAnimationEventParam
+		Array Array
+		int size = 5
+			[0]
+			AnimationEventParam data
+				string AnimationName = "Gds_LuigiMansion_Chandelier_01_Anim"
+				string SoundBankName = "Chandelier"
+				EventParam SoundEvents
+					Array Array
+					int size = 5
+						[0]
+						EventParam data
+							string SoundEventName = "SwingL"
+							float AnimationTime = 0.4333333
+						[1]
+						EventParam data
+							string SoundEventName = "SwingR"
+							float AnimationTime = 1.566667
+						[2]
+						EventParam data
+							string SoundEventName = "SwingL"
+							float AnimationTime = 3
+						[3]
+						EventParam data
+							string SoundEventName = "SwingR"
+							float AnimationTime = 4.116667
+						[4]
+						EventParam data
+							string SoundEventName = "Fall"
+							float AnimationTime = 5.633333
+			[1]
+			AnimationEventParam data
+				string AnimationName = "Gds_LuigiMansion_Chandelier_02_Anim"
+				string SoundBankName = "Chandelier"
+				EventParam SoundEvents
+					Array Array
+					int size = 5
+						[0]
+						EventParam data
+							string SoundEventName = "SwingL"
+							float AnimationTime = 0.7
+						[1]
+						EventParam data
+							string SoundEventName = "SwingR"
+							float AnimationTime = 1.9
+						[2]
+						EventParam data
+							string SoundEventName = "SwingL"
+							float AnimationTime = 3.3
+						[3]
+						EventParam data
+							string SoundEventName = "SwingR"
+							float AnimationTime = 4.5
+						[4]
+						EventParam data
+							string SoundEventName = "Fall"
+							float AnimationTime = 5.66667
+			[2]
+			AnimationEventParam data
+				string AnimationName = "Gds_LuigiMansion_Chandelier_03_Anim"
+				string SoundBankName = "Chandelier"
+				EventParam SoundEvents
+					Array Array
+					int size = 5
+						[0]
+						EventParam data
+							string SoundEventName = "SwingL"
+							float AnimationTime = 1.583333
+						[1]
+						EventParam data
+							string SoundEventName = "SwingR"
+							float AnimationTime = 3
+						[2]
+						EventParam data
+							string SoundEventName = "SwingL"
+							float AnimationTime = 4.333333
+						[3]
+						EventParam data
+							string SoundEventName = "SwingR"
+							float AnimationTime = 5.5
+						[4]
+						EventParam data
+							string SoundEventName = "Fall"
+							float AnimationTime = 6.666667
+			[3]
+			AnimationEventParam data
+				string AnimationName = "Gds_LuigiMansion_PictureTeresa_01_Anim"
+				string SoundBankName = "PictureTeresa"
+				EventParam SoundEvents
+					Array Array
+					int size = 1
+						[0]
+						EventParam data
+							string SoundEventName = "FrameTeresa"
+							float AnimationTime = 0.5666667
+			[4]
+			AnimationEventParam data
+				string AnimationName = "Gds_LuigiMansion_PictureTeresa_02_Anim"
+				string SoundBankName = "PictureTeresa"
+				EventParam SoundEvents
+					Array Array
+					int size = 1
+						[0]
+						EventParam data
+							string SoundEventName = "FrameTeresa"
+							float AnimationTime = 2

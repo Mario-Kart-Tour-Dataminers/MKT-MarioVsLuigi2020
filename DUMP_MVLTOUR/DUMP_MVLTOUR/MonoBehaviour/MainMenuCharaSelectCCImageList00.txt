@@ -1,0 +1,55 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3528712136297729501
+	string m_Name = "MainMenuCharaSelectCCImageList00"
+	UInt8 savePath = 1
+	AssetIntDictionaryKeyValuePair assetDataList
+		Array Array
+		int size = 4
+			[0]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 50
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/CC/MainMenuCharaSelectCCImage50.png"
+					string guid = "7cb3a96ba62437e4d8d80c9053b10324"
+					int substitutedKey = 0
+			[1]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 100
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/CC/MainMenuCharaSelectCCImage100.png"
+					string guid = "ecf6f7ce0d1535141a96576168104250"
+					int substitutedKey = 0
+			[2]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 150
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/CC/MainMenuCharaSelectCCImage150.png"
+					string guid = "e409a255264d2c4428552e37af186a68"
+					int substitutedKey = 0
+			[3]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 200
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/CC/MainMenuCharaSelectCCImage200.png"
+					string guid = "1a565cc2c2ee96d40999ba6b4af9bb9f"
+					int substitutedKey = 0
+	int notContainKeyAction = 3
+	int assetType = 0

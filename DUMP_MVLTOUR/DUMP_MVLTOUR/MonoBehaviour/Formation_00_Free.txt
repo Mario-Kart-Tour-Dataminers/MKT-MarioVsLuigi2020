@@ -1,0 +1,14 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5729155180541303578
+	string m_Name = "Formation_00_Free"
+	string mDisplayName = "Free"
+	Kart mKart
+		Array Array
+		int size = 0
+	float mRouteRadiusMin = 0

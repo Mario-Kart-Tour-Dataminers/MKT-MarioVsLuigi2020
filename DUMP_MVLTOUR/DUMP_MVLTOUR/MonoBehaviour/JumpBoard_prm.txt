@@ -1,0 +1,95 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1150354629195081500
+	string m_Name = "JumpBoard_prm"
+	string mMapObjName = "JumpBoard"
+	vector mResource
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 1
+				SInt64 m_PathID = -3503160704354393782
+	KColSet mKCol
+		Array Array
+		int size = 2
+			[0]
+			KColSet data
+				string Name = "JumpBoard_Iron_JA_cl"
+				PPtr<$ScriptableKCollision> KCol
+					int m_FileID = 0
+					SInt64 m_PathID = 2316588663868893067
+				PPtr<$ScriptableKCollision> KCol_0_5
+					int m_FileID = 0
+					SInt64 m_PathID = -2397037829208893829
+				PPtr<$ScriptableKCollision> KCol_0_1
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[1]
+			KColSet data
+				string Name = "JumpBoard_Iron_JB_cl"
+				PPtr<$ScriptableKCollision> KCol
+					int m_FileID = 0
+					SInt64 m_PathID = 4507603748433577222
+				PPtr<$ScriptableKCollision> KCol_0_5
+					int m_FileID = 0
+					SInt64 m_PathID = 3883231986740662318
+				PPtr<$ScriptableKCollision> KCol_0_1
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+	UInt8 mKColScale = 1
+	int mModelOrigin = 0
+	Vector3 mOffset
+		float x = 0
+		float y = 0
+		float z = 0
+	MapObjCollisionParam mCollision
+		Array Array
+		int size = 0
+	PPtr<$RuntimeAnimatorController> mAnimatorController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mSubAnimatorController
+		Array Array
+		int size = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mEnableClip = 0
+	UInt8 mEnableReceiveShadow = 0
+	int mShadowType = 0
+	PPtr<$Material> mProjectionMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	Vector3 mShadowSize
+		float x = 0
+		float y = 0
+		float z = 0
+	float mShadowDensity = 0.5
+	float mGndColRayLen = 10
+	float mReactionInterval = 0
+	vector mLodScreenRelativeTransitionHeights
+		Array Array
+		int size = 0
+	UInt8 mIsUseLodSettingsForPowerSaving = 0
+	vector mLodScreenRelativeTransitionHegihtsForPowerSaving
+		Array Array
+		int size = 0
+	float mDistancedDiscardHeight = 0
+	UInt8 mIsDisableReverseScroll = 1
+	vector mDurationOnlyList
+		Array Array
+		int size = 0
+	UInt8 mIsDisableEvent = 0
+	int mScoreUpMetaId = 0
+	vector mAlternateColorMaterials
+		Array Array
+		int size = 0
+	vector mVariationNameList
+		Array Array
+		int size = 0

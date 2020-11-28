@@ -1,0 +1,4985 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5087587463111955758
+	string m_Name = "RaceScoreParam"
+	float ScoreRate = 1
+	vector mPoint
+		Array Array
+		int size = 31
+			[0]
+			int data = 5
+			[1]
+			int data = 20
+			[2]
+			int data = 0
+			[3]
+			int data = 50
+			[4]
+			int data = 0
+			[5]
+			int data = 50
+			[6]
+			int data = 10
+			[7]
+			int data = 0
+			[8]
+			int data = 0
+			[9]
+			int data = 0
+			[10]
+			int data = 0
+			[11]
+			int data = 50
+			[12]
+			int data = 1
+			[13]
+			int data = 5
+			[14]
+			int data = 5
+			[15]
+			int data = 0
+			[16]
+			int data = 5
+			[17]
+			int data = 15
+			[18]
+			int data = 30
+			[19]
+			int data = 10
+			[20]
+			int data = 30
+			[21]
+			int data = 10
+			[22]
+			int data = 15
+			[23]
+			int data = 20
+			[24]
+			int data = 25
+			[25]
+			int data = 30
+			[26]
+			int data = 50
+			[27]
+			int data = 20
+			[28]
+			int data = 40
+			[29]
+			int data = 100
+			[30]
+			int data = 0
+	vector InterimRankBonus
+		Array Array
+		int size = 8
+			[0]
+			int data = 100
+			[1]
+			int data = 80
+			[2]
+			int data = 60
+			[3]
+			int data = 50
+			[4]
+			int data = 40
+			[5]
+			int data = 30
+			[6]
+			int data = 20
+			[7]
+			int data = 10
+	EngineLevelParam mEngineLevelParams
+		Array Array
+		int size = 4
+			[0]
+			EngineLevelParam data
+				float AddScoreIntervalWhileGlide = 2.5
+				float AddScoreIntervalWhileWater = 7.5
+				float AddScoreIntervalWhileItemType018 = 2.5
+				float AddScoreIntervalWhileDriftKeep = 2.5
+				float InterimRankBonusRate = 0.5
+				int ComboNumMax = 5
+			[1]
+			EngineLevelParam data
+				float AddScoreIntervalWhileGlide = 2
+				float AddScoreIntervalWhileWater = 6
+				float AddScoreIntervalWhileItemType018 = 2
+				float AddScoreIntervalWhileDriftKeep = 2
+				float InterimRankBonusRate = 1
+				int ComboNumMax = 10
+			[2]
+			EngineLevelParam data
+				float AddScoreIntervalWhileGlide = 1.5
+				float AddScoreIntervalWhileWater = 4.5
+				float AddScoreIntervalWhileItemType018 = 1.5
+				float AddScoreIntervalWhileDriftKeep = 1.5
+				float InterimRankBonusRate = 2
+				int ComboNumMax = 15
+			[3]
+			EngineLevelParam data
+				float AddScoreIntervalWhileGlide = 1.2
+				float AddScoreIntervalWhileWater = 3.6
+				float AddScoreIntervalWhileItemType018 = 1.2
+				float AddScoreIntervalWhileDriftKeep = 1.2
+				float InterimRankBonusRate = 2
+				int ComboNumMax = 15
+	ComboParam Combo
+		vector Score
+			Array Array
+			int size = 4
+				[0]
+				int data = 5
+				[1]
+				int data = 10
+				[2]
+				int data = 20
+				[3]
+				int data = 30
+		vector Time
+			Array Array
+			int size = 4
+				[0]
+				float data = 1.4
+				[1]
+				float data = 1.8
+				[2]
+				float data = 2.1
+				[3]
+				float data = 2.4
+		int ComboScoreAdd = 1
+		float ComboScoreRate = 0.1
+	ItemScore Item
+		ItemUpSkillParam ItemTypeScore
+			Array Array
+			int size = 55
+				[0]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 10
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[1]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[2]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[3]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[4]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 100
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[5]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 4
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 100
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[6]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[7]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 5
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 10
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[8]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[9]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 100
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 100
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[10]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[11]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 10
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[12]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 4
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[13]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[14]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[15]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[16]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[17]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 25
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[18]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 4
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[19]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[20]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 100
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[21]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[22]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 50
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[23]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[24]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[25]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[26]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[27]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[28]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[29]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 100
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+				[30]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[31]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[32]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[33]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[34]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[35]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[36]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[37]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[38]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[39]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[40]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[41]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[42]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[43]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 50
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[44]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[45]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 50
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[46]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[47]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[48]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 4
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 100
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[49]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 100
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 100
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[50]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 10
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[51]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 10
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 10
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[52]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[53]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[54]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 25
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 10
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+		ItemUpSkillParam ItemSlotResultScore
+			Array Array
+			int size = 84
+				[0]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[1]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[2]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[3]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[4]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[5]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[6]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[7]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[8]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 10
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[9]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[10]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 4
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[11]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[12]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[13]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[14]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[15]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[16]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[17]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[18]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[19]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[20]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[21]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[22]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[23]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[24]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[25]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[26]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[27]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[28]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[29]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[30]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[31]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[32]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[33]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+				[34]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[35]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[36]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[37]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[38]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[39]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[40]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[41]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[42]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[43]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[44]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 30
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[45]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[46]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[47]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[48]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[49]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[50]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[51]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[52]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[53]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[54]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[55]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 4
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[56]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[57]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[58]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 1
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[59]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[60]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[61]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 3
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[62]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[63]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[64]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[65]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[66]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[67]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[68]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[69]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[70]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[71]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[72]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[73]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[74]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[75]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[76]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[77]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[78]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[79]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[80]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[81]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[82]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+				[83]
+				ItemUpSkillParam data
+					OneUpParam mScoreUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+					OneUpParam mCoinUp
+						Array Array
+						int size = 5
+							[0]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[1]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[2]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[3]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0
+							[4]
+							OneUpParam data
+								UInt8 IsEnabled = 0
+								int Deafult = 0

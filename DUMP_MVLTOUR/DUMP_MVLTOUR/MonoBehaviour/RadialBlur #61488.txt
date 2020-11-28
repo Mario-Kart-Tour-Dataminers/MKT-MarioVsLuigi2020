@@ -1,0 +1,22 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5933890506672926589
+	string m_Name = "RadialBlur"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	IntParameter blurCount
+		UInt8 overrideState = 1
+		int value = 1
+	FloatParameter blurPower
+		UInt8 overrideState = 1
+		float value = 7.5
+	FloatParameter blurPowerStepParCount
+		UInt8 overrideState = 1
+		float value = 0

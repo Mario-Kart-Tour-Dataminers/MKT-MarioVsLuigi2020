@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gmob_NewYork3_MapInfo"
+	Rectf rect
+		float x = -267.2154
+		float y = -290.5816
+		float width = 531.0618
+		float height = 531.0618
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -8654285295892378104
+	Vector2f offset
+		float x = -20
+		float y = 0

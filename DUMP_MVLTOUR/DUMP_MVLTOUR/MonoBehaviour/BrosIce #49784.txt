@@ -1,0 +1,124 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "BrosIce"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = 7534611520430454855
+	vector mFaceTextures
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 3
+				SInt64 m_PathID = -8843889503143843523
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3452429033106149153
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -32657782250070937
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6259134186913643323
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6884436915445928940
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4049293208175717055
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3697944309542817415
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 8937955677179235768
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 4
+		SInt64 m_PathID = 4400282569022022039
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 6941325386792130074
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIce.png"
+				string mGuid = "52dd5813ac136b24f813cdb845ee3253"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIceMap.png"
+				string mGuid = "cbe258cacc6a238409d870c7db27cdd6"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIceFaceEntry.png"
+				string mGuid = "59e0963358d2712428619d5bb39871fc"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIceWholeBody.png"
+				string mGuid = "0223aa3e5808dd24cb612327b063210b"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIceUpperBody.png"
+				string mGuid = "f58cbc8a8b84c5f468c2d1e065825560"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIce_Small.png"
+				string mGuid = "b76c08fc6675c134fb770c566fe87e14"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIceFaceEntry_Small.png"
+				string mGuid = "a99e16665ce086b45be1e1b54956af94"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIceWholeBody_Small.png"
+				string mGuid = "66b12b5e9d62c8b428d893e4501afffc"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosIce/Icons/BrosIceUpperBody_Small.png"
+				string mGuid = "96aec710a94d6f24b86d1a85cd33530b"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 2569924333088147028

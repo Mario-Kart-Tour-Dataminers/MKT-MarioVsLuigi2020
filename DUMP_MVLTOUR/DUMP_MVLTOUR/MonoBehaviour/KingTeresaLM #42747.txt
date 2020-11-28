@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "KingTeresaLM"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -4334177228908190410
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 8888274654978394091
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3609297321274298995
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5549629584950078947
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 838009181537565107
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1076855628367543460
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7223536208271258563
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -68317774858652474
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1994314197570931697
+	UInt8 mIsFaceTextureEmission = 1
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -4983693636604291745
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -8294049812228171833
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -6569255482923258776
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLM.png"
+				string mGuid = "151468ce6ace10e4981e8aac9d85c3ab"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLMMap.png"
+				string mGuid = "b049517284a52da49994786cd3befd80"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLMFaceEntry.png"
+				string mGuid = "17fafe8dec6acad4ea8d821b1f353f7b"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLMWholeBody.png"
+				string mGuid = "2b8c3575122317d42a8c520b4e7a00be"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLMUpperBody.png"
+				string mGuid = "a6479e657c5d60d4e880b4d4aab5eaf0"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLM_Small.png"
+				string mGuid = "667982f9131646449a2b9dfe926d5347"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLMFaceEntry_Small.png"
+				string mGuid = "e479741c854c524448736b8bca8bfc55"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLMWholeBody_Small.png"
+				string mGuid = "5f662ca61f5d54946a8323145c58d552"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaLM/Icons/KingTeresaLMUpperBody_Small.png"
+				string mGuid = "b7c9e665567ac424b9a4ae73aa08aa5d"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Kinopio"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 972787171710778002
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -7991586195149008772
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3216712538409437999
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3007457508986407384
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7324993288522090065
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4731369288237257942
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3458979561171119361
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6887831206631191092
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7336836462410104669
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -3093679772317974557
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -8764612931286993243
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -1051981497161134051
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/Kinopio.png"
+				string mGuid = "b1a944fd1c7b7ae47959a593da8391bc"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/KinopioMap.png"
+				string mGuid = "876ea7880c432464399200afd66d81c8"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/KinopioFaceEntry.png"
+				string mGuid = "0b641d6015d579c42ab5df6381a01191"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/KinopioWholeBody.png"
+				string mGuid = "8a54b86e7a788844db25ee12b340d839"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/KinopioUpperBody.png"
+				string mGuid = "9d3619b7c0a211443ab304fc2a97d8ac"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/Kinopio_Small.png"
+				string mGuid = "ee38ee9082e2a914785984379f71c2a8"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/KinopioFaceEntry_Small.png"
+				string mGuid = "e4367c9f37aad584f8491bd1bc149dd1"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/KinopioWholeBody_Small.png"
+				string mGuid = "70c3eac2a641d754a89dc960a7476eac"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopio/Icons/KinopioUpperBody_Small.png"
+				string mGuid = "b08308ae3820f564383fc1bb23d6c157"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 8772112537856697378
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "キノピオ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

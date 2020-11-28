@@ -1,0 +1,1363 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4708328194615386554
+	string m_Name = "ScreenPathTable"
+	UInt8 savePath = 1
+	AssetStringDictionaryKeyValuePair assetDataList
+		Array Array
+		int size = 135
+			[0]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Clear"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/Clear/Clear00.prefab"
+					string guid = "5a6aeeb81de591c489dd5a444f10725a"
+					string substitutedKey = ""
+			[1]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "CoinRaceList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCoin00.prefab"
+					string guid = "31cfa4316b9cb3749a66ce6e5574f52e"
+					string substitutedKey = ""
+			[2]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "CoinRaceResult"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Result/RaceResult/ResultCoinRaceBase00.prefab"
+					string guid = "0017b99916e9b5147b516f1bcd4b9019"
+					string substitutedKey = ""
+			[3]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "CommonDialog"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/Dlg00.prefab"
+					string guid = "359877da9d4917047a1411c3508a416d"
+					string substitutedKey = "ChangeKartParts"
+			[4]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Customize"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Customize/CustomizeTop/CustomizeTop00.prefab"
+					string guid = "40ee21ef91219f747958c1aa3265c463"
+					string substitutedKey = ""
+			[5]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DataUseInformation"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSettingUseInformation00.prefab"
+					string guid = "cd004d1aa82921a44bd7f35df0745044"
+					string substitutedKey = ""
+			[6]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DialogEula"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgEula00.prefab"
+					string guid = "6dfcc572515136048b68f88327541b26"
+					string substitutedKey = ""
+			[7]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DlgBootHelp"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgBootHelp00.prefab"
+					string guid = "cf31f454b4dc9ff41a45924f6f36091e"
+					string substitutedKey = ""
+			[8]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DlgTutorialHold"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgTutorialHold00.prefab"
+					string guid = "443c9d653ab5e494abb51395e07842a8"
+					string substitutedKey = ""
+			[9]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DriverSelect"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/MainMenu/MainMenuCharaSelect00.prefab"
+					string guid = "95b844062519dc84c8afcc4ceb2d7c8f"
+					string substitutedKey = ""
+			[10]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "ErrorDialog"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgError00.prefab"
+					string guid = "0e070062eb0ca9648a064e2370c6bc78"
+					string substitutedKey = "ChangeKartParts"
+			[11]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "EventAim"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/RankRace/RankRaceTop/EventRaceEntryBase00.prefab"
+					string guid = "6640e21c4b52e9e448433e6db7d5ae6e"
+					string substitutedKey = ""
+			[12]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "EventRaceEntry"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Tips/Tips00.prefab"
+					string guid = "90dfd38aedbe9ad4a91d21292f41f369"
+					string substitutedKey = "ChangeKartParts"
+			[13]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "EventResult"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Result/RaceResult/ResultEventRaceBase01.prefab"
+					string guid = "791257039898bd4468c7701438ada937"
+					string substitutedKey = ""
+			[14]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Exception"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/UnderPilot/Resources/Prefab/Exception.prefab"
+					string guid = "34ed30cbc928c6141b3a8e066c6bcfdb"
+					string substitutedKey = "ChangeKartParts"
+			[15]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Fade"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Fade/Fade00.prefab"
+					string guid = "3858b8c84abcec24d849a96cf457b180"
+					string substitutedKey = "ChangeKartParts"
+			[16]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FilterDlg"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Filter/FilterDlg00.prefab"
+					string guid = "e9b4fe3110b325147b050c61d0db3ee3"
+					string substitutedKey = ""
+			[17]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Finish"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/Finish/Finish00.prefab"
+					string guid = "a0ad771cc7e2ed244aa469dc86987bf2"
+					string substitutedKey = "ChangeKartParts"
+			[18]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "GetItem"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Shop/TreasureBox/PresentBox00.prefab"
+					string guid = "2350353d97713594a8a7182a8432f67e"
+					string substitutedKey = ""
+			[19]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "GetItemList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgPresentList00.prefab"
+					string guid = "6eb5341ab82737945a4752c89c982f8f"
+					string substitutedKey = ""
+			[20]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Go"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/Go/Go00.prefab"
+					string guid = "15f1696dff8776a4690c2ced70ca7b35"
+					string substitutedKey = "ChangeKartParts"
+			[21]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "ItemAlert"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/ItemAlert/ItemAlert00.prefab"
+					string guid = "cadf1bb8251b1654287fd2a23d38fc20"
+					string substitutedKey = "ChangeKartParts"
+			[22]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "ItemInfo"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomizeItem00.prefab"
+					string guid = "2dd85c0ad82605f40a57fd8e571e452b"
+					string substitutedKey = ""
+			[23]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Lap"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/Lap/Lap00.prefab"
+					string guid = "d7b5da844f996564b94bc31b0060cd6c"
+					string substitutedKey = "ChangeKartParts"
+			[24]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "ListDialog"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgList00.prefab"
+					string guid = "4170fa6613c06b14b828666ebb253a8b"
+					string substitutedKey = ""
+			[25]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Loading"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Loading/Loading00.prefab"
+					string guid = "ba444bc9c923c5141a0b1dbb7e11dea6"
+					string substitutedKey = "ChangeKartParts"
+			[26]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "LoginBonusList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Login/LoginBase00.prefab"
+					string guid = "bf8b4cd34f108ab46a6995750ec052aa"
+					string substitutedKey = "ChangeKartParts"
+			[27]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "MainMenu"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/MainMenu/MainMenu00.prefab"
+					string guid = "6749d9600a1aefa48a7fa441a5c3ddab"
+					string substitutedKey = "ChangeKartParts"
+			[28]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Maintenance"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgMaintenance00.prefab"
+					string guid = "cd0d69b6cbf1dec4f9ccd4ea384f7eaa"
+					string substitutedKey = ""
+			[29]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "MenuHud"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/MenuHud/MenuHud/MenuHud00.prefab"
+					string guid = "8ba203d87e0d31f42be0088466a4adbb"
+					string substitutedKey = ""
+			[30]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Message"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Tips/TipsTutorial00.prefab"
+					string guid = "bf3dcad637a9da94888c7ca0a7481b16"
+					string substitutedKey = ""
+			[31]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "MiniMessage"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Description/Description00.prefab"
+					string guid = "adeead9bbeb8c394894bdddc5a620621"
+					string substitutedKey = ""
+			[32]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Miss"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/Miss/Miss00.prefab"
+					string guid = "15c0914814574ba4398850978e79d81a"
+					string substitutedKey = ""
+			[33]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "News"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgNews00.prefab"
+					string guid = "d750036bce8174748819065e6f609e8f"
+					string substitutedKey = "ChangeKartParts"
+			[34]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PauseWindow"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/PauseWindow/PauseWindow00.prefab"
+					string guid = "4dec922012c5ed647ab03b958f74979c"
+					string substitutedKey = "ChangeKartParts"
+			[35]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PinkCoinShop"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCurrency00.prefab"
+					string guid = "b4e7fb884ae86e44cb7a58ed829d87f8"
+					string substitutedKey = "ChangeKartParts"
+			[36]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PlayerNames"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/PlayerNames/PlayerNames00.prefab"
+					string guid = "cebd1bf051bdba548a343e1299a38989"
+					string substitutedKey = "ChangeKartParts"
+			[37]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Present"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Present/Present/PresentTop00.prefab"
+					string guid = "a6d6268f4d1be1f4cbe0d90ff76850ae"
+					string substitutedKey = ""
+			[38]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RaceHud"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/RaceHudBody/RaceHudBody00.prefab"
+					string guid = "2d1ca7e5fec5ef445895b151d36aebb4"
+					string substitutedKey = "ChangeKartParts"
+			[39]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RacePlayEvent"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/TutorialEvent/RacePlayEvent00.prefab"
+					string guid = "5d3ccc0dc38e4494b8989fa6b20d01fc"
+					string substitutedKey = ""
+			[40]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RacePlayItem"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Tutorial/RacePlay/RacePlayItem00.prefab"
+					string guid = "13256a4d1f7f2e641b7cdf57a4b183f6"
+					string substitutedKey = ""
+			[41]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RacePlaySteer"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Tutorial/RacePlay/RacePlaySteer00.prefab"
+					string guid = "7b06dc56d90231748871ec6d056a60e1"
+					string substitutedKey = ""
+			[42]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RaceWipe"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Fade/Wipe00.prefab"
+					string guid = "f0b747d8a45853b48a369c8348602e27"
+					string substitutedKey = ""
+			[43]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RankRaceEntry"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/RankRace/RankRaceTop/RankRaceEntryBase01.prefab"
+					string guid = "7f16b8e5ec295924385cc30627c950d5"
+					string substitutedKey = "ChangeKartParts"
+			[44]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RankRaceResult"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Result/RaceResult/ResultRankRaceBase01.prefab"
+					string guid = "432002d2777389c4692270702ac3b809"
+					string substitutedKey = "ChangeKartParts"
+			[45]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "SaveDeleteConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSettingConfirm00.prefab"
+					string guid = "d717b0a6a57b77f45a7852244ee85538"
+					string substitutedKey = ""
+			[46]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "SettingHelpDialog"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSettingHelp00.prefab"
+					string guid = "5a0ee32548498b74ebf62cb5d37b7ae6"
+					string substitutedKey = ""
+			[47]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Settings"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Setting/Setting00.prefab"
+					string guid = "04d44a4b472ff1144bf89cea4dcdd750"
+					string substitutedKey = "ChangeKartParts"
+			[48]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Shop"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Shop/ShopTop/ShopTop01.prefab"
+					string guid = "033aa2170e3b6a04e9d7895d0ff147a0"
+					string substitutedKey = ""
+			[49]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "SpecialOffer"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgShopSpecialOffer00.prefab"
+					string guid = "9ad6c8ddb59c03b438a4ab8c97982ab0"
+					string substitutedKey = ""
+			[50]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "SubMenu"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/MainMenu/MainMenuSubMenu00.prefab"
+					string guid = "3de7be658c8faa44facd54e8dcd25bee"
+					string substitutedKey = ""
+			[51]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Title"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Title/Title00.prefab"
+					string guid = "8667ce4f269f4b6419769a4db65323fb"
+					string substitutedKey = "ChangeKartParts"
+			[52]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "TreasureBox"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Shop/TreasureBox/TreasureBox00.prefab"
+					string guid = "771f5aebe457a1b4283a9ec5b7dba306"
+					string substitutedKey = ""
+			[53]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "TreasurePurchaseConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgShop00.prefab"
+					string guid = "8266dbb4c4b503143ad9c90d15a4be4d"
+					string substitutedKey = ""
+			[54]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "TutorialGood"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Tutorial/Good/Good00.prefab"
+					string guid = "870056577c6c92742833091fc53bc1dd"
+					string substitutedKey = ""
+			[55]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "WappenList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgWappenBook00.prefab"
+					string guid = "1cb3dca715c3b9448a7359c9f2c8736d"
+					string substitutedKey = ""
+			[56]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "CoinRaceConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCoin01.prefab"
+					string guid = "357fb5f1a6fe9bf44910b2cf15d648aa"
+					string substitutedKey = ""
+			[57]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DownloadInfo"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgDownload00.prefab"
+					string guid = "ef26e412275192c46af7b2660f87ac7f"
+					string substitutedKey = ""
+			[58]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FeverFrame"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/Fever/FeverFrame00.prefab"
+					string guid = "1c2c0f24955515b40abcef8304079224"
+					string substitutedKey = ""
+			[59]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "NewsInfo"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgNews01.prefab"
+					string guid = "4f39a46d1b476a04690e054a7aaac86d"
+					string substitutedKey = ""
+			[60]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PartsBuyConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomize07.prefab"
+					string guid = "71a0bfba0b323fc4fb6e51671f934764"
+					string substitutedKey = ""
+			[61]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PartsPowerUp"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomizePowerUp00.prefab"
+					string guid = "df0c09b6b1188734f848233800bb7a4c"
+					string substitutedKey = ""
+			[62]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "ItemBuyConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomizeItem01.prefab"
+					string guid = "13e8f05b82dee774d96e79ed47f4e560"
+					string substitutedKey = ""
+			[63]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PartsInfo"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomize04.prefab"
+					string guid = "f1e48258a8b21354ea4b80bc3fdd138b"
+					string substitutedKey = ""
+			[64]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "CcSelect"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCC00.prefab"
+					string guid = "040c1395b225f6d409585a06c5787e45"
+					string substitutedKey = ""
+			[65]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "NewSeason"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Season/Season00.prefab"
+					string guid = "f5d826fb9d27a284b9de445b5c87a09c"
+					string substitutedKey = ""
+			[66]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RankRaceResultPoint"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Result/RaceResult/ResultRankRacePoint00.prefab"
+					string guid = "e538a21364f43ec40a6e7e2111c1a204"
+					string substitutedKey = ""
+			[67]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PremiumPassPurchaseConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSeasonReward00.prefab"
+					string guid = "1fabf4b0aec210a4c92326aa0abff01a"
+					string substitutedKey = ""
+			[68]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PurchasePremiumPassRewardList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSeasonReward01.prefab"
+					string guid = "7242abece26c64c48a6c6226b5168edc"
+					string substitutedKey = ""
+			[69]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "ResultActionDialog"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgResultAction00.prefab"
+					string guid = "66ef96e43b7a4694890ee39f38695bc3"
+					string substitutedKey = ""
+			[70]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "ItemSlotFrame"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/ItemSlot/ItemSlotFrame01.prefab"
+					string guid = "1eb8f0b5dcd430747b18a8d0e6a34c93"
+					string substitutedKey = ""
+			[71]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Celebration"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgUnlock00.prefab"
+					string guid = "227e03639871b4242ab1ceb2fe99af6b"
+					string substitutedKey = ""
+			[72]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Ranking"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Ranking/Ranking00.prefab"
+					string guid = "1e60fc61a0841dc4096f269ab775210d"
+					string substitutedKey = ""
+			[73]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "OverlapItems"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Description/DescriptionRanking00.prefab"
+					string guid = "6a39cdd1702af0848b268b5f48a47473"
+					string substitutedKey = ""
+			[74]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RacePlayTxt"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/TutorialEvent/RacePlayTxt00.prefab"
+					string guid = "2b0b34f7d14f4d442a687512af7aa073"
+					string substitutedKey = ""
+			[75]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RankingDescription"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgTutorialRanking00.prefab"
+					string guid = "c557ba801f526dd4ab27a570e5ff0b67"
+					string substitutedKey = ""
+			[76]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RaceHudDLRace"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/RaceHudBody/RaceHudBody01.prefab"
+					string guid = "fef6468a3bc77314a9f3afe350a8f5c0"
+					string substitutedKey = ""
+			[77]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FocusMenuButton"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Filter/FocusMainMenu00.prefab"
+					string guid = "a567492f17ae123489723fdd215d87af"
+					string substitutedKey = ""
+			[78]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FocusTreasureBoxButton"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Filter/FocusSubMenu00.prefab"
+					string guid = "00c30b602b8f093438866231dfa96be6"
+					string substitutedKey = ""
+			[79]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FocusTreasureBoxProductButton"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Filter/FocusDlgShop00.prefab"
+					string guid = "f98863d305ea82b449410119ad30ace3"
+					string substitutedKey = ""
+			[80]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "MaxItemChange"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCoinExchange00.prefab"
+					string guid = "174cd95795910184196a8776a88ec248"
+					string substitutedKey = ""
+			[81]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "CupTicketConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCupOpen00.prefab"
+					string guid = "773a0fe35ba861645a6aa3f7af6c7a2a"
+					string substitutedKey = ""
+			[82]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "CupOpen"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCupOpenDone00.prefab"
+					string guid = "1129db0669baec349a816b1443dd2a99"
+					string substitutedKey = ""
+			[83]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "StoreReview"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgReview00.prefab"
+					string guid = "2a369b542ce9e6a458e5bb2d0e80dae0"
+					string substitutedKey = ""
+			[84]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FirstEula"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Title/Eula00.prefab"
+					string guid = "6331c232dfff06742959bee8c5579991"
+					string substitutedKey = ""
+			[85]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "WappenCelebration"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgUnlock01.prefab"
+					string guid = "60608344b3bad5f459f30ec42394d2e6"
+					string substitutedKey = ""
+			[86]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "OpenSeasonRankRewardConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSeasonRewardOpen00.prefab"
+					string guid = "5205fd71013c64b43ab0dcb7f908fcc3"
+					string substitutedKey = ""
+			[87]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "OpenSeasonRankReward"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSeasonRewardOpenDone00.prefab"
+					string guid = "9e99a63dfb4beda46bf30161f1a91c1b"
+					string substitutedKey = ""
+			[88]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Friend"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgFriend00.prefab"
+					string guid = "803d560c1ba23304aa9064bf13e92621"
+					string substitutedKey = ""
+			[89]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "IdCopyComplete"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgFriendCode00.prefab"
+					string guid = "cf536167b188074498c04509a0891efc"
+					string substitutedKey = ""
+			[90]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DailyChallengeList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = ""
+					string guid = ""
+					string substitutedKey = ""
+			[91]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FriendApproval"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgFriendApproval00.prefab"
+					string guid = "12758ad903d26d349b6df3c610772ef0"
+					string substitutedKey = ""
+			[92]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PremiumPassExpire"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSeasonReward02.prefab"
+					string guid = "1add51b7d186fa44e87817bca9bc42ba"
+					string substitutedKey = ""
+			[93]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "SelectDriftMode"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgDrift00.prefab"
+					string guid = "beae1cb7fbfec99468643ebe23842c42"
+					string substitutedKey = ""
+			[94]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FriendApplication"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgFriendApplication00.prefab"
+					string guid = "6f6c695d4c53d6a4ebb11eeeabc3f6b6"
+					string substitutedKey = ""
+			[95]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "UserRankInfo"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgUserRank00.prefab"
+					string guid = "ae99980e0cd1b9843a8a15cd5e4c62be"
+					string substitutedKey = ""
+			[96]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PremiumPassUserLocked"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSeasonReward04.prefab"
+					string guid = "d9b74a3194535c3428e3b7cd0cc9873a"
+					string substitutedKey = ""
+			[97]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PremiumPassLockedItem"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomizeItem02.prefab"
+					string guid = "d5fd0b2b1bcf9ac41983dfeb583c13fb"
+					string substitutedKey = ""
+			[98]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PremiumPassLockedParts"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomize08.prefab"
+					string guid = "74827d0883ba7f549a7f6ec6e367734a"
+					string substitutedKey = ""
+			[99]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DlgCourseResultEvent"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCourseResult01.prefab"
+					string guid = "63c2e55ee8a78f645b6c95e21bb505e4"
+					string substitutedKey = ""
+			[100]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DlgCourseResultRace"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCourseResult00.prefab"
+					string guid = "984eb392524911240874745f81396926"
+					string substitutedKey = ""
+			[101]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "StockWappenList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Wappen/WappenTop00.prefab"
+					string guid = "484a71e7fa0f4d943b3d1b28d47db436"
+					string substitutedKey = ""
+			[102]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "WappenEquipConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgWappen00.prefab"
+					string guid = "08a71c4f707007841b52a1418cfd341d"
+					string substitutedKey = ""
+			[103]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "WappenEquipped"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgWappen01.prefab"
+					string guid = "6b994f530362f24469240affe6c05b07"
+					string substitutedKey = ""
+			[104]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PremiumPassInfo"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgSeasonReward05.prefab"
+					string guid = "06f94ac2af2bfd94889d01d6518a7190"
+					string substitutedKey = ""
+			[105]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "SpecialOfferRecommend"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgShopSpecialOfferRecommend00.prefab"
+					string guid = "7e9f21af97fabbf408309b5bc0afdcd7"
+					string substitutedKey = ""
+			[106]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "TicketList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Ticket/TicketTop00.prefab"
+					string guid = "485ce41ddbecf17419127668cba0cc3c"
+					string substitutedKey = ""
+			[107]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "TicketTargetList"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgTicketTarget00.prefab"
+					string guid = "8798068dbe86a6147bd1c0bcbc10099f"
+					string substitutedKey = ""
+			[108]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "TreasureBoxDetail"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgShopIntroduction00.prefab"
+					string guid = "88e5ff0f94c67e04b8658e1c3d104d8b"
+					string substitutedKey = ""
+			[109]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "NetPlayBG"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/NetPlay/NetPlayBG00.prefab"
+					string guid = "b19c2d4b86c0e124bb7c4b3c5742af0d"
+					string substitutedKey = ""
+			[110]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "NetPlayTop"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/NetPlay/NetPlayTop00.prefab"
+					string guid = "9230c565e1061fc4cb9b898050dad764"
+					string substitutedKey = ""
+			[111]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "NetPlayWait"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/NetPlay/NetPlayWait00.prefab"
+					string guid = "d6d667cdc02c9234fb5e98901302ee71"
+					string substitutedKey = ""
+			[112]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "NetPlayLobby"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/NetPlay/NetPlayLobby00.prefab"
+					string guid = "f2a3585fe5cfca041b5faf04d813e3de"
+					string substitutedKey = ""
+			[113]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "MainMenuNetPlayCountDown"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/MainMenu/MainMenuNetPlayCountDown00.prefab"
+					string guid = "1204210fe5ac396418c0e35308f1e267"
+					string substitutedKey = ""
+			[114]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DlgNetPlayRuleHost"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgNetPlayRule00.prefab"
+					string guid = "97c80daa1a152544b8696389c41446c3"
+					string substitutedKey = ""
+			[115]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DlgNetPlayRuleGuest"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgNetPlayRule01.prefab"
+					string guid = "d773df6fc87757b4597832376f91b47b"
+					string substitutedKey = ""
+			[116]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PartsUnlock"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomizeUnlock00.prefab"
+					string guid = "7f197e47c1321554ca98472ee460aabe"
+					string substitutedKey = ""
+			[117]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DlgNetPlayPin"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgNetPlayPin00.prefab"
+					string guid = "ebb6f447ee0577942a2aacd23ba62a0e"
+					string substitutedKey = ""
+			[118]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "MainMenuTest"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/MainMenu/MainMenu01.prefab"
+					string guid = "23140b05a9a3498478a78dc398d2e286"
+					string substitutedKey = ""
+			[119]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "DlgNetPlayLobbyInvite"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgNetPlayLobbyInvite00.prefab"
+					string guid = "ae3ae8412ff92e44f805550dd74cddc5"
+					string substitutedKey = ""
+			[120]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "NotificationRoomOpenedSimple"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Notification/Notification01.prefab"
+					string guid = "6853b4c07a140d94ca5fe315ffd46cef"
+					string substitutedKey = ""
+			[121]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "NotificationRoomOpenedDetail"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Notification/Notification00.prefab"
+					string guid = "6142d77e9153aa5439987a22f03317af"
+					string substitutedKey = ""
+			[122]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "TourGift"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/SeasonReward/SeasonRewardTop00.prefab"
+					string guid = "b792af85a4e096b4bb3e1cdd871f6099"
+					string substitutedKey = ""
+			[123]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RaceHudMap"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/RaceHudBody/RaceHudMap00.prefab"
+					string guid = "52201e8f071ae564380a8c4d5ae1ccfa"
+					string substitutedKey = ""
+			[124]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "TourEndingParade"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/RankRace/RankRaceTop/TourEndingParadeBase00.prefab"
+					string guid = "7f55bd1d061888345af7c7afe2d179fe"
+					string substitutedKey = ""
+			[125]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "RankRaceEntryLandscapeGuide"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/RankRace/RankRaceTop/RankRaceEntryLandscapeBase00.prefab"
+					string guid = "d11b57058d97a9f4e84574b94b7f6c93"
+					string substitutedKey = ""
+			[126]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "MainMenuLandscapeGuide"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgTutorialLandscape00.prefab"
+					string guid = "f948648566c9808458e5e9a1a546e562"
+					string substitutedKey = ""
+			[127]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "EventRaceRemainingTime"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Race/RemainingTime/RemainingTime00.prefab"
+					string guid = "fcaae7160a212fb4caf25589fa9794a0"
+					string substitutedKey = ""
+			[128]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "PartsPowerUpContent"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgCustomizePowerUpContent00.prefab"
+					string guid = "dc92c7b26c0a6494ab326404aa89767e"
+					string substitutedKey = ""
+			[129]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "Profile"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Profile/Profile00.prefab"
+					string guid = "624821d9309261547a91279841532e47"
+					string substitutedKey = ""
+			[130]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FavoritePartsSelect"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgTicketTarget01.prefab"
+					string guid = "6ab0672c7bbf0f541bc56e32f8285229"
+					string substitutedKey = ""
+			[131]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "ScreenshotShare"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgShare00.prefab"
+					string guid = "0f8d91b6240b6db4397650cb76db62df"
+					string substitutedKey = ""
+			[132]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FestivalTeamSelect"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Fes/FesTeamSelect00.prefab"
+					string guid = "db73e360b98e76c4ba4168e510987973"
+					string substitutedKey = ""
+			[133]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FestivalTeamConfirm"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Common/Dialog/DlgFesTeamConfirmation00.prefab"
+					string guid = "fb75305508403d4408edfd20d7808573"
+					string substitutedKey = ""
+			[134]
+			AssetStringDictionaryKeyValuePair data
+				string Key = "FestivalEnding"
+				AssetStringDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Menu/Fes/FesResult00.prefab"
+					string guid = "7f08962b284b95d4bbb64322c36e8ec9"
+					string substitutedKey = ""

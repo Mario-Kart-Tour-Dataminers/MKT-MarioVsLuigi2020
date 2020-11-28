@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Wario"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -1458961956754203744
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -8198139113354077567
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1872193196778446282
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5118560581478978720
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2601736068914934041
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1378234115725553929
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6370634675209419792
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1519911249907110976
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4937964740926422713
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 7176015329771527818
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 1658532611096788449
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -7499861971829599947
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/Wario.png"
+				string mGuid = "c419a9bcc267d994a94d2c7825aaf75f"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/WarioMap.png"
+				string mGuid = "58c8bb260abee8641a69c3e6c06c0b65"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/WarioFaceEntry.png"
+				string mGuid = "5934c3b4b4f32d148bd9946a116ecc88"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/WarioWholeBody.png"
+				string mGuid = "d6c89bf726d630343adca063a964b76e"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/WarioUpperBody.png"
+				string mGuid = "a115c22da1445274ca503eac63186da1"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/Wario_Small.png"
+				string mGuid = "e185b69ab7e8a524ab0ccb3ff8afe437"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/WarioFaceEntry_Small.png"
+				string mGuid = "7ae932c75ee417c498273e9fc5b4a1cf"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/WarioWholeBody_Small.png"
+				string mGuid = "cae1b518e2b7aad41b9c4701406a3a60"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wario/Icons/WarioUpperBody_Small.png"
+				string mGuid = "464e4a3243ed188408f127d477daffad"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -7595172887263167960
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ワリオ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

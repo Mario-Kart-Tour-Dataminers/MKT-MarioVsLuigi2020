@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3850960567685848545
+	string m_Name = "DemoCourseIntroCamera"
+	float mBrakeFrame = 120
+	int mLastCameraMarginFrame = 120
+	UInt8 mRaceKartVisibleNotLast = 0
+	UInt8 mRaceKartVisibleLast = 1
+	float mGlobalCutOffDistance = 150
+	float mGlobalCutOffDistanceY = 50

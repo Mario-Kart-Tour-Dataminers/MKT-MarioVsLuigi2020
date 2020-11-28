@@ -1,0 +1,39 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6895405799716105771
+	string m_Name = "WingCommonSettings"
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareMachineNormalBase00.png"
+				string mGuid = "d77ef56d51f211b479c56fc0c8e70d80"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareMachineRareBase00.png"
+				string mGuid = "b614d16dffa5a7947a25594d67ceb14a"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareMachineUltraBase00.png"
+				string mGuid = "ad7cd46a4bebf5a4ca62412d29e4366d"
+	IconInfo mBalloonIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareBalloonMachineNormal00.png"
+				string mGuid = ""
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareBalloonMachineRare00.png"
+				string mGuid = ""
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareBalloonMachineUltra00.png"
+				string mGuid = ""

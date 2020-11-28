@@ -1,0 +1,134 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6390104249597991665
+	string m_Name = "Treasure1List00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 15
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1JPja.png"
+				string guid = "d0a537d3fff574d4f9aeaf5fd129818e"
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1USen.png"
+				string guid = "0f0dc4593f759654d8dc768fdd54e058"
+				int substitutedArrayIndex = 0
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1EUen.png"
+				string guid = "b39ea3b98f08d614793caef9cf707e2d"
+				int substitutedArrayIndex = 0
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1USes.png"
+				string guid = "7795e4fe8a029b74882042f0370cdfb8"
+				int substitutedArrayIndex = 0
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1EUes.png"
+				string guid = "58c01bc5caba3694280c4a791177a1df"
+				int substitutedArrayIndex = 0
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1EUfr.png"
+				string guid = "df18f9d7b2eb8094a950e0f09dccd174"
+				int substitutedArrayIndex = 0
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1EUde.png"
+				string guid = "7a66d04969f1c02408b6bd3fb88fc519"
+				int substitutedArrayIndex = 0
+			[8]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1EUit.png"
+				string guid = "3849076452f59134690a882ec2b564d0"
+				int substitutedArrayIndex = 0
+			[9]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[10]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[11]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 3
+			[12]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1KRko.png"
+				string guid = "f2db72f9d5d3e5c44ab75bbb81048f4e"
+				int substitutedArrayIndex = 0
+			[13]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1CNzh.png"
+				string guid = "00630c05315d44e47a7a847b306162c0"
+				int substitutedArrayIndex = 0
+			[14]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Text/Common/Treasure1TWzh.png"
+				string guid = "4443034900dbd9046afca141233f4e05"
+				int substitutedArrayIndex = 0

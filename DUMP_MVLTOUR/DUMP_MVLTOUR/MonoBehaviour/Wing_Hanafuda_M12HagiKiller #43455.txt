@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_Hanafuda_M12HagiKiller"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Hanafuda/Icons/Wing_Hanafuda_M12HagiKiller.png"
+				string mGuid = "f221da802208a5a48872e51b74efdfd7"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Hanafuda/Icons/Wing_Hanafuda_M12HagiKiller_Large.png"
+				string mGuid = "95560fc275cb47544b624cae7099a23f"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Hanafuda/Icons/Wing_Hanafuda_M12HagiKiller_Small.png"
+				string mGuid = "7cdf1a3a8f5410645994f9b3912cf004"
+	int mWingType = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 1
+		SInt64 m_PathID = 5343345796712438386
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 8673436021905018298
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

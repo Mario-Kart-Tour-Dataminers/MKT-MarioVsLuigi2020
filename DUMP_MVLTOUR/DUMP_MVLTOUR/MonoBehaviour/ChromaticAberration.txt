@@ -1,0 +1,25 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7663768427261529479
+	string m_Name = "ChromaticAberration"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	TextureParameter spectralLut
+		UInt8 overrideState = 0
+		PPtr<$Texture> value
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		int defaultState = 1
+	FloatParameter intensity
+		UInt8 overrideState = 1
+		float value = 1
+	BoolParameter fastMode
+		UInt8 overrideState = 0
+		UInt8 value = 1

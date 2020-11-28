@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Waluigi"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = 191428517266274292
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = 4185836007204536772
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3800557516307916157
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 9147771495343890940
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8975446344797490401
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7421072817826488718
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5261969544895458700
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4079321531277106455
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2447521581022781539
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -2552245077667265811
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -6230923201966074504
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -6652385684872576641
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/Waluigi.png"
+				string mGuid = "b85b23bcfbf9c9a4eb6500d893a364c7"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/WaluigiMap.png"
+				string mGuid = "01a13bd0b672bac43b5e5e619aeb3254"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/WaluigiFaceEntry.png"
+				string mGuid = "55194fb9637da59449bbcf1a6d9e9485"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/WaluigiWholeBody.png"
+				string mGuid = "60d7939b992e0da478c08f28ba15ab25"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/WaluigiUpperBody.png"
+				string mGuid = "da8827e97af9e23419c91c8e4edbe719"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/Waluigi_Small.png"
+				string mGuid = "dc12bed84a7f5b243880b536a3162bba"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/WaluigiFaceEntry_Small.png"
+				string mGuid = "0b6b70b3710d330429701c391a786496"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/WaluigiWholeBody_Small.png"
+				string mGuid = "91aeca79305df5744842c3417355f301"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Waluigi/Icons/WaluigiUpperBody_Small.png"
+				string mGuid = "639ea7842b006d041ac5ba505ecc8cb8"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -3318157874173503985
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ワルイージ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

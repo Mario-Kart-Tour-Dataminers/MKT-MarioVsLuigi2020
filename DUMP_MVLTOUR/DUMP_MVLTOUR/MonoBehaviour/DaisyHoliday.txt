@@ -1,0 +1,124 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "DaisyHoliday"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = 721338245400939646
+	vector mFaceTextures
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6325225925214213823
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7136152252926161583
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1041772350829518187
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7845834069693167384
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4136335593218102978
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1431442826161487301
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9036608274611614817
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 8790912448713502495
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 1
+		SInt64 m_PathID = -8403276904656754773
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -7073600540249566289
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHoliday.png"
+				string mGuid = "9ad9656a05ac98a46afe2b9cf5005183"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHolidayMap.png"
+				string mGuid = "8657956171894b343bb90cdf78c8bcd9"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHolidayFaceEntry.png"
+				string mGuid = "c2d4c6633c9567c4dab8492956787fe3"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHolidayWholeBody.png"
+				string mGuid = "81e1d5ed55a0cb346beaa3d1c15943c2"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHolidayUpperBody.png"
+				string mGuid = "d4ad65d570da93f41adade24a1470d25"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHoliday_Small.png"
+				string mGuid = "aebe48621f2612a48b4eb4688a346f89"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHolidayFaceEntry_Small.png"
+				string mGuid = "a32fc86eccfcd1e4fac67d943737e171"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHolidayWholeBody_Small.png"
+				string mGuid = "a54a331c3f1eced45bda45e0a4e7c74d"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyHoliday/Icons/DaisyHolidayUpperBody_Small.png"
+				string mGuid = "e7f9c00e446b1dd45887f6ed7649a2b6"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 7251936232271974185
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

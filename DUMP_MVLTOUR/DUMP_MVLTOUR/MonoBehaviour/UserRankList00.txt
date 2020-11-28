@@ -1,0 +1,104 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "UserRankList00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 11
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank1-10.png"
+				string guid = "4c45a1e79e029c64c90e2f358e825adf"
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank11-20.png"
+				string guid = "1a713c637c5f2ce43ade03d6153065b2"
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank21-30.png"
+				string guid = "76dff85161f1bf14b96a290852cce8fb"
+				int substitutedArrayIndex = 3
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank31-40.png"
+				string guid = "a98d8ab4365e95042991c9b0bb646e63"
+				int substitutedArrayIndex = 4
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank41-50.png"
+				string guid = "211d28ac94dfa744685e5ca2fdc223d8"
+				int substitutedArrayIndex = 5
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank51-60.png"
+				string guid = "a9b80bbb59160074a9b14b2a66873965"
+				int substitutedArrayIndex = 6
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank61-70.png"
+				string guid = "fa34b736bf1fe2d4c81b9d15bd6e2b04"
+				int substitutedArrayIndex = 7
+			[8]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank71-80.png"
+				string guid = "fe006d6352d988649ae1794108e34f1b"
+				int substitutedArrayIndex = 8
+			[9]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank81-90.png"
+				string guid = "3010dbe4726b80a49a6e6860b641f732"
+				int substitutedArrayIndex = 9
+			[10]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/UserRank/UserRank91-99.png"
+				string guid = "a07214692f8705c4f8075a3f4d91097f"
+				int substitutedArrayIndex = 10
+	int assetType = 0
+	int keyType = 0

@@ -1,0 +1,160 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3205259396417638272
+	string m_Name = "TireK_SmallB"
+	int mTireType = 1
+	KartTireSettings mTireList
+		Array Array
+		int size = 4
+			[0]
+			KartTireSettings data
+				PPtr<$GameObject> mTireModel
+					int m_FileID = 0
+					SInt64 m_PathID = -1437204641700830064
+				Vector3f mTireJointOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				PPtr<$GameObject> mShaftModel
+					int m_FileID = 45
+					SInt64 m_PathID = 4431166047170482888
+				Vector3f mShaftRotationLimit
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3f mShaftScaleLimit
+					float x = 1
+					float y = 1
+					float z = 1
+				UInt8 mMirrorFront = 0
+			[1]
+			KartTireSettings data
+				PPtr<$GameObject> mTireModel
+					int m_FileID = 0
+					SInt64 m_PathID = -5751544147476066311
+				Vector3f mTireJointOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				PPtr<$GameObject> mShaftModel
+					int m_FileID = 57
+					SInt64 m_PathID = -1166448813254856955
+				Vector3f mShaftRotationLimit
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3f mShaftScaleLimit
+					float x = 1
+					float y = 1
+					float z = 1
+				UInt8 mMirrorFront = 0
+			[2]
+			KartTireSettings data
+				PPtr<$GameObject> mTireModel
+					int m_FileID = 0
+					SInt64 m_PathID = -1437204641700830064
+				Vector3f mTireJointOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				PPtr<$GameObject> mShaftModel
+					int m_FileID = 45
+					SInt64 m_PathID = 4431166047170482888
+				Vector3f mShaftRotationLimit
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3f mShaftScaleLimit
+					float x = 1
+					float y = 1
+					float z = 1
+				UInt8 mMirrorFront = 1
+			[3]
+			KartTireSettings data
+				PPtr<$GameObject> mTireModel
+					int m_FileID = 0
+					SInt64 m_PathID = -5751544147476066311
+				Vector3f mTireJointOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				PPtr<$GameObject> mShaftModel
+					int m_FileID = 57
+					SInt64 m_PathID = -1166448813254856955
+				Vector3f mShaftRotationLimit
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3f mShaftScaleLimit
+					float x = 1
+					float y = 1
+					float z = 1
+				UInt8 mMirrorFront = 1
+	IconInfo mIconInfo
+		Array Array
+		int size = 1
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Tire/TireK_SmallB/Icons/TireK_SmallB.png"
+				string mGuid = "02f10e7c31f84894fa12bcc6a8f9ff56"
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartTire> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mShaftMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -1399713815931075863
+	EffectKeyContainerPair mEffectContainerForBody
+		Array Array
+		int size = 6
+			[0]
+			EffectKeyContainerPair data
+				unsigned int mKey = 1894510494
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = 479125598189394382
+			[1]
+			EffectKeyContainerPair data
+				unsigned int mKey = 1594305071
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = -4058280616390788777
+			[2]
+			EffectKeyContainerPair data
+				unsigned int mKey = 1177062736
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = -4097547154958181700
+			[3]
+			EffectKeyContainerPair data
+				unsigned int mKey = 4192937177
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = -6696845538476240459
+			[4]
+			EffectKeyContainerPair data
+				unsigned int mKey = 2480727258
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = 1741633762723652237
+			[5]
+			EffectKeyContainerPair data
+				unsigned int mKey = 521017335
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = 5460287982344310974
+	string mDescription = "ローラーブルー"
+	PPtr<$ScriptableKartTire> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

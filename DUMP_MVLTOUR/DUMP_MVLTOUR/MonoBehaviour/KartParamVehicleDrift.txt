@@ -1,0 +1,19 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1459800800835859083
+	string m_Name = "KartParamVehicleDrift"
+	float cDriftSteerInRatio = 0.55
+	float cDriftSteerInRatio_200CC = 0.7
+	float cDriftSteerInRatio_CoinBattle = 0.7
+	float cDriftSteerOutRatio = 0.4
+	float cDriftSteerOutRatio_200CC = 0.6
+	float cDriftSteerOutRatio_CoinBattle = 0.6
+	float cAutoDriftCharge_AutoDriftStart = 20
+	float cCurveAngle_AutoDriftAutoStart = 20
+	float cCurveAngle_AutoDriftStart = 10
+	float cAutoChargeMax = 40

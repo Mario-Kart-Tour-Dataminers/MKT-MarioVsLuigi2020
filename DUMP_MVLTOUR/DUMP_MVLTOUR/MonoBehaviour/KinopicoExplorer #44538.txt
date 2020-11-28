@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "KinopicoExplorer"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -3677240616152855934
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -1699323194995354461
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -947532736202396676
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5555376644865099708
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5348728161619934703
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1963072222269703280
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -112685235885771566
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -366442552846908509
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1059763248885036698
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -8514910757473903964
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 5050074245861249815
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 6812845757136050453
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorer.png"
+				string mGuid = "523ea21cd6b67ea46a4d222b03c80159"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorerMap.png"
+				string mGuid = "76e6265611e54594aa018d76dacaff58"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorerFaceEntry.png"
+				string mGuid = "037f0cc755125d64aaa87cb2438d07d8"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorerWholeBody.png"
+				string mGuid = "63501ca31303be9448072c2d70dc9e5f"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorerUpperBody.png"
+				string mGuid = "036ea3d2781a8674f867057ebbc7fbfc"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorer_Small.png"
+				string mGuid = "f4a8a5cff80eaae4c97e1b70e610607d"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorerFaceEntry_Small.png"
+				string mGuid = "804515f2b2f0ca34ba5ede33ffed6570"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorerWholeBody_Small.png"
+				string mGuid = "e150f27afa7ba5942a828b6fa985e48c"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopicoExplorer/Icons/KinopicoExplorerUpperBody_Small.png"
+				string mGuid = "71716df0db7995543b69f31e9280ad91"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -2788303749896237753
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "探検家キノピコ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

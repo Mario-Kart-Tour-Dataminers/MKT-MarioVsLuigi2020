@@ -1,0 +1,63 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8022725802726239605
+	string m_Name = "GraphicPostEffect"
+	PPtr<$PostProcessResources> mPostEffectResource
+		int m_FileID = 0
+		SInt64 m_PathID = -14191494099089390
+	PPtr<$PostProcessProfile> mDepthOfField
+		int m_FileID = 0
+		SInt64 m_PathID = 5910329643033259750
+	PPtr<$PostProcessProfile> mDepthOfField2
+		int m_FileID = 0
+		SInt64 m_PathID = 8400387899435243481
+	PPtr<$PostProcessProfile> mSepia
+		int m_FileID = 0
+		SInt64 m_PathID = 2304260147413485728
+	PPtr<$PostProcessProfile> mGrayScale
+		int m_FileID = 0
+		SInt64 m_PathID = -6507508482810306158
+	PPtr<$PostProcessProfile> mReal
+		int m_FileID = 0
+		SInt64 m_PathID = -4733096046741826434
+	PPtr<$PostProcessProfile> mFisheye
+		int m_FileID = 0
+		SInt64 m_PathID = -1747007258441780276
+	PPtr<$PostProcessProfile> mFilterType000
+		int m_FileID = 0
+		SInt64 m_PathID = -3420757139037850409
+	PPtr<$PostProcessProfile> mFilterType001
+		int m_FileID = 0
+		SInt64 m_PathID = 783887458538524755
+	PPtr<$PostProcessProfile> mFilterType002
+		int m_FileID = 0
+		SInt64 m_PathID = 8785948253863422365
+	PPtr<$PostProcessProfile> mOilPaint
+		int m_FileID = 0
+		SInt64 m_PathID = -7551631939786983308
+	PPtr<$PostProcessProfile> mRadialBlur
+		int m_FileID = 0
+		SInt64 m_PathID = 4167751381059821389
+	PPtr<$PostProcessProfile> mHyperColor
+		int m_FileID = 0
+		SInt64 m_PathID = 5940486183204463717
+	PPtr<$PostProcessProfile> mOutline
+		int m_FileID = 0
+		SInt64 m_PathID = 3420217390416912198
+	PPtr<$PostProcessProfile> mToon
+		int m_FileID = 0
+		SInt64 m_PathID = -3280163206219954677
+	PPtr<$PostProcessProfile> mSilhouette
+		int m_FileID = 0
+		SInt64 m_PathID = -28456096630939899
+	PPtr<$PostProcessProfile> mComic
+		int m_FileID = 0
+		SInt64 m_PathID = 4868542761619232746
+	PPtr<$PostProcessProfile> mFancy
+		int m_FileID = 0
+		SInt64 m_PathID = 4318957345864997122

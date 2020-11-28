@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Larry"
+	PPtr<$GameObject> mModel
+		int m_FileID = 3
+		SInt64 m_PathID = -8206402823731678187
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = 3800054914836346750
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8345150628277702760
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4796538437812553039
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4191526471512588521
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1879215419754352738
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6648526713129563370
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1450569292442542267
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6238952651960180920
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 6047073863244603523
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 2
+		SInt64 m_PathID = 2587586646530507601
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 351545545415223903
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/Larry.png"
+				string mGuid = "0763212af9fb4bd49ba60badd2f9c22f"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/LarryMap.png"
+				string mGuid = "4dd2566228e88f54f8297862000c4a0c"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/LarryFaceEntry.png"
+				string mGuid = "f979f2fbe8caf7f43bc72c92fd393a98"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/LarryWholeBody.png"
+				string mGuid = "6d9953fdd00bf054fb513ba66dd8fca8"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/LarryUpperBody.png"
+				string mGuid = "0dc3869abc68c604d9cf17dee17527df"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/Larry_Small.png"
+				string mGuid = "0f6e0404ecf285d48bfa8b0b780ad512"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/LarryFaceEntry_Small.png"
+				string mGuid = "e45d9034dbc17224eada307f96e88a1f"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/LarryWholeBody_Small.png"
+				string mGuid = "22b5eb33b7e143245be35c7fdc5ec741"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Larry/Icons/LarryUpperBody_Small.png"
+				string mGuid = "1d8bc665a8d50464f98f7884e81441b0"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -3104242301453435315
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ラリー"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

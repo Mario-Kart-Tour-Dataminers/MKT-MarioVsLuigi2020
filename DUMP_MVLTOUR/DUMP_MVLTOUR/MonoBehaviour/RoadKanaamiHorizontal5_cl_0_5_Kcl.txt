@@ -1,0 +1,3441 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7562848319295149356
+	string m_Name = "RoadKanaamiHorizontal5_cl_0_5_Kcl"
+	KCollision mKCollision
+		KCollisionV2Header mHeader
+			UInt8 versionNum0 = 2
+			UInt8 versionNum1 = 2
+			UInt8 versionNum2 = 0
+			UInt8 versionNum3 = 0
+			unsigned int division_info_offset = 56
+			unsigned int kcl_jumplist_offset = 88
+			unsigned int num_kcl = 1
+			Vector3 area_min_pos
+				float x = -10.54727
+				float y = -8.866412
+				float z = -17.0731
+			Vector3 area_max_pos
+				float x = 10.54727
+				float y = 8.252625
+				float z = 17.0731
+			Vector3i area_width_shift
+				int x = 5
+				int y = 5
+				int z = 6
+			unsigned int num_prism_number = 82
+		vector mKclOffset
+			Array Array
+			int size = 1
+				[0]
+				unsigned int data = 92
+		vector mBlockData
+			Array Array
+			int size = 9
+				[0]
+				unsigned int data = 2147483648
+				[1]
+				unsigned int data = 2147483648
+				[2]
+				unsigned int data = 2147483648
+				[3]
+				unsigned int data = 2147483648
+				[4]
+				unsigned int data = 2147483648
+				[5]
+				unsigned int data = 2147483648
+				[6]
+				unsigned int data = 2147483648
+				[7]
+				unsigned int data = 2147483648
+				[8]
+				unsigned int data = 92
+		Vector3i mAreaWidthShift
+			int x = 4
+			int y = 4
+			int z = 5
+		Vector3i mAreaWidthMask
+			int x = -32
+			int y = -32
+			int z = -64
+		KCollisionVer1Data mVer1Data
+			Array Array
+			int size = 1
+				[0]
+				KCollisionVer1Data data
+					KCollisionV1Header mHeader
+						unsigned int pos_data_offset = 60
+						unsigned int nrm_data_offset = 384
+						unsigned int prism_data_offset = 960
+						unsigned int block_data_offset = 2600
+						float prism_thickness = 3
+						Vector3 area_min_pos
+							float x = -10.54727
+							float y = -8.866412
+							float z = -17.0731
+						unsigned int area_x_width_mask = 4294967264
+						unsigned int area_y_width_mask = 4294967264
+						unsigned int area_z_width_mask = 4294967232
+						int block_width_shift = 4
+						int area_x_blocks_shift = 1
+						int area_xy_blocks_shift = 2
+						float sphere_radius = 1.8
+					Vector3 mPosData
+						Array Array
+						int size = 27
+							[0]
+							Vector3 data
+								float x = 4.54727
+								float y = 0.133588
+								float z = -11.0731
+							[1]
+							Vector3 data
+								float x = -4.54727
+								float y = 0.133588
+								float z = -6.81425
+							[2]
+							Vector3 data
+								float x = -3.701145
+								float y = 0.133588
+								float z = -10.2524
+							[3]
+							Vector3 data
+								float x = 3.701145
+								float y = 0.133588
+								float z = -10.2524
+							[4]
+							Vector3 data
+								float x = 4.54727
+								float y = -0.747375
+								float z = -6.81425
+							[5]
+							Vector3 data
+								float x = -4.54727
+								float y = -0.747375
+								float z = -6.81425
+							[6]
+							Vector3 data
+								float x = 4.54727
+								float y = 0.133588
+								float z = -6.81425
+							[7]
+							Vector3 data
+								float x = -4.54727
+								float y = 0.133588
+								float z = -2.555335
+							[8]
+							Vector3 data
+								float x = -3.701145
+								float y = 0.133588
+								float z = -5.9935
+							[9]
+							Vector3 data
+								float x = 3.701145
+								float y = 0.133588
+								float z = -5.9935
+							[10]
+							Vector3 data
+								float x = -3.701145
+								float y = 0.133588
+								float z = 10.22135
+							[11]
+							Vector3 data
+								float x = 4.54727
+								float y = 0.133588
+								float z = 11.0731
+							[12]
+							Vector3 data
+								float x = 4.54727
+								float y = -0.747375
+								float z = 11.0731
+							[13]
+							Vector3 data
+								float x = -4.54727
+								float y = 0.133588
+								float z = 10.22135
+							[14]
+							Vector3 data
+								float x = 4.54727
+								float y = -0.747375
+								float z = 10.22135
+							[15]
+							Vector3 data
+								float x = 4.54727
+								float y = 0.133588
+								float z = -2.555335
+							[16]
+							Vector3 data
+								float x = -4.54727
+								float y = 0.133588
+								float z = 1.70356
+							[17]
+							Vector3 data
+								float x = -3.701145
+								float y = 0.133588
+								float z = -1.734595
+							[18]
+							Vector3 data
+								float x = 3.701145
+								float y = 0.133588
+								float z = -1.734595
+							[19]
+							Vector3 data
+								float x = 4.54727
+								float y = -0.747375
+								float z = 1.70356
+							[20]
+							Vector3 data
+								float x = 4.54727
+								float y = -0.747375
+								float z = -2.555335
+							[21]
+							Vector3 data
+								float x = 4.54727
+								float y = 0.133588
+								float z = 1.70356
+							[22]
+							Vector3 data
+								float x = -4.54727
+								float y = 0.133588
+								float z = 5.96245
+							[23]
+							Vector3 data
+								float x = -3.701145
+								float y = 0.133588
+								float z = 2.5243
+							[24]
+							Vector3 data
+								float x = 3.701145
+								float y = 0.133588
+								float z = 2.5243
+							[25]
+							Vector3 data
+								float x = 4.54727
+								float y = 0.133588
+								float z = 5.96245
+							[26]
+							Vector3 data
+								float x = 4.54727
+								float y = -0.747375
+								float z = 5.96245
+					Vector3 mNrmData
+						Array Array
+						int size = 48
+							[0]
+							Vector3 data
+								float x = 0
+								float y = 1
+								float z = 0
+							[1]
+							Vector3 data
+								float x = 0.6962399
+								float y = 0
+								float z = 0.71781
+							[2]
+							Vector3 data
+								float x = -0.09900999
+								float y = 0
+								float z = -0.99509
+							[3]
+							Vector3 data
+								float x = 0
+								float y = 0
+								float z = 1
+							[4]
+							Vector3 data
+								float x = 0.09900999
+								float y = 0
+								float z = 0.99509
+							[5]
+							Vector3 data
+								float x = 0
+								float y = 0
+								float z = -1
+							[6]
+							Vector3 data
+								float x = -0.6962399
+								float y = 0
+								float z = 0.71781
+							[7]
+							Vector3 data
+								float x = -1
+								float y = 0
+								float z = 0
+							[8]
+							Vector3 data
+								float x = 0.97103
+								float y = 0
+								float z = 0.23897
+							[9]
+							Vector3 data
+								float x = 0.6962399
+								float y = 0
+								float z = -0.71781
+							[10]
+							Vector3 data
+								float x = -0.97103
+								float y = 0
+								float z = -0.23897
+							[11]
+							Vector3 data
+								float x = 1
+								float y = 0
+								float z = 0
+							[12]
+							Vector3 data
+								float x = 0.98083
+								float y = 0
+								float z = 0.19487
+							[13]
+							Vector3 data
+								float x = -0.6962399
+								float y = 0
+								float z = -0.71781
+							[14]
+							Vector3 data
+								float x = -0.98083
+								float y = 0
+								float z = -0.19487
+							[15]
+							Vector3 data
+								float x = 0.42125
+								float y = 0
+								float z = 0.90694
+							[16]
+							Vector3 data
+								float x = -0.42125
+								float y = 0
+								float z = -0.90694
+							[17]
+							Vector3 data
+								float x = 0
+								float y = -0.97927
+								float z = 0.20257
+							[18]
+							Vector3 data
+								float x = 0
+								float y = 0.97927
+								float z = -0.20257
+							[19]
+							Vector3 data
+								float x = 0
+								float y = -1
+								float z = 0
+							[20]
+							Vector3 data
+								float x = 0
+								float y = -0.97927
+								float z = -0.20257
+							[21]
+							Vector3 data
+								float x = 0
+								float y = 0.97927
+								float z = 0.20257
+							[22]
+							Vector3 data
+								float x = -0.42409
+								float y = 0
+								float z = -0.90562
+							[23]
+							Vector3 data
+								float x = 0.42409
+								float y = 0
+								float z = 0.90562
+							[24]
+							Vector3 data
+								float x = 0.69626
+								float y = 0
+								float z = 0.71779
+							[25]
+							Vector3 data
+								float x = -0.69626
+								float y = 0
+								float z = 0.71779
+							[26]
+							Vector3 data
+								float x = 0.69626
+								float y = 0
+								float z = -0.71779
+							[27]
+							Vector3 data
+								float x = 0.98083
+								float y = 0
+								float z = 0.19486
+							[28]
+							Vector3 data
+								float x = -0.69626
+								float y = 0
+								float z = -0.71779
+							[29]
+							Vector3 data
+								float x = -0.98083
+								float y = 0
+								float z = -0.19486
+							[30]
+							Vector3 data
+								float x = 0
+								float y = -0.97927
+								float z = 0.2025599
+							[31]
+							Vector3 data
+								float x = 0
+								float y = 0.97927
+								float z = -0.2025599
+							[32]
+							Vector3 data
+								float x = 0
+								float y = -0.97927
+								float z = -0.2025599
+							[33]
+							Vector3 data
+								float x = 0
+								float y = 0.97927
+								float z = 0.2025599
+							[34]
+							Vector3 data
+								float x = -0.4241
+								float y = 0
+								float z = -0.90562
+							[35]
+							Vector3 data
+								float x = 0.4241
+								float y = 0
+								float z = 0.90562
+							[36]
+							Vector3 data
+								float x = -0.10272
+								float y = 0
+								float z = 0.99471
+							[37]
+							Vector3 data
+								float x = 0.70945
+								float y = 0
+								float z = -0.70476
+							[38]
+							Vector3 data
+								float x = 0.10272
+								float y = 0
+								float z = -0.99471
+							[39]
+							Vector3 data
+								float x = -0.70945
+								float y = 0
+								float z = -0.70476
+							[40]
+							Vector3 data
+								float x = 0.70945
+								float y = 0
+								float z = 0.70476
+							[41]
+							Vector3 data
+								float x = -0.09642005
+								float y = -0.99534
+								float z = 0
+							[42]
+							Vector3 data
+								float x = 0.09642005
+								float y = 0.99534
+								float z = 0
+							[43]
+							Vector3 data
+								float x = 0
+								float y = -0.6950901
+								float z = -0.71893
+							[44]
+							Vector3 data
+								float x = 0
+								float y = 0.6950901
+								float z = 0.71893
+							[45]
+							Vector3 data
+								float x = -0.70945
+								float y = 0
+								float z = 0.70476
+							[46]
+							Vector3 data
+								float x = 0.09325004
+								float y = 0
+								float z = 0.99564
+							[47]
+							Vector3 data
+								float x = -0.09325004
+								float y = 0
+								float z = -0.99564
+					KCollisionPrismData mPrismData
+						Array Array
+						int size = 82
+							[0]
+							KCollisionPrismData data
+								float height = 0.8206997
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 1
+								UInt16 enrm2_i = 2
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 0
+							[1]
+							KCollisionPrismData data
+								float height = 6.331982
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 4
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 6
+								UInt16 attribute = 96
+								unsigned int id = 1
+							[2]
+							KCollisionPrismData data
+								float height = 3.057041
+								UInt16 pos_i = 1
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 7
+								UInt16 enrm2_i = 8
+								UInt16 enrm3_i = 9
+								UInt16 attribute = 96
+								unsigned int id = 2
+							[3]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 1
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 10
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 11
+								UInt16 attribute = 96
+								unsigned int id = 3
+							[4]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 12
+								UInt16 enrm2_i = 13
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 96
+								unsigned int id = 4
+							[5]
+							KCollisionPrismData data
+								float height = 4.25885
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 14
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 5
+							[6]
+							KCollisionPrismData data
+								float height = 3.118212
+								UInt16 pos_i = 2
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 15
+								UInt16 attribute = 8320
+								unsigned int id = 6
+							[7]
+							KCollisionPrismData data
+								float height = 3.43815
+								UInt16 pos_i = 3
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 16
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 8320
+								unsigned int id = 7
+							[8]
+							KCollisionPrismData data
+								float height = 4.25885
+								UInt16 pos_i = 1
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 17
+								UInt16 enrm2_i = 0
+								UInt16 enrm3_i = 5
+								UInt16 attribute = 79
+								unsigned int id = 8
+							[9]
+							KCollisionPrismData data
+								float height = 0.880963
+								UInt16 pos_i = 1
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 3
+								UInt16 enrm2_i = 18
+								UInt16 enrm3_i = 19
+								UInt16 attribute = 79
+								unsigned int id = 9
+							[10]
+							KCollisionPrismData data
+								float height = 4.25885
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 20
+								UInt16 enrm2_i = 0
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 79
+								unsigned int id = 10
+							[11]
+							KCollisionPrismData data
+								float height = 0.880963
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 21
+								UInt16 enrm3_i = 19
+								UInt16 attribute = 79
+								unsigned int id = 11
+							[12]
+							KCollisionPrismData data
+								float height = 3.8569
+								UInt16 pos_i = 4
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 22
+								UInt16 attribute = 79
+								unsigned int id = 12
+							[13]
+							KCollisionPrismData data
+								float height = 4.25885
+								UInt16 pos_i = 5
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 23
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 5
+								UInt16 attribute = 79
+								unsigned int id = 13
+							[14]
+							KCollisionPrismData data
+								float height = 0.8207502
+								UInt16 pos_i = 6
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 24
+								UInt16 enrm2_i = 2
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 14
+							[15]
+							KCollisionPrismData data
+								float height = 0.9004962
+								UInt16 pos_i = 1
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 25
+								UInt16 enrm3_i = 4
+								UInt16 attribute = 96
+								unsigned int id = 15
+							[16]
+							KCollisionPrismData data
+								float height = 1.017743
+								UInt16 pos_i = 1
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 26
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 8
+								UInt16 attribute = 96
+								unsigned int id = 16
+							[17]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 7
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 10
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 11
+								UInt16 attribute = 96
+								unsigned int id = 17
+							[18]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 6
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 27
+								UInt16 enrm2_i = 28
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 96
+								unsigned int id = 18
+							[19]
+							KCollisionPrismData data
+								float height = 4.258915
+								UInt16 pos_i = 6
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 29
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 19
+							[20]
+							KCollisionPrismData data
+								float height = 3.118223
+								UInt16 pos_i = 8
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 15
+								UInt16 attribute = 8320
+								unsigned int id = 20
+							[21]
+							KCollisionPrismData data
+								float height = 3.438165
+								UInt16 pos_i = 9
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 16
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 8320
+								unsigned int id = 21
+							[22]
+							KCollisionPrismData data
+								float height = 0.8627
+								UInt16 pos_i = 1
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 0
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 30
+								UInt16 attribute = 79
+								unsigned int id = 22
+							[23]
+							KCollisionPrismData data
+								float height = 4.258915
+								UInt16 pos_i = 5
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 31
+								UInt16 enrm2_i = 19
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 79
+								unsigned int id = 23
+							[24]
+							KCollisionPrismData data
+								float height = 4.258915
+								UInt16 pos_i = 6
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 32
+								UInt16 enrm2_i = 0
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 79
+								unsigned int id = 24
+							[25]
+							KCollisionPrismData data
+								float height = 0.8627
+								UInt16 pos_i = 4
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 19
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 33
+								UInt16 attribute = 79
+								unsigned int id = 25
+							[26]
+							KCollisionPrismData data
+								float height = 4.258915
+								UInt16 pos_i = 4
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 34
+								UInt16 enrm2_i = 11
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 79
+								unsigned int id = 26
+							[27]
+							KCollisionPrismData data
+								float height = 9.09454
+								UInt16 pos_i = 4
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 35
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 79
+								unsigned int id = 27
+							[28]
+							KCollisionPrismData data
+								float height = 5.251521
+								UInt16 pos_i = 10
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 36
+								UInt16 enrm3_i = 37
+								UInt16 attribute = 96
+								unsigned int id = 28
+							[29]
+							KCollisionPrismData data
+								float height = 0.8517494
+								UInt16 pos_i = 10
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 38
+								UInt16 enrm2_i = 39
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 29
+							[30]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 10
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 40
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 96
+								unsigned int id = 30
+							[31]
+							KCollisionPrismData data
+								float height = 0.8768588
+								UInt16 pos_i = 11
+								UInt16 fnrm_i = 3
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 0
+								UInt16 enrm3_i = 41
+								UInt16 attribute = 79
+								unsigned int id = 31
+							[32]
+							KCollisionPrismData data
+								float height = 9.09454
+								UInt16 pos_i = 12
+								UInt16 fnrm_i = 3
+								UInt16 enrm1_i = 19
+								UInt16 enrm2_i = 42
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 79
+								unsigned int id = 32
+							[33]
+							KCollisionPrismData data
+								float height = 0.8517494
+								UInt16 pos_i = 13
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 0
+								UInt16 enrm2_i = 43
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 79
+								unsigned int id = 33
+							[34]
+							KCollisionPrismData data
+								float height = 0.880963
+								UInt16 pos_i = 13
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 44
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 19
+								UInt16 attribute = 79
+								unsigned int id = 34
+							[35]
+							KCollisionPrismData data
+								float height = 0.8517494
+								UInt16 pos_i = 11
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 45
+								UInt16 enrm2_i = 11
+								UInt16 enrm3_i = 5
+								UInt16 attribute = 96
+								unsigned int id = 35
+							[36]
+							KCollisionPrismData data
+								float height = 0.8517494
+								UInt16 pos_i = 12
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 44
+								UInt16 enrm2_i = 19
+								UInt16 enrm3_i = 5
+								UInt16 attribute = 79
+								unsigned int id = 36
+							[37]
+							KCollisionPrismData data
+								float height = 0.6123452
+								UInt16 pos_i = 11
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 0
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 43
+								UInt16 attribute = 79
+								unsigned int id = 37
+							[38]
+							KCollisionPrismData data
+								float height = 9.09454
+								UInt16 pos_i = 14
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 46
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 79
+								unsigned int id = 38
+							[39]
+							KCollisionPrismData data
+								float height = 0.8480384
+								UInt16 pos_i = 12
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 47
+								UInt16 attribute = 79
+								unsigned int id = 39
+							[40]
+							KCollisionPrismData data
+								float height = 0.8207401
+								UInt16 pos_i = 15
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 24
+								UInt16 enrm2_i = 2
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 40
+							[41]
+							KCollisionPrismData data
+								float height = 0.9004852
+								UInt16 pos_i = 7
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 25
+								UInt16 enrm3_i = 4
+								UInt16 attribute = 96
+								unsigned int id = 41
+							[42]
+							KCollisionPrismData data
+								float height = 1.017741
+								UInt16 pos_i = 7
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 26
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 8
+								UInt16 attribute = 96
+								unsigned int id = 42
+							[43]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 16
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 10
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 11
+								UInt16 attribute = 96
+								unsigned int id = 43
+							[44]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 15
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 27
+								UInt16 enrm2_i = 28
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 96
+								unsigned int id = 44
+							[45]
+							KCollisionPrismData data
+								float height = 4.258895
+								UInt16 pos_i = 15
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 29
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 45
+							[46]
+							KCollisionPrismData data
+								float height = 3.118216
+								UInt16 pos_i = 17
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 15
+								UInt16 attribute = 8320
+								unsigned int id = 46
+							[47]
+							KCollisionPrismData data
+								float height = 3.438155
+								UInt16 pos_i = 18
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 16
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 8320
+								unsigned int id = 47
+							[48]
+							KCollisionPrismData data
+								float height = 0.8626999
+								UInt16 pos_i = 7
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 0
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 30
+								UInt16 attribute = 79
+								unsigned int id = 48
+							[49]
+							KCollisionPrismData data
+								float height = 0.880963
+								UInt16 pos_i = 16
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 3
+								UInt16 enrm2_i = 31
+								UInt16 enrm3_i = 19
+								UInt16 attribute = 79
+								unsigned int id = 49
+							[50]
+							KCollisionPrismData data
+								float height = 4.258895
+								UInt16 pos_i = 15
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 32
+								UInt16 enrm2_i = 0
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 79
+								unsigned int id = 50
+							[51]
+							KCollisionPrismData data
+								float height = 0.880963
+								UInt16 pos_i = 15
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 33
+								UInt16 enrm3_i = 19
+								UInt16 attribute = 79
+								unsigned int id = 51
+							[52]
+							KCollisionPrismData data
+								float height = 3.856934
+								UInt16 pos_i = 19
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 22
+								UInt16 attribute = 79
+								unsigned int id = 52
+							[53]
+							KCollisionPrismData data
+								float height = 9.09454
+								UInt16 pos_i = 20
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 23
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 79
+								unsigned int id = 53
+							[54]
+							KCollisionPrismData data
+								float height = 0.82074
+								UInt16 pos_i = 21
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 24
+								UInt16 enrm2_i = 2
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 54
+							[55]
+							KCollisionPrismData data
+								float height = 0.900485
+								UInt16 pos_i = 16
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 25
+								UInt16 enrm3_i = 4
+								UInt16 attribute = 96
+								unsigned int id = 55
+							[56]
+							KCollisionPrismData data
+								float height = 1.017741
+								UInt16 pos_i = 16
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 26
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 8
+								UInt16 attribute = 96
+								unsigned int id = 56
+							[57]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 22
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 10
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 11
+								UInt16 attribute = 96
+								unsigned int id = 57
+							[58]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 21
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 27
+								UInt16 enrm2_i = 28
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 96
+								unsigned int id = 58
+							[59]
+							KCollisionPrismData data
+								float height = 4.25889
+								UInt16 pos_i = 21
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 29
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 59
+							[60]
+							KCollisionPrismData data
+								float height = 3.118212
+								UInt16 pos_i = 23
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 15
+								UInt16 attribute = 8320
+								unsigned int id = 60
+							[61]
+							KCollisionPrismData data
+								float height = 3.43815
+								UInt16 pos_i = 24
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 16
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 8320
+								unsigned int id = 61
+							[62]
+							KCollisionPrismData data
+								float height = 0.8626997
+								UInt16 pos_i = 16
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 0
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 30
+								UInt16 attribute = 79
+								unsigned int id = 62
+							[63]
+							KCollisionPrismData data
+								float height = 0.880963
+								UInt16 pos_i = 22
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 3
+								UInt16 enrm2_i = 31
+								UInt16 enrm3_i = 19
+								UInt16 attribute = 79
+								unsigned int id = 63
+							[64]
+							KCollisionPrismData data
+								float height = 4.25889
+								UInt16 pos_i = 21
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 32
+								UInt16 enrm2_i = 0
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 79
+								unsigned int id = 64
+							[65]
+							KCollisionPrismData data
+								float height = 0.8626997
+								UInt16 pos_i = 19
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 19
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 33
+								UInt16 attribute = 79
+								unsigned int id = 65
+							[66]
+							KCollisionPrismData data
+								float height = 4.25889
+								UInt16 pos_i = 19
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 22
+								UInt16 enrm2_i = 11
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 79
+								unsigned int id = 66
+							[67]
+							KCollisionPrismData data
+								float height = 9.09454
+								UInt16 pos_i = 19
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 23
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 79
+								unsigned int id = 67
+							[68]
+							KCollisionPrismData data
+								float height = 0.8207502
+								UInt16 pos_i = 25
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 24
+								UInt16 enrm2_i = 2
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 68
+							[69]
+							KCollisionPrismData data
+								float height = 0.9004962
+								UInt16 pos_i = 22
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 25
+								UInt16 enrm3_i = 4
+								UInt16 attribute = 96
+								unsigned int id = 69
+							[70]
+							KCollisionPrismData data
+								float height = 3.056987
+								UInt16 pos_i = 13
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 7
+								UInt16 enrm2_i = 8
+								UInt16 enrm3_i = 26
+								UInt16 attribute = 96
+								unsigned int id = 70
+							[71]
+							KCollisionPrismData data
+								float height = 0.8216102
+								UInt16 pos_i = 10
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 3
+								UInt16 enrm2_i = 11
+								UInt16 enrm3_i = 10
+								UInt16 attribute = 96
+								unsigned int id = 71
+							[72]
+							KCollisionPrismData data
+								float height = 0.8461246
+								UInt16 pos_i = 25
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 27
+								UInt16 enrm2_i = 28
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 96
+								unsigned int id = 72
+							[73]
+							KCollisionPrismData data
+								float height = 4.258901
+								UInt16 pos_i = 25
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 29
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 73
+							[74]
+							KCollisionPrismData data
+								float height = 3.43815
+								UInt16 pos_i = 10
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 7
+								UInt16 enrm2_i = 15
+								UInt16 enrm3_i = 5
+								UInt16 attribute = 8320
+								unsigned int id = 74
+							[75]
+							KCollisionPrismData data
+								float height = 7.40229
+								UInt16 pos_i = 10
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 16
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 11
+								UInt16 attribute = 8320
+								unsigned int id = 75
+							[76]
+							KCollisionPrismData data
+								float height = 4.258901
+								UInt16 pos_i = 13
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 30
+								UInt16 enrm2_i = 0
+								UInt16 enrm3_i = 5
+								UInt16 attribute = 79
+								unsigned int id = 76
+							[77]
+							KCollisionPrismData data
+								float height = 0.880963
+								UInt16 pos_i = 13
+								UInt16 fnrm_i = 7
+								UInt16 enrm1_i = 3
+								UInt16 enrm2_i = 31
+								UInt16 enrm3_i = 19
+								UInt16 attribute = 79
+								unsigned int id = 77
+							[78]
+							KCollisionPrismData data
+								float height = 0.880963
+								UInt16 pos_i = 14
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 3
+								UInt16 enrm2_i = 32
+								UInt16 enrm3_i = 0
+								UInt16 attribute = 79
+								unsigned int id = 78
+							[79]
+							KCollisionPrismData data
+								float height = 4.258901
+								UInt16 pos_i = 14
+								UInt16 fnrm_i = 11
+								UInt16 enrm1_i = 33
+								UInt16 enrm2_i = 19
+								UInt16 enrm3_i = 5
+								UInt16 attribute = 79
+								unsigned int id = 79
+							[80]
+							KCollisionPrismData data
+								float height = 3.856938
+								UInt16 pos_i = 14
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 3
+								UInt16 enrm3_i = 22
+								UInt16 attribute = 79
+								unsigned int id = 80
+							[81]
+							KCollisionPrismData data
+								float height = 9.09454
+								UInt16 pos_i = 26
+								UInt16 fnrm_i = 19
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 23
+								UInt16 enrm3_i = 7
+								UInt16 attribute = 79
+								unsigned int id = 81
+					vector mBlockData
+						Array Array
+						int size = 1073
+							[0]
+							unsigned int data = 64
+							[1]
+							unsigned int data = 96
+							[2]
+							unsigned int data = 2147487934
+							[3]
+							unsigned int data = 2147487934
+							[4]
+							unsigned int data = 128
+							[5]
+							unsigned int data = 160
+							[6]
+							unsigned int data = 2147487934
+							[7]
+							unsigned int data = 2147487934
+							[8]
+							unsigned int data = 2147487934
+							[9]
+							unsigned int data = 2147487934
+							[10]
+							unsigned int data = 2147487934
+							[11]
+							unsigned int data = 2147487934
+							[12]
+							unsigned int data = 2147487934
+							[13]
+							unsigned int data = 2147487934
+							[14]
+							unsigned int data = 2147487934
+							[15]
+							unsigned int data = 2147487934
+							[16]
+							unsigned int data = 2147484798
+							[17]
+							unsigned int data = 2147484820
+							[18]
+							unsigned int data = 2147484798
+							[19]
+							unsigned int data = 2147484820
+							[20]
+							unsigned int data = 128
+							[21]
+							unsigned int data = 160
+							[22]
+							unsigned int data = 192
+							[23]
+							unsigned int data = 224
+							[24]
+							unsigned int data = 2147485564
+							[25]
+							unsigned int data = 2147487838
+							[26]
+							unsigned int data = 2147485564
+							[27]
+							unsigned int data = 2147487838
+							[28]
+							unsigned int data = 2147485586
+							[29]
+							unsigned int data = 2147487838
+							[30]
+							unsigned int data = 2147485586
+							[31]
+							unsigned int data = 2147487838
+							[32]
+							unsigned int data = 192
+							[33]
+							unsigned int data = 224
+							[34]
+							unsigned int data = 256
+							[35]
+							unsigned int data = 288
+							[36]
+							unsigned int data = 320
+							[37]
+							unsigned int data = 352
+							[38]
+							unsigned int data = 384
+							[39]
+							unsigned int data = 416
+							[40]
+							unsigned int data = 416
+							[41]
+							unsigned int data = 2147487774
+							[42]
+							unsigned int data = 448
+							[43]
+							unsigned int data = 2147487774
+							[44]
+							unsigned int data = 2147487726
+							[45]
+							unsigned int data = 2147487774
+							[46]
+							unsigned int data = 2147487726
+							[47]
+							unsigned int data = 2147487774
+							[48]
+							unsigned int data = 2147487742
+							[49]
+							unsigned int data = 2147487742
+							[50]
+							unsigned int data = 2147487742
+							[51]
+							unsigned int data = 2147484854
+							[52]
+							unsigned int data = 2147487742
+							[53]
+							unsigned int data = 2147487742
+							[54]
+							unsigned int data = 2147487742
+							[55]
+							unsigned int data = 448
+							[56]
+							unsigned int data = 2147487710
+							[57]
+							unsigned int data = 2147487710
+							[58]
+							unsigned int data = 2147485054
+							[59]
+							unsigned int data = 2147485104
+							[60]
+							unsigned int data = 2147487710
+							[61]
+							unsigned int data = 2147487710
+							[62]
+							unsigned int data = 448
+							[63]
+							unsigned int data = 2147485458
+							[64]
+							unsigned int data = 2147487678
+							[65]
+							unsigned int data = 2147484790
+							[66]
+							unsigned int data = 2147487678
+							[67]
+							unsigned int data = 2147485114
+							[68]
+							unsigned int data = 2147487678
+							[69]
+							unsigned int data = 448
+							[70]
+							unsigned int data = 2147487678
+							[71]
+							unsigned int data = 2147485008
+							[72]
+							unsigned int data = 2147484990
+							[73]
+							unsigned int data = 2147485040
+							[74]
+							unsigned int data = 2147485082
+							[75]
+							unsigned int data = 2147485082
+							[76]
+							unsigned int data = 448
+							[77]
+							unsigned int data = 2147485394
+							[78]
+							unsigned int data = 2147485360
+							[79]
+							unsigned int data = 2147485360
+							[80]
+							unsigned int data = 2147487614
+							[81]
+							unsigned int data = 2147487614
+							[82]
+							unsigned int data = 2147487614
+							[83]
+							unsigned int data = 2147485696
+							[84]
+							unsigned int data = 2147487614
+							[85]
+							unsigned int data = 2147487614
+							[86]
+							unsigned int data = 2147487614
+							[87]
+							unsigned int data = 448
+							[88]
+							unsigned int data = 2147487582
+							[89]
+							unsigned int data = 2147487582
+							[90]
+							unsigned int data = 448
+							[91]
+							unsigned int data = 2147486234
+							[92]
+							unsigned int data = 2147487582
+							[93]
+							unsigned int data = 2147487582
+							[94]
+							unsigned int data = 480
+							[95]
+							unsigned int data = 512
+							[96]
+							unsigned int data = 2147487550
+							[97]
+							unsigned int data = 2147485632
+							[98]
+							unsigned int data = 2147487550
+							[99]
+							unsigned int data = 2147485686
+							[100]
+							unsigned int data = 2147487550
+							[101]
+							unsigned int data = 512
+							[102]
+							unsigned int data = 2147487550
+							[103]
+							unsigned int data = 2147485928
+							[104]
+							unsigned int data = 512
+							[105]
+							unsigned int data = 2147486170
+							[106]
+							unsigned int data = 2147487278
+							[107]
+							unsigned int data = 2147487278
+							[108]
+							unsigned int data = 544
+							[109]
+							unsigned int data = 576
+							[110]
+							unsigned int data = 2147487458
+							[111]
+							unsigned int data = 2147487458
+							[112]
+							unsigned int data = 2147487486
+							[113]
+							unsigned int data = 2147487486
+							[114]
+							unsigned int data = 2147487486
+							[115]
+							unsigned int data = 576
+							[116]
+							unsigned int data = 2147487486
+							[117]
+							unsigned int data = 2147487486
+							[118]
+							unsigned int data = 2147487486
+							[119]
+							unsigned int data = 2147486904
+							[120]
+							unsigned int data = 2147487454
+							[121]
+							unsigned int data = 2147487454
+							[122]
+							unsigned int data = 576
+							[123]
+							unsigned int data = 2147486946
+							[124]
+							unsigned int data = 2147487454
+							[125]
+							unsigned int data = 2147487454
+							[126]
+							unsigned int data = 2147487024
+							[127]
+							unsigned int data = 2147487066
+							[128]
+							unsigned int data = 2147487422
+							[129]
+							unsigned int data = 576
+							[130]
+							unsigned int data = 2147487422
+							[131]
+							unsigned int data = 2147486966
+							[132]
+							unsigned int data = 2147487422
+							[133]
+							unsigned int data = 2147486840
+							[134]
+							unsigned int data = 2147487422
+							[135]
+							unsigned int data = 2147487066
+							[136]
+							unsigned int data = 576
+							[137]
+							unsigned int data = 2147486882
+							[138]
+							unsigned int data = 2147486934
+							[139]
+							unsigned int data = 2147486948
+							[140]
+							unsigned int data = 2147486960
+							[141]
+							unsigned int data = 2147487002
+							[142]
+							unsigned int data = 2147487034
+							[143]
+							unsigned int data = 2147487044
+							[144]
+							unsigned int data = 2147487358
+							[145]
+							unsigned int data = 2147487358
+							[146]
+							unsigned int data = 2147487066
+							[147]
+							unsigned int data = 2147487358
+							[148]
+							unsigned int data = 2147487358
+							[149]
+							unsigned int data = 2147487358
+							[150]
+							unsigned int data = 576
+							[151]
+							unsigned int data = 2147487358
+							[152]
+							unsigned int data = 2147487034
+							[153]
+							unsigned int data = 2147487326
+							[154]
+							unsigned int data = 2147487086
+							[155]
+							unsigned int data = 2147487326
+							[156]
+							unsigned int data = 576
+							[157]
+							unsigned int data = 2147487326
+							[158]
+							unsigned int data = 2147487266
+							[159]
+							unsigned int data = 2147487326
+							[160]
+							unsigned int data = 2147484274
+							[161]
+							unsigned int data = 2147484274
+							[162]
+							unsigned int data = 2147484448
+							[163]
+							unsigned int data = 2147484448
+							[164]
+							unsigned int data = 2147484306
+							[165]
+							unsigned int data = 2147484306
+							[166]
+							unsigned int data = 2147484554
+							[167]
+							unsigned int data = 2147484588
+							[168]
+							unsigned int data = 2147484294
+							[169]
+							unsigned int data = 2147484322
+							[170]
+							unsigned int data = 2147484708
+							[171]
+							unsigned int data = 2147484756
+							[172]
+							unsigned int data = 2147484340
+							[173]
+							unsigned int data = 2147484360
+							[174]
+							unsigned int data = 2147484902
+							[175]
+							unsigned int data = 2147484938
+							[176]
+							unsigned int data = 2147484384
+							[177]
+							unsigned int data = 2147484384
+							[178]
+							unsigned int data = 2147484438
+							[179]
+							unsigned int data = 2147484438
+							[180]
+							unsigned int data = 2147484490
+							[181]
+							unsigned int data = 2147484524
+							[182]
+							unsigned int data = 2147484490
+							[183]
+							unsigned int data = 2147484524
+							[184]
+							unsigned int data = 2147484644
+							[185]
+							unsigned int data = 2147484692
+							[186]
+							unsigned int data = 2147484744
+							[187]
+							unsigned int data = 2147484790
+							[188]
+							unsigned int data = 2147484838
+							[189]
+							unsigned int data = 2147484874
+							[190]
+							unsigned int data = 2147484838
+							[191]
+							unsigned int data = 2147484874
+							[192]
+							unsigned int data = 2147484968
+							[193]
+							unsigned int data = 2147484994
+							[194]
+							unsigned int data = 2147485314
+							[195]
+							unsigned int data = 2147485362
+							[196]
+							unsigned int data = 2147485022
+							[197]
+							unsigned int data = 2147485022
+							[198]
+							unsigned int data = 2147485506
+							[199]
+							unsigned int data = 2147485506
+							[200]
+							unsigned int data = 2147485010
+							[201]
+							unsigned int data = 2147485036
+							[202]
+							unsigned int data = 2147485524
+							[203]
+							unsigned int data = 2147485570
+							[204]
+							unsigned int data = 2147485054
+							[205]
+							unsigned int data = 2147485076
+							[206]
+							unsigned int data = 2147485710
+							[207]
+							unsigned int data = 2147485748
+							[208]
+							unsigned int data = 2147485058
+							[209]
+							unsigned int data = 2147485082
+							[210]
+							unsigned int data = 2147485808
+							[211]
+							unsigned int data = 2147485852
+							[212]
+							unsigned int data = 2147485098
+							[213]
+							unsigned int data = 2147485120
+							[214]
+							unsigned int data = 2147485986
+							[215]
+							unsigned int data = 2147486028
+							[216]
+							unsigned int data = 2147485102
+							[217]
+							unsigned int data = 2147485102
+							[218]
+							unsigned int data = 2147486038
+							[219]
+							unsigned int data = 2147486038
+							[220]
+							unsigned int data = 2147485130
+							[221]
+							unsigned int data = 2147486758
+							[222]
+							unsigned int data = 2147486136
+							[223]
+							unsigned int data = 2147486936
+							[224]
+							unsigned int data = 2147485186
+							[225]
+							unsigned int data = 2147485234
+							[226]
+							unsigned int data = 2147485284
+							[227]
+							unsigned int data = 2147485330
+							[228]
+							unsigned int data = 2147485378
+							[229]
+							unsigned int data = 2147485378
+							[230]
+							unsigned int data = 2147485378
+							[231]
+							unsigned int data = 2147485378
+							[232]
+							unsigned int data = 2147485396
+							[233]
+							unsigned int data = 2147485442
+							[234]
+							unsigned int data = 2147485492
+							[235]
+							unsigned int data = 2147485536
+							[236]
+							unsigned int data = 2147485582
+							[237]
+							unsigned int data = 2147485620
+							[238]
+							unsigned int data = 2147485582
+							[239]
+							unsigned int data = 2147485620
+							[240]
+							unsigned int data = 2147485680
+							[241]
+							unsigned int data = 2147485724
+							[242]
+							unsigned int data = 2147485772
+							[243]
+							unsigned int data = 2147485814
+							[244]
+							unsigned int data = 2147485858
+							[245]
+							unsigned int data = 2147485900
+							[246]
+							unsigned int data = 2147485858
+							[247]
+							unsigned int data = 2147485900
+							[248]
+							unsigned int data = 2147485910
+							[249]
+							unsigned int data = 2147485910
+							[250]
+							unsigned int data = 2147485960
+							[251]
+							unsigned int data = 2147485960
+							[252]
+							unsigned int data = 2147486008
+							[253]
+							unsigned int data = 2147486808
+							[254]
+							unsigned int data = 2147486008
+							[255]
+							unsigned int data = 2147486808
+							[256]
+							unsigned int data = 2147486018
+							[257]
+							unsigned int data = 2147486018
+							[258]
+							unsigned int data = 2147486114
+							[259]
+							unsigned int data = 2147486114
+							[260]
+							unsigned int data = 2147486088
+							[261]
+							unsigned int data = 2147486088
+							[262]
+							unsigned int data = 2147486328
+							[263]
+							unsigned int data = 2147486328
+							[264]
+							unsigned int data = 2147486014
+							[265]
+							unsigned int data = 2147486040
+							[266]
+							unsigned int data = 2147486190
+							[267]
+							unsigned int data = 2147486136
+							[268]
+							unsigned int data = 2147486056
+							[269]
+							unsigned int data = 2147486072
+							[270]
+							unsigned int data = 2147486296
+							[271]
+							unsigned int data = 2147486332
+							[272]
+							unsigned int data = 2147486050
+							[273]
+							unsigned int data = 2147486050
+							[274]
+							unsigned int data = 2147486050
+							[275]
+							unsigned int data = 2147486050
+							[276]
+							unsigned int data = 2147486264
+							[277]
+							unsigned int data = 2147486264
+							[278]
+							unsigned int data = 2147486264
+							[279]
+							unsigned int data = 2147486264
+							[280]
+							unsigned int data = 2147486126
+							[281]
+							unsigned int data = 2147486072
+							[282]
+							unsigned int data = 2147486126
+							[283]
+							unsigned int data = 2147486180
+							[284]
+							unsigned int data = 2147486232
+							[285]
+							unsigned int data = 2147486268
+							[286]
+							unsigned int data = 2147486232
+							[287]
+							unsigned int data = 2147486268
+							[288]
+							unsigned int data = 2147486444
+							[289]
+							unsigned int data = 2147486782
+							[290]
+							unsigned int data = 2147486554
+							[291]
+							unsigned int data = 2147486782
+							[292]
+							unsigned int data = 2147486470
+							[293]
+							unsigned int data = 2147486782
+							[294]
+							unsigned int data = 2147486648
+							[295]
+							unsigned int data = 2147486782
+							[296]
+							unsigned int data = 2147486522
+							[297]
+							unsigned int data = 2147486750
+							[298]
+							unsigned int data = 2147486570
+							[299]
+							unsigned int data = 2147486750
+							[300]
+							unsigned int data = 2147486616
+							[301]
+							unsigned int data = 2147486750
+							[302]
+							unsigned int data = 2147486654
+							[303]
+							unsigned int data = 2147486750
+							[304]
+							unsigned int data = 65536
+							[305]
+							unsigned int data = 196610
+							[306]
+							unsigned int data = 458758
+							[307]
+							unsigned int data = 589832
+							[308]
+							unsigned int data = 851980
+							[309]
+							unsigned int data = 65535
+							[310]
+							unsigned int data = 131073
+							[311]
+							unsigned int data = 262147
+							[312]
+							unsigned int data = 393221
+							[313]
+							unsigned int data = 524295
+							[314]
+							unsigned int data = 655369
+							[315]
+							unsigned int data = 786443
+							[316]
+							unsigned int data = 4294901773
+							[317]
+							unsigned int data = 196610
+							[318]
+							unsigned int data = 458758
+							[319]
+							unsigned int data = 983054
+							[320]
+							unsigned int data = 1114128
+							[321]
+							unsigned int data = 1376276
+							[322]
+							unsigned int data = 2687016
+							[323]
+							unsigned int data = 2818090
+							[324]
+							unsigned int data = 4294901806
+							[325]
+							unsigned int data = 1114128
+							[326]
+							unsigned int data = 1376276
+							[327]
+							unsigned int data = 2687016
+							[328]
+							unsigned int data = 2818090
+							[329]
+							unsigned int data = 4294901806
+							[330]
+							unsigned int data = 458755
+							[331]
+							unsigned int data = 983054
+							[332]
+							unsigned int data = 1114128
+							[333]
+							unsigned int data = 1376276
+							[334]
+							unsigned int data = 2687016
+							[335]
+							unsigned int data = 2818090
+							[336]
+							unsigned int data = 4294901806
+							[337]
+							unsigned int data = 917511
+							[338]
+							unsigned int data = 1310735
+							[339]
+							unsigned int data = 2621461
+							[340]
+							unsigned int data = 3014697
+							[341]
+							unsigned int data = 1179647
+							[342]
+							unsigned int data = 1376276
+							[343]
+							unsigned int data = 2687016
+							[344]
+							unsigned int data = 2818090
+							[345]
+							unsigned int data = 3080238
+							[346]
+							unsigned int data = 1376255
+							[347]
+							unsigned int data = 2621461
+							[348]
+							unsigned int data = 3014697
+							[349]
+							unsigned int data = 4294901807
+							[350]
+							unsigned int data = 65536
+							[351]
+							unsigned int data = 196610
+							[352]
+							unsigned int data = 458758
+							[353]
+							unsigned int data = 589832
+							[354]
+							unsigned int data = 851980
+							[355]
+							unsigned int data = 983054
+							[356]
+							unsigned int data = 1114128
+							[357]
+							unsigned int data = 1376276
+							[358]
+							unsigned int data = 1507350
+							[359]
+							unsigned int data = 1769498
+							[360]
+							unsigned int data = 196607
+							[361]
+							unsigned int data = 393219
+							[362]
+							unsigned int data = 524295
+							[363]
+							unsigned int data = 786441
+							[364]
+							unsigned int data = 917517
+							[365]
+							unsigned int data = 1048591
+							[366]
+							unsigned int data = 1310737
+							[367]
+							unsigned int data = 1441813
+							[368]
+							unsigned int data = 1703959
+							[369]
+							unsigned int data = 2621467
+							[370]
+							unsigned int data = 2752553
+							[371]
+							unsigned int data = 3014699
+							[372]
+							unsigned int data = 3211312
+							[373]
+							unsigned int data = 4294901813
+							[374]
+							unsigned int data = 196610
+							[375]
+							unsigned int data = 458758
+							[376]
+							unsigned int data = 589832
+							[377]
+							unsigned int data = 851980
+							[378]
+							unsigned int data = 983054
+							[379]
+							unsigned int data = 1114128
+							[380]
+							unsigned int data = 1376276
+							[381]
+							unsigned int data = 1507350
+							[382]
+							unsigned int data = 1769498
+							[383]
+							unsigned int data = 2687016
+							[384]
+							unsigned int data = 2818090
+							[385]
+							unsigned int data = 3145774
+							[386]
+							unsigned int data = 4294901813
+							[387]
+							unsigned int data = 1114128
+							[388]
+							unsigned int data = 1376276
+							[389]
+							unsigned int data = 1507350
+							[390]
+							unsigned int data = 1769498
+							[391]
+							unsigned int data = 2687016
+							[392]
+							unsigned int data = 2818090
+							[393]
+							unsigned int data = 3145774
+							[394]
+							unsigned int data = 3473457
+							[395]
+							unsigned int data = 1114111
+							[396]
+							unsigned int data = 1310737
+							[397]
+							unsigned int data = 1441813
+							[398]
+							unsigned int data = 1703959
+							[399]
+							unsigned int data = 2621467
+							[400]
+							unsigned int data = 2752553
+							[401]
+							unsigned int data = 3014699
+							[402]
+							unsigned int data = 3211312
+							[403]
+							unsigned int data = 3473460
+							[404]
+							unsigned int data = 851967
+							[405]
+							unsigned int data = 1703949
+							[406]
+							unsigned int data = 3407899
+							[407]
+							unsigned int data = 4294901813
+							[408]
+							unsigned int data = 65536
+							[409]
+							unsigned int data = 196610
+							[410]
+							unsigned int data = 458758
+							[411]
+							unsigned int data = 589832
+							[412]
+							unsigned int data = 720906
+							[413]
+							unsigned int data = 851980
+							[414]
+							unsigned int data = 983054
+							[415]
+							unsigned int data = 1114128
+							[416]
+							unsigned int data = 1376276
+							[417]
+							unsigned int data = 1507350
+							[418]
+							unsigned int data = 1638424
+							[419]
+							unsigned int data = 1769498
+							[420]
+							unsigned int data = 65535
+							[421]
+							unsigned int data = 262145
+							[422]
+							unsigned int data = 393221
+							[423]
+							unsigned int data = 655367
+							[424]
+							unsigned int data = 786443
+							[425]
+							unsigned int data = 917517
+							[426]
+							unsigned int data = 1179663
+							[427]
+							unsigned int data = 1310739
+							[428]
+							unsigned int data = 1572885
+							[429]
+							unsigned int data = 1703961
+							[430]
+							unsigned int data = 4294901787
+							[431]
+							unsigned int data = 851980
+							[432]
+							unsigned int data = 1769498
+							[433]
+							unsigned int data = 262143
+							[434]
+							unsigned int data = 524295
+							[435]
+							unsigned int data = 786441
+							[436]
+							unsigned int data = 983054
+							[437]
+							unsigned int data = 1114128
+							[438]
+							unsigned int data = 1376276
+							[439]
+							unsigned int data = 1507350
+							[440]
+							unsigned int data = 1769498
+							[441]
+							unsigned int data = 2687016
+							[442]
+							unsigned int data = 2818090
+							[443]
+							unsigned int data = 3145774
+							[444]
+							unsigned int data = 3473457
+							[445]
+							unsigned int data = 524287
+							[446]
+							unsigned int data = 589832
+							[447]
+							unsigned int data = 720906
+							[448]
+							unsigned int data = 917516
+							[449]
+							unsigned int data = 1310735
+							[450]
+							unsigned int data = 1441813
+							[451]
+							unsigned int data = 1572887
+							[452]
+							unsigned int data = 1703961
+							[453]
+							unsigned int data = 2621467
+							[454]
+							unsigned int data = 3014697
+							[455]
+							unsigned int data = 3211312
+							[456]
+							unsigned int data = 3342386
+							[457]
+							unsigned int data = 3473460
+							[458]
+							unsigned int data = 262143
+							[459]
+							unsigned int data = 524295
+							[460]
+							unsigned int data = 786441
+							[461]
+							unsigned int data = 983054
+							[462]
+							unsigned int data = 1114128
+							[463]
+							unsigned int data = 1376276
+							[464]
+							unsigned int data = 1507350
+							[465]
+							unsigned int data = 1769498
+							[466]
+							unsigned int data = 2687016
+							[467]
+							unsigned int data = 2818090
+							[468]
+							unsigned int data = 3145774
+							[469]
+							unsigned int data = 4294901813
+							[470]
+							unsigned int data = 524295
+							[471]
+							unsigned int data = 655369
+							[472]
+							unsigned int data = 917516
+							[473]
+							unsigned int data = 1310735
+							[474]
+							unsigned int data = 1441813
+							[475]
+							unsigned int data = 1572887
+							[476]
+							unsigned int data = 1703961
+							[477]
+							unsigned int data = 2621467
+							[478]
+							unsigned int data = 3014697
+							[479]
+							unsigned int data = 3276848
+							[480]
+							unsigned int data = 3407923
+							[481]
+							unsigned int data = 4294901813
+							[482]
+							unsigned int data = 1310737
+							[483]
+							unsigned int data = 1441813
+							[484]
+							unsigned int data = 1703959
+							[485]
+							unsigned int data = 2621467
+							[486]
+							unsigned int data = 2752553
+							[487]
+							unsigned int data = 3014699
+							[488]
+							unsigned int data = 3145775
+							[489]
+							unsigned int data = 3407921
+							[490]
+							unsigned int data = 4294901813
+							[491]
+							unsigned int data = 1376276
+							[492]
+							unsigned int data = 1507350
+							[493]
+							unsigned int data = 1638424
+							[494]
+							unsigned int data = 1769498
+							[495]
+							unsigned int data = 2687016
+							[496]
+							unsigned int data = 3080238
+							[497]
+							unsigned int data = 3211312
+							[498]
+							unsigned int data = 3342386
+							[499]
+							unsigned int data = 3473460
+							[500]
+							unsigned int data = 851967
+							[501]
+							unsigned int data = 1769498
+							[502]
+							unsigned int data = 3473460
+							[503]
+							unsigned int data = 65535
+							[504]
+							unsigned int data = 262145
+							[505]
+							unsigned int data = 393221
+							[506]
+							unsigned int data = 655367
+							[507]
+							unsigned int data = 786443
+							[508]
+							unsigned int data = 4294901773
+							[509]
+							unsigned int data = 327684
+							[510]
+							unsigned int data = 655367
+							[511]
+							unsigned int data = 786443
+							[512]
+							unsigned int data = 983054
+							[513]
+							unsigned int data = 1245202
+							[514]
+							unsigned int data = 1376276
+							[515]
+							unsigned int data = 1638424
+							[516]
+							unsigned int data = 1769498
+							[517]
+							unsigned int data = 2687016
+							[518]
+							unsigned int data = 2949164
+							[519]
+							unsigned int data = 3080238
+							[520]
+							unsigned int data = 3342386
+							[521]
+							unsigned int data = 3473460
+							[522]
+							unsigned int data = 2818047
+							[523]
+							unsigned int data = 3014699
+							[524]
+							unsigned int data = 3538991
+							[525]
+							unsigned int data = 3670071
+							[526]
+							unsigned int data = 3932217
+							[527]
+							unsigned int data = 4522045
+							[528]
+							unsigned int data = 4294901830
+							[529]
+							unsigned int data = 2818090
+							[530]
+							unsigned int data = 3080238
+							[531]
+							unsigned int data = 3604534
+							[532]
+							unsigned int data = 3735608
+							[533]
+							unsigned int data = 3997756
+							[534]
+							unsigned int data = 4522052
+							[535]
+							unsigned int data = 4294901830
+							[536]
+							unsigned int data = 3735608
+							[537]
+							unsigned int data = 3997756
+							[538]
+							unsigned int data = 4522052
+							[539]
+							unsigned int data = 4653126
+							[540]
+							unsigned int data = 4294901834
+							[541]
+							unsigned int data = 1376273
+							[542]
+							unsigned int data = 2687016
+							[543]
+							unsigned int data = 2818090
+							[544]
+							unsigned int data = 3080238
+							[545]
+							unsigned int data = 3604534
+							[546]
+							unsigned int data = 3932217
+							[547]
+							unsigned int data = 1441791
+							[548]
+							unsigned int data = 2687016
+							[549]
+							unsigned int data = 3080238
+							[550]
+							unsigned int data = 3604534
+							[551]
+							unsigned int data = 4294901820
+							[552]
+							unsigned int data = 2818090
+							[553]
+							unsigned int data = 3080238
+							[554]
+							unsigned int data = 3604534
+							[555]
+							unsigned int data = 3735608
+							[556]
+							unsigned int data = 3997756
+							[557]
+							unsigned int data = 3080191
+							[558]
+							unsigned int data = 3538991
+							[559]
+							unsigned int data = 3932215
+							[560]
+							unsigned int data = 4294901821
+							[561]
+							unsigned int data = 3014699
+							[562]
+							unsigned int data = 3538991
+							[563]
+							unsigned int data = 3670071
+							[564]
+							unsigned int data = 3932217
+							[565]
+							unsigned int data = 4456509
+							[566]
+							unsigned int data = 4294901829
+							[567]
+							unsigned int data = 3538991
+							[568]
+							unsigned int data = 3932215
+							[569]
+							unsigned int data = 4456509
+							[570]
+							unsigned int data = 4294901829
+							[571]
+							unsigned int data = 3735608
+							[572]
+							unsigned int data = 3997756
+							[573]
+							unsigned int data = 4522052
+							[574]
+							unsigned int data = 4653126
+							[575]
+							unsigned int data = 4915274
+							[576]
+							unsigned int data = 3997695
+							[577]
+							unsigned int data = 4456509
+							[578]
+							unsigned int data = 4849733
+							[579]
+							unsigned int data = 4294901835
+							[580]
+							unsigned int data = 2949164
+							[581]
+							unsigned int data = 3538991
+							[582]
+							unsigned int data = 3801143
+							[583]
+							unsigned int data = 3932219
+							[584]
+							unsigned int data = 4456509
+							[585]
+							unsigned int data = 4718661
+							[586]
+							unsigned int data = 4294901833
+							[587]
+							unsigned int data = 3866682
+							[588]
+							unsigned int data = 3997756
+							[589]
+							unsigned int data = 4522052
+							[590]
+							unsigned int data = 4784200
+							[591]
+							unsigned int data = 4915274
+							[592]
+							unsigned int data = 1114111
+							[593]
+							unsigned int data = 1310737
+							[594]
+							unsigned int data = 1441813
+							[595]
+							unsigned int data = 1703959
+							[596]
+							unsigned int data = 2621467
+							[597]
+							unsigned int data = 2752553
+							[598]
+							unsigned int data = 3014699
+							[599]
+							unsigned int data = 3145775
+							[600]
+							unsigned int data = 3407921
+							[601]
+							unsigned int data = 3538997
+							[602]
+							unsigned int data = 3670071
+							[603]
+							unsigned int data = 3932217
+							[604]
+							unsigned int data = 4128830
+							[605]
+							unsigned int data = 4294901827
+							[606]
+							unsigned int data = 1769498
+							[607]
+							unsigned int data = 3473460
+							[608]
+							unsigned int data = 4294901827
+							[609]
+							unsigned int data = 2818090
+							[610]
+							unsigned int data = 3080238
+							[611]
+							unsigned int data = 3211312
+							[612]
+							unsigned int data = 3473460
+							[613]
+							unsigned int data = 3604534
+							[614]
+							unsigned int data = 3735608
+							[615]
+							unsigned int data = 3997756
+							[616]
+							unsigned int data = 4128830
+							[617]
+							unsigned int data = 4390978
+							[618]
+							unsigned int data = 4587589
+							[619]
+							unsigned int data = 5046348
+							[620]
+							unsigned int data = 4294901841
+							[621]
+							unsigned int data = 2818090
+							[622]
+							unsigned int data = 3080238
+							[623]
+							unsigned int data = 3211312
+							[624]
+							unsigned int data = 3473460
+							[625]
+							unsigned int data = 3604534
+							[626]
+							unsigned int data = 3735608
+							[627]
+							unsigned int data = 3997756
+							[628]
+							unsigned int data = 4128830
+							[629]
+							unsigned int data = 4390978
+							[630]
+							unsigned int data = 4522052
+							[631]
+							unsigned int data = 4980806
+							[632]
+							unsigned int data = 5308493
+							[633]
+							unsigned int data = 2818047
+							[634]
+							unsigned int data = 3014699
+							[635]
+							unsigned int data = 3145775
+							[636]
+							unsigned int data = 3407921
+							[637]
+							unsigned int data = 3538997
+							[638]
+							unsigned int data = 3670071
+							[639]
+							unsigned int data = 3932217
+							[640]
+							unsigned int data = 4063293
+							[641]
+							unsigned int data = 4325439
+							[642]
+							unsigned int data = 4522051
+							[643]
+							unsigned int data = 4980806
+							[644]
+							unsigned int data = 4294901841
+							[645]
+							unsigned int data = 2818090
+							[646]
+							unsigned int data = 3080238
+							[647]
+							unsigned int data = 3211312
+							[648]
+							unsigned int data = 3473460
+							[649]
+							unsigned int data = 3604534
+							[650]
+							unsigned int data = 3735608
+							[651]
+							unsigned int data = 3997756
+							[652]
+							unsigned int data = 4128830
+							[653]
+							unsigned int data = 4390978
+							[654]
+							unsigned int data = 4522052
+							[655]
+							unsigned int data = 4980806
+							[656]
+							unsigned int data = 4294901841
+							[657]
+							unsigned int data = 2097183
+							[658]
+							unsigned int data = 3735608
+							[659]
+							unsigned int data = 3997756
+							[660]
+							unsigned int data = 4128830
+							[661]
+							unsigned int data = 4390978
+							[662]
+							unsigned int data = 4522052
+							[663]
+							unsigned int data = 4653126
+							[664]
+							unsigned int data = 4980810
+							[665]
+							unsigned int data = 5308493
+							[666]
+							unsigned int data = 3473407
+							[667]
+							unsigned int data = 4325429
+							[668]
+							unsigned int data = 5308483
+							[669]
+							unsigned int data = 1179647
+							[670]
+							unsigned int data = 1441813
+							[671]
+							unsigned int data = 1703959
+							[672]
+							unsigned int data = 2687016
+							[673]
+							unsigned int data = 2818090
+							[674]
+							unsigned int data = 3080238
+							[675]
+							unsigned int data = 3211312
+							[676]
+							unsigned int data = 3473460
+							[677]
+							unsigned int data = 3604534
+							[678]
+							unsigned int data = 3932217
+							[679]
+							unsigned int data = 4128830
+							[680]
+							unsigned int data = 4294901827
+							[681]
+							unsigned int data = 1441813
+							[682]
+							unsigned int data = 1572887
+							[683]
+							unsigned int data = 1703961
+							[684]
+							unsigned int data = 2687016
+							[685]
+							unsigned int data = 3080238
+							[686]
+							unsigned int data = 3211312
+							[687]
+							unsigned int data = 3342386
+							[688]
+							unsigned int data = 3473460
+							[689]
+							unsigned int data = 3604534
+							[690]
+							unsigned int data = 4063292
+							[691]
+							unsigned int data = 4194367
+							[692]
+							unsigned int data = 4390977
+							[693]
+							unsigned int data = 1179647
+							[694]
+							unsigned int data = 1441813
+							[695]
+							unsigned int data = 1703959
+							[696]
+							unsigned int data = 2687016
+							[697]
+							unsigned int data = 2818090
+							[698]
+							unsigned int data = 3080238
+							[699]
+							unsigned int data = 3211312
+							[700]
+							unsigned int data = 3473460
+							[701]
+							unsigned int data = 3604534
+							[702]
+							unsigned int data = 3932217
+							[703]
+							unsigned int data = 4390974
+							[704]
+							unsigned int data = 1441791
+							[705]
+							unsigned int data = 1507350
+							[706]
+							unsigned int data = 1703960
+							[707]
+							unsigned int data = 2687016
+							[708]
+							unsigned int data = 3080238
+							[709]
+							unsigned int data = 3211312
+							[710]
+							unsigned int data = 3342386
+							[711]
+							unsigned int data = 3473460
+							[712]
+							unsigned int data = 3604534
+							[713]
+							unsigned int data = 4063292
+							[714]
+							unsigned int data = 4259904
+							[715]
+							unsigned int data = 4294901827
+							[716]
+							unsigned int data = 2818090
+							[717]
+							unsigned int data = 3080238
+							[718]
+							unsigned int data = 3211312
+							[719]
+							unsigned int data = 3473460
+							[720]
+							unsigned int data = 3604534
+							[721]
+							unsigned int data = 3735608
+							[722]
+							unsigned int data = 3997756
+							[723]
+							unsigned int data = 4128830
+							[724]
+							unsigned int data = 4390978
+							[725]
+							unsigned int data = 3080191
+							[726]
+							unsigned int data = 3145775
+							[727]
+							unsigned int data = 3276849
+							[728]
+							unsigned int data = 3407923
+							[729]
+							unsigned int data = 3538997
+							[730]
+							unsigned int data = 3932215
+							[731]
+							unsigned int data = 4063293
+							[732]
+							unsigned int data = 4194367
+							[733]
+							unsigned int data = 4325441
+							[734]
+							unsigned int data = 4294901827
+							[735]
+							unsigned int data = 1245202
+							[736]
+							unsigned int data = 1572885
+							[737]
+							unsigned int data = 1703961
+							[738]
+							unsigned int data = 2687016
+							[739]
+							unsigned int data = 2949164
+							[740]
+							unsigned int data = 3080238
+							[741]
+							unsigned int data = 3342386
+							[742]
+							unsigned int data = 3473460
+							[743]
+							unsigned int data = 3604534
+							[744]
+							unsigned int data = 3866682
+							[745]
+							unsigned int data = 3997756
+							[746]
+							unsigned int data = 4259904
+							[747]
+							unsigned int data = 4390978
+							[748]
+							unsigned int data = 2883583
+							[749]
+							unsigned int data = 3080238
+							[750]
+							unsigned int data = 3211312
+							[751]
+							unsigned int data = 3538996
+							[752]
+							unsigned int data = 3670071
+							[753]
+							unsigned int data = 3932217
+							[754]
+							unsigned int data = 4063293
+							[755]
+							unsigned int data = 4325439
+							[756]
+							unsigned int data = 4456515
+							[757]
+							unsigned int data = 4980805
+							[758]
+							unsigned int data = 5308493
+							[759]
+							unsigned int data = 3145727
+							[760]
+							unsigned int data = 3211312
+							[761]
+							unsigned int data = 3342386
+							[762]
+							unsigned int data = 3538996
+							[763]
+							unsigned int data = 3932215
+							[764]
+							unsigned int data = 4063293
+							[765]
+							unsigned int data = 4194367
+							[766]
+							unsigned int data = 4325441
+							[767]
+							unsigned int data = 4456515
+							[768]
+							unsigned int data = 4980805
+							[769]
+							unsigned int data = 5111885
+							[770]
+							unsigned int data = 5308495
+							[771]
+							unsigned int data = 2883583
+							[772]
+							unsigned int data = 3080238
+							[773]
+							unsigned int data = 3211312
+							[774]
+							unsigned int data = 3538996
+							[775]
+							unsigned int data = 3670071
+							[776]
+							unsigned int data = 3932217
+							[777]
+							unsigned int data = 4063293
+							[778]
+							unsigned int data = 4325439
+							[779]
+							unsigned int data = 4456515
+							[780]
+							unsigned int data = 4980805
+							[781]
+							unsigned int data = 4294901841
+							[782]
+							unsigned int data = 3145775
+							[783]
+							unsigned int data = 3276849
+							[784]
+							unsigned int data = 3538996
+							[785]
+							unsigned int data = 3932215
+							[786]
+							unsigned int data = 4063293
+							[787]
+							unsigned int data = 4194367
+							[788]
+							unsigned int data = 4325441
+							[789]
+							unsigned int data = 4456515
+							[790]
+							unsigned int data = 4980805
+							[791]
+							unsigned int data = 5177422
+							[792]
+							unsigned int data = 4294901841
+							[793]
+							unsigned int data = 2097183
+							[794]
+							unsigned int data = 3735608
+							[795]
+							unsigned int data = 3997756
+							[796]
+							unsigned int data = 4128830
+							[797]
+							unsigned int data = 4390978
+							[798]
+							unsigned int data = 4522052
+							[799]
+							unsigned int data = 4653126
+							[800]
+							unsigned int data = 4915274
+							[801]
+							unsigned int data = 5046348
+							[802]
+							unsigned int data = 5308496
+							[803]
+							unsigned int data = 2097151
+							[804]
+							unsigned int data = 3932192
+							[805]
+							unsigned int data = 4063293
+							[806]
+							unsigned int data = 4194367
+							[807]
+							unsigned int data = 4325441
+							[808]
+							unsigned int data = 4456515
+							[809]
+							unsigned int data = 4849733
+							[810]
+							unsigned int data = 4980811
+							[811]
+							unsigned int data = 5111885
+							[812]
+							unsigned int data = 5242959
+							[813]
+							unsigned int data = 4294901841
+							[814]
+							unsigned int data = 2949164
+							[815]
+							unsigned int data = 3276847
+							[816]
+							unsigned int data = 3407923
+							[817]
+							unsigned int data = 3604534
+							[818]
+							unsigned int data = 3866682
+							[819]
+							unsigned int data = 3997756
+							[820]
+							unsigned int data = 4259904
+							[821]
+							unsigned int data = 4390978
+							[822]
+							unsigned int data = 4522052
+							[823]
+							unsigned int data = 4784200
+							[824]
+							unsigned int data = 5177422
+							[825]
+							unsigned int data = 5308496
+							[826]
+							unsigned int data = 2949119
+							[827]
+							unsigned int data = 3080237
+							[828]
+							unsigned int data = 3407922
+							[829]
+							unsigned int data = 3604534
+							[830]
+							unsigned int data = 3866682
+							[831]
+							unsigned int data = 3997756
+							[832]
+							unsigned int data = 4259904
+							[833]
+							unsigned int data = 4390978
+							[834]
+							unsigned int data = 4522052
+							[835]
+							unsigned int data = 4784200
+							[836]
+							unsigned int data = 5177422
+							[837]
+							unsigned int data = 5308496
+							[838]
+							unsigned int data = 2097151
+							[839]
+							unsigned int data = 3801120
+							[840]
+							unsigned int data = 3932219
+							[841]
+							unsigned int data = 4194365
+							[842]
+							unsigned int data = 4325441
+							[843]
+							unsigned int data = 4456515
+							[844]
+							unsigned int data = 4718661
+							[845]
+							unsigned int data = 4849737
+							[846]
+							unsigned int data = 5111883
+							[847]
+							unsigned int data = 5242959
+							[848]
+							unsigned int data = 4294901841
+							[849]
+							unsigned int data = 1900572
+							[850]
+							unsigned int data = 3670046
+							[851]
+							unsigned int data = 3932217
+							[852]
+							unsigned int data = 4456509
+							[853]
+							unsigned int data = 4587589
+							[854]
+							unsigned int data = 4849735
+							[855]
+							unsigned int data = 4294901835
+							[856]
+							unsigned int data = 1900572
+							[857]
+							unsigned int data = 3735582
+							[858]
+							unsigned int data = 3997756
+							[859]
+							unsigned int data = 4522052
+							[860]
+							unsigned int data = 4653126
+							[861]
+							unsigned int data = 4915274
+							[862]
+							unsigned int data = 1900543
+							[863]
+							unsigned int data = 3997725
+							[864]
+							unsigned int data = 4522052
+							[865]
+							unsigned int data = 4915274
+							[866]
+							unsigned int data = 1900543
+							[867]
+							unsigned int data = 1966109
+							[868]
+							unsigned int data = 4653126
+							[869]
+							unsigned int data = 4915274
+							[870]
+							unsigned int data = 1900543
+							[871]
+							unsigned int data = 4849693
+							[872]
+							unsigned int data = 4294901835
+							[873]
+							unsigned int data = 1900572
+							[874]
+							unsigned int data = 2031646
+							[875]
+							unsigned int data = 2162720
+							[876]
+							unsigned int data = 2490402
+							[877]
+							unsigned int data = 3735608
+							[878]
+							unsigned int data = 3997756
+							[879]
+							unsigned int data = 4128830
+							[880]
+							unsigned int data = 4390978
+							[881]
+							unsigned int data = 4522052
+							[882]
+							unsigned int data = 4653126
+							[883]
+							unsigned int data = 4915274
+							[884]
+							unsigned int data = 5046348
+							[885]
+							unsigned int data = 5308496
+							[886]
+							unsigned int data = 1900543
+							[887]
+							unsigned int data = 2031645
+							[888]
+							unsigned int data = 2162720
+							[889]
+							unsigned int data = 2359330
+							[890]
+							unsigned int data = 2490405
+							[891]
+							unsigned int data = 3997735
+							[892]
+							unsigned int data = 4128830
+							[893]
+							unsigned int data = 4259904
+							[894]
+							unsigned int data = 4456514
+							[895]
+							unsigned int data = 4849733
+							[896]
+							unsigned int data = 4980811
+							[897]
+							unsigned int data = 5111885
+							[898]
+							unsigned int data = 5242959
+							[899]
+							unsigned int data = 4294901841
+							[900]
+							unsigned int data = 1900572
+							[901]
+							unsigned int data = 2031646
+							[902]
+							unsigned int data = 2162720
+							[903]
+							unsigned int data = 2490402
+							[904]
+							unsigned int data = 3735591
+							[905]
+							unsigned int data = 3997756
+							[906]
+							unsigned int data = 4128830
+							[907]
+							unsigned int data = 4390978
+							[908]
+							unsigned int data = 4522052
+							[909]
+							unsigned int data = 4653126
+							[910]
+							unsigned int data = 4915274
+							[911]
+							unsigned int data = 5046348
+							[912]
+							unsigned int data = 5308496
+							[913]
+							unsigned int data = 1900543
+							[914]
+							unsigned int data = 2031645
+							[915]
+							unsigned int data = 2162720
+							[916]
+							unsigned int data = 2359330
+							[917]
+							unsigned int data = 2490405
+							[918]
+							unsigned int data = 3997735
+							[919]
+							unsigned int data = 4128830
+							[920]
+							unsigned int data = 4325440
+							[921]
+							unsigned int data = 4522052
+							[922]
+							unsigned int data = 4915274
+							[923]
+							unsigned int data = 5046348
+							[924]
+							unsigned int data = 5177422
+							[925]
+							unsigned int data = 5308496
+							[926]
+							unsigned int data = 1900543
+							[927]
+							unsigned int data = 1966109
+							[928]
+							unsigned int data = 2097183
+							[929]
+							unsigned int data = 2228257
+							[930]
+							unsigned int data = 2555942
+							[931]
+							unsigned int data = 4653126
+							[932]
+							unsigned int data = 4915274
+							[933]
+							unsigned int data = 5046348
+							[934]
+							unsigned int data = 5308496
+							[935]
+							unsigned int data = 1900543
+							[936]
+							unsigned int data = 2031645
+							[937]
+							unsigned int data = 2162720
+							[938]
+							unsigned int data = 2359330
+							[939]
+							unsigned int data = 2490405
+							[940]
+							unsigned int data = 4849703
+							[941]
+							unsigned int data = 4980811
+							[942]
+							unsigned int data = 5111885
+							[943]
+							unsigned int data = 5242959
+							[944]
+							unsigned int data = 4294901841
+							[945]
+							unsigned int data = 1900572
+							[946]
+							unsigned int data = 2097183
+							[947]
+							unsigned int data = 2359331
+							[948]
+							unsigned int data = 2490405
+							[949]
+							unsigned int data = 3801127
+							[950]
+							unsigned int data = 3997755
+							[951]
+							unsigned int data = 4259904
+							[952]
+							unsigned int data = 4456514
+							[953]
+							unsigned int data = 4718661
+							[954]
+							unsigned int data = 4849737
+							[955]
+							unsigned int data = 5111883
+							[956]
+							unsigned int data = 5242959
+							[957]
+							unsigned int data = 4294901841
+							[958]
+							unsigned int data = 2555942
+							[959]
+							unsigned int data = 4390978
+							[960]
+							unsigned int data = 5308496
+							[961]
+							unsigned int data = 2555903
+							[962]
+							unsigned int data = 4325415
+							[963]
+							unsigned int data = 5308496
+							[964]
+							unsigned int data = 1900543
+							[965]
+							unsigned int data = 1966109
+							[966]
+							unsigned int data = 2097183
+							[967]
+							unsigned int data = 2228257
+							[968]
+							unsigned int data = 2424868
+							[969]
+							unsigned int data = 2555942
+							[970]
+							unsigned int data = 4849735
+							[971]
+							unsigned int data = 4980811
+							[972]
+							unsigned int data = 5111885
+							[973]
+							unsigned int data = 5242959
+							[974]
+							unsigned int data = 4294901841
+							[975]
+							unsigned int data = 1900572
+							[976]
+							unsigned int data = 2097183
+							[977]
+							unsigned int data = 2359331
+							[978]
+							unsigned int data = 2490405
+							[979]
+							unsigned int data = 4718631
+							[980]
+							unsigned int data = 4915273
+							[981]
+							unsigned int data = 5177422
+							[982]
+							unsigned int data = 4294901840
+							[983]
+							unsigned int data = 2555942
+							[984]
+							unsigned int data = 5308496
+							[985]
+							unsigned int data = 2555903
+							[986]
+							unsigned int data = 5242919
+							[987]
+							unsigned int data = 3014655
+							[988]
+							unsigned int data = 3538991
+							[989]
+							unsigned int data = 3801143
+							[990]
+							unsigned int data = 3932219
+							[991]
+							unsigned int data = 4456509
+							[992]
+							unsigned int data = 4718661
+							[993]
+							unsigned int data = 4294901833
+							[994]
+							unsigned int data = 3866682
+							[995]
+							unsigned int data = 4456509
+							[996]
+							unsigned int data = 4718661
+							[997]
+							unsigned int data = 4849737
+							[998]
+							unsigned int data = 4294901835
+							[999]
+							unsigned int data = 1376275
+							[1000]
+							unsigned int data = 1638424
+							[1001]
+							unsigned int data = 2621466
+							[1002]
+							unsigned int data = 2883625
+							[1003]
+							unsigned int data = 3014701
+							[1004]
+							unsigned int data = 3276847
+							[1005]
+							unsigned int data = 3407923
+							[1006]
+							unsigned int data = 3538997
+							[1007]
+							unsigned int data = 3801143
+							[1008]
+							unsigned int data = 3932219
+							[1009]
+							unsigned int data = 4194365
+							[1010]
+							unsigned int data = 4325441
+							[1011]
+							unsigned int data = 4294901827
+							[1012]
+							unsigned int data = 3407898
+							[1013]
+							unsigned int data = 4325429
+							[1014]
+							unsigned int data = 4294901827
+							[1015]
+							unsigned int data = 3080237
+							[1016]
+							unsigned int data = 3342386
+							[1017]
+							unsigned int data = 3538996
+							[1018]
+							unsigned int data = 3801143
+							[1019]
+							unsigned int data = 3932219
+							[1020]
+							unsigned int data = 4194365
+							[1021]
+							unsigned int data = 4325441
+							[1022]
+							unsigned int data = 4456515
+							[1023]
+							unsigned int data = 4718661
+							[1024]
+							unsigned int data = 5111881
+							[1025]
+							unsigned int data = 5242959
+							[1026]
+							unsigned int data = 4294901841
+							[1027]
+							unsigned int data = 3080237
+							[1028]
+							unsigned int data = 3407922
+							[1029]
+							unsigned int data = 3604534
+							[1030]
+							unsigned int data = 3866682
+							[1031]
+							unsigned int data = 3997756
+							[1032]
+							unsigned int data = 4259904
+							[1033]
+							unsigned int data = 4390978
+							[1034]
+							unsigned int data = 4522052
+							[1035]
+							unsigned int data = 4784200
+							[1036]
+							unsigned int data = 5177422
+							[1037]
+							unsigned int data = 5308496
+							[1038]
+							unsigned int data = 2097151
+							[1039]
+							unsigned int data = 3801120
+							[1040]
+							unsigned int data = 3997755
+							[1041]
+							unsigned int data = 4259904
+							[1042]
+							unsigned int data = 4456514
+							[1043]
+							unsigned int data = 4718661
+							[1044]
+							unsigned int data = 4849737
+							[1045]
+							unsigned int data = 5111883
+							[1046]
+							unsigned int data = 5242959
+							[1047]
+							unsigned int data = 4294901841
+							[1048]
+							unsigned int data = 3801119
+							[1049]
+							unsigned int data = 3997755
+							[1050]
+							unsigned int data = 4259904
+							[1051]
+							unsigned int data = 4456514
+							[1052]
+							unsigned int data = 4718661
+							[1053]
+							unsigned int data = 4849737
+							[1054]
+							unsigned int data = 5111883
+							[1055]
+							unsigned int data = 5242959
+							[1056]
+							unsigned int data = 4294901841
+							[1057]
+							unsigned int data = 4325428
+							[1058]
+							unsigned int data = 5242947
+							[1059]
+							unsigned int data = 4294901841
+							[1060]
+							unsigned int data = 1900572
+							[1061]
+							unsigned int data = 2097183
+							[1062]
+							unsigned int data = 2359331
+							[1063]
+							unsigned int data = 2490405
+							[1064]
+							unsigned int data = 3866663
+							[1065]
+							unsigned int data = 4194365
+							[1066]
+							unsigned int data = 4325441
+							[1067]
+							unsigned int data = 4522052
+							[1068]
+							unsigned int data = 4784200
+							[1069]
+							unsigned int data = 4915274
+							[1070]
+							unsigned int data = 5177422
+							[1071]
+							unsigned int data = 5308496
+							[1072]
+							unsigned int data = 65535
+					int mNumPrism = 82

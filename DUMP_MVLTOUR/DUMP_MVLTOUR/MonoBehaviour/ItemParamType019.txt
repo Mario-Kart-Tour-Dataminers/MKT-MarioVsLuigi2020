@@ -1,0 +1,1686 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6453662996765402098
+	string m_Name = "ItemParamType019"
+	ItemResource mResources
+		PPtr<$GameObject> mModel
+			int m_FileID = 0
+			SInt64 m_PathID = 1475040750645018974
+		UInt8 mIsUseKillerLod = 0
+		UInt8 mIsTransparent = 0
+		PPtr<$Texture2D> mTextureForReplace
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		JointScaleSet mJointsToSetScale
+			Array Array
+			int size = 0
+		PPtr<$RuntimeAnimatorController> mAnimatorController
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		UInt8 mIsStopAnimOnPowerSave = 0
+		UInt8 mIsUseAnimationRoot = 0
+		PPtr<$ScriptableEffectContainer> mEffectContainer
+			int m_FileID = 0
+			SInt64 m_PathID = -5526428577317232312
+	Prm mParams
+		UInt8 mItemType = 19
+		string mLabel = "KouraBowser"
+		int mDefaultSlotResult = 23
+		vector mDefaultSlotResults
+			Array Array
+			int size = 0
+		UInt8 mItemClass = 17
+		UInt8 mItemTypeOverrideForHitUI = 0
+		UInt8 mIsBackThrow = 0
+		UInt8 mIsOnlyFrontThrow = 1
+		UInt8 mIsInvisibleInBackThrow = 1
+		PrmAppear mAppear
+			int mMaxAppearNum = 4
+			UInt8 mIsOverrideMaxAppearNumOnTeam = 0
+			int mMaxAppearNumOnTeam = 10
+			float mLifeSecMin = 5
+			float mLifeSecond = 5
+			UInt8 mIsCheckLifeInFever = 0
+			UInt8 mNextState = 8
+		PrmBehaviour mBehaviour
+			float mGravity = 0.04
+			float mGravityStand = 0.17
+			ItemCurve_Old mGravityVelRatioCurve
+				UInt8 mType = 0
+				vector mTypeParams
+					Array Array
+					int size = 0
+				AnimationCurve mAnimationCurve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+			float mMass = 0.5
+			UInt8 mUseType = 1
+			UInt8 mIsUseDying = 0
+			float mDyingStateSec = 1
+			float mDyingColOnSec = 0.3
+			UInt8 mIsEmitDestEffectOnVanish = 1
+			UInt8 mStateAfterDrop = 2
+			UInt8 mIsChaseTarget = 1
+			int mBombProbOnBreak = 0
+			UInt8 mAlertType = 0
+			UInt8 mIsShowAlertInLockOnAnotherKart = 0
+			UInt8 mIsHitOwnerAfterThrowStand = 0
+			UInt8 mIsUseContinuousPrimCol = 1
+			UInt8 mIsUseContinuousPrimColBoth = 0
+			UInt8 mIsUseContinuousGndCol = 0
+			ItemEffortInfo mEffortOnStartMove
+				UInt8 mEffort = 0
+				float mParam = 1
+			UInt8 mRotType = 1
+			UInt8 mIsProhibitOverrideRotType = 0
+			float mRotVelDeg = 15
+			float mRotTypeParam2 = 1
+			float mRotTypeParam3 = 1
+			ItemAdditionalFloatArray mAdditionalRotTypeParam
+				UInt8 Enabled = 0
+				vector Value
+					Array Array
+					int size = 0
+			UInt8 mIsMulSpeedToRotTypeParam = 0
+			UInt8 mIsBreakOnHitWall = 0
+			UInt8 mIsStandOnHitFloor = 0
+			UInt8 mIsQuickVanishOnStandAtOutOfRoute = 1
+			float mExVelRatio = 5
+			float mExVelSubRatio = 0.8
+			float mExVelMax = 0.2
+			UInt8 mCanGetItemBox = 0
+			vector mBreakScoreTargetItem
+				Array Array
+				int size = 0
+			UInt8 mIsVanishOtherEntriesOnBreakEquip = 0
+			ItemAdditionalFloat mAngleDegLimitFromKartRoutePath
+				UInt8 Enabled = 0
+				float Value = 0
+			ItemAdditionalPos mDropOffsetL
+				UInt8 IsUsePos = 0
+				Vector3 Pos
+					float x = 0
+					float y = 0
+					float z = 0
+			vector mSlotResultEnablePlus
+				Array Array
+				int size = 0
+			UInt8 mIsBehaveNotPlusIfGenerateFromItem = 1
+			UInt8 mIsBehaveNotPlusIfGenerateFromCannon = 1
+			UInt8 mIsBreakOnTime = 0
+			float mBreakSecOnTime = 1
+			vector mComponents
+				Array Array
+				int size = 0
+		ParabolicParam mParabolic
+			UInt8 mIsEnabled = 1
+			float mShotDegMin = 21
+			float mShotDegMax = 36
+			float mShotDegMinBackThrow = 31
+			float mShotDegMaxBackThrow = 81
+			float mInitSpeed = 0.9
+			float mInitSpeedFever = 0.9
+			float mInitSpeedFrontFasterEvent = 0.9
+			float mInitSpeedBack = 0.45
+			float mInitSpeedRatioToKartDriveSpeed = 1
+			float mInitSpeedRatioCannon = 1.3
+			float mCheckInitVelMin = 0.1
+			float mCheckInitVelMax = 2.4
+			float mCheckInitVelMaxCannon = 4
+			float mReflectCoef = 1
+			float mMapObjFloorReflectCoef = -1
+			float mFricCoef = 1
+			float mMapObjFloorFricCoef = -1
+			float mFloorReflectNumMax = 3
+			UInt8 mStateAfterBoundEnd = 3
+			UInt8 mIsIncrementBoundCountOnTrampoline = 0
+		PrmFever mFever
+			int mKartReactIndexInFeverMultiEquip = 0
+			UInt8 mIsForceLodInFeverEquip = 1
+			UInt8 mIsActionOnTouch = 0
+			UInt8 mIsExtendRadiusOnAction = 0
+			AnimationCurve mEquipMultiRadiusRatioInFever
+				vector m_Curve
+					Array Array
+					int size = 0
+				int m_PreInfinity = 2
+				int m_PostInfinity = 2
+				int m_RotationOrder = 4
+		PrmCollision mCollision
+			UInt8 mParent = 0
+			ItemCollisionType mReactionType
+				UInt8 mDefault = 15
+				UInt8 mIsChangeInMove = 1
+				UInt8 mMove = 16
+				UInt8 mIsChangeInEquip = 0
+				UInt8 mEquip = 0
+				UInt8 mIsChangeInBurst = 0
+				UInt8 mBurst = 0
+			UInt8 mIsIgnoreSameOwnerBurst = 0
+			UInt8 mIsIgnoreOwnersEquipItem = 0
+			UInt8 mIsNoneReactVsMapObjOnMoving = 0
+			UInt8 mIsNoneReactVsItemOnMoving = 0
+			vector mEquippedItemReactToMapObj
+				Array Array
+				int size = 3
+					[0]
+					int data = 0
+					[1]
+					int data = 1
+					[2]
+					int data = 0
+			vector mMapObjReactToEquippedItem
+				Array Array
+				int size = 3
+					[0]
+					int data = 0
+					[1]
+					int data = 1
+					[2]
+					int data = 2
+		PrmReact mReaction
+			UInt8 mParent = 0
+			UInt8 mKartHitReactDefault = 6
+			UInt8 mKartHitReactStand = 1
+			vector mKartReacts
+				Array Array
+				int size = 1
+					[0]
+					UInt8 data = 5
+			KartReactList mKartReactLists
+				Array Array
+				int size = 1
+					[0]
+					KartReactList data
+						vector mList
+							Array Array
+							int size = 1
+								[0]
+								UInt8 data = 5
+			int mKartReactJumpAction = 0
+			UInt8 mKartReactGuard = 20
+			float mReactIntervalSec = 0
+			UInt8 mIsIgnoreHitOwner = 0
+			UInt8 mIsHitMultiKarts = 0
+			UInt8 mIsExitBreakOnReactBreak = 1
+			UInt8 mIsIgnoreHitToFloatingKartInStand = 0
+			UInt8 mIsIgnoreHitToInvincibleKart = 1
+			ItemAdditionalFloat mReactEnabledMinVel
+				UInt8 Enabled = 0
+				float Value = 0
+			int mCoinEmitNum = 0
+			float mCoinEmitVel = 0.3
+			float mCoinEmitAngleDeg = 60
+		PrmSize mSize
+			float mColRadius = 2.05
+			float mGndColRadius = 1.4
+			UInt8 mIsCheckFloor = 1
+			UInt8 mIsCheckWall = 1
+			UInt8 mIsUseEdgeGndCol = 0
+			UInt8 mIsUseNarrow = 0
+			Vector3 mGndColOffset
+				float x = 0
+				float y = -0.3
+				float z = 0
+			ItemCurveXYZ_Old mGndColOffsetCurve
+				ItemCurve_Old mX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+				ItemCurve_Old mY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+				ItemCurve_Old mZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			UInt8 mIsApplyAttToGndColOffset = 0
+			float mScaleMax = 1.25
+			float mScaleVel = 0.05
+			float mScaleInEquipMulti = 0.3
+			float mScaleVelInEquipMulti = 0.03
+			float mOffsetMultiY = 0.53
+			float mOffsetMultiZ = 0.4
+			UInt8 mIsApplyKartBodySizeInEquipMulti = 1
+			UInt8 mIsApplyItemColSizeInEquipMulti = 1
+			float mWallColRadiusRate = 1
+			float mOffsetHangX = 0
+			float mOffsetHangY = 1.8
+			UInt8 mIsForceSetScaleOnBeginThrow = 1
+			float mScaleForceBeginThrow = 0.4
+			float mClipScaleCoefficient = 1.7
+			float mModelBaseScale = 1
+			ItemAdditionalFloat mRejectVecScaleRatioToGndColHit
+				UInt8 Enabled = 0
+				float Value = 0
+		PrmReflect mReflect
+			float mWallReflectCoef = 0.5
+			float mWallFricCoef = 1
+			int mReflectNumForwardBreak = 5
+			int mReflectNumBackBreak = 5
+			int mReflectNumCannonBreak = 5
+			int mReflectNumFeverBreak = 5
+		PrmEffort mUse
+			UInt8 mKartReactOnUse = 8
+			float mParamOnUse = 1
+			int mCoinGetNumOnUse = 0
+			UInt8 mKartReactOnFeverUse = 8
+			UInt8 mKartReactOnHitDrop = 0
+			UInt8 mIsVanishOnDropHit = 1
+			ItemEffectKey mEffectOnHitDrop
+				string mKeyString = ""
+			UInt8 mKartReactOnHitEquip = 0
+			UInt8 mRepeatEfforEndCondition = 0
+			UInt8 mIsEndWatchOnRepeatEffort = 0
+			UInt8 mIsKeepEquipInRepeatEffort = 0
+			UInt8 mIsVisibleInRepeatEffort = 0
+			UInt8 mIsVisibleShadowInRepeatEffort = 0
+			UInt8 mIsSyncScaleToKartCollision = 0
+			float mKartRadiusOfScale1 = 1
+			float mScaleMax = 2
+			ItemCurve_Old mScaleInFeverAction
+				UInt8 mType = 0
+				vector mTypeParams
+					Array Array
+					int size = 0
+				AnimationCurve mAnimationCurve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+			SlotResultReplaceParam mSlotResultReplace
+				UInt8 mIsEnabled = 0
+				float mReplaceSec = 1
+				ItemSlotResultSelector mSelector
+					CandidateInfoItemSlotResult mTable
+						Array Array
+						int size = 0
+		PrmEquipHang mEquipHang
+			float mScaleInEquipHang = 0.95
+			float mScaleVelInEquipHang = 0.05
+			float mBaseOffsetHangZ = 1.25
+			UInt8 mIsAutoEquip = 1
+			UInt8 mIsEquipFront = 1
+			UInt8 mIsReverseDirectionInEquipFront = 0
+			UInt8 mIsEscapeWing = 0
+			UInt8 mIsUseAdditionalAtt = 0
+			Vector3 mAdditionalAtt
+				float x = 0
+				float y = 0
+				float z = 0
+		PrmEmission mEmission
+			BreakEmitInfo mBreak
+				vector mEmitItems
+					Array Array
+					int size = 0
+				int mMaxEmitNumOnOneTime = -1
+				vector mEmitProbabilities
+					Array Array
+					int size = 0
+				vector mEmitDuplications
+					Array Array
+					int size = 0
+				UInt8 mIsRandomPos = 0
+				UInt8 mAttType = 1
+				ItemAdditionalAtt mAttL
+					UInt8 IsUseAtt = 0
+					ItemYawPitchAngleDeg Att
+						float mPitchAngleDeg = 0
+						float mYawAngleDeg = 0
+						float mRollAngleDeg = 0
+				vector mYawAngleDeg
+					Array Array
+					int size = 0
+				float mEmitPitchAngleDeg = 45
+				float mEmitVel = 0.5
+				float mEmitPosOffset = 0.2
+				UInt8 mIsEmitOneInFever = 0
+			OtherEmitInfo mOther
+				ItemTypeAndInt mEmitInfos
+					Array Array
+					int size = 0
+			UInt8 mIsUseMoveAttTypeOverrided = 0
+			UInt8 mMoveAttTypeOverrided = 0
+		BurstParam mBurst
+			float mBurstScaleMin = 0.15
+			float mBurstScaleMax = 19
+			float mBurstScaleVel = 1.8
+			float mBurstCollisionLifeSec = 0.583
+			UInt8 mCanGuardBySuperHorn = 1
+			int mEffectIndex = 0
+			float mBurstLifeSec = 1
+			float mBurstAnimSpeedRatio = 1
+			ItemAdditionalFloat mSetFloorPos
+				UInt8 Enabled = 0
+				float Value = 0
+			UInt8 mIsKartHitEnabledBeforeBurst = 1
+			float mReactIndex1BurstSec = 100
+		PrmAI mAI
+			int mReactionOfAI = 2
+		PrmShadow mShadow
+			UInt8 mIsShadowEnabled = 1
+			float mShadowScaleRatio = 1.8
+			UInt8 mIsShadowEnabledInMove = 1
+			UInt8 mIsShadowEnabledInMoveEnemy = 1
+		PrmModule mModule
+			UInt8 mHasChasedModule = 0
+			float mChaseSecMax = 1
+			float mOneChaseLatencySec = 0.2
+		PrmSkill mSkill
+			int mAvoidLockOnLevelToNeed = 200
+			int mHomingSkillLevelToNeed = 0
+		PrmAnimation mAnimation
+			ItemAnimTriggerParam mTriggerOnStateInit
+				Array Array
+				int size = 0
+			ItemAnimKeyParam mKeyOnStateInit
+				Array Array
+				int size = 0
+		PrmScaleAnim mScaleAnim
+			Param mOnBound
+				UInt8 mIsEnabled = 0
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			Param mOnEffort
+				UInt8 mIsEnabled = 0
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			Param mOnMove
+				UInt8 mIsEnabled = 0
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			Param mOnDying
+				UInt8 mIsEnabled = 0
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			Param mOnEquipHang
+				UInt8 mIsEnabled = 0
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			UInt8 mIsSetVisibleOnFeverEquipAroundIfAnyEffortOnce = 0
+		PrmLaunched mLc
+			ItemCurveXYZ_Old mPosOffsetXYZ
+				ItemCurve_Old mX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+				ItemCurve_Old mY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+				ItemCurve_Old mZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+		PrmP2P mP2P
+			UInt8 mIsFakeCrash = 1
+		ItemCameraParam mCamera
+			UInt8 mIsRestrainShake = 1
+		ItemAudioParam mAudio
+			UInt8 mIsChildOfAudioManagerObj = 0
+			AudioSpeedTrigger mSpeedTriggers
+				Array Array
+				int size = 0
+		PrmLevel mParamLevelList
+			Array Array
+			int size = 1
+				[0]
+				PrmLevel data
+					PrmSize mSize
+						float mColRadius = 2.05
+						float mGndColRadius = 1.55
+						UInt8 mIsCheckFloor = 1
+						UInt8 mIsCheckWall = 1
+						UInt8 mIsUseEdgeGndCol = 0
+						UInt8 mIsUseNarrow = 0
+						Vector3 mGndColOffset
+							float x = 0
+							float y = -0.3
+							float z = 0
+						ItemCurveXYZ_Old mGndColOffsetCurve
+							ItemCurve_Old mX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								AnimationCurve mAnimationCurve
+									vector m_Curve
+										Array Array
+										int size = 2
+											[0]
+											Keyframe data
+												float time = 0
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+											[1]
+											Keyframe data
+												float time = 1
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+									int m_PreInfinity = 2
+									int m_PostInfinity = 2
+									int m_RotationOrder = 4
+							ItemCurve_Old mY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								AnimationCurve mAnimationCurve
+									vector m_Curve
+										Array Array
+										int size = 2
+											[0]
+											Keyframe data
+												float time = 0
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+											[1]
+											Keyframe data
+												float time = 1
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+									int m_PreInfinity = 2
+									int m_PostInfinity = 2
+									int m_RotationOrder = 4
+							ItemCurve_Old mZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								AnimationCurve mAnimationCurve
+									vector m_Curve
+										Array Array
+										int size = 2
+											[0]
+											Keyframe data
+												float time = 0
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+											[1]
+											Keyframe data
+												float time = 1
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+									int m_PreInfinity = 2
+									int m_PostInfinity = 2
+									int m_RotationOrder = 4
+						UInt8 mIsApplyAttToGndColOffset = 0
+						float mScaleMax = 1.14
+						float mScaleVel = 0.1
+						float mScaleInEquipMulti = 0.3
+						float mScaleVelInEquipMulti = 0.03
+						float mOffsetMultiY = 0.53
+						float mOffsetMultiZ = 0.4
+						UInt8 mIsApplyKartBodySizeInEquipMulti = 1
+						UInt8 mIsApplyItemColSizeInEquipMulti = 1
+						float mWallColRadiusRate = 1
+						float mOffsetHangX = 0
+						float mOffsetHangY = 2
+						UInt8 mIsForceSetScaleOnBeginThrow = 0
+						float mScaleForceBeginThrow = 1
+						float mClipScaleCoefficient = 1.7
+						float mModelBaseScale = 1.14
+						ItemAdditionalFloat mRejectVecScaleRatioToGndColHit
+							UInt8 Enabled = 0
+							float Value = 0
+					PrmBehaviourL mBehaviourL
+						float mRotVelDeg = 22
+					PrmEffort mUse
+						UInt8 mKartReactOnUse = 8
+						float mParamOnUse = 1
+						int mCoinGetNumOnUse = 0
+						UInt8 mKartReactOnFeverUse = 8
+						UInt8 mKartReactOnHitDrop = 0
+						UInt8 mIsVanishOnDropHit = 1
+						ItemEffectKey mEffectOnHitDrop
+							string mKeyString = ""
+						UInt8 mKartReactOnHitEquip = 0
+						UInt8 mRepeatEfforEndCondition = 0
+						UInt8 mIsEndWatchOnRepeatEffort = 0
+						UInt8 mIsKeepEquipInRepeatEffort = 0
+						UInt8 mIsVisibleInRepeatEffort = 0
+						UInt8 mIsVisibleShadowInRepeatEffort = 0
+						UInt8 mIsSyncScaleToKartCollision = 0
+						float mKartRadiusOfScale1 = 1
+						float mScaleMax = 2
+						ItemCurve_Old mScaleInFeverAction
+							UInt8 mType = 0
+							vector mTypeParams
+								Array Array
+								int size = 0
+							AnimationCurve mAnimationCurve
+								vector m_Curve
+									Array Array
+									int size = 2
+										[0]
+										Keyframe data
+											float time = 0
+											float value = 1
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0
+											float outWeight = 0
+										[1]
+										Keyframe data
+											float time = 1
+											float value = 1
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0
+											float outWeight = 0
+								int m_PreInfinity = 2
+								int m_PostInfinity = 2
+								int m_RotationOrder = 4
+						SlotResultReplaceParam mSlotResultReplace
+							UInt8 mIsEnabled = 0
+							float mReplaceSec = 1
+							ItemSlotResultSelector mSelector
+								CandidateInfoItemSlotResult mTable
+									Array Array
+									int size = 0
+					PrmEmission mEmission
+						BreakEmitInfo mBreak
+							vector mEmitItems
+								Array Array
+								int size = 0
+							int mMaxEmitNumOnOneTime = -1
+							vector mEmitProbabilities
+								Array Array
+								int size = 0
+							vector mEmitDuplications
+								Array Array
+								int size = 0
+							UInt8 mIsRandomPos = 0
+							UInt8 mAttType = 1
+							ItemAdditionalAtt mAttL
+								UInt8 IsUseAtt = 0
+								ItemYawPitchAngleDeg Att
+									float mPitchAngleDeg = 0
+									float mYawAngleDeg = 0
+									float mRollAngleDeg = 0
+							vector mYawAngleDeg
+								Array Array
+								int size = 0
+							float mEmitPitchAngleDeg = 45
+							float mEmitVel = 0.5
+							float mEmitPosOffset = 0.2
+							UInt8 mIsEmitOneInFever = 0
+						OtherEmitInfo mOther
+							ItemTypeAndInt mEmitInfos
+								Array Array
+								int size = 0
+						UInt8 mIsUseMoveAttTypeOverrided = 0
+						UInt8 mMoveAttTypeOverrided = 0
+					BurstParam mBurst
+						float mBurstScaleMin = 0.15
+						float mBurstScaleMax = 19
+						float mBurstScaleVel = 1.8
+						float mBurstCollisionLifeSec = 0.583
+						UInt8 mCanGuardBySuperHorn = 1
+						int mEffectIndex = 0
+						float mBurstLifeSec = 1
+						float mBurstAnimSpeedRatio = 1
+						ItemAdditionalFloat mSetFloorPos
+							UInt8 Enabled = 0
+							float Value = 0
+						UInt8 mIsKartHitEnabledBeforeBurst = 1
+						float mReactIndex1BurstSec = 100
+					PrmScaleAnim mScaleAnim
+						Param mOnBound
+							UInt8 mIsEnabled = 0
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						Param mOnEffort
+							UInt8 mIsEnabled = 0
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						Param mOnMove
+							UInt8 mIsEnabled = 0
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						Param mOnDying
+							UInt8 mIsEnabled = 0
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						Param mOnEquipHang
+							UInt8 mIsEnabled = 0
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						UInt8 mIsSetVisibleOnFeverEquipAroundIfAnyEffortOnce = 0
+	float mUpdateIntervalTargetRank = 1
+	float mTermSpeedAdd = 0.9
+	float mTermSpeedKartRatio = 1.22
+	int mReflectNumEquipBreak = 2
+	AnimationCurve mScaleShrinkCurveOnHit
+		vector m_Curve
+			Array Array
+			int size = 4
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+					int weightedMode = 0
+					float inWeight = 0.3333333
+					float outWeight = 0.3333333
+				[1]
+				Keyframe data
+					float time = 0.0701932
+					float value = 1.293697
+					float inSlope = -0.03604969
+					float outSlope = -0.03604969
+					int weightedMode = 0
+					float inWeight = 0.3333333
+					float outWeight = 0.3333333
+				[2]
+				Keyframe data
+					float time = 0.1952299
+					float value = 0.3965657
+					float inSlope = 0.0007807914
+					float outSlope = 0.0007807914
+					int weightedMode = 0
+					float inWeight = 0.3333333
+					float outWeight = 0.3333333
+				[3]
+				Keyframe data
+					float time = 0.2768555
+					float value = 0.7090759
+					float inSlope = 0
+					float outSlope = 0
+					int weightedMode = 0
+					float inWeight = 0.3333333
+					float outWeight = 0.3333333
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	float mEquipHitCoolSec = 0.6
+	float mVelLerpRatioPath = 0.1
+	float mVelLerpRatioTarget = 0.035
+	PrmClass017 mParamLevelList
+		Array Array
+		int size = 1
+			[0]
+			PrmClass017 data
+				float mVelLerpRatioPath = 0.1
+				float mVelLerpRatioTarget = 0.04

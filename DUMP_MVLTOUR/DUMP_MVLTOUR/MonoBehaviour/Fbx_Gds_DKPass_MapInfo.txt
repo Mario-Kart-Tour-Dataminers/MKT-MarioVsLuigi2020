@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gds_DKPass_MapInfo"
+	Rectf rect
+		float x = -500.4502
+		float y = -409.5774
+		float width = 853.8171
+		float height = 853.8171
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -4421885009523831263
+	Vector2f offset
+		float x = -30
+		float y = 0

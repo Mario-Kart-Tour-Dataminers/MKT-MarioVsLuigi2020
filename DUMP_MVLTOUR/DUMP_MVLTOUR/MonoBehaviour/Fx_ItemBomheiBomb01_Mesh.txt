@@ -1,0 +1,52 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8670473757938694334
+	string m_Name = "Fx_ItemBomheiBomb01_Mesh"
+	vector mMeshes
+		Array Array
+		int size = 10
+			[0]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8297808218702969030
+			[1]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3278793082827105133
+			[2]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8992092085019583484
+			[3]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5752753499893037170
+			[4]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = -554288477786113486
+			[5]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = 32831062621732772
+			[6]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3608571105786797836
+			[7]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2787593503331796162
+			[8]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2007358149775655096
+			[9]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2555166439440045153

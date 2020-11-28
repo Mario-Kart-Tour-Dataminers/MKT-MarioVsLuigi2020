@@ -1,0 +1,111 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7621033284453131704
+	string m_Name = "CameraModuleRotate"
+	CommonParam Common
+		DistanceParam Distance
+			float L = 6.5
+			float M = 5
+			float S = 4
+			float Giant = 8
+			float Glide = 5.6
+		TargetOffsetParam TargetOffset
+			Vector3 L
+				float x = 0
+				float y = 1.2
+				float z = 0.4
+			Vector3 M
+				float x = 0
+				float y = 0.5
+				float z = 0.4
+			Vector3 S
+				float x = 0
+				float y = -0.2
+				float z = 0.4
+			Vector3 Giant
+				float x = 0
+				float y = 1.5
+				float z = 0
+			Vector3 Glide
+				float x = 0
+				float y = 0.5
+				float z = 0
+		DegXParam DegX
+			float L = 15
+			float M = 8
+			float S = 10
+			float Giant = 10
+			float Glide = 12
+		float DistanceFollowRatioDec = 0.1
+		float DistanceFollowRatioInc = 0.3
+		float DistanceFollowRatioChangingTarget = 0.3
+		float OffsetFollowRatio = 0.1
+		float DegXFollowRatio = 0.1
+		float CameraAttFollow = 0.08
+	AutoRotateParam AutoRotate
+		float MasterSpeed = 0.015
+		float CheckWallCollisionRadius = 1.75
+		float DegY = 180
+		float Fovy = 70
+		float ColRadius = 1
+	FreeRotateParam Rotate
+		RotationInputParam RotationInput
+			PitchParam Pitch
+				float Init = 5.5
+				float Min = -45
+				float Max = 45
+				float MinDotDriver = -20
+				float MaxDotDriver = 20
+				float Vel = 0.15
+				float LerpRate = 0.7
+				float LerpRateExceed = 0.2
+				float DumpingRate = 0.09
+				float DumpingRateHitPrev = 0.09
+			PitchParam PitchGyro
+				float Init = 5.5
+				float Min = -45
+				float Max = 45
+				float MinDotDriver = -20
+				float MaxDotDriver = 20
+				float Vel = 0.02
+				float LerpRate = 0.7
+				float LerpRateExceed = 0.2
+				float DumpingRate = 0.09
+				float DumpingRateHitPrev = 0.09
+			YawParam Yaw
+				float Init = 180
+				float Vel = 0.2
+				float LerpRate = 0.5
+				float DumpingRate = 0.07
+				float DumpingRateHitPrev = 0.07
+			YawParam YawGyro
+				float Init = 180
+				float Vel = 0.2
+				float LerpRate = 0.5
+				float DumpingRate = 0.07
+				float DumpingRateHitPrev = 0.07
+			float MinSwipeDistance = 0.01
+			float IgnoreAngle = 0.5
+			float DegVelAvgLerpRatio = 0.8
+		GndColParam GndCol
+			float LerpRatePitchReject = 0.7
+			float LerpRatePitchPause = 0.7
+			float LerpRateYawReject = 0.7
+			float LerpRateYawPause = 0.7
+			float LerpRatePitch = 0.03
+			float DecreaseDumpingRateThreshold = 5
+			float DestFollowMax = 0.5
+		FovyParam FovyVal
+			float Init = 75
+			float Min = 30
+			float Max = 100
+			float Vel = 110
+			LerpParam LerpParam
+				float Ratio = 0.3
+				float MaxSpeed = 80
+				float MinSpeed = 1

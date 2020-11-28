@@ -1,0 +1,13 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7685985414789896569
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5344162440858665991
+	string m_Name = ""
+	int ParticleNum = 500
+	int PolyDivideNum = 3
+	float PolyCurveDistance = 1
+	UInt8 UseCameraVector = 0

@@ -1,0 +1,648 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4342195224073942658
+	string m_Name = "AdditionalLoadSettingsSpriteAtlas"
+	UILoadSettingSpriteAtlas list
+		Array Array
+		int size = 159
+			[0]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_Arrow02-47-2048.spriteatlas"
+			[1]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BalloonBtnDlgNewsList00-47-2048.spriteatlas"
+			[2]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BalloonPoint03-47-2048.spriteatlas"
+			[3]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BalloonRankingFriendGiftPoint00-47-2048.spriteatlas"
+			[4]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_Base00-47-2048.spriteatlas"
+			[5]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnArrow00-47-2048.spriteatlas"
+			[6]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnCmn02-47-2048.spriteatlas"
+			[7]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnCmnShopTreasureBox00-47-2048.spriteatlas"
+			[8]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnCmnShopTreasureBox01-47-2048.spriteatlas"
+			[9]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnCmnShopTreasureBox02-47-2048.spriteatlas"
+			[10]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnDlgSetting00-47-2048.spriteatlas"
+			[11]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnFrame01-47-2048.spriteatlas"
+			[12]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnFriend00-47-2048.spriteatlas"
+			[13]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnFriend01-47-2048.spriteatlas"
+			[14]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnFriend02-47-2048.spriteatlas"
+			[15]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnFriendBase00-47-2048.spriteatlas"
+			[16]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnSubAddIcon00-47-2048.spriteatlas"
+			[17]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnSubInfoIcon00-47-2048.spriteatlas"
+			[18]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnSubPosi00-47-2048.spriteatlas"
+			[19]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnWappenBookCursor00-47-2048.spriteatlas"
+			[20]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnWappenBookEffect00-47-2048.spriteatlas"
+			[21]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnWappenBookFrame00-47-2048.spriteatlas"
+			[22]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnWappenGaugeLight00-47-2048.spriteatlas"
+			[23]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_CircleBase03-47-2048.spriteatlas"
+			[24]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_CircleBase04-47-2048.spriteatlas"
+			[25]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_CircleLight00-47-2048.spriteatlas"
+			[26]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_CupBase01-47-2048.spriteatlas"
+			[27]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_CupBaseShadow00-47-2048.spriteatlas"
+			[28]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_CupBaseUnopened00-47-2048.spriteatlas"
+			[29]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DailyChallengeFrame00-47-2048.spriteatlas"
+			[30]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgBadgeNewNumber00-47-2048.spriteatlas"
+			[31]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgCheckIcon02-47-2048.spriteatlas"
+			[32]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgCustomizeBgItemRare00-34-2048.spriteatlas"
+			[33]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgDriftIcon00-47-2048.spriteatlas"
+			[34]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgDriftIcon01-47-2048.spriteatlas"
+			[35]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgIconSlot01-47-2048.spriteatlas"
+			[36]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgIconSlot02-47-2048.spriteatlas"
+			[37]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgIconSlot03-47-2048.spriteatlas"
+			[38]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_Flare00-47-2048.spriteatlas"
+			[39]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_GetItemEffect02-47-2048.spriteatlas"
+			[40]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_IconLock01-47-2048.spriteatlas"
+			[41]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_IconNetPlayInvite00-47-2048.spriteatlas"
+			[42]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_IconNetPlayTeamChange00-47-2048.spriteatlas"
+			[43]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_IconNewsList00-47-2048.spriteatlas"
+			[44]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_JugemRanking00-47-2048.spriteatlas"
+			[45]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_LightBallTail01-47-2048.spriteatlas"
+			[46]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_LightBeam02-47-2048.spriteatlas"
+			[47]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_LightEffect01-47-2048.spriteatlas"
+			[48]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_LoginBase00-47-2048.spriteatlas"
+			[49]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuBGUnder00-47-2048.spriteatlas"
+			[50]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuBtnStartArrow00-47-2048.spriteatlas"
+			[51]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuBtnStartFrame00-47-2048.spriteatlas"
+			[52]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuBtnStartFrame01-47-2048.spriteatlas"
+			[53]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuCharaSelectCCImage50-47-2048.spriteatlas"
+			[54]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuWindow00-47-2048.spriteatlas"
+			[55]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MenuBG01-34-2048.spriteatlas"
+			[56]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MenuFriendAdd00-47-2048.spriteatlas"
+			[57]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MenuFriendCancel00-47-2048.spriteatlas"
+			[58]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MenuTicketStar00-47-2048.spriteatlas"
+			[59]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MenuWappen01-47-2048.spriteatlas"
+			[60]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_NetPlayBG00-34-2048.spriteatlas"
+			[61]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_NetPlayKinopio01-47-2048.spriteatlas"
+			[62]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_NetPlayLobbyFrame00-47-2048.spriteatlas"
+			[63]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_NetPlaySatellite00-47-2048.spriteatlas"
+			[64]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RankingBase00-47-2048.spriteatlas"
+			[65]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RankingBase01-47-2048.spriteatlas"
+			[66]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RankingBase02-47-2048.spriteatlas"
+			[67]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RankingBase03-47-2048.spriteatlas"
+			[68]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RankingFriendGiftProgressBar00-47-2048.spriteatlas"
+			[69]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RankingOrderBase00-47-2048.spriteatlas"
+			[70]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RankingOrderBase01-47-2048.spriteatlas"
+			[71]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RankingOrderBase02-47-2048.spriteatlas"
+			[72]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareBalloonMachineUltra00-47-2048.spriteatlas"
+			[73]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareBaseFrame00-47-2048.spriteatlas"
+			[74]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareBaseFrameDisableBase00-47-2048.spriteatlas"
+			[75]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareBaseFrameDisableBase01-47-2048.spriteatlas"
+			[76]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareBaseFrameDisableBase02-47-2048.spriteatlas"
+			[77]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareBaseFrameDisableBase03-47-2048.spriteatlas"
+			[78]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareBaseFrameDisableBase04-47-2048.spriteatlas"
+			[79]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareDisableBase00-47-2048.spriteatlas"
+			[80]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_RareUltraStar00-47-2048.spriteatlas"
+			[81]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SeasonReward00-47-2048.spriteatlas"
+			[82]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SeasonReward01-47-2048.spriteatlas"
+			[83]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SeasonRewardContentBase00-47-2048.spriteatlas"
+			[84]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SeasonRewardProgressBar03-47-2048.spriteatlas"
+			[85]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SeasonRewardProgressBar04-47-2048.spriteatlas"
+			[86]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SeasonRewardProgressBar05-47-2048.spriteatlas"
+			[87]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SeasonRewardProgressBar06-47-2048.spriteatlas"
+			[88]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_ShopSpecialOfferKinopio00-47-2048.spriteatlas"
+			[89]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_Smoke00-47-2048.spriteatlas"
+			[90]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_Smoke01-47-2048.spriteatlas"
+			[91]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SpecialOfferFrame00-47-2048.spriteatlas"
+			[92]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_StarEffect00-47-2048.spriteatlas"
+			[93]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_StarIcon00-47-2048.spriteatlas"
+			[94]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_TitleEulaImage00-47-2048.spriteatlas"
+			[95]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_TitleLogo01-47-2048.spriteatlas"
+			[96]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_TitlePen00-47-2048.spriteatlas"
+			[97]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_TopBG00-47-2048.spriteatlas"
+			[98]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_TutorialHold00-47-2048.spriteatlas"
+			[99]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_WappenArrow00-47-2048.spriteatlas"
+			[100]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_WappenBookBase00-34-2048.spriteatlas"
+			[101]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_WappenBookDlgBG00-34-2048.spriteatlas"
+			[102]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_WappenBookListIcon00-47-2048.spriteatlas"
+			[103]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTagAnnouncementBanner_Goldpass-47-2048.spriteatlas"
+			[104]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Currency00-47-2048.spriteatlas"
+			[105]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/GetItem00-34-2048.spriteatlas"
+			[106]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/GetItem00-47-2048.spriteatlas"
+			[107]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/JugemTips01-47-2048.spriteatlas"
+			[108]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/JugemTips02-47-2048.spriteatlas"
+			[109]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/MainMenuBG00-47-2048.spriteatlas"
+			[110]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/MainMenuBG01-47-2048.spriteatlas"
+			[111]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Menu00_DlgEffectLight00-47-2048.spriteatlas"
+			[112]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Menu00_DlgSoundSlideBtn00-47-2048.spriteatlas"
+			[113]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Menu00_IconLock00-47-2048.spriteatlas"
+			[114]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Menu00-47-2048.spriteatlas"
+			[115]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/MenuAndResult00_RareUltraBase01-47-2048.spriteatlas"
+			[116]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/MenuAndResult00-47-2048.spriteatlas"
+			[117]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Number00-47-2048.spriteatlas"
+			[118]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/SubMenu00-47-2048.spriteatlas"
+			[119]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Tmp_TreasureBox00-47-2048.spriteatlas"
+			[120]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/TreasureBox00-34-2048.spriteatlas"
+			[121]
+			UILoadSettingSpriteAtlas data
+				int group = 2
+				string id = "Assets/Main/Content/UI/SpriteAtlas/TreasureBox00-47-2048.spriteatlas"
+			[122]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BalloonBase00-47-2048.spriteatlas"
+			[123]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnRetryBase00-47-2048.spriteatlas"
+			[124]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_SettingHoldFlexible00-47-2048.spriteatlas"
+			[125]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/EvenRuleCountStampEnemy00-47-2048.spriteatlas"
+			[126]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/EventRuleCountCoin00-47-2048.spriteatlas"
+			[127]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/ItemSlotLightList00-47-32.spriteatlas"
+			[128]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/NumberMonochro00-47-2048.spriteatlas"
+			[129]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/NumberRodinLap00-47-2048.spriteatlas"
+			[130]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Race00_0-47-2048.spriteatlas"
+			[131]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Setting00-47-2048.spriteatlas"
+			[132]
+			UILoadSettingSpriteAtlas data
+				int group = 3
+				string id = "Assets/Main/Content/UI/SpriteAtlas/TeamIcon00-47-2048.spriteatlas"
+			[133]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_AddButton01-47-2048.spriteatlas"
+			[134]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnCCBase00-34-2048.spriteatlas"
+			[135]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_BtnInfo00-47-2048.spriteatlas"
+			[136]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_EventCoinIcon00-47-2048.spriteatlas"
+			[137]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuCharaSelectCC50-47-2048.spriteatlas"
+			[138]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuCharaSelectCCImage100-47-2048.spriteatlas"
+			[139]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MenuHUDBase00-47-2048.spriteatlas"
+			[140]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_UserNetPlayRank00-47-2048.spriteatlas"
+			[141]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/ItemSlotLightList00-47-2048.spriteatlas"
+			[142]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/ItemSlotList00-47-2048.spriteatlas"
+			[143]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/JugemTips00-47-2048.spriteatlas"
+			[144]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/MenuHud00-47-2048.spriteatlas"
+			[145]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/NumberColor00-47-2048.spriteatlas"
+			[146]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/NumberRank00-47-2048.spriteatlas"
+			[147]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/NumberRodan00-47-2048.spriteatlas"
+			[148]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/NumberRodinCmn00-47-2048.spriteatlas"
+			[149]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Race00-47-2048.spriteatlas"
+			[150]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/TipsBalloon00-47-2048.spriteatlas"
+			[151]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/TutorialRace00-47-2048.spriteatlas"
+			[152]
+			UILoadSettingSpriteAtlas data
+				int group = 4
+				string id = "Assets/Main/Content/UI/SpriteAtlas/UserRank1-10-47-2048.spriteatlas"
+			[153]
+			UILoadSettingSpriteAtlas data
+				int group = 6
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_CircleBase02-47-2048.spriteatlas"
+			[154]
+			UILoadSettingSpriteAtlas data
+				int group = 6
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_DlgHeadLine01-47-2048.spriteatlas"
+			[155]
+			UILoadSettingSpriteAtlas data
+				int group = 6
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_MainMenuSeparator00-47-2048.spriteatlas"
+			[156]
+			UILoadSettingSpriteAtlas data
+				int group = 6
+				string id = "Assets/Main/Content/UI/SpriteAtlas/_AutoSetTag_NetPlayTeamWinner00-47-2048.spriteatlas"
+			[157]
+			UILoadSettingSpriteAtlas data
+				int group = 6
+				string id = "Assets/Main/Content/UI/SpriteAtlas/NumberMarioLevel00-47-2048.spriteatlas"
+			[158]
+			UILoadSettingSpriteAtlas data
+				int group = 6
+				string id = "Assets/Main/Content/UI/SpriteAtlas/Race00_0_1_2_12_13_14-47-2048.spriteatlas"

@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6547958068063497850
+	string m_Name = "Type054ColorChanger"
+	ItemComponentActivation mActivateion
+		UInt8 mIsAlwaysActive = 0
+		UInt8 mIsActiveFront = 1
+		UInt8 mIsActiveBack = 0
+		UInt8 mIsActiveInCertainState = 0
+		ItemStateBitFlag mStatesToActivate
+			vector mStates
+				Array Array
+				int size = 0
+			vector mDelaySec
+				Array Array
+				int size = 0
+		ItemIntBitFlag mTriggersToForceActivate
+			vector mStates
+				Array Array
+				int size = 0
+		ItemIntBitFlag mTriggersToForceDeactivate
+			vector mStates
+				Array Array
+				int size = 0
+	ItemComponentActivation mActivateionInFever
+		UInt8 mIsAlwaysActive = 1
+		UInt8 mIsActiveFront = 1
+		UInt8 mIsActiveBack = 1
+		UInt8 mIsActiveInCertainState = 0
+		ItemStateBitFlag mStatesToActivate
+			vector mStates
+				Array Array
+				int size = 0
+			vector mDelaySec
+				Array Array
+				int size = 0
+		ItemIntBitFlag mTriggersToForceActivate
+			vector mStates
+				Array Array
+				int size = 0
+		ItemIntBitFlag mTriggersToForceDeactivate
+			vector mStates
+				Array Array
+				int size = 0
+	UInt8 mShaderType = 0
+	ColorParamSet mOnBound
+		ColorParam mColorOnBound
+			Array Array
+			int size = 4
+				[0]
+				ColorParam data
+					UInt8 Mode = 1
+					ColorRGBA Color0
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 1
+					ColorRGBA Color1
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 1
+					float TimeSec = 0.4
+				[1]
+				ColorParam data
+					UInt8 Mode = 1
+					ColorRGBA Color0
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 1
+					ColorRGBA Color1
+						float r = 0.1176471
+						float g = 0
+						float b = 0
+						float a = 1
+					float TimeSec = 0.4
+				[2]
+				ColorParam data
+					UInt8 Mode = 1
+					ColorRGBA Color0
+						float r = 0.1176471
+						float g = 0
+						float b = 0
+						float a = 1
+					ColorRGBA Color1
+						float r = 0.4901961
+						float g = 0
+						float b = 0
+						float a = 1
+					float TimeSec = 0.4
+				[3]
+				ColorParam data
+					UInt8 Mode = 2
+					ColorRGBA Color0
+						float r = 0.07843138
+						float g = 0
+						float b = 0
+						float a = 1
+					ColorRGBA Color1
+						float r = 1
+						float g = 0
+						float b = 0
+						float a = 1
+					float TimeSec = 0.2
+	ColorParamSet mOnReactBreak
+		ColorParam mColorOnBound
+			Array Array
+			int size = 1
+				[0]
+				ColorParam data
+					UInt8 Mode = 2
+					ColorRGBA Color0
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 1
+					ColorRGBA Color1
+						float r = 0.4264706
+						float g = 0
+						float b = 0
+						float a = 1
+					float TimeSec = 0.4

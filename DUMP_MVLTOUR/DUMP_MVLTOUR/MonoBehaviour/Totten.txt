@@ -1,0 +1,108 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Totten"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -3485685832658545451
+	vector mFaceTextures
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -3504135036486530077
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5840038755387054569
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1946209307804701740
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -810585611429983844
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 3306105005089610077
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -5850547156028252384
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/Totten.png"
+				string mGuid = "e061e3ada16fdc74fb5867f4d249fa13"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/TottenMap.png"
+				string mGuid = "01537877877a5794a899ab0f42574b26"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/TottenFaceEntry.png"
+				string mGuid = "98abae463fa3b1643b920563ff4c43aa"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/TottenWholeBody.png"
+				string mGuid = "c0d254a2aed863c43b5607874be3d567"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/TottenUpperBody.png"
+				string mGuid = "3f32cd5baf9df4e47bd82a18e95fdf6b"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/Totten_Small.png"
+				string mGuid = "fa170749aa3f98c40bcd995ac5cb145f"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/TottenFaceEntry_Small.png"
+				string mGuid = "8f068eeb9f4d67446902d19979686ad6"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/TottenWholeBody_Small.png"
+				string mGuid = "9bea1c3186876bf4badfcb94a6ce686c"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Totten/Icons/TottenUpperBody_Small.png"
+				string mGuid = "1692e3e2f8bed4b41a092bf84297de3c"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 4214456407165219390
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "トッテン"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

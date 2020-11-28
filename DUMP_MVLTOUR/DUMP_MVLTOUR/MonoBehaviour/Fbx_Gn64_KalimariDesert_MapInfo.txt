@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gn64_KalimariDesert_MapInfo"
+	Rectf rect
+		float x = -395.8
+		float y = -442.7451
+		float width = 765.3719
+		float height = 765.3719
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 7345088900288728096
+	Vector2f offset
+		float x = -20
+		float y = 0

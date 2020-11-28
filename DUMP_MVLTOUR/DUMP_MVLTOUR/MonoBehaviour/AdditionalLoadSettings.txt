@@ -1,0 +1,1142 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8700286265590686969
+	string m_Name = "AdditionalLoadSettings"
+	UILoadSetting list
+		Array Array
+		int size = 113
+			[0]
+			UILoadSetting data
+				int group = 2
+				int type = 2
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 9
+					SInt64 m_PathID = 6267388481002276304
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[1]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 11
+					SInt64 m_PathID = -6167418194414527739
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[2]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 23
+					SInt64 m_PathID = -7396722092471006587
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[3]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 24
+					SInt64 m_PathID = -4783483433389575827
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[4]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 2
+					SInt64 m_PathID = 1697824468660805034
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[5]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -8045457634919137321
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[6]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 5
+					SInt64 m_PathID = 4114796963321617877
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[7]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 15
+					SInt64 m_PathID = -8708522726098696012
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[8]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -2709397126825374872
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[9]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 18
+					SInt64 m_PathID = 6474555028772707147
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[10]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 13
+					SInt64 m_PathID = -6834889350792660170
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[11]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 22
+					SInt64 m_PathID = 1640361080692289029
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[12]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 21
+					SInt64 m_PathID = 9129155203743338845
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[13]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -2032432878358577628
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[14]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 1478800326309473477
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[15]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 8184122389313862672
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[16]
+			UILoadSetting data
+				int group = 2
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 8743364934087541125
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[17]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Celebration"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[18]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "CoinRaceConfirm"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[19]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "CoinRaceList"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[20]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Customize"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[21]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "DlgCourseResultEvent"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[22]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "DlgCourseResultRace"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[23]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "DlgNetPlayLobbyInvite"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[24]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "DlgNetPlayRuleGuest"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[25]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "DlgNetPlayRuleHost"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[26]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "DriverSelect"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[27]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "FavoritePartsSelect"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[28]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Friend"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[29]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "FriendApplication"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[30]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "FriendApproval"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[31]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "GetItem"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[32]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "GetItemList"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[33]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "IdCopyComplete"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[34]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "Inventory"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[35]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "ItemInfo"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[36]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Loading"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[37]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "LoginBonusList"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[38]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "MainMenu"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[39]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "MainMenuNetPlayCountDown"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[40]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Maintenance"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[41]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "Menu"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[42]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Message"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[43]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "Mission"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[44]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "NetPlayBG"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[45]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "NetPlayLobby"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[46]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "NetPlayWait"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[47]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "News"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[48]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "News"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[49]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "OverlapItems"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[50]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "PartsBuyConfirm"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[51]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "PartsUnlock"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[52]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "PinkCoinShop"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[53]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Profile"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[54]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "RacePlaySteer"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[55]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Ranking"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[56]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "SaveDeleteConfirm"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[57]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "Season"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[58]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "Settings"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[59]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "SpecialOffer"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[60]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "TicketList"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[61]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "TicketTargetList"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[62]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "TourGift"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[63]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "TreasureBox"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[64]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "TreasureBox"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[65]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "TreasureBoxWarning"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[66]
+			UILoadSetting data
+				int group = 2
+				int type = 0
+				string id = "WappenList"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[67]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "WappenSheet"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[68]
+			UILoadSetting data
+				int group = 2
+				int type = 1
+				string id = "WeeklyEvent"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[69]
+			UILoadSetting data
+				int group = 3
+				int type = 2
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 10
+					SInt64 m_PathID = 3019283939769776909
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[70]
+			UILoadSetting data
+				int group = 3
+				int type = 2
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 4
+					SInt64 m_PathID = -3732338041420287787
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[71]
+			UILoadSetting data
+				int group = 3
+				int type = 2
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 26
+					SInt64 m_PathID = 643227787103208748
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[72]
+			UILoadSetting data
+				int group = 3
+				int type = 2
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 19
+					SInt64 m_PathID = 2754584172997450942
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[73]
+			UILoadSetting data
+				int group = 3
+				int type = 2
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 3
+					SInt64 m_PathID = 3067369201678393556
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[74]
+			UILoadSetting data
+				int group = 3
+				int type = 2
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 14
+					SInt64 m_PathID = 3516330188969854794
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[75]
+			UILoadSetting data
+				int group = 3
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 7
+					SInt64 m_PathID = 7274404883049414987
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[76]
+			UILoadSetting data
+				int group = 3
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 6
+					SInt64 m_PathID = 6314952720618636016
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[77]
+			UILoadSetting data
+				int group = 3
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 12
+					SInt64 m_PathID = -2684422601146308876
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[78]
+			UILoadSetting data
+				int group = 3
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 16
+					SInt64 m_PathID = -3163950649729324040
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[79]
+			UILoadSetting data
+				int group = 3
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 20
+					SInt64 m_PathID = -2525209802991670139
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[80]
+			UILoadSetting data
+				int group = 3
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 25
+					SInt64 m_PathID = -1811514566641430259
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[81]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "EventAim"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[82]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "EventRaceRemainingTime"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[83]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "Finish"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 1
+				UInt8 requestOnly = 0
+			[84]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "Go"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 1
+				UInt8 requestOnly = 0
+			[85]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "ItemAlert"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 1
+				UInt8 requestOnly = 0
+			[86]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "Lap"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 1
+				UInt8 requestOnly = 0
+			[87]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "Miss"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[88]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "PlayerNames"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 1
+				UInt8 requestOnly = 0
+			[89]
+			UILoadSetting data
+				int group = 3
+				int type = 1
+				string id = "Race"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[90]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "RaceHud"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 1
+				UInt8 requestOnly = 0
+			[91]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "RaceHudMap"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 1
+				UInt8 requestOnly = 0
+			[92]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "RankRaceEntryLandscapeGuide"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[93]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "TourEndingParade"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[94]
+			UILoadSetting data
+				int group = 4
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 8
+					SInt64 m_PathID = -2893800201445074505
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[95]
+			UILoadSetting data
+				int group = 4
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 17
+					SInt64 m_PathID = 582562137047282830
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[96]
+			UILoadSetting data
+				int group = 4
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 8
+					SInt64 m_PathID = -2893800201445074505
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[97]
+			UILoadSetting data
+				int group = 4
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -277702405402617493
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[98]
+			UILoadSetting data
+				int group = 4
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 27
+					SInt64 m_PathID = -2216256564359795752
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[99]
+			UILoadSetting data
+				int group = 4
+				int type = 1
+				string id = "Course"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[100]
+			UILoadSetting data
+				int group = 4
+				int type = 1
+				string id = "Cup"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[101]
+			UILoadSetting data
+				int group = 4
+				int type = 1
+				string id = "Event"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[102]
+			UILoadSetting data
+				int group = 4
+				int type = 0
+				string id = "EventRaceEntry"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[103]
+			UILoadSetting data
+				int group = 4
+				int type = 0
+				string id = "Fade"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[104]
+			UILoadSetting data
+				int group = 4
+				int type = 1
+				string id = "Item"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[105]
+			UILoadSetting data
+				int group = 4
+				int type = 1
+				string id = "JugemMessage"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[106]
+			UILoadSetting data
+				int group = 4
+				int type = 0
+				string id = "RankRaceEntry"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[107]
+			UILoadSetting data
+				int group = 4
+				int type = 1
+				string id = "Tips"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[108]
+			UILoadSetting data
+				int group = 6
+				int type = 3
+				string id = ""
+				PPtr<$Object> obj
+					int m_FileID = 28
+					SInt64 m_PathID = -87763236563823962
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[109]
+			UILoadSetting data
+				int group = 6
+				int type = 0
+				string id = "EventResult"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[110]
+			UILoadSetting data
+				int group = 6
+				int type = 0
+				string id = "RankRaceResult"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[111]
+			UILoadSetting data
+				int group = 6
+				int type = 0
+				string id = "RankRaceResultPoint"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0
+			[112]
+			UILoadSetting data
+				int group = 3
+				int type = 0
+				string id = "ScreenshotShare"
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 preinstantiate = 0
+				UInt8 requestOnly = 0

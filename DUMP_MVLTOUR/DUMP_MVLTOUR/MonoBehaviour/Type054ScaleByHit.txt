@@ -1,0 +1,105 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7597948525821017007
+	string m_Name = "Type054ScaleByHit"
+	ItemComponentActivation mActivateion
+		UInt8 mIsAlwaysActive = 0
+		UInt8 mIsActiveFront = 1
+		UInt8 mIsActiveBack = 1
+		UInt8 mIsActiveInCertainState = 1
+		ItemStateBitFlag mStatesToActivate
+			vector mStates
+				Array Array
+				int size = 1
+					[0]
+					UInt8 data = 4
+			vector mDelaySec
+				Array Array
+				int size = 0
+		ItemIntBitFlag mTriggersToForceActivate
+			vector mStates
+				Array Array
+				int size = 0
+		ItemIntBitFlag mTriggersToForceDeactivate
+			vector mStates
+				Array Array
+				int size = 0
+	ItemComponentActivation mActivateionInFever
+		UInt8 mIsAlwaysActive = 0
+		UInt8 mIsActiveFront = 0
+		UInt8 mIsActiveBack = 0
+		UInt8 mIsActiveInCertainState = 0
+		ItemStateBitFlag mStatesToActivate
+			vector mStates
+				Array Array
+				int size = 0
+			vector mDelaySec
+				Array Array
+				int size = 0
+		ItemIntBitFlag mTriggersToForceActivate
+			vector mStates
+				Array Array
+				int size = 0
+		ItemIntBitFlag mTriggersToForceDeactivate
+			vector mStates
+				Array Array
+				int size = 0
+	ItemCurve mScaleCurve
+		UInt8 mType = 1
+		vector mTypeParams
+			Array Array
+			int size = 0
+		vector mCurve
+			Array Array
+			int size = 1
+				[0]
+				AnimationCurve data
+					vector m_Curve
+						Array Array
+						int size = 4
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 1.886118
+								float outSlope = 1.886118
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 0.08955073
+								float value = 1.158555
+								float inSlope = 0.005960464
+								float outSlope = 0.005960464
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[2]
+							Keyframe data
+								float time = 0.208828
+								float value = 0.9262356
+								float inSlope = 0.2629185
+								float outSlope = 0.2629185
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[3]
+							Keyframe data
+								float time = 0.2539229
+								float value = 0.9946186
+								float inSlope = -0.03341716
+								float outSlope = -0.03341716
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+	int mMaxHitCount = 1
+	float mHitCoolSec = 0.7

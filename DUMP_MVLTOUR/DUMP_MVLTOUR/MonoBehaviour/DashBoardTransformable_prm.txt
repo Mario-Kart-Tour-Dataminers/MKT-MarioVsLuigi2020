@@ -1,0 +1,107 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1150354629195081500
+	string m_Name = "DashBoardTransformable_prm"
+	string mMapObjName = "DashBoardTransformable"
+	vector mResource
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 1
+				SInt64 m_PathID = 1872616035041912979
+	KColSet mKCol
+		Array Array
+		int size = 3
+			[0]
+			KColSet data
+				string Name = "DashBoardTransformable_Iron_cl"
+				PPtr<$ScriptableKCollision> KCol
+					int m_FileID = 0
+					SInt64 m_PathID = 7157071730135238114
+				PPtr<$ScriptableKCollision> KCol_0_5
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$ScriptableKCollision> KCol_0_1
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[1]
+			KColSet data
+				string Name = "DashBoardTransformable_Dash_JA_cl"
+				PPtr<$ScriptableKCollision> KCol
+					int m_FileID = 0
+					SInt64 m_PathID = 6160202156408998426
+				PPtr<$ScriptableKCollision> KCol_0_5
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$ScriptableKCollision> KCol_0_1
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[2]
+			KColSet data
+				string Name = "DashBoardTransformable_Dash_JB_cl"
+				PPtr<$ScriptableKCollision> KCol
+					int m_FileID = 0
+					SInt64 m_PathID = -3117623162937592408
+				PPtr<$ScriptableKCollision> KCol_0_5
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$ScriptableKCollision> KCol_0_1
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+	UInt8 mKColScale = 0
+	int mModelOrigin = 0
+	Vector3 mOffset
+		float x = 0
+		float y = 0
+		float z = 0
+	MapObjCollisionParam mCollision
+		Array Array
+		int size = 0
+	PPtr<$RuntimeAnimatorController> mAnimatorController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mSubAnimatorController
+		Array Array
+		int size = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mEnableClip = 0
+	UInt8 mEnableReceiveShadow = 0
+	int mShadowType = 0
+	PPtr<$Material> mProjectionMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	Vector3 mShadowSize
+		float x = 0
+		float y = 0
+		float z = 0
+	float mShadowDensity = 0.5
+	float mGndColRayLen = 10
+	float mReactionInterval = 0
+	vector mLodScreenRelativeTransitionHeights
+		Array Array
+		int size = 0
+	UInt8 mIsUseLodSettingsForPowerSaving = 0
+	vector mLodScreenRelativeTransitionHegihtsForPowerSaving
+		Array Array
+		int size = 0
+	float mDistancedDiscardHeight = 0
+	UInt8 mIsDisableReverseScroll = 1
+	vector mDurationOnlyList
+		Array Array
+		int size = 0
+	UInt8 mIsDisableEvent = 0
+	int mScoreUpMetaId = 0
+	vector mAlternateColorMaterials
+		Array Array
+		int size = 0
+	vector mVariationNameList
+		Array Array
+		int size = 0

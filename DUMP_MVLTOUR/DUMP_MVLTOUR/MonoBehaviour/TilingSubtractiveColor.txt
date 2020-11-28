@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -322587439545626304
+	string m_Name = "TilingSubtractiveColor"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	FloatParameter tileScale
+		UInt8 overrideState = 1
+		float value = 0.0025
+	FloatParameter tileScaleParGrid
+		UInt8 overrideState = 1
+		float value = 4
+	FloatParameter gridFineness
+		UInt8 overrideState = 1
+		float value = 10
+	FloatParameter channelParColor
+		UInt8 overrideState = 1
+		float value = 8
+	FloatParameter maxGridAlpha
+		UInt8 overrideState = 1
+		float value = 0.2
+	FloatParameter finalColorScale
+		UInt8 overrideState = 1
+		float value = 1.2

@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "PeachKimono"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = 140747365753926842
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = 9222206736938316672
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7387241504399791504
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -210434116770704512
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4095521370934923054
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5823323117247919555
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3131282364326270068
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7901399144255014488
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2894758763275313252
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -1457573305725135157
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 7780811207050895808
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 6761497012580110138
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimono.png"
+				string mGuid = "8d3d3c74f68763547869e00b97fc647d"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimonoMap.png"
+				string mGuid = "66a85c056f31c664db268c00a302c6f5"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimonoFaceEntry.png"
+				string mGuid = "ef325451f6d415c4390809207d4033da"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimonoWholeBody.png"
+				string mGuid = "63b238517d5b00c41b5916c15a58c768"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimonoUpperBody.png"
+				string mGuid = "5f6dee167df5ec7499d6e33c1eaacd2b"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimono_Small.png"
+				string mGuid = "842c3f045c26bc64fa7098ce9f16aa2c"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimonoFaceEntry_Small.png"
+				string mGuid = "ed6c9578fa4d7c645b6fe53caaccbe55"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimonoWholeBody_Small.png"
+				string mGuid = "a824e1110760cb14e8911afb52bcb150"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PeachKimono/Icons/PeachKimonoUpperBody_Small.png"
+				string mGuid = "c18012b2ab133d84490004d22570efb0"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -8467714716173731380
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "きものピーチ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

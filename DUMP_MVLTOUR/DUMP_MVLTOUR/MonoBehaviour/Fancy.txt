@@ -1,0 +1,32 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4454195247659244470
+	string m_Name = "Fancy"
+	vector settings
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4351650368467344639
+			[1]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7291130085046411010
+			[2]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3998489091223476575
+			[3]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2873421774658861172
+			[4]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = 9193769375623745938

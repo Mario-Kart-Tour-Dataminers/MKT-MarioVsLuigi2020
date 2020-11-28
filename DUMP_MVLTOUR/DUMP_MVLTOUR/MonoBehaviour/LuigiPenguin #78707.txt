@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "LuigiPenguin"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -7553972972695215857
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 3
+				SInt64 m_PathID = -7060450382537567090
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5995535918186552815
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1461608831553098119
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7545860481818190421
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1983371688160038673
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4793302792435593595
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4803322953573798598
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8574505611435894867
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -5602758262298999159
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 2
+		SInt64 m_PathID = 8586360289672432227
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -1342301418898886357
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguin.png"
+				string mGuid = "ce5fc751332844048b6e882ec00344eb"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguinMap.png"
+				string mGuid = "366457d379b78064fb571b83f6f960e2"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguinFaceEntry.png"
+				string mGuid = "a305ff5b85ee44047872873c8fe3f7ab"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguinWholeBody.png"
+				string mGuid = "90ad0bab19124654892002e902a526aa"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguinUpperBody.png"
+				string mGuid = "ee28334ed32c7234783edc26948efaf6"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguin_Small.png"
+				string mGuid = "303e9f7df71660a41b32488ee560da23"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguinFaceEntry_Small.png"
+				string mGuid = "62cfc1803c486e040a09d723d53011e2"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguinWholeBody_Small.png"
+				string mGuid = "2f80a3879c12c3347a813480359edd1e"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/LuigiPenguin/Icons/LuigiPenguinUpperBody_Small.png"
+				string mGuid = "fcb54cb8b932a5846954719bab641ee5"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,99 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1253097590706675564
+	string m_Name = "CourseMapParam"
+	vector mMapObjArray
+		Array Array
+		int size = 12
+			[0]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 1
+				SInt64 m_PathID = -1099803160674548907
+			[1]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 2
+				SInt64 m_PathID = 2780778863115553754
+			[2]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 3
+				SInt64 m_PathID = -1155653427451956888
+			[3]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 4
+				SInt64 m_PathID = 3920391295213928303
+			[4]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 5
+				SInt64 m_PathID = 1783806711236351291
+			[5]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 6
+				SInt64 m_PathID = -4753685605117850438
+			[6]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 7
+				SInt64 m_PathID = -6718672270808688444
+			[7]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 8
+				SInt64 m_PathID = 1406936795889780210
+			[8]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 9
+				SInt64 m_PathID = 3089172396742571038
+			[9]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 10
+				SInt64 m_PathID = 1638056880031520555
+			[10]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 11
+				SInt64 m_PathID = 3466686384604122513
+			[11]
+			PPtr<$ScriptableMapObj> data
+				int m_FileID = 12
+				SInt64 m_PathID = -1351954998463601693
+	PPtr<$ScriptableEffectContainer> mEffectAreaEnv
+		int m_FileID = 13
+		SInt64 m_PathID = -3135260983505662543
+	PPtr<$ScriptableEffectContainer> mEffectAreaCamera
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mStartGridMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mStartGridMaterials
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$Material> data
+				int m_FileID = 14
+				SInt64 m_PathID = 3677075346786556131
+			[1]
+			PPtr<$Material> data
+				int m_FileID = 15
+				SInt64 m_PathID = -5805867865089522327
+	UInt8 mIsOverrideStartGridParam = 0
+	StartGridParam mStartGridParam
+		int Row = 2
+		int Column = 4
+		float Width = 4
+		float Height = 4
+		float Slide1 = 1
+		float Slide2 = 2
+		float SlideZ = 0
+	vector mCombinedMapObject
+		Array Array
+		int size = 0
+	CourseParam mCourseParam
+		float DriveSpeedRatioMin = 1.039
+		float DriveSpeedRatioMax = 1.078
+		float PosMoveTotalMin = 2170
+		float PosMoveTotalMax = 2490
+		float LapTimeAveMin = 0
+		float LapTimeAveMax = 0

@@ -1,0 +1,100 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Heyho_Black"
+	PPtr<$GameObject> mModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mFaceTextures
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = 542334933262525450
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float mKartScaleSize = 0
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_Black.png"
+				string mGuid = "a82b712cebe770b46bf87eb47b79444d"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_BlackMap.png"
+				string mGuid = "c37c6664ef7e34d47b742ec46d995d64"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_BlackFaceEntry.png"
+				string mGuid = "6ae13e6141711c048ad39076a7d4f125"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_BlackWholeBody.png"
+				string mGuid = "6f875d1c09f171e40a3979c512daa721"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_BlackUpperBody.png"
+				string mGuid = "e4981ec4a4365ef43a788052806fd604"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_Black_Small.png"
+				string mGuid = "17a4c5f077fb0294b93311beead083ec"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_BlackFaceEntry_Small.png"
+				string mGuid = "57e072141ec27a84b967b48b665c1bda"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_BlackWholeBody_Small.png"
+				string mGuid = "bfcc03a0d97489d4581eace5a1376d79"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Heyho/Icons/Heyho_BlackUpperBody_Small.png"
+				string mGuid = "e233f780923b1e449b4fd12ab1bad3e6"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 2
+		SInt64 m_PathID = -2726365445358882949
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -6360573457095355068
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 3681007621756637116
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

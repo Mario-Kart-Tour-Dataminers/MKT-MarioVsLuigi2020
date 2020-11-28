@@ -1,0 +1,1090 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3637992465616399426
+	string m_Name = "ItemReactTable"
+	ItemReactOfOneItem mReactTable
+		Array Array
+		int size = 22
+			[0]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[1]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 1
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 1
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 1
+						[6]
+						UInt8 data = 1
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 1
+						[10]
+						UInt8 data = 1
+						[11]
+						UInt8 data = 1
+						[12]
+						UInt8 data = 7
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 1
+						[15]
+						UInt8 data = 1
+						[16]
+						UInt8 data = 1
+						[17]
+						UInt8 data = 1
+						[18]
+						UInt8 data = 1
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 0
+			[2]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 1
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 1
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 1
+						[6]
+						UInt8 data = 1
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 2
+						[9]
+						UInt8 data = 1
+						[10]
+						UInt8 data = 1
+						[11]
+						UInt8 data = 1
+						[12]
+						UInt8 data = 7
+						[13]
+						UInt8 data = 1
+						[14]
+						UInt8 data = 1
+						[15]
+						UInt8 data = 1
+						[16]
+						UInt8 data = 1
+						[17]
+						UInt8 data = 1
+						[18]
+						UInt8 data = 1
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 0
+			[3]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 7
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 3
+						[21]
+						UInt8 data = 0
+			[4]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[5]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 1
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 1
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 1
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 2
+						[9]
+						UInt8 data = 1
+						[10]
+						UInt8 data = 1
+						[11]
+						UInt8 data = 1
+						[12]
+						UInt8 data = 7
+						[13]
+						UInt8 data = 1
+						[14]
+						UInt8 data = 1
+						[15]
+						UInt8 data = 1
+						[16]
+						UInt8 data = 1
+						[17]
+						UInt8 data = 2
+						[18]
+						UInt8 data = 2
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 0
+			[6]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 1
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 1
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 1
+						[6]
+						UInt8 data = 1
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 1
+						[10]
+						UInt8 data = 1
+						[11]
+						UInt8 data = 1
+						[12]
+						UInt8 data = 7
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 1
+						[15]
+						UInt8 data = 1
+						[16]
+						UInt8 data = 1
+						[17]
+						UInt8 data = 1
+						[18]
+						UInt8 data = 1
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 1
+			[7]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[8]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 3
+						[4]
+						UInt8 data = 3
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 3
+						[11]
+						UInt8 data = 3
+						[12]
+						UInt8 data = 7
+						[13]
+						UInt8 data = 3
+						[14]
+						UInt8 data = 3
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[9]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 1
+						[2]
+						UInt8 data = 1
+						[3]
+						UInt8 data = 1
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 1
+						[6]
+						UInt8 data = 1
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 1
+						[11]
+						UInt8 data = 2
+						[12]
+						UInt8 data = 1
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 1
+						[15]
+						UInt8 data = 1
+						[16]
+						UInt8 data = 1
+						[17]
+						UInt8 data = 2
+						[18]
+						UInt8 data = 2
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 0
+			[10]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[11]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 2
+						[2]
+						UInt8 data = 2
+						[3]
+						UInt8 data = 2
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 2
+						[6]
+						UInt8 data = 2
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 1
+						[10]
+						UInt8 data = 1
+						[11]
+						UInt8 data = 2
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 1
+						[14]
+						UInt8 data = 1
+						[15]
+						UInt8 data = 2
+						[16]
+						UInt8 data = 2
+						[17]
+						UInt8 data = 1
+						[18]
+						UInt8 data = 2
+						[19]
+						UInt8 data = 2
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 0
+			[12]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[13]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[14]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[15]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 6
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 6
+						[5]
+						UInt8 data = 6
+						[6]
+						UInt8 data = 6
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 6
+						[10]
+						UInt8 data = 6
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 6
+						[16]
+						UInt8 data = 6
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 6
+						[21]
+						UInt8 data = 0
+			[16]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 1
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 7
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 1
+						[16]
+						UInt8 data = 1
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 0
+			[17]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 1
+						[11]
+						UInt8 data = 1
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 1
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 1
+						[17]
+						UInt8 data = 1
+						[18]
+						UInt8 data = 1
+						[19]
+						UInt8 data = 1
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 0
+			[18]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 1
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 1
+						[11]
+						UInt8 data = 1
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 1
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 1
+						[17]
+						UInt8 data = 1
+						[18]
+						UInt8 data = 1
+						[19]
+						UInt8 data = 1
+						[20]
+						UInt8 data = 1
+						[21]
+						UInt8 data = 1
+			[19]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[20]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0
+			[21]
+			ItemReactOfOneItem data
+				vector mReactTable
+					Array Array
+					int size = 22
+						[0]
+						UInt8 data = 0
+						[1]
+						UInt8 data = 0
+						[2]
+						UInt8 data = 0
+						[3]
+						UInt8 data = 0
+						[4]
+						UInt8 data = 0
+						[5]
+						UInt8 data = 0
+						[6]
+						UInt8 data = 0
+						[7]
+						UInt8 data = 0
+						[8]
+						UInt8 data = 0
+						[9]
+						UInt8 data = 0
+						[10]
+						UInt8 data = 0
+						[11]
+						UInt8 data = 0
+						[12]
+						UInt8 data = 0
+						[13]
+						UInt8 data = 0
+						[14]
+						UInt8 data = 0
+						[15]
+						UInt8 data = 0
+						[16]
+						UInt8 data = 0
+						[17]
+						UInt8 data = 0
+						[18]
+						UInt8 data = 0
+						[19]
+						UInt8 data = 0
+						[20]
+						UInt8 data = 0
+						[21]
+						UInt8 data = 0

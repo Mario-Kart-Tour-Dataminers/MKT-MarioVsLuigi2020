@@ -1,0 +1,104 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Choropoo"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -4436435708750335944
+	vector mFaceTextures
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 8047837547556537013
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7828014015696055452
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 7196561875865692660
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -991338658076456359
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -4932297457482645822
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/Choropoo.png"
+				string mGuid = "e4025758c65022c4abdb1434217510b0"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/ChoropooMap.png"
+				string mGuid = "593d8dc9ee5530144a89e69ee0a510ad"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/ChoropooFaceEntry.png"
+				string mGuid = "b0cbf31338c209c4b80e9db0dfedfeba"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/ChoropooWholeBody.png"
+				string mGuid = "0b21d67bdf4a2a24b8f36bd38697c3d5"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/ChoropooUpperBody.png"
+				string mGuid = "f3b9e491b447bb14e8e4b42d9d19bbcd"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/Choropoo_Small.png"
+				string mGuid = "8346361112605594397073c6ce877eb8"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/ChoropooFaceEntry_Small.png"
+				string mGuid = "03522ddcefdbfad41a77012e3b489213"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/ChoropooWholeBody_Small.png"
+				string mGuid = "48c73a27440d66e4c9089387ff28b61a"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Choropoo/Icons/ChoropooUpperBody_Small.png"
+				string mGuid = "e8620c272a41cbe409d8003a8b47d60a"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -7971439216203106231
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

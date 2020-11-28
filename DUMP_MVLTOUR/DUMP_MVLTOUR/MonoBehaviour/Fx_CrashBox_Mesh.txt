@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8670473757938694334
+	string m_Name = "Fx_CrashBox_Mesh"
+	vector mMeshes
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6807975322345839257
+			[1]
+			PPtr<$Mesh> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1829034387666097536

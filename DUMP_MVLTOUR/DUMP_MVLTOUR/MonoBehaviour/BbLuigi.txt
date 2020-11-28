@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "BbLuigi"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 5355701697887802049
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 3
+				SInt64 m_PathID = -7400703078829067254
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1187668031045830295
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8983890687156924554
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1054346089078522611
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9217877374717797203
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8440859163651679445
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2770278734408399453
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -283416061488960445
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -1933441542218882587
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 2
+		SInt64 m_PathID = -117545888569057567
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 3824128608781659916
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigi.png"
+				string mGuid = "b1ecb8d99676e5d49b9248ffe9650913"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigiMap.png"
+				string mGuid = "8d4bf1f40d59b534dbe43278b57420b4"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigiFaceEntry.png"
+				string mGuid = "9d6e02c3daf425a44a3ab3d50a799501"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigiWholeBody.png"
+				string mGuid = "d4126ee3a9a6ea14d9c2ccf6c8856cd0"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigiUpperBody.png"
+				string mGuid = "af6e916ebb6e75140afe04e98f33a673"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigi_Small.png"
+				string mGuid = "0ebee77a1229f7647a2d797f97adc538"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigiFaceEntry_Small.png"
+				string mGuid = "acf6aff94df08794dae13e408a3e8a13"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigiWholeBody_Small.png"
+				string mGuid = "4c0d7aa6230b30142b20c381c7d82ddb"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbLuigi/Icons/BbLuigiUpperBody_Small.png"
+				string mGuid = "f0ed3d58f39efc745abc32c6af4afd5e"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -1213181818918969640
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ベビィルイージ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

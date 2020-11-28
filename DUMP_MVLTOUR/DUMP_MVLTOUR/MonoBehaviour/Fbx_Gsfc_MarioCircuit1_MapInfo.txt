@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gsfc_MarioCircuit1_MapInfo"
+	Rectf rect
+		float x = -184.5535
+		float y = -223.8072
+		float width = 370.7163
+		float height = 370.7163
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -5492397034763024464
+	Vector2f offset
+		float x = 15
+		float y = 0

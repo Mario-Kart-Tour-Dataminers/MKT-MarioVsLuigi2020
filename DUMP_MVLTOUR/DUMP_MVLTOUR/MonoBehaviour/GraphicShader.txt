@@ -1,0 +1,48 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7949393647206850218
+	string m_Name = "GraphicShader"
+	PPtr<$Shader> mBakeShaderAlphaFactor100
+		int m_FileID = 0
+		SInt64 m_PathID = -3354380319028569181
+	PPtr<$Shader> mBakeShaderAlphaFactor90
+		int m_FileID = 0
+		SInt64 m_PathID = -656280956759223819
+	PPtr<$Shader> mBakeShaderAlphaFactor80
+		int m_FileID = 0
+		SInt64 m_PathID = -8984944133343351841
+	PPtr<$Shader> mBakeShaderAlphaFactor75
+		int m_FileID = 0
+		SInt64 m_PathID = -8149716082664661314
+	PPtr<$Shader> mBakeShaderAlphaFactor70
+		int m_FileID = 0
+		SInt64 m_PathID = 430408413270638921
+	PPtr<$Shader> mBakeShaderAlphaFactor60
+		int m_FileID = 0
+		SInt64 m_PathID = 3987117590944334376
+	PPtr<$Shader> mBakeShaderAlphaFactor50
+		int m_FileID = 0
+		SInt64 m_PathID = -1495563848592739382
+	PPtr<$Shader> mBakeShadowBlurShader
+		int m_FileID = 0
+		SInt64 m_PathID = 4572844704171179738
+	PPtr<$Shader> mBakeShadowProjectorShader
+		int m_FileID = 2
+		SInt64 m_PathID = 1101248977889168645
+	PPtr<$Shader> mDriverGhostShader
+		int m_FileID = 0
+		SInt64 m_PathID = 5856615092106774373
+	PPtr<$Shader> mKartBodyGhostShader
+		int m_FileID = 0
+		SInt64 m_PathID = -7240484231983736984
+	PPtr<$Shader> mKartTireGhostShader
+		int m_FileID = 0
+		SInt64 m_PathID = -5410945404727566333
+	PPtr<$Shader> mKartWingGhostShader
+		int m_FileID = 0
+		SInt64 m_PathID = -4180711232497941869

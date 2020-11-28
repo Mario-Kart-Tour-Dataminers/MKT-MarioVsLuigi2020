@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gagb_SunsetWilds_MapInfo"
+	Rectf rect
+		float x = -263.7963
+		float y = -261.7074
+		float width = 517.3597
+		float height = 517.3597
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 3250976578582821071
+	Vector2f offset
+		float x = 0
+		float y = 0

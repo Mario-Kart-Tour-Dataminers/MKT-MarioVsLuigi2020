@@ -1,0 +1,50 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1542276887623293071
+	string m_Name = "Bloom"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	FloatParameter intensity
+		UInt8 overrideState = 1
+		float value = 7
+	FloatParameter threshold
+		UInt8 overrideState = 1
+		float value = 1
+	FloatParameter softKnee
+		UInt8 overrideState = 0
+		float value = 0.5
+	FloatParameter clamp
+		UInt8 overrideState = 0
+		float value = 65472
+	FloatParameter diffusion
+		UInt8 overrideState = 1
+		float value = 6.04
+	FloatParameter anamorphicRatio
+		UInt8 overrideState = 0
+		float value = 0
+	ColorParameter color
+		UInt8 overrideState = 0
+		ColorRGBA value
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+	BoolParameter fastMode
+		UInt8 overrideState = 0
+		UInt8 value = 1
+	TextureParameter dirtTexture
+		UInt8 overrideState = 0
+		PPtr<$Texture> value
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		int defaultState = 1
+	FloatParameter dirtIntensity
+		UInt8 overrideState = 0
+		float value = 0

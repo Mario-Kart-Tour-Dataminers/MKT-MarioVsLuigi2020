@@ -1,0 +1,454 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2597185985477464128
+	string m_Name = "ItemAssetCatalog"
+	ItemAssetInfo mAssetInfos
+		Array Array
+		int size = 55
+			[0]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[1]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamkourag"
+			[2]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamkourar"
+			[3]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparambanana"
+			[4]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamkinoko"
+			[5]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamstar"
+			[6]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamkourab"
+			[7]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamthunder"
+			[8]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamcoin"
+			[9]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[10]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparambomhei"
+			[11]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamgesso"
+			[12]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamkiller"
+			[13]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype013"
+			[14]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype014"
+			[15]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype015"
+			[16]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamkillersmall"
+			[17]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype017"
+			[18]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype018"
+			[19]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype019"
+			[20]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype020"
+			[21]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 1
+						[0]
+						UInt8 data = 13
+				string mAssetFileNameLower = "itemparamtype021"
+			[22]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[23]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype023"
+			[24]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[25]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[26]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[27]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype027"
+			[28]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype028"
+			[29]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamsuperhorn"
+			[30]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[31]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[32]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[33]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[34]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[35]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[36]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[37]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[38]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[39]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[40]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[41]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype041"
+			[42]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[43]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[44]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype044"
+			[45]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype045"
+			[46]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[47]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[48]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 1
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamkinokobig"
+			[49]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[50]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype050"
+			[51]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype051"
+			[52]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[53]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 0
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = ""
+			[54]
+			ItemAssetInfo data
+				UInt8 mIsValidItem = 1
+				UInt8 mIsCommon = 0
+				vector mOtherParamsNecessrary
+					Array Array
+					int size = 0
+				string mAssetFileNameLower = "itemparamtype054"

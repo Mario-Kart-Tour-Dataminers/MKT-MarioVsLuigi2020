@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7390034604700155635
+	string m_Name = "DemoGoalCamera"
+	float mMasterSpeed = 0.015
+	float mDegY = 180
+	float mFovy = 85
+	float mDegX_L = -5.5
+	Vector3 mTargetOffset_L
+		float x = 0
+		float y = 0.2
+		float z = 0.4
+	float mDist_L = 5
+	float mDegX_M = -5.5
+	Vector3 mTargetOffset_M
+		float x = 0
+		float y = -0.1
+		float z = 0.2
+	float mDist_M = 4
+	float mDegX_S = -5.5
+	Vector3 mTargetOffset_S
+		float x = 0
+		float y = 0.8
+		float z = 0
+	float cDist_S = 3.5
+	float mCheckWallCollisionRadius = 1.75
+	float mDegX_Giant = -13
+	Vector3 mTargetOffset_Giant
+		float x = 0
+		float y = 1.5
+		float z = 0
+	float mDist_Giant = 8
+	float mDistanceFollowRatio = 0.1
+	float mOffsetFollowRatio = 0.1
+	float mDegXFollowRatio = 0.1

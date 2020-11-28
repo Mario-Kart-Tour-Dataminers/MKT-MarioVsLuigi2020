@@ -1,0 +1,19 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2333654491169874456
+	string m_Name = "Screw_Std"
+	PPtr<$GameObject> mScrewModel
+		int m_FileID = 0
+		SInt64 m_PathID = 8966455777470240585
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartScrew> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0

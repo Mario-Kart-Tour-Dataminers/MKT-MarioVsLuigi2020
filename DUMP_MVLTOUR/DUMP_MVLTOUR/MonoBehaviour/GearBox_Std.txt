@@ -1,0 +1,35 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5096783318408750010
+	string m_Name = "GearBox_Std"
+	PPtr<$GameObject> mGearBoxModel
+		int m_FileID = 0
+		SInt64 m_PathID = -2447016988902635717
+	vector mShaftPositionList
+		Array Array
+		int size = 4
+			[0]
+			Vector3f data
+				float x = -0.12
+				float y = -0.25
+				float z = 0
+			[1]
+			Vector3f data
+				float x = 0.12
+				float y = -0.25
+				float z = 0
+			[2]
+			Vector3f data
+				float x = -0.11
+				float y = -0.25
+				float z = -0.765
+			[3]
+			Vector3f data
+				float x = 0.11
+				float y = -0.25
+				float z = -0.765

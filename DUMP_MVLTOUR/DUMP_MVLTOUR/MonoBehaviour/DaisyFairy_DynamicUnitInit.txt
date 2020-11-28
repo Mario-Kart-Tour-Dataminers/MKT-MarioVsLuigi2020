@@ -1,0 +1,281 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2590768194287000671
+	string m_Name = "DaisyFairy_DynamicUnitInit"
+	DynamicRigDynamicUnitInitProperty m_arInitProp
+		Array Array
+		int size = 1
+			[0]
+			DynamicRigDynamicUnitInitProperty data
+				string strParentName = ""
+				RigProp rigProp
+					Vector3f pos
+						float x = -0.07
+						float y = -0.14
+						float z = 0
+					Vector3f rot
+						float x = 120
+						float y = -90
+						float z = 0
+					Vector3f posHandleDef
+						float x = 0
+						float y = 0
+						float z = 0.5
+					float fRigRangeLimit = 0.5
+					float fGravRate = 0
+					float fAttract = 200
+					float fFriction = 0.1
+					float fUnderLimit = -1
+				ObjProp objProp
+					float fZReflectRate = 0
+					vector arFlapCycle
+						Array Array
+						int size = 3
+							[0]
+							float data = 0.3
+							[1]
+							float data = 0.2
+							[2]
+							float data = 0.15
+				NodeProp arNodeProp
+					Array Array
+					int size = 3
+						[0]
+						NodeProp data
+							string name = "Hair1"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = -41
+										float y = 60
+										float z = 90
+									[1]
+									Vector3f data
+										float x = -41
+										float y = 90
+										float z = 90
+									[2]
+									Vector3f data
+										float x = -41
+										float y = 120
+										float z = 90
+									[3]
+									Vector3f data
+										float x = -57
+										float y = 60
+										float z = 90
+									[4]
+									Vector3f data
+										float x = -57
+										float y = 90
+										float z = 90
+									[5]
+									Vector3f data
+										float x = -57
+										float y = 120
+										float z = 90
+									[6]
+									Vector3f data
+										float x = -80
+										float y = 60
+										float z = 90
+									[7]
+									Vector3f data
+										float x = -80
+										float y = 90
+										float z = 90
+									[8]
+									Vector3f data
+										float x = -80
+										float y = 120
+										float z = 90
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+									[1]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 3
+										UInt8 bColumnCopy = 1
+							Vector3f vecFlap
+								float x = 2
+								float y = 5
+								float z = 2
+							float fFlapTiming = 0
+						[1]
+						NodeProp data
+							string name = "HairL"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = -43
+										float y = 7
+										float z = -90
+									[1]
+									Vector3f data
+										float x = -43
+										float y = 7
+										float z = -90
+									[2]
+									Vector3f data
+										float x = -54
+										float y = 7
+										float z = -60
+									[3]
+									Vector3f data
+										float x = -43
+										float y = 20
+										float z = -90
+									[4]
+									Vector3f data
+										float x = -43
+										float y = 20
+										float z = -90
+									[5]
+									Vector3f data
+										float x = -54
+										float y = 20
+										float z = -60
+									[6]
+									Vector3f data
+										float x = -43
+										float y = 22
+										float z = -90
+									[7]
+									Vector3f data
+										float x = -43
+										float y = 22
+										float z = -90
+									[8]
+									Vector3f data
+										float x = -54
+										float y = 22
+										float z = -60
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[1]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+									[2]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+							Vector3f vecFlap
+								float x = 0
+								float y = 2
+								float z = 0
+							float fFlapTiming = 0.1
+						[2]
+						NodeProp data
+							string name = "HairR"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 54
+										float y = 7
+										float z = -60
+									[1]
+									Vector3f data
+										float x = 43
+										float y = 7
+										float z = -90
+									[2]
+									Vector3f data
+										float x = 43
+										float y = 7
+										float z = -90
+									[3]
+									Vector3f data
+										float x = 54
+										float y = 20
+										float z = -60
+									[4]
+									Vector3f data
+										float x = 43
+										float y = 20
+										float z = -90
+									[5]
+									Vector3f data
+										float x = 43
+										float y = 20
+										float z = -90
+									[6]
+									Vector3f data
+										float x = 54
+										float y = 23
+										float z = -60
+									[7]
+									Vector3f data
+										float x = 43
+										float y = 23
+										float z = -90
+									[8]
+									Vector3f data
+										float x = 43
+										float y = 23
+										float z = -90
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[1]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+									[2]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+							Vector3f vecFlap
+								float x = 0
+								float y = 2
+								float z = 0
+							float fFlapTiming = 0.5
+	vector m_arInvalidMotion
+		Array Array
+		int size = 9
+			[0]
+			int data = 0
+			[1]
+			int data = 6
+			[2]
+			int data = 7
+			[3]
+			int data = 8
+			[4]
+			int data = 9
+			[5]
+			int data = 10
+			[6]
+			int data = 14
+			[7]
+			int data = 5
+			[8]
+			int data = 12

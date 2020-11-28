@@ -1,0 +1,12 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8336595064781322790
+	string m_Name = "TwitterSettingsDevelop"
+	string mConsumerKey = "OoZqLq9oEsNvpMjK7xp4oWWAP"
+	string mConsumerSecret = "kN7LzEqAjmyBrmvjyu8X3sK3xcVajw1HYzS2nTBXEmyj1UNiiM"
+	string mOAuthCallback = "boosterdev://"

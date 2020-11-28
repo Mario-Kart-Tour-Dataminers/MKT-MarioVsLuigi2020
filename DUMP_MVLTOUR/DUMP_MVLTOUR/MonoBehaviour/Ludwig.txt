@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Ludwig"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -5680637628188774562
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -772204818082560261
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8057147721101615606
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5343509542663218914
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5505066810349229806
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8600162036530049662
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3255343860786329664
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1117196605588298665
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -414925384033569308
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -7343820962644040852
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -8731424032601877811
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 1582254008677667482
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/Ludwig.png"
+				string mGuid = "03e71c3c257c02f4c99615da5ba15472"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/LudwigMap.png"
+				string mGuid = "e5a0034297dd720408c095c2dd84c7d7"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/LudwigFaceEntry.png"
+				string mGuid = "a7f7f93c9544c3f4c9fe3a10847db99c"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/LudwigWholeBody.png"
+				string mGuid = "cf46b46b6e196b84187a2a320de047e3"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/LudwigUpperBody.png"
+				string mGuid = "b40f6fd6a955d0f4385220c3d5ad947e"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/Ludwig_Small.png"
+				string mGuid = "0952f51705297d841857d37901a7b408"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/LudwigFaceEntry_Small.png"
+				string mGuid = "0a765763a0ffdf74e86dd44ceef67028"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/LudwigWholeBody_Small.png"
+				string mGuid = "184e6945768338c45b6f948764d420ee"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Ludwig/Icons/LudwigUpperBody_Small.png"
+				string mGuid = "d98088bedc4559c42b0fb80cda76eae0"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -6874964294906328262
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ルドウィッグ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

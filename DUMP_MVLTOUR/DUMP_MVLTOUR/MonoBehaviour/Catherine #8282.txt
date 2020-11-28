@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Catherine"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 5084056530497133878
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 5388816847957235240
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2808012470474106547
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6207844436474320166
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5779190154105451609
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3004099359050883262
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5673895257663717751
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4347936910605984060
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2113303236177108851
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 8537029450666763748
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 2522589235535880807
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 4635910091820052751
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/Catherine.png"
+				string mGuid = "8b99fc6733e3a754d99abad5418bf4e7"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/CatherineMap.png"
+				string mGuid = "6de520daf7c476946b0bf4a112c5176e"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/CatherineFaceEntry.png"
+				string mGuid = "e858ed200803f2541a43dbecbe3b9484"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/CatherineWholeBody.png"
+				string mGuid = "a5481bbea8d84ab4796f32bcf59aa44c"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/CatherineUpperBody.png"
+				string mGuid = "876206c11e499b74d8eca59f48f3eedc"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/Catherine_Small.png"
+				string mGuid = "7d73b79d98b5a1b46b40a19c7011e9a0"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/CatherineFaceEntry_Small.png"
+				string mGuid = "b5a73020415b4044ea38c44d9a459ad5"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/CatherineWholeBody_Small.png"
+				string mGuid = "c53129285e20ae544a6924bf845dc912"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Catherine/Icons/CatherineUpperBody_Small.png"
+				string mGuid = "f5ab9fe8a4cb2db48b431d72f90fee43"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -7416331736288911856
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "キャサリン"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

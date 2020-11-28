@@ -1,0 +1,668 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 209972380458786307
+	string m_Name = "FxCt_Kt_Tire_K_Block_BFalcon8"
+	EffectParameter mEffectParameterList
+		Array Array
+		int size = 16
+			[0]
+			EffectParameter data
+				string Name = "Drift00"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 43
+					SInt64 m_PathID = -7693828663245625609
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = -0.12
+					float y = 0.05
+					float z = -0.17
+				Vector3 RotateOffset
+					float x = 0
+					float y = -100
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[1]
+			EffectParameter data
+				string Name = "Drift01"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 44
+					SInt64 m_PathID = 477986401183601434
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = -0.12
+					float y = 0.05
+					float z = -0.17
+				Vector3 RotateOffset
+					float x = 0
+					float y = -100
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[2]
+			EffectParameter data
+				string Name = "Drift01_LOD"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 45
+					SInt64 m_PathID = 8999754387532942578
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = -0.12
+					float y = 0.05
+					float z = -0.17
+				Vector3 RotateOffset
+					float x = 0
+					float y = -100
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[3]
+			EffectParameter data
+				string Name = "Drift02"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 46
+					SInt64 m_PathID = -1539058619754738974
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = -0.12
+					float y = 0.05
+					float z = -0.17
+				Vector3 RotateOffset
+					float x = 0
+					float y = -100
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[4]
+			EffectParameter data
+				string Name = "Drift02_LOD"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 47
+					SInt64 m_PathID = 2309530430067604261
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = -0.12
+					float y = 0.05
+					float z = -0.17
+				Vector3 RotateOffset
+					float x = 0
+					float y = -100
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[5]
+			EffectParameter data
+				string Name = "Drift03"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 48
+					SInt64 m_PathID = -7316999999271277552
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = -0.12
+					float y = 0.05
+					float z = -0.17
+				Vector3 RotateOffset
+					float x = 0
+					float y = -100
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[6]
+			EffectParameter data
+				string Name = "Drift03_LOD"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 49
+					SInt64 m_PathID = 4710401755797088747
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = -0.12
+					float y = 0.05
+					float z = -0.17
+				Vector3 RotateOffset
+					float x = 0
+					float y = -100
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[7]
+			EffectParameter data
+				string Name = "Drift01St"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 50
+					SInt64 m_PathID = 1028400137919292478
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = -90
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[8]
+			EffectParameter data
+				string Name = "Drift01St_LOD"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 51
+					SInt64 m_PathID = -6065861218200995931
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = -90
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[9]
+			EffectParameter data
+				string Name = "Drift02St"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 52
+					SInt64 m_PathID = -7343191092136211870
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = -90
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[10]
+			EffectParameter data
+				string Name = "Drift02St_LOD"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 53
+					SInt64 m_PathID = 5693453619230427573
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = -90
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[11]
+			EffectParameter data
+				string Name = "Drift03St"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 54
+					SInt64 m_PathID = 1982838364940455687
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[12]
+			EffectParameter data
+				string Name = "Drift03St_LOD"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 55
+					SInt64 m_PathID = -7853253200391796836
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0
+			[13]
+			EffectParameter data
+				string Name = "WheelSpinTire"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 17
+					SInt64 m_PathID = 307208070126663079
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 1
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0.05
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1.35
+					float y = 0.5
+					float z = 1.35
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 1
+			[14]
+			EffectParameter data
+				string Name = "WheelSpinSmoke"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 1
+					SInt64 m_PathID = 1878946682578366223
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 1
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = -0.1
+					float z = -0.6
+				Vector3 RotateOffset
+					float x = 0
+					float y = 180
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 1
+			[15]
+			EffectParameter data
+				string Name = "WheelSpinWind"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 2
+					SInt64 m_PathID = 7121113522303053154
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 1
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 1
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = -0.1
+					float y = -0.1
+					float z = -0.2
+				Vector3 RotateOffset
+					float x = 0
+					float y = 180
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 0.3
+					float y = 0.3
+					float z = 0.3
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 0

@@ -1,0 +1,42 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2123104953829129971
+	string m_Name = "Outline"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	IntParameter useBaseColor
+		UInt8 overrideState = 0
+		int value = 1
+	ColorParameter baseColor
+		UInt8 overrideState = 0
+		ColorRGBA value
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+	ColorParameter outlineColor
+		UInt8 overrideState = 1
+		ColorRGBA value
+			float r = 0.3113208
+			float g = 0.08577732
+			float b = 0.04405482
+			float a = 1
+	FloatParameter normalIntensityFactor
+		UInt8 overrideState = 1
+		float value = 1.5
+	FloatParameter normalAttenuationBias
+		UInt8 overrideState = 1
+		float value = 3
+	FloatParameter depthIntensityFactor
+		UInt8 overrideState = 1
+		float value = 0.5
+	FloatParameter depthAttenuationBias
+		UInt8 overrideState = 1
+		float value = 3

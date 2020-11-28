@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "DaisyYukata"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -3924498912520134385
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 7824533029082876
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5749637735195570339
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2415912335429232170
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -138356654124805578
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4724891878331287837
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8194795142657269003
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3351278775319578676
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -399348799701855349
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -1356278033445988525
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 5315819456983502636
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 8249120583265524001
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukata.png"
+				string mGuid = "800b5f647d949c143b9c508c4aeaa070"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukataMap.png"
+				string mGuid = "600985014bbed3f468a189e568d20231"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukataFaceEntry.png"
+				string mGuid = "acf234e543ed78246a042ce6ff0c1ec6"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukataWholeBody.png"
+				string mGuid = "dd339540794bbc543b19cc93bd6c89e7"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukataUpperBody.png"
+				string mGuid = "3e6cf22a0df2e0f46bf06c356eec075f"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukata_Small.png"
+				string mGuid = "b0b45564c8f45884882d21d3948714f7"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukataFaceEntry_Small.png"
+				string mGuid = "c55b09ea3feee294ea109ad093adeb3a"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukataWholeBody_Small.png"
+				string mGuid = "0abc149c8bfb2814e9b1f743be16ce64"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyYukata/Icons/DaisyYukataUpperBody_Small.png"
+				string mGuid = "56f723684ee41cb4cb01c7b33e39732c"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -1298202784889264574
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

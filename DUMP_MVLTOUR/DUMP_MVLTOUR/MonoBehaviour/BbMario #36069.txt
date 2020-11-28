@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "BbMario"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -8877483322931211071
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -7697200454034565316
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8150665109569174623
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1105792427574218657
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6739399655511557983
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8032841536085898108
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8142478360249616529
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -554247967822895634
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 9189154944668335891
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -3932817913182057575
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 7774771254495247319
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 1744663758772341069
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMario.png"
+				string mGuid = "e372362a17ebfb046b9850eb927d799d"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMarioMap.png"
+				string mGuid = "3aa3b81bbb7cec9468682f75cb1d79a8"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMarioFaceEntry.png"
+				string mGuid = "ffc9d62b1d9f6f84f81d4a6b6ee8fd3e"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMarioWholeBody.png"
+				string mGuid = "66c190ef496a9b149816a32994697bf5"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMarioUpperBody.png"
+				string mGuid = "50e3c26f37a45074c8d762549a2e219c"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMario_Small.png"
+				string mGuid = "45b3b1fd1cdabce4bb740918056e35e8"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMarioFaceEntry_Small.png"
+				string mGuid = "5cfa9f4492d334b4092889f635976683"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMarioWholeBody_Small.png"
+				string mGuid = "c9e85974de6b9db4ca32b4b7ce016dda"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbMario/Icons/BbMarioUpperBody_Small.png"
+				string mGuid = "00d0147a1577aef4db2914445b07234a"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -6634303673936444178
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ベビィマリオ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,39 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8094386303974766579
+	string m_Name = "CourseSceneParam"
+	float mProjectorShadowGlobalCutOffDistanceY = 0
+	FieldFogTimeChangeData mFogChangeData
+		Element mElements
+			Array Array
+			int size = 0
+	FieldFlareTimeChangeData mFlareChangeData
+		UInt8 mDefaultOn = 1
+		Element mElements
+			Array Array
+			int size = 1
+				[0]
+				Element data
+					int mEffBit = 1
+					UInt8 mDisableFlare = 1
+	Vector4f mPowerSavingAdjustColor
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	UInt8 mIsDisableProjectionShadowStencil = 0
+	int mProjectionShadowRenderQueue = -1
+	UInt8 mIsMapObjShadowRenderAfterTransparent = 0
+	FieldLightParametersChangeData mLightParametersChangeData
+		Element mElements
+			Array Array
+			int size = 0
+	FieldLightProbeChangeData mLightProbeChangeData
+		Element mElements
+			Array Array
+			int size = 0

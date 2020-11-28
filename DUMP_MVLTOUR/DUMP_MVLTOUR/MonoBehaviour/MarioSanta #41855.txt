@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "MarioSanta"
+	PPtr<$GameObject> mModel
+		int m_FileID = 3
+		SInt64 m_PathID = 5119263585221714591
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = 3389702986956271768
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6574172331929235232
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5629222221770336351
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6115758994178486824
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6733205032581679618
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8351607765694580754
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5250232408241615216
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4242658692504046003
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 7457464125097536213
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 2
+		SInt64 m_PathID = 5333352328079625236
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 502007480910786177
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSanta.png"
+				string mGuid = "ee3eee2ec6f06544fa5530a8467984f9"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSantaMap.png"
+				string mGuid = "60906c037908b9d4f827eca90967792d"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSantaFaceEntry.png"
+				string mGuid = "be98a602cd6413243b54c5d5d71f7238"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSantaWholeBody.png"
+				string mGuid = "bd2b33bbd542e4b48b6df41dc78ef586"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSantaUpperBody.png"
+				string mGuid = "8dfbd350493f63546b652cfb0683d668"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSanta_Small.png"
+				string mGuid = "6d22772b76f930446b94fda3abab5d6d"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSantaFaceEntry_Small.png"
+				string mGuid = "9888f7cb36496a347912fa8b02313e7b"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSantaWholeBody_Small.png"
+				string mGuid = "50254206e975b574d9791b720a16077b"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSanta/Icons/MarioSantaUpperBody_Small.png"
+				string mGuid = "1653da249a5434649ada940bbe3fe1dd"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 7594927530942054174
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "サンタマリオ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,420 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 35221005878392242
+	string m_Name = "DotMarioDotParam"
+	DotAnimationEditableData mDotAnimationData
+		Array Array
+		int size = 11
+			[0]
+			DotAnimationEditableData data
+				int MotionState = 0
+				AnimationElement AnimationElements
+					Array Array
+					int size = 3
+						[0]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 26
+								float Duration = 3
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 24
+								float Duration = 30
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[2]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 26
+								float Duration = 9
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+				float AnimationBaseAngle = 180
+				float AnimationBaseAngleThreshold = 90
+			[1]
+			DotAnimationEditableData data
+				int MotionState = 1
+				AnimationElement AnimationElements
+					Array Array
+					int size = 3
+						[0]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 26
+								float Duration = 3
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 24
+								float Duration = 18
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[2]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 26
+								float Duration = 9
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+				float AnimationBaseAngle = 180
+				float AnimationBaseAngleThreshold = 90
+			[2]
+			DotAnimationEditableData data
+				int MotionState = 2
+				AnimationElement AnimationElements
+					Array Array
+					int size = 3
+						[0]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 27
+								float Duration = 3
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 25
+								float Duration = 18
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[2]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 27
+								float Duration = 9
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+				float AnimationBaseAngle = 180
+				float AnimationBaseAngleThreshold = 90
+			[3]
+			DotAnimationEditableData data
+				int MotionState = 3
+				AnimationElement AnimationElements
+					Array Array
+					int size = 2
+						[0]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 22
+								float Duration = 5
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 23
+								float Duration = 5
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+				float AnimationBaseAngle = 180
+				float AnimationBaseAngleThreshold = 90
+			[4]
+			DotAnimationEditableData data
+				int MotionState = 4
+				AnimationElement AnimationElements
+					Array Array
+					int size = 2
+						[0]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 22
+								float Duration = 6
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 23
+								float Duration = 6
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+				float AnimationBaseAngle = 180
+				float AnimationBaseAngleThreshold = 90
+			[5]
+			DotAnimationEditableData data
+				int MotionState = 5
+				AnimationElement AnimationElements
+					Array Array
+					int size = 2
+						[0]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 23
+								float Duration = 6
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 22
+								float Duration = 6
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+				float AnimationBaseAngle = 180
+				float AnimationBaseAngleThreshold = 90
+			[6]
+			DotAnimationEditableData data
+				int MotionState = 6
+				AnimationElement AnimationElements
+					Array Array
+					int size = 2
+						[0]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = -1
+								float Duration = 21
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 28
+								float Duration = 21
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+				float AnimationBaseAngle = 0
+				float AnimationBaseAngleThreshold = 60
+			[7]
+			DotAnimationEditableData data
+				int MotionState = 7
+				AnimationElement AnimationElements
+					Array Array
+					int size = 1
+						[0]
+						AnimationElement data
+							int AnimationElementType = 1
+							PoseData Pose
+								int PoseIndex = 0
+								float Duration = 0
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 2
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 60
+				float AnimationBaseAngle = -1
+				float AnimationBaseAngleThreshold = -1
+			[8]
+			DotAnimationEditableData data
+				int MotionState = 8
+				AnimationElement AnimationElements
+					Array Array
+					int size = 8
+						[0]
+						AnimationElement data
+							int AnimationElementType = 1
+							PoseData Pose
+								int PoseIndex = 0
+								float Duration = 0
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 1
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 11
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 30
+								float Duration = 6
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[2]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 0
+								float Duration = 8
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[3]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 30
+								float Duration = 8
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[4]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 0
+								float Duration = 8
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[5]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 30
+								float Duration = 7
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[6]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 0
+								float Duration = 7
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[7]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 30
+								float Duration = 5
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+				float AnimationBaseAngle = -1
+				float AnimationBaseAngleThreshold = -1
+			[9]
+			DotAnimationEditableData data
+				int MotionState = 9
+				AnimationElement AnimationElements
+					Array Array
+					int size = 1
+						[0]
+						AnimationElement data
+							int AnimationElementType = 1
+							PoseData Pose
+								int PoseIndex = 0
+								float Duration = 0
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 4
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 60
+				float AnimationBaseAngle = -1
+				float AnimationBaseAngleThreshold = -1
+			[10]
+			DotAnimationEditableData data
+				int MotionState = 10
+				AnimationElement AnimationElements
+					Array Array
+					int size = 5
+						[0]
+						AnimationElement data
+							int AnimationElementType = 1
+							PoseData Pose
+								int PoseIndex = 0
+								float Duration = 0
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 1
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 9
+						[1]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 28
+								float Duration = 2
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[2]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 30
+								float Duration = 16
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[3]
+						AnimationElement data
+							int AnimationElementType = 0
+							PoseData Pose
+								int PoseIndex = 28
+								float Duration = 3
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 0
+								UInt8 ContinuesFromPreviousSequence = 0
+								float Duration = 0
+						[4]
+						AnimationElement data
+							int AnimationElementType = 1
+							PoseData Pose
+								int PoseIndex = 0
+								float Duration = 0
+							TurningTileSequenceData TurningTileSequence
+								int HalfTurnNumber = 1
+								UInt8 ContinuesFromPreviousSequence = 1
+								float Duration = 10
+				float AnimationBaseAngle = -1
+				float AnimationBaseAngleThreshold = -1

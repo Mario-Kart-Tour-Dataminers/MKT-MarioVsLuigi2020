@@ -1,0 +1,21 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8348556554749442507
+	string m_Name = "KartParamVehicleMove"
+	float cSpeedRatio_Star = 1.1
+	float cSpeedRatio_Fever = 1
+	float cSpeedRatio_Giant = 1.1
+	int cParamLevel_Weight_DriverScale_Small = 6
+	int cParamLevel_Weight_DriverScale_Medium = 10
+	int cParamLevel_Weight_DriverScale_Large = 14
+	int cParamLevel_Accel_DriverScale_Small = 17
+	int cParamLevel_Accel_DriverScale_Medium = 10
+	int cParamLevel_Accel_DriverScale_Large = 3
+	float cSidePowerRatioMin = 0.9
+	float cWeightPowerMax = 0.6
+	float cLowFpsPenalty = 1

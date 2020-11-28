@@ -1,0 +1,112 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Karon"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 5280762577229132077
+	vector mFaceTextures
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -3350730858978402789
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6281514492234752617
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2868922578148862960
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1918831414325870316
+	UInt8 mIsFaceTextureEmission = 1
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -1418146244044849162
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 7425558583839047858
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -3967648495641012325
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/Karon.png"
+				string mGuid = "68bfc7c4410eb394f94d24e8b2df824b"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/KaronMap.png"
+				string mGuid = "e3df4aaf030444046847d656220ca5f4"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/KaronFaceEntry.png"
+				string mGuid = "a2bc7be8a06547e448e95d53358b7ee9"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/KaronWholeBody.png"
+				string mGuid = "11fb06db136af744abd3c988d888f6ff"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/KaronUpperBody.png"
+				string mGuid = "49f24784c56c192418e0d0bd91dc8194"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/Karon_Small.png"
+				string mGuid = "6af946642f28ff9499bd202fb9d708c3"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/KaronFaceEntry_Small.png"
+				string mGuid = "39815c374041a3944a1013c6ad881661"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/KaronWholeBody_Small.png"
+				string mGuid = "16e1390a352535b46bd81d7abfbc9924"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Karon/Icons/KaronUpperBody_Small.png"
+				string mGuid = "f092482e58d34104f9cea3aa187e9ae4"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 5770434263734338936
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "カロン"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

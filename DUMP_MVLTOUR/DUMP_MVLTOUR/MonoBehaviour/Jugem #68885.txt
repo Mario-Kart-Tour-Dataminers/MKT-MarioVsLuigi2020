@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Jugem"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 4539020178883222862
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 2977044307949615471
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8536503289923688272
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5663027411283857929
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2410361091881149673
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8872183551902239463
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7291815318259139147
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4474588329746250705
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3368324513909819500
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 5900509540228241981
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 7698305799607034935
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -4883249387801116238
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/Jugem.png"
+				string mGuid = "4d190c54cd53d65409ce1567a3da6677"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/JugemMap.png"
+				string mGuid = "c5a83a52459ec6c44917fc4b43d7d967"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/JugemFaceEntry.png"
+				string mGuid = "5cf4dc37190884f44bb82b8c048d7973"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/JugemWholeBody.png"
+				string mGuid = "0400e19c1b6279549986b5b9898876c9"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/JugemUpperBody.png"
+				string mGuid = "d1634f0b876e34c4a921f20686770de4"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/Jugem_Small.png"
+				string mGuid = "3d721d1b4d501464f9f4414990d5b2b5"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/JugemFaceEntry_Small.png"
+				string mGuid = "d08cfd4c815d8a54b9272d508c0ea9e2"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/JugemWholeBody_Small.png"
+				string mGuid = "7e58f460c683e334e8b5510e80692dd0"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Jugem/Icons/JugemUpperBody_Small.png"
+				string mGuid = "cceb4c68ec159a24b83749aed294691b"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 9143680988222896855
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ジュゲム"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

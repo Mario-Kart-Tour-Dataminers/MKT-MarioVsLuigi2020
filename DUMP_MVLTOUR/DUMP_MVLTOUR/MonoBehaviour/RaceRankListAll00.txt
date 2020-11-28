@@ -1,0 +1,80 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "RaceRankListAll00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 8
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 1
+					SInt64 m_PathID = -2748123274258504735
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 2
+					SInt64 m_PathID = 9084542664849432920
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 3
+					SInt64 m_PathID = -632885483100507760
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 4
+					SInt64 m_PathID = -2615416022273800142
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 3
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 5
+					SInt64 m_PathID = -208166495716847688
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 4
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 6
+					SInt64 m_PathID = -7116324862812112398
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 5
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 7
+					SInt64 m_PathID = -1352669015705492459
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 6
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 8
+					SInt64 m_PathID = -4524417633633107672
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 7
+	int assetType = 2
+	int keyType = 0

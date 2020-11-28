@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gn64_FrappeSnowland_MapInfo"
+	Rectf rect
+		float x = -345.4014
+		float y = -332.1184
+		float width = 653.5381
+		float height = 653.5381
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 441447444611511796
+	Vector2f offset
+		float x = 0
+		float y = 0

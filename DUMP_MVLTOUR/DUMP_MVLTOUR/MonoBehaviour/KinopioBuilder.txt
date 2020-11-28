@@ -1,0 +1,132 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "KinopioBuilder"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -3603754749796259204
+	vector mFaceTextures
+		Array Array
+		int size = 9
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 752660069820291462
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -1991378183495982194
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8739652804372656463
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1620864572483873647
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1981893860420012607
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 329166788502742084
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6105623390573848189
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8339031709458863786
+			[8]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -804501839065734514
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -4579535784809859561
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -1809086342696826817
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -3169531441557098521
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilder.png"
+				string mGuid = "cf35544f2bc87514fb12181a99d4fc59"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilderMap.png"
+				string mGuid = "1fca2f9e6e9274c448afa9e170b434fb"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilderFaceEntry.png"
+				string mGuid = "2a9c31fc0401b264bb969de0aa667d56"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilderWholeBody.png"
+				string mGuid = "7cd9f9c65f863b448964d4e7b94a7742"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilderUpperBody.png"
+				string mGuid = "98c3ca13dc02e5a4d9fbe38e6e7699dc"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilder_Small.png"
+				string mGuid = "09cf2dd699aec974d976b81a9c4cc567"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilderFaceEntry_Small.png"
+				string mGuid = "2cc54890ebc6a9144ab7fb799b165bd3"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilderWholeBody_Small.png"
+				string mGuid = "63fe0804576aa0640a69122e8304767b"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KinopioBuilder/Icons/KinopioBuilderUpperBody_Small.png"
+				string mGuid = "cc1d973dbdadbea4d914a34c97aaed0c"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

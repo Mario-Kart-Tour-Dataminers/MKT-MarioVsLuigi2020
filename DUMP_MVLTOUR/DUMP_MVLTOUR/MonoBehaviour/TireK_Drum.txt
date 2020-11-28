@@ -1,0 +1,124 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3205259396417638272
+	string m_Name = "TireK_Drum"
+	int mTireType = 0
+	KartTireSettings mTireList
+		Array Array
+		int size = 4
+			[0]
+			KartTireSettings data
+				PPtr<$GameObject> mTireModel
+					int m_FileID = 0
+					SInt64 m_PathID = -3647286450917114749
+				Vector3f mTireJointOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				PPtr<$GameObject> mShaftModel
+					int m_FileID = 2
+					SInt64 m_PathID = 1304701034575079371
+				Vector3f mShaftRotationLimit
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3f mShaftScaleLimit
+					float x = 1
+					float y = 1
+					float z = 1
+				UInt8 mMirrorFront = 0
+			[1]
+			KartTireSettings data
+				PPtr<$GameObject> mTireModel
+					int m_FileID = 0
+					SInt64 m_PathID = 2844262248308157883
+				Vector3f mTireJointOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				PPtr<$GameObject> mShaftModel
+					int m_FileID = 3
+					SInt64 m_PathID = 8058008360298895072
+				Vector3f mShaftRotationLimit
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3f mShaftScaleLimit
+					float x = 1
+					float y = 1
+					float z = 1
+				UInt8 mMirrorFront = 0
+			[2]
+			KartTireSettings data
+				PPtr<$GameObject> mTireModel
+					int m_FileID = 0
+					SInt64 m_PathID = -3647286450917114749
+				Vector3f mTireJointOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				PPtr<$GameObject> mShaftModel
+					int m_FileID = 2
+					SInt64 m_PathID = 1304701034575079371
+				Vector3f mShaftRotationLimit
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3f mShaftScaleLimit
+					float x = 1
+					float y = 1
+					float z = 1
+				UInt8 mMirrorFront = 1
+			[3]
+			KartTireSettings data
+				PPtr<$GameObject> mTireModel
+					int m_FileID = 0
+					SInt64 m_PathID = 2844262248308157883
+				Vector3f mTireJointOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				PPtr<$GameObject> mShaftModel
+					int m_FileID = 3
+					SInt64 m_PathID = 8058008360298895072
+				Vector3f mShaftRotationLimit
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3f mShaftScaleLimit
+					float x = 1
+					float y = 1
+					float z = 1
+				UInt8 mMirrorFront = 1
+	IconInfo mIconInfo
+		Array Array
+		int size = 1
+			[0]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartTire> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mShaftMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	EffectKeyContainerPair mEffectContainerForBody
+		Array Array
+		int size = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartTire> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

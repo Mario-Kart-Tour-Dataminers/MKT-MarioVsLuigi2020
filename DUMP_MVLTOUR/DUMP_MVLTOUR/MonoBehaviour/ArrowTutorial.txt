@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 206706604336703620
+	string m_Name = "ArrowTutorial"
+	PPtr<$GameObject> mGameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7911925969351609894
+	PPtr<$RuntimeAnimatorController> mAnimatorController
+		int m_FileID = 0
+		SInt64 m_PathID = -1989898618610104217

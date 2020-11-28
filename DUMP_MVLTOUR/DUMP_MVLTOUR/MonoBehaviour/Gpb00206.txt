@@ -1,0 +1,16 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3718094394832668311
+	string m_Name = "Gpb00206"
+	vector mSprites
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 935893598924711172

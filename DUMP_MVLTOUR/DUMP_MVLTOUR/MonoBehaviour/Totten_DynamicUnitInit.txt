@@ -1,0 +1,369 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2590768194287000671
+	string m_Name = "Totten_DynamicUnitInit"
+	DynamicRigDynamicUnitInitProperty m_arInitProp
+		Array Array
+		int size = 2
+			[0]
+			DynamicRigDynamicUnitInitProperty data
+				string strParentName = ""
+				RigProp rigProp
+					Vector3f pos
+						float x = -0.35
+						float y = -0.06
+						float z = 0.16
+					Vector3f rot
+						float x = 0
+						float y = -90
+						float z = 0
+					Vector3f posHandleDef
+						float x = 0
+						float y = 0
+						float z = 0.5
+					float fRigRangeLimit = 0.5
+					float fGravRate = 0
+					float fAttract = 200
+					float fFriction = 0.1
+					float fUnderLimit = -1
+				ObjProp objProp
+					float fZReflectRate = 0
+					vector arFlapCycle
+						Array Array
+						int size = 3
+							[0]
+							float data = 0.3
+							[1]
+							float data = 0.2
+							[2]
+							float data = 0.15
+				NodeProp arNodeProp
+					Array Array
+					int size = 2
+						[0]
+						NodeProp data
+							string name = "Ear1L"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 4
+										float y = 50
+										float z = -44
+									[1]
+									Vector3f data
+										float x = 4
+										float y = -1
+										float z = -44
+									[2]
+									Vector3f data
+										float x = 4
+										float y = -13
+										float z = -44
+									[3]
+									Vector3f data
+										float x = 0
+										float y = 50
+										float z = 0
+									[4]
+									Vector3f data
+										float x = 0
+										float y = 0
+										float z = 0
+									[5]
+									Vector3f data
+										float x = 0
+										float y = -13
+										float z = 0
+									[6]
+									Vector3f data
+										float x = -4
+										float y = 50
+										float z = 54
+									[7]
+									Vector3f data
+										float x = -4
+										float y = -3
+										float z = 54
+									[8]
+									Vector3f data
+										float x = -4
+										float y = -13
+										float z = 54
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+									[1]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = 5
+								float y = 5
+								float z = 5
+							float fFlapTiming = 0.1
+						[1]
+						NodeProp data
+							string name = "Ear2L"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 4
+										float y = 40
+										float z = -41
+									[1]
+									Vector3f data
+										float x = 4
+										float y = -1
+										float z = -41
+									[2]
+									Vector3f data
+										float x = 4
+										float y = -33
+										float z = -41
+									[3]
+									Vector3f data
+										float x = 0
+										float y = 40
+										float z = 0
+									[4]
+									Vector3f data
+										float x = 0
+										float y = 0
+										float z = 0
+									[5]
+									Vector3f data
+										float x = 1
+										float y = -33
+										float z = 0
+									[6]
+									Vector3f data
+										float x = -3
+										float y = 40
+										float z = 34
+									[7]
+									Vector3f data
+										float x = -3
+										float y = -1
+										float z = 34
+									[8]
+									Vector3f data
+										float x = -3
+										float y = -33
+										float z = 34
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+									[1]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = 10
+								float y = 10
+								float z = 10
+							float fFlapTiming = 0.4
+			[1]
+			DynamicRigDynamicUnitInitProperty data
+				string strParentName = ""
+				RigProp rigProp
+					Vector3f pos
+						float x = -0.35
+						float y = -0.06
+						float z = -0.16
+					Vector3f rot
+						float x = 0
+						float y = -90
+						float z = 0
+					Vector3f posHandleDef
+						float x = 0
+						float y = 0
+						float z = 0.5
+					float fRigRangeLimit = 0.5
+					float fGravRate = 0
+					float fAttract = 200
+					float fFriction = 0.1
+					float fUnderLimit = -1
+				ObjProp objProp
+					float fZReflectRate = 0
+					vector arFlapCycle
+						Array Array
+						int size = 3
+							[0]
+							float data = 0.3
+							[1]
+							float data = 0.2
+							[2]
+							float data = 0.15
+				NodeProp arNodeProp
+					Array Array
+					int size = 2
+						[0]
+						NodeProp data
+							string name = "Ear1R"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 0
+										float y = 16
+										float z = 140
+									[1]
+									Vector3f data
+										float x = 0
+										float y = 0
+										float z = 140
+									[2]
+									Vector3f data
+										float x = 0
+										float y = -49
+										float z = 140
+									[3]
+									Vector3f data
+										float x = 0
+										float y = 16
+										float z = 180
+									[4]
+									Vector3f data
+										float x = 0
+										float y = 0
+										float z = 180
+									[5]
+									Vector3f data
+										float x = 0
+										float y = -49
+										float z = 180
+									[6]
+									Vector3f data
+										float x = 0
+										float y = 16
+										float z = -136
+									[7]
+									Vector3f data
+										float x = 0
+										float y = 0
+										float z = -136
+									[8]
+									Vector3f data
+										float x = 0
+										float y = -49
+										float z = -136
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+									[1]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = -5
+								float y = -5
+								float z = -5
+							float fFlapTiming = 0.2
+						[1]
+						NodeProp data
+							string name = "Ear2R"
+							vector arRot
+								Array Array
+								int size = 9
+									[0]
+									Vector3f data
+										float x = 4
+										float y = -28
+										float z = -41
+									[1]
+									Vector3f data
+										float x = 0
+										float y = 0
+										float z = -50
+									[2]
+									Vector3f data
+										float x = 4
+										float y = 40
+										float z = -41
+									[3]
+									Vector3f data
+										float x = 0
+										float y = -28
+										float z = 0
+									[4]
+									Vector3f data
+										float x = 0
+										float y = 0
+										float z = 0
+									[5]
+									Vector3f data
+										float x = 0
+										float y = 40
+										float z = 0
+									[6]
+									Vector3f data
+										float x = -3
+										float y = -28
+										float z = 34
+									[7]
+									Vector3f data
+										float x = 0
+										float y = 0
+										float z = 46
+									[8]
+									Vector3f data
+										float x = -3
+										float y = 40
+										float z = 34
+							RotEditHint arRotEditHint
+								Array Array
+								int size = 3
+									[0]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+									[1]
+									RotEditHint data
+										int nRowCopy = 0
+										UInt8 bColumnCopy = 1
+									[2]
+									RotEditHint data
+										int nRowCopy = 1
+										UInt8 bColumnCopy = 0
+							Vector3f vecFlap
+								float x = -10
+								float y = -10
+								float z = -10
+							float fFlapTiming = 0.5
+	vector m_arInvalidMotion
+		Array Array
+		int size = 0

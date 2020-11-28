@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "KingTeresaGolden"
+	PPtr<$GameObject> mModel
+		int m_FileID = 3
+		SInt64 m_PathID = 7318284374399628350
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = 5283302276929240655
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3268887056695307313
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7946913953794224748
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -977587961417336680
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5871059810602788114
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8159198620656930377
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8277647929107111327
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2726452614141511803
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 7023445757792997963
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 2
+		SInt64 m_PathID = -175399705715416816
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 8842378530110350971
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGolden.png"
+				string mGuid = "9c3d282b4b6e5b94db40c956e097db42"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGoldenMap.png"
+				string mGuid = "e6d43112436971445a6143efde0a31de"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGoldenFaceEntry.png"
+				string mGuid = "2aea584565f2bec4fad0e21ba3b8ed87"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGoldenWholeBody.png"
+				string mGuid = "9c24e34321a17c940aba053d37978d41"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGoldenUpperBody.png"
+				string mGuid = "85b8cf7d6606c284097cdb4f4492d726"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGolden_Small.png"
+				string mGuid = "8512ce44df6aa6a4aa77790d8e046e1a"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGoldenFaceEntry_Small.png"
+				string mGuid = "a042cd927f04b5c4da1514ca2906dffd"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGoldenWholeBody_Small.png"
+				string mGuid = "aadfa03adf1c3734ca98d7dd4faeb7c8"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/KingTeresaGolden/Icons/KingTeresaGoldenUpperBody_Small.png"
+				string mGuid = "63eb71eb0dc14bc45aeec862b15155e3"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

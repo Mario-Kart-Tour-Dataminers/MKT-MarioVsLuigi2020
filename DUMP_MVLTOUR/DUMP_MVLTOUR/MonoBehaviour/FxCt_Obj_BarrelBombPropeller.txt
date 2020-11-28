@@ -1,0 +1,53 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 209972380458786307
+	string m_Name = "FxCt_Obj_BarrelBombPropeller"
+	EffectParameter mEffectParameterList
+		Array Array
+		int size = 1
+			[0]
+			EffectParameter data
+				string Name = "Bomb"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 1
+					SInt64 m_PathID = 5822087123100680825
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 3
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1.6
+					float y = 1.6
+					float z = 1.6
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 1

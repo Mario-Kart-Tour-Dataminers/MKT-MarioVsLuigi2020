@@ -1,0 +1,217 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 209972380458786307
+	string m_Name = "FxCt_It_MiniKiller"
+	EffectParameter mEffectParameterList
+		Array Array
+		int size = 5
+			[0]
+			EffectParameter data
+				string Name = "MiniKillerVernier"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 0
+					SInt64 m_PathID = 3699335869266898706
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 4
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 1
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = -1
+				Vector3 RotateOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = "Move"
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 1
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 1
+			[1]
+			EffectParameter data
+				string Name = "MiniKillerVernierFollow"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 0
+					SInt64 m_PathID = 3699335869266898706
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 4
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 1
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = -0.65
+				Vector3 RotateOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 0.7
+					float y = 0.7
+					float z = 0.7
+				string LookAtTransform = ""
+				string EmitState = "Follower"
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 1
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 1
+			[2]
+			EffectParameter data
+				string Name = "MiniKillerFiring"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 0
+					SInt64 m_PathID = 538091272528888540
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 4
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 1
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = -1
+				Vector3 RotateOffset
+					float x = 90
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = "Move"
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 1
+			[3]
+			EffectParameter data
+				string Name = "MiniKillerSmoke"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 0
+					SInt64 m_PathID = 7412898866153207631
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 6
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 1
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = -1
+				Vector3 RotateOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = "Move"
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 1
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 1
+			[4]
+			EffectParameter data
+				string Name = "Bomb"
+				PPtr<$GameObject> Prefab
+					int m_FileID = 9
+					SInt64 m_PathID = -6513482079672778907
+				PPtr<$RuntimeAnimatorController> AnimatorController
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				int Max = 6
+				int MaxInPowerSaving = -1
+				string PlayAtTransform = ""
+				UInt8 FollowPlayAtTransform = 0
+				UInt8 UseAlpha = 1
+				Vector3 PositionOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 RotateOffset
+					float x = 0
+					float y = 0
+					float z = 0
+				Vector3 ScaleOffset
+					float x = 1
+					float y = 1
+					float z = 1
+				string LookAtTransform = ""
+				string EmitState = ""
+				float EmitDelay = 0
+				UInt8 IsStopOnStateLeave = 0
+				float StopDelay = 0
+				UInt8 IsFollowShaftScaleForTire = 0
+				UInt8 IsCheckCondition = 0
+				UInt8 IsCheckGroundAttribute = 0
+				UInt8 GroundAttribute = 0
+				UInt8 GroundMaterial = 0
+				UInt8 IsCheckCourseId = 0
+				unsigned int CourseIdHash = 0
+				UInt8 IsCheckInWater = 0
+				UInt8 InWater = 0
+				UInt8 IsExpand = 1

@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Ggc_YoshiCircuit_MapInfo"
+	Rectf rect
+		float x = -370.3453
+		float y = -376.6126
+		float width = 742.9697
+		float height = 742.9697
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 5512291784962935767
+	Vector2f offset
+		float x = 0
+		float y = 0

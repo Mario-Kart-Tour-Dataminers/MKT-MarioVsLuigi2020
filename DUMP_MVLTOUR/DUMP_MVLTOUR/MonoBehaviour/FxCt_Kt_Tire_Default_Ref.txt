@@ -1,0 +1,57 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3393848682055733865
+	string m_Name = "FxCt_Kt_Tire_Default_Ref"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 5632341981205529129
+	EffectKeyContainerPair mSpecialEffectContainerList
+		Array Array
+		int size = 7
+			[0]
+			EffectKeyContainerPair data
+				unsigned int mKey = 1894510494
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = -5205581952725400128
+			[1]
+			EffectKeyContainerPair data
+				unsigned int mKey = 1594305071
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 31
+					SInt64 m_PathID = -1623209331450538688
+			[2]
+			EffectKeyContainerPair data
+				unsigned int mKey = 4192937177
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = -7922502664774445648
+			[3]
+			EffectKeyContainerPair data
+				unsigned int mKey = 1177062736
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = -7135192461754866303
+			[4]
+			EffectKeyContainerPair data
+				unsigned int mKey = 2480727258
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = 2305495525578328815
+			[5]
+			EffectKeyContainerPair data
+				unsigned int mKey = 521017335
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = 7389023043213747162
+			[6]
+			EffectKeyContainerPair data
+				unsigned int mKey = 2419345957
+				PPtr<$ScriptableEffectContainer> mContainer
+					int m_FileID = 0
+					SInt64 m_PathID = 5263622727317639771

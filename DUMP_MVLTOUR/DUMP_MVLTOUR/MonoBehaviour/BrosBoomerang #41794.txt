@@ -1,0 +1,124 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "BrosBoomerang"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 1473667571418410312
+	vector mFaceTextures
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 3380017145463138277
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2304697543151042235
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8710214077263099230
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6234590470866063533
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5164351261662661533
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5423060621382119092
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7481734911902263889
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 1880852321708114906
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 48451360144423165
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -6659036636148687838
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerang.png"
+				string mGuid = "041a83a2c5c7f214381e21792904203d"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerangMap.png"
+				string mGuid = "0c3443043ee9f7847916be6f73c323bc"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerangFaceEntry.png"
+				string mGuid = "aa2627f806ea7ae4b87a44c6e85b8194"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerangWholeBody.png"
+				string mGuid = "132a1dc410bd4f3499f20164d4af265b"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerangUpperBody.png"
+				string mGuid = "fb7a0febb5ac5c241bb4e8b98d4b2e61"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerang_Small.png"
+				string mGuid = "156128e0da0cda84d9d7a0804837f08d"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerangFaceEntry_Small.png"
+				string mGuid = "5afc1e36305c4b149ac7ecc31c7d9a71"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerangWholeBody_Small.png"
+				string mGuid = "c1cf70eade7764b439e621031e5b721d"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BrosBoomerang/Icons/BrosBoomerangUpperBody_Small.png"
+				string mGuid = "b2cc28c95769e674487da433c85c8e16"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

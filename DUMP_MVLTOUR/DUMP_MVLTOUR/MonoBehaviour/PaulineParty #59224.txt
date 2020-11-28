@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "PaulineParty"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 4306192345682592592
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 1096233102607544846
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1746527872616342441
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7266556163334509488
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2500487560361345206
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7615232425289476928
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8201348278772623215
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -927745020123986088
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8490762230497718892
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -6766847181418739290
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 633852826415233951
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -8149762504596926440
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulineParty.png"
+				string mGuid = "41c6531ff26a67e44b1f45818111b3f7"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulinePartyMap.png"
+				string mGuid = "9f80ae5f882eaa64c8bd87a1fbfd9395"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulinePartyFaceEntry.png"
+				string mGuid = "9af0c0d191135a742ba61506b72d13ab"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulinePartyWholeBody.png"
+				string mGuid = "81a770d86512173488e13dcc74db51f2"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulinePartyUpperBody.png"
+				string mGuid = "e1b71e6750ef8db45b843f6a0391c891"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulineParty_Small.png"
+				string mGuid = "0004335c6f22aaf4eb52b60b4ba526d7"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulinePartyFaceEntry_Small.png"
+				string mGuid = "a39e24770544adb4ea358bec8acfbfbb"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulinePartyWholeBody_Small.png"
+				string mGuid = "f6320f1dfb262ac409a70f26a07e8cc2"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/PaulineParty/Icons/PaulinePartyUpperBody_Small.png"
+				string mGuid = "9c98adbc50a757840811b531e585acc0"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 1085137770398102470
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

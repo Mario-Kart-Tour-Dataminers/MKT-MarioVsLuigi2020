@@ -1,0 +1,432 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2141038644697243411
+	string m_Name = "MatchingParam"
+	ClustorForPS ClustorsForMatching
+		Array Array
+		int size = 3
+			[0]
+			ClustorForPS data
+				int MMRMin = 400
+				int NumMin = 1
+				int NumMax = 3
+				int NumMaxAdd = 2
+				int NumMaxAddMMR = 800
+				int RangeUpward = 200
+				int RangeDownward = 300
+				int Peak = 0
+				float Offset = 50
+				float Scale = 150
+				int DriverCourseAdvantageMax = 2
+				int DriverCourseAdvantageMin = 0
+			[1]
+			ClustorForPS data
+				int MMRMin = 100
+				int NumMin = 2
+				int NumMax = 5
+				int NumMaxAdd = 0
+				int NumMaxAddMMR = 0
+				int RangeUpward = 100
+				int RangeDownward = 400
+				int Peak = -100
+				float Offset = 100
+				float Scale = 150
+				int DriverCourseAdvantageMax = 2
+				int DriverCourseAdvantageMin = 0
+			[2]
+			ClustorForPS data
+				int MMRMin = 0
+				int NumMin = 99
+				int NumMax = 99
+				int NumMaxAdd = 0
+				int NumMaxAddMMR = 0
+				int RangeUpward = 0
+				int RangeDownward = 800
+				int Peak = -300
+				float Offset = 100
+				float Scale = 300
+				int DriverCourseAdvantageMax = 2
+				int DriverCourseAdvantageMin = 0
+	ClustorForAILevel ClustorsForAILevel
+		Array Array
+		int size = 3
+			[0]
+			ClustorForAILevel data
+				int MMRMin = 800
+				int NumMin = 1
+				int NumMax = 3
+				int NumMaxAdd = 0
+				int NumMaxAddMMR = 0
+				int RangeUpward = 20
+				int RangeDownward = 30
+				int Peak = 10
+				int LvMin = 50
+				int LvMax = 99
+			[1]
+			ClustorForAILevel data
+				int MMRMin = 400
+				int NumMin = 0
+				int NumMax = 3
+				int NumMaxAdd = 1
+				int NumMaxAddMMR = 600
+				int RangeUpward = 20
+				int RangeDownward = 30
+				int Peak = 10
+				int LvMin = 10
+				int LvMax = 80
+			[2]
+			ClustorForAILevel data
+				int MMRMin = 100
+				int NumMin = 2
+				int NumMax = 5
+				int NumMaxAdd = 0
+				int NumMaxAddMMR = 0
+				int RangeUpward = 10
+				int RangeDownward = 30
+				int Peak = 0
+				int LvMin = 3
+				int LvMax = 50
+	Engine mEngine
+		Array Array
+		int size = 4
+			[0]
+			Engine data
+				int InitPrizeScore = 2000
+				int TourPointCap = 2999
+				vector RankTable
+					Array Array
+					int size = 8
+						[0]
+						int data = 50
+						[1]
+						int data = 40
+						[2]
+						int data = 30
+						[3]
+						int data = 20
+						[4]
+						int data = 10
+						[5]
+						int data = 0
+						[6]
+						int data = -15
+						[7]
+						int data = -30
+				int PointAddForAutoMode = 0
+				MMRParam MMRParams
+					Array Array
+					int size = 1
+						[0]
+						MMRParam data
+							int PointThreshold = 0
+							int MMR = 50
+				int MMRMax = 0
+				int MMRMin = 0
+				int MMRInit = 50
+				int MMRDiff = 0
+			[1]
+			Engine data
+				int InitPrizeScore = 2200
+				int TourPointCap = 5999
+				vector RankTable
+					Array Array
+					int size = 8
+						[0]
+						int data = 100
+						[1]
+						int data = 50
+						[2]
+						int data = 20
+						[3]
+						int data = 0
+						[4]
+						int data = -20
+						[5]
+						int data = -50
+						[6]
+						int data = -80
+						[7]
+						int data = -100
+				int PointAddForAutoMode = 0
+				MMRParam MMRParams
+					Array Array
+					int size = 4
+						[0]
+						MMRParam data
+							int PointThreshold = 100
+							int MMR = 200
+						[1]
+						MMRParam data
+							int PointThreshold = 500
+							int MMR = 300
+						[2]
+						MMRParam data
+							int PointThreshold = 1000
+							int MMR = 350
+						[3]
+						MMRParam data
+							int PointThreshold = 0
+							int MMR = 400
+				int MMRMax = 300
+				int MMRMin = -100
+				int MMRInit = 300
+				int MMRDiff = -100
+			[2]
+			Engine data
+				int InitPrizeScore = 2400
+				int TourPointCap = 10499
+				vector RankTable
+					Array Array
+					int size = 8
+						[0]
+						int data = 150
+						[1]
+						int data = 75
+						[2]
+						int data = 30
+						[3]
+						int data = 0
+						[4]
+						int data = -30
+						[5]
+						int data = -60
+						[6]
+						int data = -100
+						[7]
+						int data = -150
+				int PointAddForAutoMode = 0
+				MMRParam MMRParams
+					Array Array
+					int size = 13
+						[0]
+						MMRParam data
+							int PointThreshold = 500
+							int MMR = 300
+						[1]
+						MMRParam data
+							int PointThreshold = 1000
+							int MMR = 350
+						[2]
+						MMRParam data
+							int PointThreshold = 2000
+							int MMR = 400
+						[3]
+						MMRParam data
+							int PointThreshold = 3000
+							int MMR = 450
+						[4]
+						MMRParam data
+							int PointThreshold = 4000
+							int MMR = 500
+						[5]
+						MMRParam data
+							int PointThreshold = 5000
+							int MMR = 550
+						[6]
+						MMRParam data
+							int PointThreshold = 6000
+							int MMR = 600
+						[7]
+						MMRParam data
+							int PointThreshold = 7000
+							int MMR = 650
+						[8]
+						MMRParam data
+							int PointThreshold = 8000
+							int MMR = 700
+						[9]
+						MMRParam data
+							int PointThreshold = 9000
+							int MMR = 750
+						[10]
+						MMRParam data
+							int PointThreshold = 10000
+							int MMR = 800
+						[11]
+						MMRParam data
+							int PointThreshold = 11000
+							int MMR = 850
+						[12]
+						MMRParam data
+							int PointThreshold = 0
+							int MMR = 900
+				int MMRMax = 500
+				int MMRMin = -200
+				int MMRInit = 300
+				int MMRDiff = 0
+			[3]
+			Engine data
+				int InitPrizeScore = 2400
+				int TourPointCap = 10499
+				vector RankTable
+					Array Array
+					int size = 8
+						[0]
+						int data = 200
+						[1]
+						int data = 100
+						[2]
+						int data = 50
+						[3]
+						int data = 0
+						[4]
+						int data = -50
+						[5]
+						int data = -75
+						[6]
+						int data = -150
+						[7]
+						int data = -200
+				int PointAddForAutoMode = 0
+				MMRParam MMRParams
+					Array Array
+					int size = 13
+						[0]
+						MMRParam data
+							int PointThreshold = 500
+							int MMR = 300
+						[1]
+						MMRParam data
+							int PointThreshold = 1000
+							int MMR = 350
+						[2]
+						MMRParam data
+							int PointThreshold = 2000
+							int MMR = 400
+						[3]
+						MMRParam data
+							int PointThreshold = 3000
+							int MMR = 450
+						[4]
+						MMRParam data
+							int PointThreshold = 4000
+							int MMR = 500
+						[5]
+						MMRParam data
+							int PointThreshold = 5000
+							int MMR = 550
+						[6]
+						MMRParam data
+							int PointThreshold = 6000
+							int MMR = 600
+						[7]
+						MMRParam data
+							int PointThreshold = 7000
+							int MMR = 650
+						[8]
+						MMRParam data
+							int PointThreshold = 8000
+							int MMR = 700
+						[9]
+						MMRParam data
+							int PointThreshold = 9000
+							int MMR = 750
+						[10]
+						MMRParam data
+							int PointThreshold = 10000
+							int MMR = 800
+						[11]
+						MMRParam data
+							int PointThreshold = 11000
+							int MMR = 850
+						[12]
+						MMRParam data
+							int PointThreshold = 0
+							int MMR = 900
+				int MMRMax = 500
+				int MMRMin = -200
+				int MMRInit = 350
+				int MMRDiff = 0
+	int mMMRMax = 1200
+	int mRivalPlayerNum = 0
+	ReplacePartsParam mReplacePartsParam
+		int MaxAdvantageDriverNumMax = 1
+		int MaxAdvantageMachineNumMax = 8
+		int MaxAdvantageWingNumMax = 8
+		int SameDriverNumMax = 1
+		int SameMachineNumMax = 2
+		int SameWingNumMax = 2
+		int NoCourseAdvantageProb = 10
+		int LatestProb = 20
+	ReplacePartsParam_AutoMode mReplacePartsParam_AutoMode
+		int LatestProb = 20
+	ReplacePartsParam_Festival mReplacePartsParam_Festival
+		int MaxAdvantageDriverNumMax = 1
+		int SameDriverNumMax = 1
+		int NoCourseAdvantageProb = 10
+		int LatestProb = 20
+		CaptainProbTable CaptainProb
+			int FromTeamA = 25
+			int FromTeamB = 25
+			int FromTeamA_and_B = 10
+		GroupingProbTable GroupingProb
+			int Grouping_1_vs_7 = 0
+			int Grouping_2_vs_6 = 5
+			int Grouping_3_vs_5 = 16
+			int Grouping_4_vs_4 = 65
+			int Grouping_5_vs_3 = 12
+			int Grouping_6_vs_2 = 2
+			int Grouping_7_vs_1 = 0
+	vector mPrizePointRate
+		Array Array
+		int size = 8
+			[0]
+			float data = 1
+			[1]
+			float data = 0.85
+			[2]
+			float data = 0.75
+			[3]
+			float data = 0.65
+			[4]
+			float data = 0.55
+			[5]
+			float data = 0.45
+			[6]
+			float data = 0.35
+			[7]
+			float data = 0.2
+	int mOverwriteMatchDataDays = 3
+	int mTimeToNoMatchSamePlayer = 60
+	RatingParam mRatingParam
+		float BonusRateUpMax = 2
+		float BonusRateUpMin = 0.3
+		float BonusRateDownMax = 1.5
+		float BonusRateDownMin = 0.3
+		int BonusMaxThreshold = 500
+		int BonusMinThreshold = 300
+		int InitRate = 1000
+		float InitRD = 350
+		float InitVolatility = 0.6
+		float Tau = 1.2
+		float ResultRD = 150
+		float ResultVolatility = 0.6
+		float Keep1stRateMax1st = 0.8
+		float Keep1stRateMin1st = 0
+		float Keep1stRateMax2nd = 0.8
+		float Keep1stRateMin2nd = 0
+		vector Outcomes
+			Array Array
+			int size = 8
+				[0]
+				float data = 0.8
+				[1]
+				float data = 0.45
+				[2]
+				float data = 0.3
+				[3]
+				float data = 0.25
+				[4]
+				float data = 0.2
+				[5]
+				float data = 0.18
+				[6]
+				float data = 0.16
+				[7]
+				float data = 0.14
+	int mCandidateNum = 10

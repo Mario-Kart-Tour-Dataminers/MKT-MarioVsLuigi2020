@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_Hanafuda_M01MatsuBMario"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Hanafuda/Icons/Wing_Hanafuda_M01MatsuBMario.png"
+				string mGuid = "b4fca5d6093529b418e96ca5b8c309c6"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Hanafuda/Icons/Wing_Hanafuda_M01MatsuBMario_Large.png"
+				string mGuid = "6ba96135e18f7c340b64ff2e5f079e6b"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Hanafuda/Icons/Wing_Hanafuda_M01MatsuBMario_Small.png"
+				string mGuid = "aeea0429eddae1a4284aaa6cac83454b"
+	int mWingType = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 4
+		SInt64 m_PathID = 5343345796712438386
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -4946633119983825196
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

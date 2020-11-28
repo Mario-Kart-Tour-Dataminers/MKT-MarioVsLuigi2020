@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_G3ds_ToadCircuit_MapInfo"
+	Rectf rect
+		float x = -232.3933
+		float y = -221.9832
+		float width = 579.049
+		float height = 579.049
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 606346180256192256
+	Vector2f offset
+		float x = 5
+		float y = 0

@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "MetalMario"
+	PPtr<$GameObject> mModel
+		int m_FileID = 3
+		SInt64 m_PathID = -4915877824580474498
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 3531599915437206519
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5985018370945793231
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4980072351617342578
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5263421304690299457
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4635666060336607017
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8932321408391016558
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6285367949901188074
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6387277441696162892
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 1403124996980639434
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 1
+		SInt64 m_PathID = 8628606730234119237
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -8987943703352150035
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMario.png"
+				string mGuid = "3bde73557ffb9d348b5ef9cb6ca32c9c"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMarioMap.png"
+				string mGuid = "afb8cfde9c8c9904d9953c77d80ac3da"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMarioFaceEntry.png"
+				string mGuid = "15cf997e0ffa8e244a37491db61c3f7a"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMarioWholeBody.png"
+				string mGuid = "bb69962ff27ea6144926b499dd967a29"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMarioUpperBody.png"
+				string mGuid = "05fe1ee0eff4b054eaf3253ff695e1bc"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMario_Small.png"
+				string mGuid = "66a594c67d3e68741829f730ba0382e6"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMarioFaceEntry_Small.png"
+				string mGuid = "3f1d6377933119842abc11cfc714a94d"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMarioWholeBody_Small.png"
+				string mGuid = "cbece5b57804d534c8abd4491f788f60"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MetalMario/Icons/MetalMarioUpperBody_Small.png"
+				string mGuid = "80cc5135c8937a046a5a5ab09f30feac"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -4654195655762138983
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "メタルマリオ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

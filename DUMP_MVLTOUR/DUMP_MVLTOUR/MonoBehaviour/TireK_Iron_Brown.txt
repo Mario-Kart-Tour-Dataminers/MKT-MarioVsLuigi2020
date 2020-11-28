@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3205259396417638272
+	string m_Name = "TireK_Iron_Brown"
+	int mTireType = 0
+	KartTireSettings mTireList
+		Array Array
+		int size = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 1
+			[0]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartTire> mBaseParameter
+		int m_FileID = 1
+		SInt64 m_PathID = 5247508069917418681
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 6842415942787742262
+	PPtr<$Material> mShaftMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	EffectKeyContainerPair mEffectContainerForBody
+		Array Array
+		int size = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartTire> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

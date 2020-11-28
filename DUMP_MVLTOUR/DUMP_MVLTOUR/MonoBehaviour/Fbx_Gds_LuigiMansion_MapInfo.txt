@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gds_LuigiMansion_MapInfo"
+	Rectf rect
+		float x = -404.7055
+		float y = -443.4557
+		float width = 736.0266
+		float height = 736.0266
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -4243407674181586977
+	Vector2f offset
+		float x = 0
+		float y = 0

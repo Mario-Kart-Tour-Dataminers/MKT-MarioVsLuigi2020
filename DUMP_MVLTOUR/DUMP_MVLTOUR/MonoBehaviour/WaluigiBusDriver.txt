@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "WaluigiBusDriver"
+	PPtr<$GameObject> mModel
+		int m_FileID = 3
+		SInt64 m_PathID = 7723639044091765322
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = -3453674737862811141
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8506564479803614384
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1443657072734801598
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5605310807452916468
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8904672630803900969
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2028760492268573094
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4189191376456319715
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8159686573188119341
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -5422098388731439094
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 2
+		SInt64 m_PathID = -507733471482364804
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 695305300984927232
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriver.png"
+				string mGuid = "7ea21042c99dea14ba0f3caa40960f40"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriverMap.png"
+				string mGuid = "77d9f50f90d3e3646bcd4a3b8e31c3fb"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriverFaceEntry.png"
+				string mGuid = "1bb7b821f716ce94b8f6edc6b07589ac"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriverWholeBody.png"
+				string mGuid = "2cf3405ac0c2a86489274d78a626230d"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriverUpperBody.png"
+				string mGuid = "a8a1370b75fc9864c8a8e0e443e45d92"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriver_Small.png"
+				string mGuid = "c849ae12324904e4b8009fbb7f91123a"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriverFaceEntry_Small.png"
+				string mGuid = "b58a78967b7d7f94c915eb7c0e784b2b"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriverWholeBody_Small.png"
+				string mGuid = "73a80ef5c93aeaa47a1d487ab38b1a93"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WaluigiBusDriver/Icons/WaluigiBusDriverUpperBody_Small.png"
+				string mGuid = "ea4aad6554521ec43b176e8bfa8c831e"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 7008568334115918271
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

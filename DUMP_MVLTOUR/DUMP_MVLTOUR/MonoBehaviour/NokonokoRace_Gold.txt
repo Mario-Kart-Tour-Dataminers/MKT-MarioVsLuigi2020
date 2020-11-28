@@ -1,0 +1,124 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "NokonokoRace_Gold"
+	PPtr<$GameObject> mModel
+		int m_FileID = 5
+		SInt64 m_PathID = 1048626420467610273
+	vector mFaceTextures
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 6
+				SInt64 m_PathID = -5597021954483920841
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 7
+				SInt64 m_PathID = 8923900057439512477
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 8
+				SInt64 m_PathID = -3212942713497515778
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 9
+				SInt64 m_PathID = -2782033375698241059
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 10
+				SInt64 m_PathID = 5755725770399345674
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 11
+				SInt64 m_PathID = 2829726817782223799
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 12
+				SInt64 m_PathID = -791707604570693218
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 3711724720689074608
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 13
+		SInt64 m_PathID = 4627765219611890143
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 14
+		SInt64 m_PathID = 716191374732081954
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_Gold.png"
+				string mGuid = "4d4c26d95e1b6924f9060ef362b77c77"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_GoldMap.png"
+				string mGuid = "54f68f83a22aa3241ad6ff5b1480fc84"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_GoldFaceEntry.png"
+				string mGuid = "da651b3ba041666488dee26eaffb4a47"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_GoldWholeBody.png"
+				string mGuid = "b5dc6d4fcc19bad4bbf998e259b7c6c9"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_GoldUpperBody.png"
+				string mGuid = "4b319481c646e464db1dace1a326ba4d"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_Gold_Small.png"
+				string mGuid = "6aaf366ae696a2240ae93b1324ddb023"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_GoldFaceEntry_Small.png"
+				string mGuid = "c111ca6b3bac0f44ab37aa9e9ca8624e"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_GoldWholeBody_Small.png"
+				string mGuid = "533689b7b9e88a341b8d619d6decd64e"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/NokonokoRace/Icons/NokonokoRace_GoldUpperBody_Small.png"
+				string mGuid = "dc595acbae4516242b94281afa562801"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 15
+		SInt64 m_PathID = -9039766253777504626
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -8455900292857078493
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -5606380011352690902
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,75 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8200333526547417912
+	string m_Name = "CameraBackMirror"
+	float cDistanceS = 5
+	float cDistanceL = 6
+	float cDistanceGiant = 8
+	Vector3 cAtOffsetBackS
+		float x = 0
+		float y = 1.2
+		float z = 0.4
+	Vector3 cAtOffsetBackL
+		float x = 0
+		float y = 1.9
+		float z = 0.6
+	Vector3 cAtOffsetBackS_Landscape
+		float x = 0
+		float y = 2.2
+		float z = 0.4
+	Vector3 cAtOffsetBackL_Landscape
+		float x = 0
+		float y = 2.9
+		float z = 0.6
+	float cPosOffsetBackIncLerpRatio = 0.3
+	float cPosOffsetBackIncLerpRatio_Giant = 0.1
+	float cPosOffsetBackDecLerpRatio = 0.1
+	float cOffsetYMinFromKartBottom = 0
+	float cBackFovy = 55
+	float cBackFovyMax = 80
+	float cBackFovyMin = 55
+	float cBackFovyVel = 40
+	float cDegX = 17.5
+	float cDegX_LandScape = 12
+	float cDegXMax = 40
+	float cDegY = 0
+	float cDegYMax = 180
+	float cDegYMin = -180
+	float cVSAccRatioX = 1.2
+	float cVSSpeedDecRatioX = 0.9
+	float cVSSpeedMaxX = 90
+	float cVSSpeedMinX = 30
+	float cVSAccRatioY = 1.2
+	float cVSSpeedDecRatioY = 0.9
+	float cVSSpeedMaxY = 45
+	float cVSSpeedMinY = 15
+	float cNearClipPlane = 1
+	float cCameraDistanceFollowCollision = 0.6
+	float cCameraDegXFollowCollision = 1
+	float cCameraDegXMaxVelCollision = 90
+	float cCameraDegYFollowCollision = 0.3
+	float cCameraDegYMaxVelCollision = 180
+	float cCameraDegXForce = 0.5
+	float cCameraDegYForce = 0.1
+	float cCameraDegXForceSubRatio = 0.7
+	float cCameraDegYForceSubRatio = 0.7
+	float cCameraDegXForceMax = 10
+	float cCameraDegYForceMax = 30
+	float cCameraDegVelThreshold = 0.001
+	float cCameraAttFollow = 0.1
+	float cCameraDegXFollowMax = 3
+	float cCameraDegYFollowMax = 5
+	float cDestFollowMax = 0.5
+	float cGoalMasterSpeed = 0.015
+	float cDestFovyGoal = 55
+	float cDestDegXGoal = 0
+	float cDestDegYGoal = 0
+	RotationGyroParam RotationGyro
+		float PitchOffset = -20
+		float GyroAttAveSec = 1
+		float GyroAttLerpRate = 0.2

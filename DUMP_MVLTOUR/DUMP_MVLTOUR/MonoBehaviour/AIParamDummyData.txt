@@ -1,0 +1,60 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6040898529597353900
+	string m_Name = "AIParamDummyData"
+	Drift mDriftParam
+		PSParam mPSParam_DriftProb
+			float Min = 0
+			float Max = 100
+		PSParam mPSParam_DriftStartPos
+			float Min = 0
+			float Max = 0.4
+		PSParam mPSParam_DriftEndPos
+			float Min = 0.6
+			float Max = 1
+		PSParam mPSParam_DriftRouteStart
+			float Min = -0.9
+			float Max = 0.95
+		PSParam mPSParam_DriftRouteMiddle
+			float Min = -0.9
+			float Max = 0.98
+		PSParam mPSParam_DriftRouteEnd
+			float Min = -0.9
+			float Max = 0.95
+		float mDriftMargin = 30
+		int mDriftProbForCurveLengthMin = -20
+		int mDriftProbForCurveLengthMax = 80
+		float mDriftCurveDegMin = 15
+		float mDriftCurveDegMax = 180
+		float mDriftCurveLengthMin = 30
+		float mDriftCurveLengthMax = 180
+		PSParam mPSParam_MiniTurbo
+			float Min = -0.3
+			float Max = 0.8
+		vector mMinDistanceForMiniTurbo
+			Array Array
+			int size = 4
+				[0]
+				float data = 0
+				[1]
+				float data = 50
+				[2]
+				float data = 80
+				[3]
+				float data = 100
+		float mMiniTurboRatioForCurveRadMin = -0.3
+		float mMiniTurboRatioForCurveRadMax = 0.7
+		float mMiniTurboCounterDeltaMax = 2.5
+		float mMiniTurboCounterDeltaMin = 1
+	float mTurnDegMax = 40
+	float mTurnDegMaxGlide = 20
+	float mChangeRouteRatioDistanceMin = 50
+	float mChangeRouteRatioDistanceMax = 150
+	float mChangeRouteRange = 5
+	float mChangeRouteRatioMax = 0.5
+	float mBackMirrorRouteRatioMax = 0.2

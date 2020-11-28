@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Wendy"
+	PPtr<$GameObject> mModel
+		int m_FileID = 3
+		SInt64 m_PathID = -7779094382391865059
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 1
+				SInt64 m_PathID = 7389292303858961329
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3546125046073968657
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3746249624480307375
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2137552123977589399
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 613042521231840974
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2797794508072363659
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4704279644391772072
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4015954523476993940
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -3449052495906750249
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 2
+		SInt64 m_PathID = 1388885681635990322
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -5524465738651948965
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/Wendy.png"
+				string mGuid = "596908856cea6694ebcc81f98a2f6489"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/WendyMap.png"
+				string mGuid = "a4412e980aea97a4ebf305653c734785"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/WendyFaceEntry.png"
+				string mGuid = "eafecd2b0e13bb24b89a4fc7007ae87d"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/WendyWholeBody.png"
+				string mGuid = "c9e4d954e0febb44a98806ec61ed54ea"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/WendyUpperBody.png"
+				string mGuid = "bc0fb451bcf1e2a46a22b38e037c1915"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/Wendy_Small.png"
+				string mGuid = "d9370a99c8c5e64448bec09fa9a4b0bb"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/WendyFaceEntry_Small.png"
+				string mGuid = "6ec2e47690b92f849b4f1b0c5ebb9be7"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/WendyWholeBody_Small.png"
+				string mGuid = "7aef80c183a6b764aa70c5e1fe91d813"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Wendy/Icons/WendyUpperBody_Small.png"
+				string mGuid = "bb20c5972d46fba4191bff3cb0e1c877"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -3148092307703445188
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ウェンディ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

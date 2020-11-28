@@ -1,0 +1,62 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5729155180541303578
+	string m_Name = "Formation_01_08_Pyramid"
+	string mDisplayName = "Pyramid"
+	Kart mKart
+		Array Array
+		int size = 8
+			[0]
+			Kart data
+				Vector2f Offset
+					float x = 0
+					float y = 0
+				float RatioX = 0
+			[1]
+			Kart data
+				Vector2f Offset
+					float x = -4
+					float y = -5.5
+				float RatioX = 0.3
+			[2]
+			Kart data
+				Vector2f Offset
+					float x = 0
+					float y = -5.5
+				float RatioX = -0.3
+			[3]
+			Kart data
+				Vector2f Offset
+					float x = 4
+					float y = -5.5
+				float RatioX = 0.6
+			[4]
+			Kart data
+				Vector2f Offset
+					float x = -6
+					float y = -11
+				float RatioX = -0.6
+			[5]
+			Kart data
+				Vector2f Offset
+					float x = -2
+					float y = -11
+				float RatioX = 0.9
+			[6]
+			Kart data
+				Vector2f Offset
+					float x = 2
+					float y = -11
+				float RatioX = -0.9
+			[7]
+			Kart data
+				Vector2f Offset
+					float x = 6
+					float y = -11
+				float RatioX = 0
+	float mRouteRadiusMin = 0

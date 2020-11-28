@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Nokonoko"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 1951875113239114306
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -5275331384589389645
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5767035586256386904
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6129168660885324994
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8212633624683085872
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8694031315539538466
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7244697258220987126
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 138801446329273317
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8978569401191476637
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -3630116679673533649
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 5616179473325022596
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -3859378763378360373
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/Nokonoko.png"
+				string mGuid = "f6a79502aa6792946bb1695625bb9d66"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/NokonokoMap.png"
+				string mGuid = "82ed00fc9ba4de144abb4903df5fa3dd"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/NokonokoFaceEntry.png"
+				string mGuid = "dd274ef8547e3b44aaa6a9fc26911c12"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/NokonokoWholeBody.png"
+				string mGuid = "d67f46531bb861e46b23d99a4acc1509"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/NokonokoUpperBody.png"
+				string mGuid = "b8b5c8e28aa641b43b203e505f8fca8e"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/Nokonoko_Small.png"
+				string mGuid = "382941d9e2a58a441b41593110a68381"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/NokonokoFaceEntry_Small.png"
+				string mGuid = "102c8a3bbe4eee74ba458df8872fce93"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/NokonokoWholeBody_Small.png"
+				string mGuid = "6fc3144bbec46094893e783ed2c04ab1"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Nokonoko/Icons/NokonokoUpperBody_Small.png"
+				string mGuid = "989546439a989744e88ae87b49a5a426"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -6430149897294565119
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ノコノコ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

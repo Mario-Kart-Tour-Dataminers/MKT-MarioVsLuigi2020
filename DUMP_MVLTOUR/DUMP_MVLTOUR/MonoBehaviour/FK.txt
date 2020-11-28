@@ -1,0 +1,96 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "FK"
+	PPtr<$GameObject> mModel
+		int m_FileID = 2
+		SInt64 m_PathID = 7208636539375580668
+	vector mFaceTextures
+		Array Array
+		int size = 0
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 3440441558918401260
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 1
+		SInt64 m_PathID = -7088380784656445709
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -6666778320107142568
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FK.png"
+				string mGuid = "c07f15ade0e475642a5ea4cb8aba0bfa"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FKMap.png"
+				string mGuid = "418bb776e7ef2234da3261e9d31136ba"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FKFaceEntry.png"
+				string mGuid = "ae44463d97f5ab24cabd2384841dd3af"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FKWholeBody.png"
+				string mGuid = "33c88c5b4c96f274b857cfbece9e1290"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FKUpperBody.png"
+				string mGuid = "47e5e27c9a85cf747a8cb5a217a8013f"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FK_Small.png"
+				string mGuid = "6c4ef3a3d673dc74ebabb52953d4c2b3"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FKFaceEntry_Small.png"
+				string mGuid = "afdc96032fac40a4fb23fb353587b5bd"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FKWholeBody_Small.png"
+				string mGuid = "6aa153df090dd984db7a5a601f5146a4"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/FK/Icons/FKUpperBody_Small.png"
+				string mGuid = "bef2509dea82b894ca2704b9a3bca03b"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -3236272579556574181
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

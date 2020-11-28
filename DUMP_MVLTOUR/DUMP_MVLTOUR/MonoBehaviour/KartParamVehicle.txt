@@ -1,0 +1,13 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6292057592239474594
+	string m_Name = "KartParamVehicle"
+	float cPressCountByKart = 3
+	float cFrozenSlipCount = 3
+	float cSlipStreamAsHitCount = 0.25
+	float cSlipStreamChargeCount = 1.5

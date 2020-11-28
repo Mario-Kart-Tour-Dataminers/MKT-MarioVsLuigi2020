@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_WarioKite_SignWaluige"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_WarioKite/Icons/Wing_WarioKite_SignWaluige.png"
+				string mGuid = "0aa30f76ce7492344b5aded3db80439b"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_WarioKite/Icons/Wing_WarioKite_SignWaluige_Large.png"
+				string mGuid = "c8df3d928c2132e48afe0acd90eef01b"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_WarioKite/Icons/Wing_WarioKite_SignWaluige_Small.png"
+				string mGuid = "b27dd80fbb46bc84189c60deda8e2de0"
+	int mWingType = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 3
+		SInt64 m_PathID = 9124757297423815860
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -8368870171849273842
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

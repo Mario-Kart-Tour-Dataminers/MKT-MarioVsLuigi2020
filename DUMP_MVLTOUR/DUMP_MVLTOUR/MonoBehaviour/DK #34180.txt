@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "DK"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -4990241736108410039
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 3643100703400688777
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5125466148729170872
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5251900515965326471
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3114028966577142040
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4919392377118473077
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2364418956403809919
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1185077349835511919
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8476400789353875509
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -6895333638529506538
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -4563021628345301369
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -8370529980193998755
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DK.png"
+				string mGuid = "3798e2787571a3a4791bcef38ba870de"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DKMap.png"
+				string mGuid = "39ff774ea678cb5439ad6495c6fcf03b"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DKFaceEntry.png"
+				string mGuid = "a88cc32115de30949801e893a5f96a66"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DKWholeBody.png"
+				string mGuid = "ba71c442a5db2be409078a99d066886a"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DKUpperBody.png"
+				string mGuid = "9aea2774354a02241a4095a530f0c244"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DK_Small.png"
+				string mGuid = "14ba3d2b8c20fbe4e89467fa741e2668"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DKFaceEntry_Small.png"
+				string mGuid = "6f4f8749d28d07d41a54878af8aacbae"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DKWholeBody_Small.png"
+				string mGuid = "b021a1a59ccadbb4d9f8de8a662e2b1c"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DK/Icons/DKUpperBody_Small.png"
+				string mGuid = "5dd0abb206709b646acddf118ffc8afa"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -4834684852172977785
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ドンキーコング"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

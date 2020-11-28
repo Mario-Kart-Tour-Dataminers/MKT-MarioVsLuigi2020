@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_G3ds_NeoBowserCity_MapInfo"
+	Rectf rect
+		float x = -342.4029
+		float y = -338.4322
+		float width = 637.4051
+		float height = 637.4051
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -4787802643467468819
+	Vector2f offset
+		float x = -30
+		float y = 0

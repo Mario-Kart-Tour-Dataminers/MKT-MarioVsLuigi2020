@@ -1,0 +1,29 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3484937501739567315
+	string m_Name = "CameraCollision"
+	UInt8 IsEnableCalcAngle = 1
+	float DegXCamDistMargin = 0.5
+	int CalcAngleCheckNum = 3
+	float DegCamDistMargin = 1
+	float DegXSpeedMax = 5
+	float DegXMax = 45
+	float DegXPlay = 3
+	float DegXFollow = 0.3
+	float DegYSpeedMax = 5
+	float DegYMax = 170
+	float DegYPlay = 3
+	float DegYFollow = 0.3
+	float CollisionLength = 18
+	float CamRadius = 1.3
+	float CamRadiusPrimColS = 1.5
+	float CamRadiusPrimColL = 2.5
+	float ColRejectFollow = 1
+	float cCameraMargninToWall = 0
+	float cCameraMargninToFloor = 0
+	float cCameraRayMaxLengthOffset = 30

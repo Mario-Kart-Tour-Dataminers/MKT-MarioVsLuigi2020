@@ -1,0 +1,177 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 798758306326595790
+	string m_Name = "GraphicDriverMotionSetting"
+	GraphicDriverMotionState mFirst
+		int mState = 0
+		int mHash = -990261153
+		int mWeight = 0
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = -1
+		float mDuration = 0.15
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 1
+	GraphicDriverMotionState mDrive
+		int mState = 1
+		int mHash = -1445143925
+		int mWeight = 0
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 1
+		float mMaxWaitSeconds = -1
+		float mDuration = 0.15
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 1
+		float mNeckControlAntiChatteringCoefficient = 0.2
+		UInt8 mIsLoop = 1
+	GraphicDriverMotionState mDriftL
+		int mState = 2
+		int mHash = -1739267036
+		int mWeight = 0
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 1
+		float mMaxWaitSeconds = -1
+		float mDuration = 0.15
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 1
+		float mNeckControlAntiChatteringCoefficient = 0.2
+		UInt8 mIsLoop = 1
+	GraphicDriverMotionState mDriftR
+		int mState = 3
+		int mHash = 1650186567
+		int mWeight = 0
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 1
+		float mMaxWaitSeconds = -1
+		float mDuration = 0.15
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 1
+		float mNeckControlAntiChatteringCoefficient = 0.2
+		UInt8 mIsLoop = 1
+	GraphicDriverMotionState mDash
+		int mState = 4
+		int mHash = 995914302
+		int mWeight = 0
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 1
+		float mMaxWaitSeconds = -1
+		float mDuration = 0.15
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 1
+	GraphicDriverMotionState mGood
+		int mState = 6
+		int mHash = -860429908
+		int mWeight = 0
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = -1
+		float mDuration = 0.15
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 1
+	GraphicDriverMotionState mGut
+		int mState = 7
+		int mHash = -1883997503
+		int mWeight = 10
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = 0
+		float mDuration = 0.03
+		float mStartDelaySeconds = 0.5
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 0
+	GraphicDriverMotionState mJumpA
+		int mState = 8
+		int mHash = -429148200
+		int mWeight = 10
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = 0
+		float mDuration = 0
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 0
+	GraphicDriverMotionState mJumpB
+		int mState = 9
+		int mHash = 2137187938
+		int mWeight = 10
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = 0
+		float mDuration = 0
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 0
+	GraphicDriverMotionState mJumpC
+		int mState = 10
+		int mHash = 140891892
+		int mWeight = 10
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = 0
+		float mDuration = 0
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 0
+	GraphicDriverMotionState mThrowB
+		int mState = 11
+		int mHash = -175178679
+		int mWeight = 10
+		UInt8 mIsSelfTransition = 1
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = 0
+		float mDuration = 0
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 0
+	GraphicDriverMotionState mThrowF
+		int mState = 12
+		int mHash = -219989936
+		int mWeight = 10
+		UInt8 mIsSelfTransition = 1
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = 0
+		float mDuration = 0
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 0
+	GraphicDriverMotionState mDriveWait
+		int mState = 14
+		int mHash = -451068840
+		int mWeight = -1
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = -1
+		float mDuration = 0.15
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 1
+		float mNeckControlAntiChatteringCoefficient = 0.2
+		UInt8 mIsLoop = 1
+	GraphicDriverMotionState mDamage
+		int mState = 5
+		int mHash = 375673178
+		int mWeight = 20
+		UInt8 mIsSelfTransition = 0
+		UInt8 mIsDriveMotion = 0
+		float mMaxWaitSeconds = 0
+		float mDuration = 0
+		float mStartDelaySeconds = 0
+		UInt8 mIsNeckControl = 0
+		float mNeckControlAntiChatteringCoefficient = 0.1
+		UInt8 mIsLoop = 1

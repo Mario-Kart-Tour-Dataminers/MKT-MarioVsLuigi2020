@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "RosettaSwimwear"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -1802067430540423846
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -5425370035084718145
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3695799824801916395
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6869507836285854384
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2235537275621844175
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7701747145832787560
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4013248277874151722
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2423835363093414953
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1426035347839032203
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -8565444602035077291
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -905674348811141533
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -5740175994190905779
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwear.png"
+				string mGuid = "b3605f7499099284eacce2630f630ffd"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwearMap.png"
+				string mGuid = "51ca16a8c3e756745811bd82e2b72c57"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwearFaceEntry.png"
+				string mGuid = "0789a9c592a44b843b47c1fd73bbeb8b"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwearWholeBody.png"
+				string mGuid = "653aff817516dd842b59c43f8518e46d"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwearUpperBody.png"
+				string mGuid = "85e4ba6293ede894091dff64b2dff1b4"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwear_Small.png"
+				string mGuid = "b027da4ffb8a1934984cecb548447b66"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwearFaceEntry_Small.png"
+				string mGuid = "b764b635499f7e14893e5a1a8e91d1ef"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwearWholeBody_Small.png"
+				string mGuid = "3d2ad0de8817e6a4e96791821658d251"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/RosettaSwimwear/Icons/RosettaSwimwearUpperBody_Small.png"
+				string mGuid = "ef27799e28e568648b444ec68499ae24"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -6331558084262706451
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

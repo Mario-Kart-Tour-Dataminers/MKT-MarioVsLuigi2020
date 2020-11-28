@@ -1,0 +1,22 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2776185883449993066
+	string m_Name = "Silhouette"
+	UInt8 active = 1
+	BoolParameter enabled
+		UInt8 overrideState = 1
+		UInt8 value = 1
+	FloatParameter depthFactor
+		UInt8 overrideState = 1
+		float value = 60
+	FloatParameter baseDepth
+		UInt8 overrideState = 1
+		float value = 0.15
+	FloatParameter secondaryColorThreshold
+		UInt8 overrideState = 1
+		float value = 0.7

@@ -1,0 +1,32 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1504187518563844771
+	string m_Name = "KartParamVehicleDash"
+	float cDashCounterCoin = 0.1666667
+	float cDashCounterJumpAction = 0.4
+	float cDashCounterKinoko = 2
+	float cDashCounterKinokoShare = 0.75
+	float cDashCounterPanel = 1
+	float cDashCounterStarRing = 1
+	float cDashCounterSlipStream = 2.25
+	float cDashCounterJugem = 0.5
+	float cDashCounterMiniTurboLv1Fever = 1
+	float cDashCounterMiniTurboLv2Fever = 1
+	float cDashCounterMiniTurboLv3Fever = 1
+	float cDashCounterHalfPipe1 = 1.75
+	float cDashCounterHalfPipe2 = 2.75
+	float cDashCounterHalfPipeLongDash = 2.8
+	float cDashCounterHalfPipeWithJumpAction = 1.5
+	float cDashSpeedCoin = 1.06
+	float cDashSpeedNormal = 1.1
+	float cDashSpeedJumpAction = 1.3
+	float cDashSpeedJumpAction_FeverTouch = 1.06
+	float cDashSpeedKinoko = 1.2
+	float cDashSpeedSlipStream = 1.2
+	float cDashSpeedPanel = 1.3
+	float cDashSpeedHalfPipe = 1.3

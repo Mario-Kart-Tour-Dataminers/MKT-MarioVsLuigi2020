@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gn64_KoopaTroopaBeach_MapInfo"
+	Rectf rect
+		float x = -479.9345
+		float y = -444.9876
+		float width = 916.308
+		float height = 916.308
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -2682704831126605220
+	Vector2f offset
+		float x = -30
+		float y = 0

@@ -1,0 +1,48 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "MenuSeasonRewardIconList00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 4
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Menu/MenuSeasonRewardSilver00.png"
+				string guid = "3f65e077b5cee1b4580d2c99a3c1aef5"
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Menu/MenuSeasonRewardSilverOpen00.png"
+				string guid = "96e10e4d42e8ad541bc3ecc6b92a6c6d"
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Menu/MenuSeasonRewardGold00.png"
+				string guid = "2b76b4a4805b25c49bea6b2a1f569fe6"
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				string path = "Assets/Main/Content/UI/Texture/Menu/MenuSeasonRewardGoldOpen00.png"
+				string guid = "3e95b9496a53c94419cadf271f6ed2bd"
+				int substitutedArrayIndex = 3
+	int assetType = 0
+	int keyType = 30

@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gsfc_GhostValley1_MapInfo"
+	Rectf rect
+		float x = -197.85
+		float y = -196.7
+		float width = 393
+		float height = 393
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 8665787020711366056
+	Vector2f offset
+		float x = 0
+		float y = 0

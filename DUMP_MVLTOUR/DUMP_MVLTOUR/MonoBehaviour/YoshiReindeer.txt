@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "YoshiReindeer"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 2502883585725824104
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -8873815994689331532
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6694557268603860888
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6173906299733984059
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6082218281188075944
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4873845645907357926
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5017638138437855659
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 152397850839889116
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4442450640599084472
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -3282036844285197967
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 4271197373926285607
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 3812477771719988285
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeer.png"
+				string mGuid = "dc72a3968ba78bb49a0bc48284f9bf30"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeerMap.png"
+				string mGuid = "d3c038654b7079f4e8ba7a4813f1c5c7"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeerFaceEntry.png"
+				string mGuid = "b8b3b2ed40fd98a4a8297f86b993fc80"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeerWholeBody.png"
+				string mGuid = "a42cac73a82fca544beebe8be4f76d55"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeerUpperBody.png"
+				string mGuid = "1baf21fb0fdc4e84b902958de1f7ec9f"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeer_Small.png"
+				string mGuid = "0d64fe8b1f5ab0b43b2e5cc932d69242"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeerFaceEntry_Small.png"
+				string mGuid = "d0936cc1e9d1c5f47a0ed49dc077acd3"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeerWholeBody_Small.png"
+				string mGuid = "d6cebee1e2137ae4eaa928f385be4de2"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/YoshiReindeer/Icons/YoshiReindeerUpperBody_Small.png"
+				string mGuid = "79b9a7c7994872245ac2af8641ff5750"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 4580295821886082856
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

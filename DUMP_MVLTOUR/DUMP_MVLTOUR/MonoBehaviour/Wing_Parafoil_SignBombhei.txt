@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2434717279687273224
+	string m_Name = "Wing_Parafoil_SignBombhei"
+	PPtr<$GameObject> mWingModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Parafoil/Icons/Wing_Parafoil_SignBombhei.png"
+				string mGuid = "da4a55b8a3df9a64eaa3913469c096d8"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Parafoil/Icons/Wing_Parafoil_SignBombhei_Large.png"
+				string mGuid = "bc8e4206a461bdf4d9f13292cab5771c"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Kart/Wing/Wing_Parafoil/Icons/Wing_Parafoil_SignBombhei_Small.png"
+				string mGuid = "1b1a4751a91141a458a3b68987f2db3e"
+	int mWingType = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartWing> mBaseParameter
+		int m_FileID = 4
+		SInt64 m_PathID = 3836946152633149861
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -4311195627181403359
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mIsDisableAngleAnimation = 0
+	string mDescription = ""
+	PPtr<$ScriptableKartWing> mColorValiationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0

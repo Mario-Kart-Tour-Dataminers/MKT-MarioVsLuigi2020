@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gds_WaluigiPinball_MapInfo"
+	Rectf rect
+		float x = -504.4874
+		float y = -440.8483
+		float width = 1003.041
+		float height = 1003.041
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 1740880355965844909
+	Vector2f offset
+		float x = -45
+		float y = 0

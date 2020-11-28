@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Luigi_Classic"
+	PPtr<$GameObject> mModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 7
+				SInt64 m_PathID = -1338374798362746587
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 9
+				SInt64 m_PathID = -6037193555099044673
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 12
+				SInt64 m_PathID = -2678892201164430695
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 10
+				SInt64 m_PathID = -4525757327796342102
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 14
+				SInt64 m_PathID = 749072558018591254
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 13
+				SInt64 m_PathID = 8929111777518399988
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 11
+				SInt64 m_PathID = 8905424323698255565
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 8
+				SInt64 m_PathID = -8471317184618697282
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float mKartScaleSize = 0
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_Classic.png"
+				string mGuid = "8af730fe6ccf937429d8c235fe189848"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_ClassicMap.png"
+				string mGuid = "b981d740b7b66564ab4079bdf5719226"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_ClassicFaceEntry.png"
+				string mGuid = "4d73f99e2277d394eb3dd9dad0a82e32"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_ClassicWholeBody.png"
+				string mGuid = "39d49308909fb8540a9bc4dc5dcb9fad"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_ClassicUpperBody.png"
+				string mGuid = "45014fe614c625c45a76b983a28073a7"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_Classic_Small.png"
+				string mGuid = "d6efcf05bfa578248924d85ce03a5b2d"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_ClassicFaceEntry_Small.png"
+				string mGuid = "582a6d542e1d52449ba8eb7db2dbc5d9"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_ClassicWholeBody_Small.png"
+				string mGuid = "c7a13665a087551429aeca612da6d7c2"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Luigi/Icons/Luigi_ClassicUpperBody_Small.png"
+				string mGuid = "583614e8b886b524696770a8db4074a2"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 15
+		SInt64 m_PathID = 6211199556549876831
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -8117812528083392616
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -694633461315261088
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,780 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3790136960300156867
+	string m_Name = "KartParamGroundAbility"
+	float mValue = 0.2
+	GroundAbility mParamRoad
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamRoad2
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamSand
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamLDirt
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamDirt
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamDirt2
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamHDirt
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamIce
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamDash
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamGlide
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamZone
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamPull
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamBelt
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamSound
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamITRoad
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamWall
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamWall2
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamLWall
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamITWall
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamBWall
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamOutF
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data
+	GroundAbility mParamValley
+		Array Array
+		int size = 16
+			[0]
+			GroundAbility data
+			[1]
+			GroundAbility data
+			[2]
+			GroundAbility data
+			[3]
+			GroundAbility data
+			[4]
+			GroundAbility data
+			[5]
+			GroundAbility data
+			[6]
+			GroundAbility data
+			[7]
+			GroundAbility data
+			[8]
+			GroundAbility data
+			[9]
+			GroundAbility data
+			[10]
+			GroundAbility data
+			[11]
+			GroundAbility data
+			[12]
+			GroundAbility data
+			[13]
+			GroundAbility data
+			[14]
+			GroundAbility data
+			[15]
+			GroundAbility data

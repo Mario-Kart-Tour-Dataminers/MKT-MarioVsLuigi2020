@@ -1,0 +1,39 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6895405799716105771
+	string m_Name = "NotPartsCommonSettings"
+	IconInfo mIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareItemNormalBase01.png"
+				string mGuid = "2d48dbc9ed07f3d4eb25fca0cac99b66"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareItemRareBase01.png"
+				string mGuid = "f37230e781cee6b488e8a1bacb4badf9"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareItemUltraBase01.png"
+				string mGuid = "4aa5145b21a8f98458957fa1f1c638b3"
+	IconInfo mBalloonIconInfo
+		Array Array
+		int size = 3
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareBalloonItemNormal00.png"
+				string mGuid = ""
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareBalloonItemRare00.png"
+				string mGuid = ""
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/UI/Texture/RareBalloonItemUltra00.png"
+				string mGuid = ""

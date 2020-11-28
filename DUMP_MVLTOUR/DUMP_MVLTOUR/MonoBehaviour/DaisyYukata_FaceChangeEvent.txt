@@ -1,0 +1,307 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4222366918237533649
+	string m_Name = "DaisyYukata_FaceChangeEvent"
+	GraphicDriverFaceChangeEvent mFaceChangeEvent
+		Array Array
+		int size = 59
+			[0]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 5
+				float mTime = 0
+			[1]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 1
+				float mTime = 1.033333
+			[2]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 2
+				float mTime = 1.083333
+			[3]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 1
+				float mTime = 1.233333
+			[4]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 4
+				float mTime = 1.3
+			[5]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 4
+				float mTime = 1.55
+			[6]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 2
+				float mTime = 1.583333
+			[7]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 1
+				float mTime = 1.666667
+			[8]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 5
+				float mTime = 1.7
+			[9]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 3
+				float mTime = 3.1
+			[10]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 2
+				float mTime = 3.233334
+			[11]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 1
+				float mTime = 3.316667
+			[12]
+			GraphicDriverFaceChangeEvent data
+				int mState = 0
+				int mFaceId = 5
+				float mTime = 3.333333
+			[13]
+			GraphicDriverFaceChangeEvent data
+				int mState = 5
+				int mFaceId = 6
+				float mTime = 0
+			[14]
+			GraphicDriverFaceChangeEvent data
+				int mState = 4
+				int mFaceId = 5
+				float mTime = 0
+			[15]
+			GraphicDriverFaceChangeEvent data
+				int mState = 4
+				int mFaceId = 5
+				float mTime = 0
+			[16]
+			GraphicDriverFaceChangeEvent data
+				int mState = 2
+				int mFaceId = 0
+				float mTime = 0
+			[17]
+			GraphicDriverFaceChangeEvent data
+				int mState = 2
+				int mFaceId = 0
+				float mTime = 0
+			[18]
+			GraphicDriverFaceChangeEvent data
+				int mState = 3
+				int mFaceId = 0
+				float mTime = 0
+			[19]
+			GraphicDriverFaceChangeEvent data
+				int mState = 3
+				int mFaceId = 0
+				float mTime = 0
+			[20]
+			GraphicDriverFaceChangeEvent data
+				int mState = 1
+				int mFaceId = 0
+				float mTime = 0
+			[21]
+			GraphicDriverFaceChangeEvent data
+				int mState = 1
+				int mFaceId = 0
+				float mTime = 0
+			[22]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 5
+				float mTime = 0
+			[23]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 1
+				float mTime = 0.4166667
+			[24]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 2
+				float mTime = 0.45
+			[25]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 1
+				float mTime = 0.5166667
+			[26]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 5
+				float mTime = 0.55
+			[27]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 5
+				float mTime = 3.233334
+			[28]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 1
+				float mTime = 3.633333
+			[29]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 2
+				float mTime = 3.666667
+			[30]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 1
+				float mTime = 3.733334
+			[31]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 5
+				float mTime = 3.766667
+			[32]
+			GraphicDriverFaceChangeEvent data
+				int mState = 6
+				int mFaceId = 5
+				float mTime = 6
+			[33]
+			GraphicDriverFaceChangeEvent data
+				int mState = 7
+				int mFaceId = 3
+				float mTime = 0
+			[34]
+			GraphicDriverFaceChangeEvent data
+				int mState = 7
+				int mFaceId = 2
+				float mTime = 0.15
+			[35]
+			GraphicDriverFaceChangeEvent data
+				int mState = 7
+				int mFaceId = 1
+				float mTime = 0.1833333
+			[36]
+			GraphicDriverFaceChangeEvent data
+				int mState = 7
+				int mFaceId = 5
+				float mTime = 0.2166667
+			[37]
+			GraphicDriverFaceChangeEvent data
+				int mState = 7
+				int mFaceId = 2
+				float mTime = 0.7500001
+			[38]
+			GraphicDriverFaceChangeEvent data
+				int mState = 7
+				int mFaceId = 1
+				float mTime = 0.7666667
+			[39]
+			GraphicDriverFaceChangeEvent data
+				int mState = 7
+				int mFaceId = 0
+				float mTime = 0.7833334
+			[40]
+			GraphicDriverFaceChangeEvent data
+				int mState = 8
+				int mFaceId = 2
+				float mTime = 0
+			[41]
+			GraphicDriverFaceChangeEvent data
+				int mState = 8
+				int mFaceId = 2
+				float mTime = 0.2166667
+			[42]
+			GraphicDriverFaceChangeEvent data
+				int mState = 8
+				int mFaceId = 1
+				float mTime = 0.4
+			[43]
+			GraphicDriverFaceChangeEvent data
+				int mState = 8
+				int mFaceId = 5
+				float mTime = 0.4166667
+			[44]
+			GraphicDriverFaceChangeEvent data
+				int mState = 8
+				int mFaceId = 1
+				float mTime = 0.9833334
+			[45]
+			GraphicDriverFaceChangeEvent data
+				int mState = 9
+				int mFaceId = 2
+				float mTime = 0
+			[46]
+			GraphicDriverFaceChangeEvent data
+				int mState = 9
+				int mFaceId = 1
+				float mTime = 0.3166667
+			[47]
+			GraphicDriverFaceChangeEvent data
+				int mState = 9
+				int mFaceId = 5
+				float mTime = 0.35
+			[48]
+			GraphicDriverFaceChangeEvent data
+				int mState = 9
+				int mFaceId = 5
+				float mTime = 0.9333334
+			[49]
+			GraphicDriverFaceChangeEvent data
+				int mState = 10
+				int mFaceId = 2
+				float mTime = 0
+			[50]
+			GraphicDriverFaceChangeEvent data
+				int mState = 10
+				int mFaceId = 2
+				float mTime = 0.4331667
+			[51]
+			GraphicDriverFaceChangeEvent data
+				int mState = 10
+				int mFaceId = 1
+				float mTime = 0.4333334
+			[52]
+			GraphicDriverFaceChangeEvent data
+				int mState = 10
+				int mFaceId = 5
+				float mTime = 0.45
+			[53]
+			GraphicDriverFaceChangeEvent data
+				int mState = 10
+				int mFaceId = 4
+				float mTime = 0.8333334
+			[54]
+			GraphicDriverFaceChangeEvent data
+				int mState = 11
+				int mFaceId = 4
+				float mTime = 0
+			[55]
+			GraphicDriverFaceChangeEvent data
+				int mState = 12
+				int mFaceId = 0
+				float mTime = 0
+			[56]
+			GraphicDriverFaceChangeEvent data
+				int mState = 12
+				int mFaceId = 5
+				float mTime = 0.1666667
+			[57]
+			GraphicDriverFaceChangeEvent data
+				int mState = 12
+				int mFaceId = 0
+				float mTime = 0.45
+			[58]
+			GraphicDriverFaceChangeEvent data
+				int mState = 14
+				int mFaceId = 0
+				float mTime = 0

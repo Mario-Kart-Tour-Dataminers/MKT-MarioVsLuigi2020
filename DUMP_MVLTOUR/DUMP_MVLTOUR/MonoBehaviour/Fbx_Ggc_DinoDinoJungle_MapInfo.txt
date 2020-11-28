@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Ggc_DinoDinoJungle_MapInfo"
+	Rectf rect
+		float x = -220.1381
+		float y = -374.8219
+		float width = 635.3319
+		float height = 635.3319
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 1593847583184559093
+	Vector2f offset
+		float x = 15
+		float y = 0

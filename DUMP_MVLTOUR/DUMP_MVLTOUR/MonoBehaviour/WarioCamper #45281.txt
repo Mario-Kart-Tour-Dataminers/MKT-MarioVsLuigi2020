@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "WarioCamper"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -8259718503170847173
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -1158592873657045300
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7209781837347112418
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5907232900479379065
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1930419184167174647
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5906103147060243104
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1868058549533238693
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 569190727911219722
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6790105727786115816
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -2340763006966899102
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -4871822963747658446
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -839476102236151535
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamper.png"
+				string mGuid = "1f4aa4dd0b2e0da41bf68717ffa481e1"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamperMap.png"
+				string mGuid = "e9377d40ae861cd418e2e57e488cd643"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamperFaceEntry.png"
+				string mGuid = "f796c7312b39e3443883194fc021baff"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamperWholeBody.png"
+				string mGuid = "687ec1bb1b86f4944ac869e46236d101"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamperUpperBody.png"
+				string mGuid = "e8dd3cfa7621c294890df51e41104fb8"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamper_Small.png"
+				string mGuid = "08a39458625ffc040aad6b6cbcaf8720"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamperFaceEntry_Small.png"
+				string mGuid = "94a64316e2e0cb34fa1554eaf2ce9e18"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamperWholeBody_Small.png"
+				string mGuid = "7c72210bbd7160e448ae487a0f064f60"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/WarioCamper/Icons/WarioCamperUpperBody_Small.png"
+				string mGuid = "ac5a05f02e502914c94af9e18a344423"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -4766699449370324446
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

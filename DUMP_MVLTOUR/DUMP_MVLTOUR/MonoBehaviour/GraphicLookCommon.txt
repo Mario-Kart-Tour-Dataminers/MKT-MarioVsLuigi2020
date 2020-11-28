@@ -1,0 +1,187 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3393743674299683
+	string m_Name = "GraphicLookCommon"
+	PPtr<$Texture2D> mStarSphereMapTexture
+		int m_FileID = 0
+		SInt64 m_PathID = 1491257490265567538
+	ColorRGBA mStarAlbedoBaseColor
+		float r = 0.4980392
+		float g = 0.4980392
+		float b = 0.4980392
+		float a = 1
+	Vector4f mStarSphereMapScale
+		float x = 2
+		float y = 2
+		float z = 2
+		float w = 2
+	float mStarColorCycleSeconds = 0.375
+	vector mStarColor
+		Array Array
+		int size = 12
+			[0]
+			ColorRGBA data
+				float r = 0.4980392
+				float g = 0
+				float b = 0
+				float a = 0
+			[1]
+			ColorRGBA data
+				float r = 0.4980392
+				float g = 0
+				float b = 0
+				float a = 0
+			[2]
+			ColorRGBA data
+				float r = 0.497
+				float g = 0
+				float b = 0.4980392
+				float a = 0
+			[3]
+			ColorRGBA data
+				float r = 0.4980392
+				float g = 0
+				float b = 0.497
+				float a = 0
+			[4]
+			ColorRGBA data
+				float r = 0
+				float g = 0
+				float b = 0.497
+				float a = 0
+			[5]
+			ColorRGBA data
+				float r = 0
+				float g = 0
+				float b = 0.497
+				float a = 0
+			[6]
+			ColorRGBA data
+				float r = 0
+				float g = 0.497
+				float b = 0.497
+				float a = 0
+			[7]
+			ColorRGBA data
+				float r = 0
+				float g = 0.497
+				float b = 0.497
+				float a = 0
+			[8]
+			ColorRGBA data
+				float r = 0
+				float g = 0.497
+				float b = 0
+				float a = 0
+			[9]
+			ColorRGBA data
+				float r = 0
+				float g = 0.497
+				float b = 0
+				float a = 0
+			[10]
+			ColorRGBA data
+				float r = 0.497
+				float g = 0.497
+				float b = 0
+				float a = 0
+			[11]
+			ColorRGBA data
+				float r = 0.497
+				float g = 0.497
+				float b = 0
+				float a = 0
+	Vector4f mGessoMinMSA
+		float x = 0
+		float y = 1
+		float z = 0
+		float w = 0
+	Vector4f mKartFrozenMinMSA
+		float x = 0.5
+		float y = 0.5
+		float z = 0
+		float w = 0
+	ColorRGBA mKartFrozenAddColor
+		float r = 0.4352941
+		float g = 0.8117647
+		float b = 1
+		float a = 1
+	float mKartFrozenAddColorScale = 1.5
+	float mWetColorScale = 0.75
+	Vector4f mWetMinMSA
+		float x = 0
+		float y = 0.8
+		float z = 0
+		float w = 0
+	float mWetDrySeconds = 4
+	float mWetFullSeconds = 0.3
+	vector mSeparateJumpOffsetCurve
+		Array Array
+		int size = 1
+			[0]
+			float data = 1
+	float mMaxDriverNeckLookingBackAngle = 360
+	float mMaxDriverNeckAngle = 45
+	float mGhostAlphaFactor = 0.3
+	ColorRGBA mGhostMainColor
+		float r = 0.5
+		float g = 0.5
+		float b = 0.5
+		float a = 1
+	float mKartShadowScale = 1
+	float mKartShadowBodyScale = 1.2
+	int mKartShadowBodyBlurCount = 1
+	int mKartShadowBodyAlphaFactor = 60
+	float mKartShadowTireScale = 1.4
+	int mKartShadowTireBlurCount = 1
+	int mKartShadowTireAlphaFactor = 70
+	KartTireTypeSuspensionSettings mKartSusList
+		Array Array
+		int size = 4
+			[0]
+			KartTireTypeSuspensionSettings data
+				int mTireType = 0
+				float mIdlingSpeed = 6
+				float mIdlingBottom = 0.02
+				float mFloatingSpeed = 4
+				float mLandingSpeed = 12
+				float mHeightOffset = 0.022
+			[1]
+			KartTireTypeSuspensionSettings data
+				int mTireType = 1
+				float mIdlingSpeed = 6
+				float mIdlingBottom = 0.02
+				float mFloatingSpeed = 4
+				float mLandingSpeed = 12
+				float mHeightOffset = 0.03
+			[2]
+			KartTireTypeSuspensionSettings data
+				int mTireType = 2
+				float mIdlingSpeed = 6
+				float mIdlingBottom = 0.02
+				float mFloatingSpeed = 4
+				float mLandingSpeed = 12
+				float mHeightOffset = 0.025
+			[3]
+			KartTireTypeSuspensionSettings data
+				int mTireType = 3
+				float mIdlingSpeed = 6
+				float mIdlingBottom = 0.02
+				float mFloatingSpeed = 4
+				float mLandingSpeed = 12
+				float mHeightOffset = 0.028
+	float mKartWingBlendMin = 0.5
+	float mProjectionShadowCutoffDistance = 50
+	float mProjectionShadowCutoffDistanceY = 5
+	float mKartShadowHitSimpleCalcDistance = 100
+	PPtr<$Cubemap> mDashBoardCubemap
+		int m_FileID = 1
+		SInt64 m_PathID = 640243685219423723
+	PPtr<$Cubemap> mGlideBoardCubemap
+		int m_FileID = 2
+		SInt64 m_PathID = -3998037931082943448

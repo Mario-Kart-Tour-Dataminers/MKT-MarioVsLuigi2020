@@ -1,0 +1,30 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2635221561383931851
+	string m_Name = "AudioDialog"
+	int DefaultDialogOpenSe = 9
+	int DefaultDialogCloseSe = 10
+	DialogSeParam list
+		Array Array
+		int size = 2
+			[0]
+			DialogSeParam data
+				int ScreenId = 14
+				string ScreenIdStr = "CommonDialog"
+				int CommonDialogContentType = 0
+				string CommonDialogContentTypeStr = "LackOfCoin"
+				int DialogOpenSe = 0
+				int DialogCloseSe = 10
+			[1]
+			DialogSeParam data
+				int ScreenId = 82
+				string ScreenIdStr = "NewSeason"
+				int CommonDialogContentType = 0
+				string CommonDialogContentTypeStr = "LackOfCoin"
+				int DialogOpenSe = 64
+				int DialogCloseSe = 20

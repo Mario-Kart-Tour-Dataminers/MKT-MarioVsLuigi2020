@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gagb_BowserCastle1_MapInfo"
+	Rectf rect
+		float x = -268.2225
+		float y = -298.3275
+		float width = 559.125
+		float height = 559.125
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -1235791206779390994
+	Vector2f offset
+		float x = 5
+		float y = 20

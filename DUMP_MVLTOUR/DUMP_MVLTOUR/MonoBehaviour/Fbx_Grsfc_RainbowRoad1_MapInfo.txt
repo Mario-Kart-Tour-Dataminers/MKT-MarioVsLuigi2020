@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Grsfc_RainbowRoad1_MapInfo"
+	Rectf rect
+		float x = -317.3396
+		float y = -323.9943
+		float width = 648.0907
+		float height = 648.0907
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = 3355134355479640874
+	Vector2f offset
+		float x = 0
+		float y = 0

@@ -1,0 +1,55 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3528712136297729501
+	string m_Name = "CoinList00"
+	UInt8 savePath = 1
+	AssetIntDictionaryKeyValuePair assetDataList
+		Array Array
+		int size = 4
+			[0]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 1
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Coin/Coin00.png"
+					string guid = "b0673a5119f1b104eb4ea433528bf2d9"
+					int substitutedKey = 0
+			[1]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 50
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Coin/Coin01.png"
+					string guid = "1a763bb017345b542ab7130e67649ec2"
+					int substitutedKey = 0
+			[2]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 100
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Coin/Coin02.png"
+					string guid = "fb4c5e112a5816d418fa4b6bcb6ab855"
+					int substitutedKey = 0
+			[3]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 1000
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Coin/Coin03.png"
+					string guid = "9f597d4d2e1b16e4f848d3c271bb5cbd"
+					int substitutedKey = 0
+	int notContainKeyAction = 3
+	int assetType = 0

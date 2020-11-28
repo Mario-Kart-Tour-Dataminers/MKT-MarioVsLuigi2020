@@ -1,0 +1,140 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "MarioSunshine"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -5176687919094034916
+	vector mFaceTextures
+		Array Array
+		int size = 11
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -2367834111551879485
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2711670998658491738
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8927952087070922173
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9012051714231319576
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2795045779634007300
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4912735455511943187
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 83588737409026921
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6611468061641912910
+			[8]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[9]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[10]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -8701727572209986895
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 4876063443465461820
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 5035367593199016255
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshine.png"
+				string mGuid = "f3ff25c8275beb5479bc4378c94e62dd"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshineMap.png"
+				string mGuid = "9fabf385697ebbc47909272ff4ad3be0"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshineFaceEntry.png"
+				string mGuid = "8ee4646b68a3e144884f113f1b0f343e"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshineWholeBody.png"
+				string mGuid = "7c55c75cfd4673b429287d5aafbf6332"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshineUpperBody.png"
+				string mGuid = "0c9a619368b1856409298109e5cb4aac"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshine_Small.png"
+				string mGuid = "c196dc3841d2b294186844eccdbb31bb"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshineFaceEntry_Small.png"
+				string mGuid = "c93e9f44743a4574b9072cc2093e3938"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshineWholeBody_Small.png"
+				string mGuid = "26a3512aae08e3545b912cd5c053e351"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioSunshine/Icons/MarioSunshineUpperBody_Small.png"
+				string mGuid = "eb867727f77d3e94b9075b08c22b613a"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -6334288757600992435
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,596 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7562848319295149356
+	string m_Name = "WaterColumnManhole_Item_Kcl"
+	KCollision mKCollision
+		KCollisionV2Header mHeader
+			UInt8 versionNum0 = 2
+			UInt8 versionNum1 = 2
+			UInt8 versionNum2 = 0
+			UInt8 versionNum3 = 0
+			unsigned int division_info_offset = 56
+			unsigned int kcl_jumplist_offset = 88
+			unsigned int num_kcl = 1
+			Vector3 area_min_pos
+				float x = -8.61571
+				float y = -8.919034
+				float z = -8.61571
+			Vector3 area_max_pos
+				float x = 8.61571
+				float y = 6.080966
+				float z = 8.61571
+			Vector3i area_width_shift
+				int x = 5
+				int y = 4
+				int z = 5
+			unsigned int num_prism_number = 20
+		vector mKclOffset
+			Array Array
+			int size = 1
+				[0]
+				unsigned int data = 92
+		vector mBlockData
+			Array Array
+			int size = 9
+				[0]
+				unsigned int data = 2147483648
+				[1]
+				unsigned int data = 2147483648
+				[2]
+				unsigned int data = 2147483648
+				[3]
+				unsigned int data = 2147483648
+				[4]
+				unsigned int data = 2147483648
+				[5]
+				unsigned int data = 2147483648
+				[6]
+				unsigned int data = 2147483648
+				[7]
+				unsigned int data = 2147483648
+				[8]
+				unsigned int data = 92
+		Vector3i mAreaWidthShift
+			int x = 4
+			int y = 3
+			int z = 4
+		Vector3i mAreaWidthMask
+			int x = -32
+			int y = -16
+			int z = -32
+		KCollisionVer1Data mVer1Data
+			Array Array
+			int size = 1
+				[0]
+				KCollisionVer1Data data
+					KCollisionV1Header mHeader
+						unsigned int pos_data_offset = 60
+						unsigned int nrm_data_offset = 72
+						unsigned int prism_data_offset = 564
+						unsigned int block_data_offset = 964
+						float prism_thickness = 3
+						Vector3 area_min_pos
+							float x = -8.61571
+							float y = -8.919034
+							float z = -8.61571
+						unsigned int area_x_width_mask = 4294967264
+						unsigned int area_y_width_mask = 4294967280
+						unsigned int area_z_width_mask = 4294967264
+						int block_width_shift = 3
+						int area_x_blocks_shift = 2
+						int area_xy_blocks_shift = 3
+						float sphere_radius = 1.8
+					Vector3 mPosData
+						Array Array
+						int size = 1
+							[0]
+							Vector3 data
+								float x = 0
+								float y = 0.080966
+								float z = -2E-07
+					Vector3 mNrmData
+						Array Array
+						int size = 41
+							[0]
+							Vector3 data
+								float x = 0
+								float y = 1
+								float z = 0
+							[1]
+							Vector3 data
+								float x = 1
+								float y = 0
+								float z = 0
+							[2]
+							Vector3 data
+								float x = -0.9510601
+								float y = 0
+								float z = -0.30902
+							[3]
+							Vector3 data
+								float x = -0.15643
+								float y = 0
+								float z = 0.98769
+							[4]
+							Vector3 data
+								float x = 0.9510601
+								float y = 0
+								float z = 0.30902
+							[5]
+							Vector3 data
+								float x = -0.80902
+								float y = 0
+								float z = -0.58779
+							[6]
+							Vector3 data
+								float x = -0.45398
+								float y = 0
+								float z = 0.89101
+							[7]
+							Vector3 data
+								float x = 0.80902
+								float y = 0
+								float z = 0.58779
+							[8]
+							Vector3 data
+								float x = -0.58779
+								float y = 0
+								float z = -0.80902
+							[9]
+							Vector3 data
+								float x = -0.70711
+								float y = 0
+								float z = 0.70711
+							[10]
+							Vector3 data
+								float x = 0.58779
+								float y = 0
+								float z = 0.80902
+							[11]
+							Vector3 data
+								float x = -0.30902
+								float y = 0
+								float z = -0.9510601
+							[12]
+							Vector3 data
+								float x = -0.89101
+								float y = 0
+								float z = 0.45398
+							[13]
+							Vector3 data
+								float x = 0.30902
+								float y = 0
+								float z = 0.9510601
+							[14]
+							Vector3 data
+								float x = 0
+								float y = 0
+								float z = -1
+							[15]
+							Vector3 data
+								float x = -0.98769
+								float y = 0
+								float z = 0.15643
+							[16]
+							Vector3 data
+								float x = 0
+								float y = 0
+								float z = 1
+							[17]
+							Vector3 data
+								float x = 0.30902
+								float y = 0
+								float z = -0.9510601
+							[18]
+							Vector3 data
+								float x = -0.98769
+								float y = 0
+								float z = -0.15643
+							[19]
+							Vector3 data
+								float x = -0.30902
+								float y = 0
+								float z = 0.9510601
+							[20]
+							Vector3 data
+								float x = 0.58779
+								float y = 0
+								float z = -0.80902
+							[21]
+							Vector3 data
+								float x = -0.89101
+								float y = 0
+								float z = -0.45398
+							[22]
+							Vector3 data
+								float x = -0.58779
+								float y = 0
+								float z = 0.80902
+							[23]
+							Vector3 data
+								float x = 0.80902
+								float y = 0
+								float z = -0.58779
+							[24]
+							Vector3 data
+								float x = -0.70711
+								float y = 0
+								float z = -0.70711
+							[25]
+							Vector3 data
+								float x = -0.80902
+								float y = 0
+								float z = 0.58779
+							[26]
+							Vector3 data
+								float x = 0.9510601
+								float y = 0
+								float z = -0.30902
+							[27]
+							Vector3 data
+								float x = -0.45398
+								float y = 0
+								float z = -0.89101
+							[28]
+							Vector3 data
+								float x = -0.9510601
+								float y = 0
+								float z = 0.30902
+							[29]
+							Vector3 data
+								float x = -0.15643
+								float y = 0
+								float z = -0.98769
+							[30]
+							Vector3 data
+								float x = -1
+								float y = 0
+								float z = 0
+							[31]
+							Vector3 data
+								float x = 0.15643
+								float y = 0
+								float z = -0.98769
+							[32]
+							Vector3 data
+								float x = 0.45398
+								float y = 0
+								float z = -0.89101
+							[33]
+							Vector3 data
+								float x = 0.70711
+								float y = 0
+								float z = -0.70711
+							[34]
+							Vector3 data
+								float x = 0.89101
+								float y = 0
+								float z = -0.45398
+							[35]
+							Vector3 data
+								float x = 0.98769
+								float y = 0
+								float z = -0.15643
+							[36]
+							Vector3 data
+								float x = 0.98769
+								float y = 0
+								float z = 0.15643
+							[37]
+							Vector3 data
+								float x = 0.89101
+								float y = 0
+								float z = 0.45398
+							[38]
+							Vector3 data
+								float x = 0.70711
+								float y = 0
+								float z = 0.70711
+							[39]
+							Vector3 data
+								float x = 0.45398
+								float y = 0
+								float z = 0.89101
+							[40]
+							Vector3 data
+								float x = 0.15643
+								float y = 0
+								float z = 0.98769
+					KCollisionPrismData mPrismData
+						Array Array
+						int size = 20
+							[0]
+							KCollisionPrismData data
+								float height = 2.583508
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 1
+								UInt16 enrm2_i = 2
+								UInt16 enrm3_i = 3
+								UInt16 attribute = 96
+								unsigned int id = 2147483648
+							[1]
+							KCollisionPrismData data
+								float height = 2.583512
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 4
+								UInt16 enrm2_i = 5
+								UInt16 enrm3_i = 6
+								UInt16 attribute = 96
+								unsigned int id = 2147483649
+							[2]
+							KCollisionPrismData data
+								float height = 2.583514
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 7
+								UInt16 enrm2_i = 8
+								UInt16 enrm3_i = 9
+								UInt16 attribute = 96
+								unsigned int id = 2147483650
+							[3]
+							KCollisionPrismData data
+								float height = 2.583511
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 10
+								UInt16 enrm2_i = 11
+								UInt16 enrm3_i = 12
+								UInt16 attribute = 96
+								unsigned int id = 2147483651
+							[4]
+							KCollisionPrismData data
+								float height = 2.583508
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 13
+								UInt16 enrm2_i = 14
+								UInt16 enrm3_i = 15
+								UInt16 attribute = 96
+								unsigned int id = 2147483652
+							[5]
+							KCollisionPrismData data
+								float height = 2.583508
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 16
+								UInt16 enrm2_i = 17
+								UInt16 enrm3_i = 18
+								UInt16 attribute = 96
+								unsigned int id = 2147483653
+							[6]
+							KCollisionPrismData data
+								float height = 2.583511
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 19
+								UInt16 enrm2_i = 20
+								UInt16 enrm3_i = 21
+								UInt16 attribute = 96
+								unsigned int id = 2147483654
+							[7]
+							KCollisionPrismData data
+								float height = 2.583514
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 22
+								UInt16 enrm2_i = 23
+								UInt16 enrm3_i = 24
+								UInt16 attribute = 96
+								unsigned int id = 2147483655
+							[8]
+							KCollisionPrismData data
+								float height = 2.583511
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 25
+								UInt16 enrm2_i = 26
+								UInt16 enrm3_i = 27
+								UInt16 attribute = 96
+								unsigned int id = 2147483656
+							[9]
+							KCollisionPrismData data
+								float height = 2.583507
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 28
+								UInt16 enrm2_i = 1
+								UInt16 enrm3_i = 29
+								UInt16 attribute = 96
+								unsigned int id = 2147483657
+							[10]
+							KCollisionPrismData data
+								float height = 2.583507
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 30
+								UInt16 enrm2_i = 4
+								UInt16 enrm3_i = 31
+								UInt16 attribute = 96
+								unsigned int id = 2147483658
+							[11]
+							KCollisionPrismData data
+								float height = 2.583511
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 2
+								UInt16 enrm2_i = 7
+								UInt16 enrm3_i = 32
+								UInt16 attribute = 96
+								unsigned int id = 2147483659
+							[12]
+							KCollisionPrismData data
+								float height = 2.583514
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 5
+								UInt16 enrm2_i = 10
+								UInt16 enrm3_i = 33
+								UInt16 attribute = 96
+								unsigned int id = 2147483660
+							[13]
+							KCollisionPrismData data
+								float height = 2.583511
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 8
+								UInt16 enrm2_i = 13
+								UInt16 enrm3_i = 34
+								UInt16 attribute = 96
+								unsigned int id = 2147483661
+							[14]
+							KCollisionPrismData data
+								float height = 2.583507
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 11
+								UInt16 enrm2_i = 16
+								UInt16 enrm3_i = 35
+								UInt16 attribute = 96
+								unsigned int id = 2147483662
+							[15]
+							KCollisionPrismData data
+								float height = 2.583508
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 14
+								UInt16 enrm2_i = 19
+								UInt16 enrm3_i = 36
+								UInt16 attribute = 96
+								unsigned int id = 2147483663
+							[16]
+							KCollisionPrismData data
+								float height = 2.583511
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 17
+								UInt16 enrm2_i = 22
+								UInt16 enrm3_i = 37
+								UInt16 attribute = 96
+								unsigned int id = 2147483664
+							[17]
+							KCollisionPrismData data
+								float height = 2.583514
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 20
+								UInt16 enrm2_i = 25
+								UInt16 enrm3_i = 38
+								UInt16 attribute = 96
+								unsigned int id = 2147483665
+							[18]
+							KCollisionPrismData data
+								float height = 2.583512
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 23
+								UInt16 enrm2_i = 28
+								UInt16 enrm3_i = 39
+								UInt16 attribute = 96
+								unsigned int id = 2147483666
+							[19]
+							KCollisionPrismData data
+								float height = 2.583508
+								UInt16 pos_i = 0
+								UInt16 fnrm_i = 0
+								UInt16 enrm1_i = 26
+								UInt16 enrm2_i = 30
+								UInt16 enrm3_i = 40
+								UInt16 attribute = 96
+								unsigned int id = 2147483667
+					vector mBlockData
+						Array Array
+						int size = 43
+							[0]
+							unsigned int data = 2147483774
+							[1]
+							unsigned int data = 2147483774
+							[2]
+							unsigned int data = 2147483814
+							[3]
+							unsigned int data = 2147483814
+							[4]
+							unsigned int data = 2147483774
+							[5]
+							unsigned int data = 2147483774
+							[6]
+							unsigned int data = 2147483814
+							[7]
+							unsigned int data = 2147483814
+							[8]
+							unsigned int data = 2147483774
+							[9]
+							unsigned int data = 2147483774
+							[10]
+							unsigned int data = 2147483814
+							[11]
+							unsigned int data = 2147483814
+							[12]
+							unsigned int data = 2147483774
+							[13]
+							unsigned int data = 2147483774
+							[14]
+							unsigned int data = 2147483814
+							[15]
+							unsigned int data = 2147483814
+							[16]
+							unsigned int data = 2147483814
+							[17]
+							unsigned int data = 2147483814
+							[18]
+							unsigned int data = 2147483814
+							[19]
+							unsigned int data = 2147483814
+							[20]
+							unsigned int data = 2147483814
+							[21]
+							unsigned int data = 2147483814
+							[22]
+							unsigned int data = 2147483814
+							[23]
+							unsigned int data = 2147483814
+							[24]
+							unsigned int data = 2147483814
+							[25]
+							unsigned int data = 2147483814
+							[26]
+							unsigned int data = 2147483814
+							[27]
+							unsigned int data = 2147483814
+							[28]
+							unsigned int data = 2147483814
+							[29]
+							unsigned int data = 2147483814
+							[30]
+							unsigned int data = 2147483814
+							[31]
+							unsigned int data = 2147483814
+							[32]
+							unsigned int data = 65536
+							[33]
+							unsigned int data = 196610
+							[34]
+							unsigned int data = 327684
+							[35]
+							unsigned int data = 458758
+							[36]
+							unsigned int data = 589832
+							[37]
+							unsigned int data = 720906
+							[38]
+							unsigned int data = 851980
+							[39]
+							unsigned int data = 983054
+							[40]
+							unsigned int data = 1114128
+							[41]
+							unsigned int data = 1245202
+							[42]
+							unsigned int data = 65535
+					int mNumPrism = 20

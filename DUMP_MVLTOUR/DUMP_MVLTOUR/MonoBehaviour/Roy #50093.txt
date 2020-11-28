@@ -1,0 +1,100 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Roy"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -8054552904194348843
+	vector mFaceTextures
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 6260476283364338208
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -8984933068248110339
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 1706304555499707878
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 6608537257693894162
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/Roy.png"
+				string mGuid = "b6fb07a809a910e45b2a5a9815be957d"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/RoyMap.png"
+				string mGuid = "11c2b1477a3c263428399de85abb544e"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/RoyFaceEntry.png"
+				string mGuid = "45d3fc4b4507c374d9a87a68efb63def"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/RoyWholeBody.png"
+				string mGuid = "4a30598bef4dcd44495bdc0e2bb0b6b3"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/RoyUpperBody.png"
+				string mGuid = "e4307b63bd356134780cfece97697d2e"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/Roy_Small.png"
+				string mGuid = "aff463786f1dec84f918b94be8114511"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/RoyFaceEntry_Small.png"
+				string mGuid = "efa091b62ce132c40abb1320ec76aac9"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/RoyWholeBody_Small.png"
+				string mGuid = "b00faa0f3961c734597f48afaf40c95f"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Roy/Icons/RoyUpperBody_Small.png"
+				string mGuid = "82f38a93ea20100419229905c35e8158"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = -4552066033621175635
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = "ロイ"
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

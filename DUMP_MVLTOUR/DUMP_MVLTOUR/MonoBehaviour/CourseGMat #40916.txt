@@ -1,0 +1,112 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6888412163677188206
+	string m_Name = "CourseGMat"
+	CollisionGndColMaterialInKCol mAllMaterialsInKCol
+		Array Array
+		int size = 25
+			[0]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 0
+			[1]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 7
+			[2]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 2
+			[3]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 0
+			[4]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 6
+			[5]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 4
+				UInt8 mMaterialId = 10
+			[6]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 2
+			[7]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 3
+			[8]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 10
+				UInt8 mMaterialId = 2
+			[9]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 8
+			[10]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 3
+			[11]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 9
+			[12]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 7
+			[13]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 5
+			[14]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 18
+				UInt8 mMaterialId = 0
+			[15]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 14
+				UInt8 mMaterialId = 0
+			[16]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 4
+				UInt8 mMaterialId = 4
+			[17]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 21
+				UInt8 mMaterialId = 0
+			[18]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 7
+				UInt8 mMaterialId = 0
+			[19]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 20
+				UInt8 mMaterialId = 0
+			[20]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 4
+				UInt8 mMaterialId = 2
+			[21]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 1
+			[22]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 15
+				UInt8 mMaterialId = 5
+			[23]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 17
+				UInt8 mMaterialId = 5
+			[24]
+			CollisionGndColMaterialInKCol data
+				UInt8 mAttribute = 0
+				UInt8 mMaterialId = 4

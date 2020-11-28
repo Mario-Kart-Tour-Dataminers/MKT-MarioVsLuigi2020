@@ -1,0 +1,103 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3255638462797510299
+	string m_Name = "NumberList"
+	float NumberSpacing = 0
+	float CommaSpacing = -5
+	float DotSpacing = -5
+	float SpaceWidth = 10
+	float MultiplySpacing = 0
+	float PlusSpacing = 0
+	float Scale = 1
+	NumberSpriteList SpriteList
+		Array Array
+		int size = 12
+			[0]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = 2276644919899254152
+				int SpriteNum = 0
+				float HeightOffset = 0
+			[1]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = -6887709420251254773
+				int SpriteNum = 1
+				float HeightOffset = 0
+			[2]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = 8939845763323082510
+				int SpriteNum = 2
+				float HeightOffset = 0
+			[3]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = -4586064538307685750
+				int SpriteNum = 3
+				float HeightOffset = 0
+			[4]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = 8434652266295306931
+				int SpriteNum = 4
+				float HeightOffset = 0
+			[5]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = -1651201318739106101
+				int SpriteNum = 5
+				float HeightOffset = 0
+			[6]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = 2995087025469131369
+				int SpriteNum = 6
+				float HeightOffset = 0
+			[7]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = 7948182543027755053
+				int SpriteNum = 7
+				float HeightOffset = 0
+			[8]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = -3334709284854286137
+				int SpriteNum = 8
+				float HeightOffset = 0
+			[9]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = -3581463148281797903
+				int SpriteNum = 9
+				float HeightOffset = 0
+			[10]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = 121823313656193827
+				int SpriteNum = 10
+				float HeightOffset = -5
+			[11]
+			NumberSpriteList data
+				PPtr<$Sprite> Sprite
+					int m_FileID = 1
+					SInt64 m_PathID = -3779633839011289719
+				int SpriteNum = 11
+				float HeightOffset = 0

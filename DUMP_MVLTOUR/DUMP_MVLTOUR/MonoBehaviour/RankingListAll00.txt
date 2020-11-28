@@ -1,0 +1,416 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3977807471082417869
+	string m_Name = "RankingListAll00"
+	UInt8 savePath = 1
+	UInt8 isEnableCheckNoEmptyValue = 0
+	AssetListBaseData assetDataList
+		Array Array
+		int size = 50
+			[0]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 1
+					SInt64 m_PathID = -2748123274258504735
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 0
+			[1]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 2
+					SInt64 m_PathID = 9084542664849432920
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 1
+			[2]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 3
+					SInt64 m_PathID = -632885483100507760
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 2
+			[3]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 4
+					SInt64 m_PathID = -2615416022273800142
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 3
+			[4]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 5
+					SInt64 m_PathID = -208166495716847688
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 4
+			[5]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 6
+					SInt64 m_PathID = -7116324862812112398
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 5
+			[6]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 7
+					SInt64 m_PathID = -1352669015705492459
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 6
+			[7]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 8
+					SInt64 m_PathID = -4524417633633107672
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 7
+			[8]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -4033846988571877430
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 8
+			[9]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 5023265904571643602
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 9
+			[10]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 2633725938611416968
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 10
+			[11]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -6777788630039274959
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 11
+			[12]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 2470351156693886220
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 12
+			[13]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 5832885620271751198
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 13
+			[14]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 2962402798994151389
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 14
+			[15]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 4407973423538677232
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 15
+			[16]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -811857740361805979
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 16
+			[17]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 8807918259169275186
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 17
+			[18]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -7618250417887893108
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 18
+			[19]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 7531223672659861594
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 19
+			[20]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -654318212454755770
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 20
+			[21]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -6702357548663621924
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 21
+			[22]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 8690852963132286250
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 22
+			[23]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 4804524983196699671
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 23
+			[24]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 4401564473525983861
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 24
+			[25]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -4005190526365972366
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 25
+			[26]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -5717548145987335066
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 26
+			[27]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 5655547791446793453
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 27
+			[28]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 2766373420801203629
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 28
+			[29]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 1874479802578266816
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 29
+			[30]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 7087558094417938788
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 30
+			[31]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 518163271967704445
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 31
+			[32]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -497351205167160829
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 32
+			[33]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 7231896511513445321
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 33
+			[34]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 9102334755860367203
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 34
+			[35]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 2823220980127824438
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 35
+			[36]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 6185139385987934555
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 36
+			[37]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 5642748292883984607
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 37
+			[38]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 4072710987438844838
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 38
+			[39]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 6803810924196743075
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 39
+			[40]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 2880274595876278298
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 40
+			[41]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 5777704589959460217
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 41
+			[42]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 2912568711446026984
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 42
+			[43]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 2807324194438036601
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 43
+			[44]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -5122303040067137702
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 44
+			[45]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 1379734904668260269
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 45
+			[46]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 7425091282160154473
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 46
+			[47]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 8939533102716315232
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 47
+			[48]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = -7399257300719320541
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 48
+			[49]
+			AssetListBaseData data
+				PPtr<$Object> obj
+					int m_FileID = 0
+					SInt64 m_PathID = 6909809542014464027
+				string path = ""
+				string guid = ""
+				int substitutedArrayIndex = 49
+	int assetType = 2
+	int keyType = 0

@@ -1,0 +1,124 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "Kinopeach"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -7870046678883113915
+	vector mFaceTextures
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -233065629965758829
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8001371792428909946
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1897072623201283225
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4476411732301869181
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6116511044165261787
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8281555331432356235
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4498655605028329297
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 2737854699683653776
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -6732618011704404900
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -221196308762443655
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/Kinopeach.png"
+				string mGuid = "0a70e19153235244aba9bb5f3e64d597"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/KinopeachMap.png"
+				string mGuid = "642129eeafbcf0541a2ee48ce5711e20"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/KinopeachFaceEntry.png"
+				string mGuid = "5f387203e323fbe4b9c45d8312847669"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/KinopeachWholeBody.png"
+				string mGuid = "304688204e866a844b3dbfbeb9530371"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/KinopeachUpperBody.png"
+				string mGuid = "d3d652b2c12fea34eb2c6f1006a3da09"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/Kinopeach_Small.png"
+				string mGuid = "d6fe6cdbd79a65d4783ae7d10cef4b38"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/KinopeachFaceEntry_Small.png"
+				string mGuid = "c207984a7685d0f4a94d8c85a104294b"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/KinopeachWholeBody_Small.png"
+				string mGuid = "83878b92c17aea841915efa7798e23a1"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/Kinopeach/Icons/KinopeachUpperBody_Small.png"
+				string mGuid = "cc4a41082f88e204e82f6e1ed1635e89"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 8697480883664205267
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

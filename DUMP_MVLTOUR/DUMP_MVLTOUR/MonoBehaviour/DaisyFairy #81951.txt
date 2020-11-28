@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "DaisyFairy"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 4601430002454595972
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 5216644308873864261
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2281267067808429228
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6701106377827769491
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2662317001864768468
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3696807160184008882
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7690741410071589246
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -754223223251128640
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7226407220442498613
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -1883967704074717346
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -3219381837738509888
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 377573520901337911
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairy.png"
+				string mGuid = "cbe234eb37a96b4459ce6cb46846686b"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairyMap.png"
+				string mGuid = "ed326ea9975c2a24caa9f1035a81be87"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairyFaceEntry.png"
+				string mGuid = "939ac018a8f275f4ab3d159fd783cd49"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairyWholeBody.png"
+				string mGuid = "2385723437470e048b0ca9b3670ae559"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairyUpperBody.png"
+				string mGuid = "16444c6ddf5ed9249b0aab8d3f2d9739"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairy_Small.png"
+				string mGuid = "4d69c54e6973360448a5e70944ae25c0"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairyFaceEntry_Small.png"
+				string mGuid = "77b885ff9d164294fa7b0ecae9d4d284"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairyWholeBody_Small.png"
+				string mGuid = "038fcc2e23abf994ca02fc645bbe8836"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/DaisyFairy/Icons/DaisyFairyUpperBody_Small.png"
+				string mGuid = "fd1bf4d2c33cff6498d135c994c27fe1"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 8897135979664679251
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

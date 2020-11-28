@@ -1,0 +1,75 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3528712136297729501
+	string m_Name = "CurrencyList00"
+	UInt8 savePath = 1
+	AssetIntDictionaryKeyValuePair assetDataList
+		Array Array
+		int size = 6
+			[0]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 1
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Currency/Currency00.png"
+					string guid = "e62d9e93a570aa04a857ab0eb66cb179"
+					int substitutedKey = 1
+			[1]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 10
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Currency/Currency01.png"
+					string guid = "9d01da8007f3f894d8d0bf89c49fd130"
+					int substitutedKey = 0
+			[2]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 20
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Currency/Currency02.png"
+					string guid = "0fc6fa868a60e49439d139ba61fad1a0"
+					int substitutedKey = 0
+			[3]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 40
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Currency/Currency03.png"
+					string guid = "d191b9b76507cd34a8d093c93035f131"
+					int substitutedKey = 0
+			[4]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 60
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Currency/Currency04.png"
+					string guid = "ad714051f73bec14982651d53cac1876"
+					int substitutedKey = 0
+			[5]
+			AssetIntDictionaryKeyValuePair data
+				int Key = 100
+				AssetIntDictionaryBaseData Value
+					PPtr<$Object> obj
+						int m_FileID = 0
+						SInt64 m_PathID = 0
+					string path = "Assets/Main/Content/UI/Texture/Currency/Currency05.png"
+					string guid = "0e2529a8856f4e4498a347085617648e"
+					int substitutedKey = 0
+	int notContainKeyAction = 3
+	int assetType = 0

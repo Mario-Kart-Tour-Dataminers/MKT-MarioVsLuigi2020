@@ -1,0 +1,397 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1150354629195081500
+	string m_Name = "StartGateMobt_prm"
+	string mMapObjName = "StartGateMobt"
+	vector mResource
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 1
+				SInt64 m_PathID = 8636591322574365643
+	KColSet mKCol
+		Array Array
+		int size = 0
+	UInt8 mKColScale = 0
+	int mModelOrigin = 1
+	Vector3 mOffset
+		float x = 0
+		float y = 0
+		float z = 0
+	MapObjCollisionParam mCollision
+		Array Array
+		int size = 1
+			[0]
+			MapObjCollisionParam data
+				string mName = ""
+				ShapeParam mShapes
+					Array Array
+					int size = 1
+						[0]
+						ShapeParam data
+							string mName = ""
+							int mShape = 3
+							Vector3 mSize
+								float x = 30
+								float y = 6
+								float z = 3
+							Vector3 mPos
+								float x = 0
+								float y = 0
+								float z = 0
+							Vector3 mRotate
+								float x = 0
+								float y = 0
+								float z = 0
+							UInt8 mIsStrictContinuous = 0
+				vector mObjReactToKart
+					Array Array
+					int size = 10
+						[0]
+						int data = 1
+						[1]
+						int data = 1
+						[2]
+						int data = 1
+						[3]
+						int data = 1
+						[4]
+						int data = 1
+						[5]
+						int data = 1
+						[6]
+						int data = 0
+						[7]
+						int data = 1
+						[8]
+						int data = 1
+						[9]
+						int data = 1
+				vector mObjReactToItem
+					Array Array
+					int size = 55
+						[0]
+						int data = 0
+						[1]
+						int data = 0
+						[2]
+						int data = 0
+						[3]
+						int data = 0
+						[4]
+						int data = 0
+						[5]
+						int data = 0
+						[6]
+						int data = 1
+						[7]
+						int data = 0
+						[8]
+						int data = 0
+						[9]
+						int data = 0
+						[10]
+						int data = 1
+						[11]
+						int data = 0
+						[12]
+						int data = 0
+						[13]
+						int data = 1
+						[14]
+						int data = 1
+						[15]
+						int data = 0
+						[16]
+						int data = 1
+						[17]
+						int data = 0
+						[18]
+						int data = 0
+						[19]
+						int data = 1
+						[20]
+						int data = 0
+						[21]
+						int data = 0
+						[22]
+						int data = 1
+						[23]
+						int data = 0
+						[24]
+						int data = 0
+						[25]
+						int data = 0
+						[26]
+						int data = 0
+						[27]
+						int data = 0
+						[28]
+						int data = 1
+						[29]
+						int data = 1
+						[30]
+						int data = 0
+						[31]
+						int data = 0
+						[32]
+						int data = 0
+						[33]
+						int data = 0
+						[34]
+						int data = 0
+						[35]
+						int data = 0
+						[36]
+						int data = 0
+						[37]
+						int data = 0
+						[38]
+						int data = 0
+						[39]
+						int data = 0
+						[40]
+						int data = 0
+						[41]
+						int data = 0
+						[42]
+						int data = 0
+						[43]
+						int data = 0
+						[44]
+						int data = 0
+						[45]
+						int data = 0
+						[46]
+						int data = 0
+						[47]
+						int data = 0
+						[48]
+						int data = 0
+						[49]
+						int data = 1
+						[50]
+						int data = 1
+						[51]
+						int data = 1
+						[52]
+						int data = 1
+						[53]
+						int data = 1
+						[54]
+						int data = 1
+				vector mKartReactToObj
+					Array Array
+					int size = 10
+						[0]
+						int data = 3
+						[1]
+						int data = 3
+						[2]
+						int data = 3
+						[3]
+						int data = 3
+						[4]
+						int data = 3
+						[5]
+						int data = 3
+						[6]
+						int data = 3
+						[7]
+						int data = 3
+						[8]
+						int data = 3
+						[9]
+						int data = 3
+				vector mItemReactToObj
+					Array Array
+					int size = 55
+						[0]
+						int data = 0
+						[1]
+						int data = 2
+						[2]
+						int data = 1
+						[3]
+						int data = 2
+						[4]
+						int data = 2
+						[5]
+						int data = 2
+						[6]
+						int data = 0
+						[7]
+						int data = 0
+						[8]
+						int data = 0
+						[9]
+						int data = 0
+						[10]
+						int data = 2
+						[11]
+						int data = 0
+						[12]
+						int data = 0
+						[13]
+						int data = 1
+						[14]
+						int data = 1
+						[15]
+						int data = 2
+						[16]
+						int data = 1
+						[17]
+						int data = 0
+						[18]
+						int data = 0
+						[19]
+						int data = 0
+						[20]
+						int data = 2
+						[21]
+						int data = 1
+						[22]
+						int data = 0
+						[23]
+						int data = 0
+						[24]
+						int data = 0
+						[25]
+						int data = 1
+						[26]
+						int data = 0
+						[27]
+						int data = 0
+						[28]
+						int data = 0
+						[29]
+						int data = 0
+						[30]
+						int data = 2
+						[31]
+						int data = 0
+						[32]
+						int data = 2
+						[33]
+						int data = 0
+						[34]
+						int data = 0
+						[35]
+						int data = 0
+						[36]
+						int data = 0
+						[37]
+						int data = 0
+						[38]
+						int data = 0
+						[39]
+						int data = 0
+						[40]
+						int data = 0
+						[41]
+						int data = 0
+						[42]
+						int data = 0
+						[43]
+						int data = 0
+						[44]
+						int data = 0
+						[45]
+						int data = 1
+						[46]
+						int data = 2
+						[47]
+						int data = 2
+						[48]
+						int data = 2
+						[49]
+						int data = 2
+						[50]
+						int data = 2
+						[51]
+						int data = 2
+						[52]
+						int data = 0
+						[53]
+						int data = 0
+						[54]
+						int data = 0
+				vector mObjReactToObj
+					Array Array
+					int size = 2
+						[0]
+						int data = 1
+						[1]
+						int data = 0
+				ItemAdditionalFloat mItemReflectBoundCoef
+					UInt8 Enabled = 0
+					float Value = 0
+				ItemAdditionalFloat mItemReflectFricCoef
+					UInt8 Enabled = 0
+					float Value = 0
+				UInt8 mIsAIApproach = 0
+				int mAIReact = 0
+				vector mScore
+					Array Array
+					int size = 3
+						[0]
+						int data = 0
+						[1]
+						int data = 10
+						[2]
+						int data = 0
+				BitFlag8 mTargetMask
+					UInt8 Bit = 255
+				float mBoxColRadius = 0
+	PPtr<$RuntimeAnimatorController> mAnimatorController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector mSubAnimatorController
+		Array Array
+		int size = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 mEnableClip = 0
+	UInt8 mEnableReceiveShadow = 0
+	int mShadowType = 0
+	PPtr<$Material> mProjectionMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	Vector3 mShadowSize
+		float x = 0
+		float y = 0
+		float z = 0
+	float mShadowDensity = 128
+	float mGndColRayLen = 10
+	float mReactionInterval = 0
+	vector mLodScreenRelativeTransitionHeights
+		Array Array
+		int size = 2
+			[0]
+			float data = 0.07
+			[1]
+			float data = 0.02
+	UInt8 mIsUseLodSettingsForPowerSaving = 0
+	vector mLodScreenRelativeTransitionHegihtsForPowerSaving
+		Array Array
+		int size = 0
+	float mDistancedDiscardHeight = 0
+	UInt8 mIsDisableReverseScroll = 1
+	vector mDurationOnlyList
+		Array Array
+		int size = 0
+	UInt8 mIsDisableEvent = 0
+	int mScoreUpMetaId = 0
+	vector mAlternateColorMaterials
+		Array Array
+		int size = 0
+	vector mVariationNameList
+		Array Array
+		int size = 0

@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "BbPeachCupid"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 8957849830337999908
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = -3743919844107102785
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 9073446525859633308
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 411927096999907017
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4033232966510618049
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5777130868618977125
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3304654492922262433
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2557676816255334517
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6983163047353086021
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -7834996782638674693
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = -3824441640024073153
+	float mKartScaleSize = 0.85
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -8064162336950998429
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupid.png"
+				string mGuid = "bb1a652004ea35640bed3369d266fa5c"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupidMap.png"
+				string mGuid = "08d5a35568ef65247b2bacce0b4342b4"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupidFaceEntry.png"
+				string mGuid = "bf7e92934d21f0c469ca82a65646aef6"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupidWholeBody.png"
+				string mGuid = "c0ea4e7d781e6bd41b913db277190c93"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupidUpperBody.png"
+				string mGuid = "18237df1b98f7ff48aeb80e21511ead8"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupid_Small.png"
+				string mGuid = "978150ec729ca454080ef99f6bdcb8a2"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupidFaceEntry_Small.png"
+				string mGuid = "a3ef6d7685670ac41b4faaeacdb49a7d"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupidWholeBody_Small.png"
+				string mGuid = "0094ed79a021b974cb3d0c19dc11dec2"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/BbPeachCupid/Icons/BbPeachCupidUpperBody_Small.png"
+				string mGuid = "a23be3a99897c1645bd471c5d8b668dd"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

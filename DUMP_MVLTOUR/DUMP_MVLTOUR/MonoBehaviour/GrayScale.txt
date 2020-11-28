@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4454195247659244470
+	string m_Name = "GrayScale"
+	vector settings
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4370897064721549360
+			[1]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5902829542307240522
+			[2]
+			PPtr<$PostProcessEffectSettings> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4857714681281901747

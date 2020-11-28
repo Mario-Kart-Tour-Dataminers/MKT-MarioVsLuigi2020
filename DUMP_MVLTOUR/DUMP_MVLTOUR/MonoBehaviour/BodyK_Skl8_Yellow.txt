@@ -1,0 +1,85 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8652336194674809844
+	string m_Name = "BodyK_Skl8_Yellow"
+	PPtr<$GameObject> mBodyModel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	Vector3f mDriverOffset
+		float x = 0
+		float y = 0
+		float z = 0
+	Vector3f mBodyCenterPosition
+		float x = 0
+		float y = 0
+		float z = 0
+	Vector3f mScrewPosition
+		float x = 0
+		float y = 0
+		float z = 0
+	vector mShaftPositionList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableKartGearBox> mGearBoxData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	Vector3f mGearBoxScale
+		float x = 1
+		float y = 1
+		float z = 1
+	Vector3f mGearBoxPosition
+		float x = 0
+		float y = 0
+		float z = 0
+	Vector3f mGearBoxSlideOffset
+		float x = 0
+		float y = 0
+		float z = 0
+	PPtr<$ScriptableKartBodyWing> mBodyWingParams
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableKartBodyTire> mBodyTireParams
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	IconInfo mIconInfo
+		Array Array
+		int size = 1
+			[0]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+	int mJointMode = 0
+	Vector3f mScrewScale
+		float x = 1
+		float y = 1
+		float z = 1
+	Vector3f mScrewAxisOffset
+		float x = 0
+		float y = 0
+		float z = 0
+	float mBackrestHeight = 0
+	UInt8 mIsFixedIcon = 0
+	PPtr<$ScriptableKartBody> mBaseParameter
+		int m_FileID = 5
+		SInt64 m_PathID = 7666069710578933765
+	PPtr<$Material> mMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -1773997446265231840
+	PPtr<$Material> mGearBoxMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	EffectKeyContainerPair mEffectContainerForTire
+		Array Array
+		int size = 0
+	string mDescription = "スケルトン（黄）"
+	PPtr<$ScriptableKartBody> mColorValiationRoot
+		int m_FileID = 5
+		SInt64 m_PathID = 7666069710578933765

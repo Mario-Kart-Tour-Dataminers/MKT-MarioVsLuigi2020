@@ -1,0 +1,116 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "HoneKoopaGolden"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = 3867712638687682186
+	vector mFaceTextures
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 2
+				SInt64 m_PathID = 7170967688886543232
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7761094046618854396
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2030756456458946914
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3649221168989856019
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2135064493398230341
+	UInt8 mIsFaceTextureEmission = 1
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = -7016335703805292522
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 3
+		SInt64 m_PathID = 7046633616568790207
+	float mKartScaleSize = 1.1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 4595786732941193243
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGolden.png"
+				string mGuid = "5a57e410b19c7aa4ebc19c2602f50a19"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGoldenMap.png"
+				string mGuid = "055034e98cabd6748b03f3e7aacbe476"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGoldenFaceEntry.png"
+				string mGuid = "174193285c97f1d44a8d075a2177e7c0"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGoldenWholeBody.png"
+				string mGuid = "3b1e8af4d5787f5449e2b8477ef00902"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGoldenUpperBody.png"
+				string mGuid = "1aed3bf65e78c1e46acedea98bedba8b"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGolden_Small.png"
+				string mGuid = "25cfefba37cd2994c8681d8d3918596e"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGoldenFaceEntry_Small.png"
+				string mGuid = "4c42ed4993ea3e04784a26a8aaac797e"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGoldenWholeBody_Small.png"
+				string mGuid = "b43a370a73995f64bacca7da8f5b5ff6"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/HoneKoopaGolden/Icons/HoneKoopaGoldenUpperBody_Small.png"
+				string mGuid = "846d676e37a0aa24ca1ad491dfb2f0bb"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 1789068082020958823
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -2301615206951853697

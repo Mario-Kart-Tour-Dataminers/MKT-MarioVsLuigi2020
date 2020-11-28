@@ -1,0 +1,16 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4877644661246380597
+	string m_Name = "KartStaticParam"
+	float cSpeedMin = 0.5
+	float cSpeed150CC = 0.66
+	float cSpeed200CC = 0.89
+	float cSpeed300CC = 1.05
+	float cSpeedMin_Battle = 0.4
+	float cVelCCMin = 0.5
+	float cVelCCMax = 2

@@ -1,0 +1,2809 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -981328815440118718
+	string m_Name = "ItemParamType018"
+	ItemResource mResources
+		PPtr<$GameObject> mModel
+			int m_FileID = 0
+			SInt64 m_PathID = 5086909398605648412
+		UInt8 mIsUseKillerLod = 0
+		UInt8 mIsTransparent = 1
+		PPtr<$Texture2D> mTextureForReplace
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		JointScaleSet mJointsToSetScale
+			Array Array
+			int size = 0
+		PPtr<$RuntimeAnimatorController> mAnimatorController
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		UInt8 mIsStopAnimOnPowerSave = 0
+		UInt8 mIsUseAnimationRoot = 0
+		PPtr<$ScriptableEffectContainer> mEffectContainer
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	Prm mParams
+		UInt8 mItemType = 18
+		string mLabel = "Shabon"
+		int mDefaultSlotResult = 17
+		vector mDefaultSlotResults
+			Array Array
+			int size = 0
+		UInt8 mItemClass = 4
+		UInt8 mItemTypeOverrideForHitUI = 0
+		UInt8 mIsBackThrow = 0
+		UInt8 mIsOnlyFrontThrow = 0
+		UInt8 mIsInvisibleInBackThrow = 0
+		PrmAppear mAppear
+			int mMaxAppearNum = 2
+			UInt8 mIsOverrideMaxAppearNumOnTeam = 0
+			int mMaxAppearNumOnTeam = 10
+			float mLifeSecMin = 10
+			float mLifeSecond = 60
+			UInt8 mIsCheckLifeInFever = 0
+			UInt8 mNextState = 8
+		PrmBehaviour mBehaviour
+			float mGravity = 0.01
+			float mGravityStand = 0.17
+			ItemCurve_Old mGravityVelRatioCurve
+				UInt8 mType = 0
+				vector mTypeParams
+					Array Array
+					int size = 0
+				AnimationCurve mAnimationCurve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+			float mMass = 0.5
+			UInt8 mUseType = 2
+			UInt8 mIsUseDying = 0
+			float mDyingStateSec = 1
+			float mDyingColOnSec = 0.3
+			UInt8 mIsEmitDestEffectOnVanish = 1
+			UInt8 mStateAfterDrop = 8
+			UInt8 mIsChaseTarget = 0
+			int mBombProbOnBreak = 0
+			UInt8 mAlertType = 0
+			UInt8 mIsShowAlertInLockOnAnotherKart = 0
+			UInt8 mIsHitOwnerAfterThrowStand = 0
+			UInt8 mIsUseContinuousPrimCol = 0
+			UInt8 mIsUseContinuousPrimColBoth = 0
+			UInt8 mIsUseContinuousGndCol = 0
+			ItemEffortInfo mEffortOnStartMove
+				UInt8 mEffort = 0
+				float mParam = 1
+			UInt8 mRotType = 0
+			UInt8 mIsProhibitOverrideRotType = 0
+			float mRotVelDeg = 12
+			float mRotTypeParam2 = 1
+			float mRotTypeParam3 = 1
+			ItemAdditionalFloatArray mAdditionalRotTypeParam
+				UInt8 Enabled = 0
+				vector Value
+					Array Array
+					int size = 0
+			UInt8 mIsMulSpeedToRotTypeParam = 0
+			UInt8 mIsBreakOnHitWall = 0
+			UInt8 mIsStandOnHitFloor = 1
+			UInt8 mIsQuickVanishOnStandAtOutOfRoute = 1
+			float mExVelRatio = 5
+			float mExVelSubRatio = 0.8
+			float mExVelMax = 0.2
+			UInt8 mCanGetItemBox = 0
+			vector mBreakScoreTargetItem
+				Array Array
+				int size = 0
+			UInt8 mIsVanishOtherEntriesOnBreakEquip = 0
+			ItemAdditionalFloat mAngleDegLimitFromKartRoutePath
+				UInt8 Enabled = 0
+				float Value = 0
+			ItemAdditionalPos mDropOffsetL
+				UInt8 IsUsePos = 0
+				Vector3 Pos
+					float x = 0
+					float y = 0
+					float z = 0
+			vector mSlotResultEnablePlus
+				Array Array
+				int size = 0
+			UInt8 mIsBehaveNotPlusIfGenerateFromItem = 1
+			UInt8 mIsBehaveNotPlusIfGenerateFromCannon = 1
+			UInt8 mIsBreakOnTime = 0
+			float mBreakSecOnTime = 1
+			vector mComponents
+				Array Array
+				int size = 0
+		ParabolicParam mParabolic
+			UInt8 mIsEnabled = 1
+			float mShotDegMin = 21
+			float mShotDegMax = 36
+			float mShotDegMinBackThrow = 31
+			float mShotDegMaxBackThrow = 81
+			float mInitSpeed = 0.9
+			float mInitSpeedFever = 0.9
+			float mInitSpeedFrontFasterEvent = 0.9
+			float mInitSpeedBack = 0.45
+			float mInitSpeedRatioToKartDriveSpeed = 1
+			float mInitSpeedRatioCannon = 1.3
+			float mCheckInitVelMin = 0.1
+			float mCheckInitVelMax = 2.4
+			float mCheckInitVelMaxCannon = 4
+			float mReflectCoef = 1
+			float mMapObjFloorReflectCoef = -1
+			float mFricCoef = 1
+			float mMapObjFloorFricCoef = -1
+			float mFloorReflectNumMax = 3
+			UInt8 mStateAfterBoundEnd = 3
+			UInt8 mIsIncrementBoundCountOnTrampoline = 0
+		PrmFever mFever
+			int mKartReactIndexInFeverMultiEquip = 1
+			UInt8 mIsForceLodInFeverEquip = 0
+			UInt8 mIsActionOnTouch = 1
+			UInt8 mIsExtendRadiusOnAction = 0
+			AnimationCurve mEquipMultiRadiusRatioInFever
+				vector m_Curve
+					Array Array
+					int size = 5
+						[0]
+						Keyframe data
+							float time = 0
+							float value = 0
+							float inSlope = -27.13206
+							float outSlope = -27.13206
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+						[1]
+						Keyframe data
+							float time = 0.1752731
+							float value = 1.605971
+							float inSlope = 8.631574
+							float outSlope = 8.631574
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+						[2]
+						Keyframe data
+							float time = 0.311102
+							float value = 1.709787
+							float inSlope = -5.255581
+							float outSlope = -5.255581
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+						[3]
+						Keyframe data
+							float time = 0.3895259
+							float value = 0.3354436
+							float inSlope = -10.59303
+							float outSlope = -10.59303
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+						[4]
+						Keyframe data
+							float time = 0.482666
+							float value = 0
+							float inSlope = -0.756108
+							float outSlope = -0.756108
+							int weightedMode = 0
+							float inWeight = 0.3333333
+							float outWeight = 0.3333333
+				int m_PreInfinity = 2
+				int m_PostInfinity = 2
+				int m_RotationOrder = 4
+		PrmCollision mCollision
+			UInt8 mParent = 0
+			ItemCollisionType mReactionType
+				UInt8 mDefault = 8
+				UInt8 mIsChangeInMove = 0
+				UInt8 mMove = 0
+				UInt8 mIsChangeInEquip = 1
+				UInt8 mEquip = 7
+				UInt8 mIsChangeInBurst = 0
+				UInt8 mBurst = 0
+			UInt8 mIsIgnoreSameOwnerBurst = 0
+			UInt8 mIsIgnoreOwnersEquipItem = 0
+			UInt8 mIsNoneReactVsMapObjOnMoving = 0
+			UInt8 mIsNoneReactVsItemOnMoving = 0
+			vector mEquippedItemReactToMapObj
+				Array Array
+				int size = 3
+					[0]
+					int data = 0
+					[1]
+					int data = 0
+					[2]
+					int data = 0
+			vector mMapObjReactToEquippedItem
+				Array Array
+				int size = 3
+					[0]
+					int data = 0
+					[1]
+					int data = 1
+					[2]
+					int data = 2
+		PrmReact mReaction
+			UInt8 mParent = 0
+			UInt8 mKartHitReactDefault = 0
+			UInt8 mKartHitReactStand = 0
+			vector mKartReacts
+				Array Array
+				int size = 2
+					[0]
+					UInt8 data = 0
+					[1]
+					UInt8 data = 1
+			KartReactList mKartReactLists
+				Array Array
+				int size = 1
+					[0]
+					KartReactList data
+						vector mList
+							Array Array
+							int size = 2
+								[0]
+								UInt8 data = 0
+								[1]
+								UInt8 data = 1
+			int mKartReactJumpAction = 0
+			UInt8 mKartReactGuard = 19
+			float mReactIntervalSec = 0
+			UInt8 mIsIgnoreHitOwner = 0
+			UInt8 mIsHitMultiKarts = 0
+			UInt8 mIsExitBreakOnReactBreak = 1
+			UInt8 mIsIgnoreHitToFloatingKartInStand = 1
+			UInt8 mIsIgnoreHitToInvincibleKart = 0
+			ItemAdditionalFloat mReactEnabledMinVel
+				UInt8 Enabled = 0
+				float Value = 0
+			int mCoinEmitNum = 0
+			float mCoinEmitVel = 0.3
+			float mCoinEmitAngleDeg = 60
+		PrmSize mSize
+			float mColRadius = 0.5
+			float mGndColRadius = 0.5
+			UInt8 mIsCheckFloor = 0
+			UInt8 mIsCheckWall = 0
+			UInt8 mIsUseEdgeGndCol = 0
+			UInt8 mIsUseNarrow = 0
+			Vector3 mGndColOffset
+				float x = 0
+				float y = 0
+				float z = 0
+			ItemCurveXYZ_Old mGndColOffsetCurve
+				ItemCurve_Old mX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+				ItemCurve_Old mY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+				ItemCurve_Old mZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			UInt8 mIsApplyAttToGndColOffset = 0
+			float mScaleMax = 4
+			float mScaleVel = 0.1
+			float mScaleInEquipMulti = 1
+			float mScaleVelInEquipMulti = 0.1
+			float mOffsetMultiY = 0.53
+			float mOffsetMultiZ = 0.46
+			UInt8 mIsApplyKartBodySizeInEquipMulti = 1
+			UInt8 mIsApplyItemColSizeInEquipMulti = 1
+			float mWallColRadiusRate = 1
+			float mOffsetHangX = 0
+			float mOffsetHangY = 0.59
+			UInt8 mIsForceSetScaleOnBeginThrow = 0
+			float mScaleForceBeginThrow = 1
+			float mClipScaleCoefficient = 1.7
+			float mModelBaseScale = 1
+			ItemAdditionalFloat mRejectVecScaleRatioToGndColHit
+				UInt8 Enabled = 0
+				float Value = 0
+		PrmReflect mReflect
+			float mWallReflectCoef = 0.5
+			float mWallFricCoef = 1
+			int mReflectNumForwardBreak = 7
+			int mReflectNumBackBreak = 4
+			int mReflectNumCannonBreak = 7
+			int mReflectNumFeverBreak = 1
+		PrmEffort mUse
+			UInt8 mKartReactOnUse = 17
+			float mParamOnUse = 0
+			int mCoinGetNumOnUse = 0
+			UInt8 mKartReactOnFeverUse = 17
+			UInt8 mKartReactOnHitDrop = 0
+			UInt8 mIsVanishOnDropHit = 1
+			ItemEffectKey mEffectOnHitDrop
+				string mKeyString = ""
+			UInt8 mKartReactOnHitEquip = 0
+			UInt8 mRepeatEfforEndCondition = 4
+			UInt8 mIsEndWatchOnRepeatEffort = 0
+			UInt8 mIsKeepEquipInRepeatEffort = 1
+			UInt8 mIsVisibleInRepeatEffort = 1
+			UInt8 mIsVisibleShadowInRepeatEffort = 1
+			UInt8 mIsSyncScaleToKartCollision = 1
+			float mKartRadiusOfScale1 = 0.43
+			float mScaleMax = 5
+			ItemCurve_Old mScaleInFeverAction
+				UInt8 mType = 1
+				vector mTypeParams
+					Array Array
+					int size = 0
+				AnimationCurve mAnimationCurve
+					vector m_Curve
+						Array Array
+						int size = 4
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0.1826776
+								float outSlope = 0.1826776
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 0.2042581
+								float value = 1.346051
+								float inSlope = 0.5053837
+								float outSlope = 0.5053837
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[2]
+							Keyframe data
+								float time = 0.4593979
+								float value = 1.331636
+								float inSlope = -0.6773975
+								float outSlope = -0.6773975
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[3]
+							Keyframe data
+								float time = 0.6594213
+								float value = 1
+								float inSlope = -0.002388082
+								float outSlope = -0.002388082
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+			SlotResultReplaceParam mSlotResultReplace
+				UInt8 mIsEnabled = 0
+				float mReplaceSec = 1
+				ItemSlotResultSelector mSelector
+					CandidateInfoItemSlotResult mTable
+						Array Array
+						int size = 0
+		PrmEquipHang mEquipHang
+			float mScaleInEquipHang = 1
+			float mScaleVelInEquipHang = 0.2
+			float mBaseOffsetHangZ = 0.32
+			UInt8 mIsAutoEquip = 1
+			UInt8 mIsEquipFront = 0
+			UInt8 mIsReverseDirectionInEquipFront = 0
+			UInt8 mIsEscapeWing = 0
+			UInt8 mIsUseAdditionalAtt = 0
+			Vector3 mAdditionalAtt
+				float x = 0
+				float y = 0
+				float z = 0
+		PrmEmission mEmission
+			BreakEmitInfo mBreak
+				vector mEmitItems
+					Array Array
+					int size = 0
+				int mMaxEmitNumOnOneTime = -1
+				vector mEmitProbabilities
+					Array Array
+					int size = 0
+				vector mEmitDuplications
+					Array Array
+					int size = 0
+				UInt8 mIsRandomPos = 0
+				UInt8 mAttType = 1
+				ItemAdditionalAtt mAttL
+					UInt8 IsUseAtt = 0
+					ItemYawPitchAngleDeg Att
+						float mPitchAngleDeg = 0
+						float mYawAngleDeg = 0
+						float mRollAngleDeg = 0
+				vector mYawAngleDeg
+					Array Array
+					int size = 0
+				float mEmitPitchAngleDeg = 45
+				float mEmitVel = 0.5
+				float mEmitPosOffset = 0.2
+				UInt8 mIsEmitOneInFever = 0
+			OtherEmitInfo mOther
+				ItemTypeAndInt mEmitInfos
+					Array Array
+					int size = 0
+			UInt8 mIsUseMoveAttTypeOverrided = 0
+			UInt8 mMoveAttTypeOverrided = 0
+		BurstParam mBurst
+			float mBurstScaleMin = 0.15
+			float mBurstScaleMax = 19
+			float mBurstScaleVel = 1.8
+			float mBurstCollisionLifeSec = 0.583
+			UInt8 mCanGuardBySuperHorn = 1
+			int mEffectIndex = 0
+			float mBurstLifeSec = 1
+			float mBurstAnimSpeedRatio = 1
+			ItemAdditionalFloat mSetFloorPos
+				UInt8 Enabled = 0
+				float Value = 0
+			UInt8 mIsKartHitEnabledBeforeBurst = 1
+			float mReactIndex1BurstSec = 100
+		PrmAI mAI
+			int mReactionOfAI = 0
+		PrmShadow mShadow
+			UInt8 mIsShadowEnabled = 1
+			float mShadowScaleRatio = 3
+			UInt8 mIsShadowEnabledInMove = 1
+			UInt8 mIsShadowEnabledInMoveEnemy = 0
+		PrmModule mModule
+			UInt8 mHasChasedModule = 0
+			float mChaseSecMax = 1
+			float mOneChaseLatencySec = 0.2
+		PrmSkill mSkill
+			int mAvoidLockOnLevelToNeed = 1
+			int mHomingSkillLevelToNeed = 0
+		PrmAnimation mAnimation
+			ItemAnimTriggerParam mTriggerOnStateInit
+				Array Array
+				int size = 0
+			ItemAnimKeyParam mKeyOnStateInit
+				Array Array
+				int size = 0
+		PrmScaleAnim mScaleAnim
+			Param mOnBound
+				UInt8 mIsEnabled = 0
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			Param mOnEffort
+				UInt8 mIsEnabled = 1
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 1
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 1
+							[0]
+							AnimationCurve data
+								vector m_Curve
+									Array Array
+									int size = 3
+										[0]
+										Keyframe data
+											float time = 0
+											float value = 1
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[1]
+										Keyframe data
+											float time = 0.5160451
+											float value = 1.130129
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[2]
+										Keyframe data
+											float time = 1
+											float value = 1
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+								int m_PreInfinity = 2
+								int m_PostInfinity = 1
+								int m_RotationOrder = 4
+				ItemCurve mScaleY
+					UInt8 mType = 1
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 1
+							[0]
+							AnimationCurve data
+								vector m_Curve
+									Array Array
+									int size = 4
+										[0]
+										Keyframe data
+											float time = 0
+											float value = 1
+											float inSlope = 0.1942248
+											float outSlope = 0.1942248
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[1]
+										Keyframe data
+											float time = 0.2479877
+											float value = 1.057164
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[2]
+										Keyframe data
+											float time = 0.7378045
+											float value = 0.937774
+											float inSlope = 0.004280063
+											float outSlope = 0.004280063
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[3]
+										Keyframe data
+											float time = 1
+											float value = 1
+											float inSlope = 0.2173364
+											float outSlope = 0.2173364
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+								int m_PreInfinity = 2
+								int m_PostInfinity = 1
+								int m_RotationOrder = 4
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 2
+						vector mTypeParams
+							Array Array
+							int size = 3
+								[0]
+								float data = 2.7
+								[1]
+								float data = 45
+								[2]
+								float data = 0
+						vector mCurve
+							Array Array
+							int size = 1
+								[0]
+								AnimationCurve data
+									vector m_Curve
+										Array Array
+										int size = 2
+											[0]
+											Keyframe data
+												float time = 0
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+											[1]
+											Keyframe data
+												float time = 1
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+									int m_PreInfinity = 2
+									int m_PostInfinity = 2
+									int m_RotationOrder = 4
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 1
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 1
+							[0]
+							AnimationCurve data
+								vector m_Curve
+									Array Array
+									int size = 4
+										[0]
+										Keyframe data
+											float time = 0
+											float value = 0
+											float inSlope = 0.1858133
+											float outSlope = 0.1858133
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[1]
+										Keyframe data
+											float time = 0.4902405
+											float value = 0.025455
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[2]
+										Keyframe data
+											float time = 1.493103
+											float value = -0.03132989
+											float inSlope = 0.0131876
+											float outSlope = 0.0131876
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[3]
+										Keyframe data
+											float time = 2
+											float value = 0
+											float inSlope = 0.1973825
+											float outSlope = 0.1973825
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+								int m_PreInfinity = 2
+								int m_PostInfinity = 1
+								int m_RotationOrder = 4
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			Param mOnMove
+				UInt8 mIsEnabled = 0
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			Param mOnDying
+				UInt8 mIsEnabled = 0
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			Param mOnEquipHang
+				UInt8 mIsEnabled = 1
+				Vector3 mAnchor
+					float x = 0
+					float y = 0
+					float z = 0
+				ItemCurve mScaleX
+					UInt8 mType = 1
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 1
+							[0]
+							AnimationCurve data
+								vector m_Curve
+									Array Array
+									int size = 3
+										[0]
+										Keyframe data
+											float time = 0
+											float value = 1
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[1]
+										Keyframe data
+											float time = 0.5160451
+											float value = 1.130129
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[2]
+										Keyframe data
+											float time = 1
+											float value = 1
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+								int m_PreInfinity = 2
+								int m_PostInfinity = 1
+								int m_RotationOrder = 4
+				ItemCurve mScaleY
+					UInt8 mType = 1
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 1
+							[0]
+							AnimationCurve data
+								vector m_Curve
+									Array Array
+									int size = 4
+										[0]
+										Keyframe data
+											float time = 0
+											float value = 1
+											float inSlope = 0.1942248
+											float outSlope = 0.1942248
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[1]
+										Keyframe data
+											float time = 0.2479877
+											float value = 1.057164
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[2]
+										Keyframe data
+											float time = 0.7378045
+											float value = 0.937774
+											float inSlope = 0.004280063
+											float outSlope = 0.004280063
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[3]
+										Keyframe data
+											float time = 1
+											float value = 1
+											float inSlope = 0.2173364
+											float outSlope = 0.2173364
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+								int m_PreInfinity = 2
+								int m_PostInfinity = 1
+								int m_RotationOrder = 4
+				ItemCurve mScaleZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurveXYZ mRot
+					ItemCurve mX
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mY
+						UInt8 mType = 0
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 0
+					ItemCurve mZ
+						UInt8 mType = 1
+						vector mTypeParams
+							Array Array
+							int size = 0
+						vector mCurve
+							Array Array
+							int size = 1
+								[0]
+								AnimationCurve data
+									vector m_Curve
+										Array Array
+										int size = 2
+											[0]
+											Keyframe data
+												float time = 0
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+											[1]
+											Keyframe data
+												float time = 1
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0.3333333
+												float outWeight = 0.3333333
+									int m_PreInfinity = 2
+									int m_PostInfinity = 2
+									int m_RotationOrder = 4
+				ItemCurve mPositionX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+				ItemCurve mPositionY
+					UInt8 mType = 1
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 1
+							[0]
+							AnimationCurve data
+								vector m_Curve
+									Array Array
+									int size = 4
+										[0]
+										Keyframe data
+											float time = 0
+											float value = 0
+											float inSlope = 0.1858133
+											float outSlope = 0.1858133
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[1]
+										Keyframe data
+											float time = 0.4902405
+											float value = 0.025455
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[2]
+										Keyframe data
+											float time = 1.493103
+											float value = -0.03132989
+											float inSlope = 0.0131876
+											float outSlope = 0.0131876
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+										[3]
+										Keyframe data
+											float time = 2
+											float value = 0
+											float inSlope = 0.1973825
+											float outSlope = 0.1973825
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.3333333
+								int m_PreInfinity = 2
+								int m_PostInfinity = 1
+								int m_RotationOrder = 4
+				ItemCurve mPositionZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					vector mCurve
+						Array Array
+						int size = 0
+			UInt8 mIsSetVisibleOnFeverEquipAroundIfAnyEffortOnce = 0
+		PrmLaunched mLc
+			ItemCurveXYZ_Old mPosOffsetXYZ
+				ItemCurve_Old mX
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+				ItemCurve_Old mY
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+				ItemCurve_Old mZ
+					UInt8 mType = 0
+					vector mTypeParams
+						Array Array
+						int size = 0
+					AnimationCurve mAnimationCurve
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 1
+									float inSlope = 0
+									float outSlope = 0
+									int weightedMode = 0
+									float inWeight = 0.3333333
+									float outWeight = 0.3333333
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+		PrmP2P mP2P
+			UInt8 mIsFakeCrash = 0
+		ItemCameraParam mCamera
+			UInt8 mIsRestrainShake = 0
+		ItemAudioParam mAudio
+			UInt8 mIsChildOfAudioManagerObj = 0
+			AudioSpeedTrigger mSpeedTriggers
+				Array Array
+				int size = 0
+		PrmLevel mParamLevelList
+			Array Array
+			int size = 1
+				[0]
+				PrmLevel data
+					PrmSize mSize
+						float mColRadius = 0.5
+						float mGndColRadius = 0.5
+						UInt8 mIsCheckFloor = 1
+						UInt8 mIsCheckWall = 1
+						UInt8 mIsUseEdgeGndCol = 0
+						UInt8 mIsUseNarrow = 0
+						Vector3 mGndColOffset
+							float x = 0
+							float y = 0
+							float z = 0
+						ItemCurveXYZ_Old mGndColOffsetCurve
+							ItemCurve_Old mX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								AnimationCurve mAnimationCurve
+									vector m_Curve
+										Array Array
+										int size = 2
+											[0]
+											Keyframe data
+												float time = 0
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0
+												float outWeight = 0
+											[1]
+											Keyframe data
+												float time = 1
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0
+												float outWeight = 0
+									int m_PreInfinity = 2
+									int m_PostInfinity = 2
+									int m_RotationOrder = 4
+							ItemCurve_Old mY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								AnimationCurve mAnimationCurve
+									vector m_Curve
+										Array Array
+										int size = 2
+											[0]
+											Keyframe data
+												float time = 0
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0
+												float outWeight = 0
+											[1]
+											Keyframe data
+												float time = 1
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0
+												float outWeight = 0
+									int m_PreInfinity = 2
+									int m_PostInfinity = 2
+									int m_RotationOrder = 4
+							ItemCurve_Old mZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								AnimationCurve mAnimationCurve
+									vector m_Curve
+										Array Array
+										int size = 2
+											[0]
+											Keyframe data
+												float time = 0
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0
+												float outWeight = 0
+											[1]
+											Keyframe data
+												float time = 1
+												float value = 1
+												float inSlope = 0
+												float outSlope = 0
+												int weightedMode = 0
+												float inWeight = 0
+												float outWeight = 0
+									int m_PreInfinity = 2
+									int m_PostInfinity = 2
+									int m_RotationOrder = 4
+						UInt8 mIsApplyAttToGndColOffset = 0
+						float mScaleMax = 4
+						float mScaleVel = 0.1
+						float mScaleInEquipMulti = 1
+						float mScaleVelInEquipMulti = 0.1
+						float mOffsetMultiY = 0.53
+						float mOffsetMultiZ = 0.46
+						UInt8 mIsApplyKartBodySizeInEquipMulti = 1
+						UInt8 mIsApplyItemColSizeInEquipMulti = 1
+						float mWallColRadiusRate = 1
+						float mOffsetHangX = 0
+						float mOffsetHangY = 0.53
+						UInt8 mIsForceSetScaleOnBeginThrow = 0
+						float mScaleForceBeginThrow = 1
+						float mClipScaleCoefficient = 1.7
+						float mModelBaseScale = 1.2
+						ItemAdditionalFloat mRejectVecScaleRatioToGndColHit
+							UInt8 Enabled = 0
+							float Value = 0
+					PrmBehaviourL mBehaviourL
+						float mRotVelDeg = 12
+					PrmEffort mUse
+						UInt8 mKartReactOnUse = 17
+						float mParamOnUse = 1
+						int mCoinGetNumOnUse = 0
+						UInt8 mKartReactOnFeverUse = 17
+						UInt8 mKartReactOnHitDrop = 0
+						UInt8 mIsVanishOnDropHit = 1
+						ItemEffectKey mEffectOnHitDrop
+							string mKeyString = ""
+						UInt8 mKartReactOnHitEquip = 0
+						UInt8 mRepeatEfforEndCondition = 4
+						UInt8 mIsEndWatchOnRepeatEffort = 0
+						UInt8 mIsKeepEquipInRepeatEffort = 1
+						UInt8 mIsVisibleInRepeatEffort = 1
+						UInt8 mIsVisibleShadowInRepeatEffort = 1
+						UInt8 mIsSyncScaleToKartCollision = 1
+						float mKartRadiusOfScale1 = 0.43
+						float mScaleMax = 7
+						ItemCurve_Old mScaleInFeverAction
+							UInt8 mType = 1
+							vector mTypeParams
+								Array Array
+								int size = 0
+							AnimationCurve mAnimationCurve
+								vector m_Curve
+									Array Array
+									int size = 4
+										[0]
+										Keyframe data
+											float time = 0
+											float value = 1
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0
+											float outWeight = 0
+										[1]
+										Keyframe data
+											float time = 0.2105194
+											float value = 1.345525
+											float inSlope = 0.4773406
+											float outSlope = 0.4773406
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.1029679
+										[2]
+										Keyframe data
+											float time = 0.4598704
+											float value = 1.327778
+											float inSlope = -0.7258543
+											float outSlope = -0.7258543
+											int weightedMode = 0
+											float inWeight = 0.3333333
+											float outWeight = 0.09477915
+										[3]
+										Keyframe data
+											float time = 0.6511591
+											float value = 1
+											float inSlope = 0
+											float outSlope = 0
+											int weightedMode = 0
+											float inWeight = 0
+											float outWeight = 0
+								int m_PreInfinity = 2
+								int m_PostInfinity = 2
+								int m_RotationOrder = 4
+						SlotResultReplaceParam mSlotResultReplace
+							UInt8 mIsEnabled = 0
+							float mReplaceSec = 1
+							ItemSlotResultSelector mSelector
+								CandidateInfoItemSlotResult mTable
+									Array Array
+									int size = 0
+					PrmEmission mEmission
+						BreakEmitInfo mBreak
+							vector mEmitItems
+								Array Array
+								int size = 0
+							int mMaxEmitNumOnOneTime = -1
+							vector mEmitProbabilities
+								Array Array
+								int size = 0
+							vector mEmitDuplications
+								Array Array
+								int size = 0
+							UInt8 mIsRandomPos = 0
+							UInt8 mAttType = 1
+							ItemAdditionalAtt mAttL
+								UInt8 IsUseAtt = 0
+								ItemYawPitchAngleDeg Att
+									float mPitchAngleDeg = 0
+									float mYawAngleDeg = 0
+									float mRollAngleDeg = 0
+							vector mYawAngleDeg
+								Array Array
+								int size = 0
+							float mEmitPitchAngleDeg = 45
+							float mEmitVel = 0.5
+							float mEmitPosOffset = 0.2
+							UInt8 mIsEmitOneInFever = 0
+						OtherEmitInfo mOther
+							ItemTypeAndInt mEmitInfos
+								Array Array
+								int size = 0
+						UInt8 mIsUseMoveAttTypeOverrided = 0
+						UInt8 mMoveAttTypeOverrided = 0
+					BurstParam mBurst
+						float mBurstScaleMin = 0.15
+						float mBurstScaleMax = 19
+						float mBurstScaleVel = 1.8
+						float mBurstCollisionLifeSec = 0.583
+						UInt8 mCanGuardBySuperHorn = 1
+						int mEffectIndex = 0
+						float mBurstLifeSec = 1
+						float mBurstAnimSpeedRatio = 1
+						ItemAdditionalFloat mSetFloorPos
+							UInt8 Enabled = 0
+							float Value = 0
+						UInt8 mIsKartHitEnabledBeforeBurst = 1
+						float mReactIndex1BurstSec = 100
+					PrmScaleAnim mScaleAnim
+						Param mOnBound
+							UInt8 mIsEnabled = 0
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						Param mOnEffort
+							UInt8 mIsEnabled = 1
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 1
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 1
+										[0]
+										AnimationCurve data
+											vector m_Curve
+												Array Array
+												int size = 21
+													[0]
+													Keyframe data
+														float time = 0
+														float value = 1.073355
+														float inSlope = 0
+														float outSlope = 0
+														int weightedMode = 0
+														float inWeight = 0
+														float outWeight = 0
+													[1]
+													Keyframe data
+														float time = 0.4980911
+														float value = 1.272939
+														float inSlope = 0
+														float outSlope = 0
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 1
+													[2]
+													Keyframe data
+														float time = 0.9949644
+														float value = 0.9997557
+														float inSlope = -0.001036515
+														float outSlope = -0.001036515
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.4982536
+													[3]
+													Keyframe data
+														float time = 1.503004
+														float value = 1.197365
+														float inSlope = -0.001614078
+														float outSlope = -0.001614078
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.4487802
+													[4]
+													Keyframe data
+														float time = 1.98889
+														float value = 0.9526448
+														float inSlope = 0.0003118459
+														float outSlope = 0.0003118459
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5198219
+													[5]
+													Keyframe data
+														float time = 2.505401
+														float value = 1.134782
+														float inSlope = -0.0002416374
+														float outSlope = -0.0002416374
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3819301
+													[6]
+													Keyframe data
+														float time = 2.996945
+														float value = 0.8373791
+														float inSlope = -7.169372E-05
+														float outSlope = -7.169372E-05
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5111434
+													[7]
+													Keyframe data
+														float time = 3.497669
+														float value = 1.01083
+														float inSlope = -0.0007607301
+														float outSlope = -0.0007607301
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5418502
+													[8]
+													Keyframe data
+														float time = 4.001606
+														float value = 0.7352576
+														float inSlope = -0.0008459378
+														float outSlope = -0.0008459378
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5260409
+													[9]
+													Keyframe data
+														float time = 4.516816
+														float value = 0.9161177
+														float inSlope = -0.0007813424
+														float outSlope = -0.0007813424
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5486558
+													[10]
+													Keyframe data
+														float time = 5.00002
+														float value = 0.7349298
+														float inSlope = 0.0004745747
+														float outSlope = 0.0004745747
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5244861
+													[11]
+													Keyframe data
+														float time = 5.500406
+														float value = 0.9161296
+														float inSlope = 0.0007863995
+														float outSlope = 0.0007863995
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5601428
+													[12]
+													Keyframe data
+														float time = 6.001927
+														float value = 0.7356561
+														float inSlope = 0.0007343246
+														float outSlope = 0.0007343246
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5822629
+													[13]
+													Keyframe data
+														float time = 6.507612
+														float value = 0.9161606
+														float inSlope = -0.0009706022
+														float outSlope = -0.0009706022
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5153087
+													[14]
+													Keyframe data
+														float time = 7.006892
+														float value = 0.73656
+														float inSlope = 0.001822521
+														float outSlope = 0.001822521
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.5807412
+													[15]
+													Keyframe data
+														float time = 7.502823
+														float value = 0.9156352
+														float inSlope = -0.0005012213
+														float outSlope = -0.0005012213
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.4752173
+													[16]
+													Keyframe data
+														float time = 8.014096
+														float value = 0.7349849
+														float inSlope = 0.0001953478
+														float outSlope = 0.0001953478
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.7015083
+													[17]
+													Keyframe data
+														float time = 8.505298
+														float value = 0.9162374
+														float inSlope = -0.001295482
+														float outSlope = -0.001295482
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.4977632
+													[18]
+													Keyframe data
+														float time = 9.003175
+														float value = 0.735254
+														float inSlope = 0.0007615914
+														float outSlope = 0.0007615914
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.543169
+													[19]
+													Keyframe data
+														float time = 9.48843
+														float value = 0.9159983
+														float inSlope = -0.000307821
+														float outSlope = -0.000307821
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.4810131
+													[20]
+													Keyframe data
+														float time = 10.00045
+														float value = 0.7346784
+														float inSlope = 0
+														float outSlope = 0
+														int weightedMode = 0
+														float inWeight = 0
+														float outWeight = 0
+											int m_PreInfinity = 2
+											int m_PostInfinity = 2
+											int m_RotationOrder = 4
+							ItemCurve mScaleY
+								UInt8 mType = 1
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 1
+										[0]
+										AnimationCurve data
+											vector m_Curve
+												Array Array
+												int size = 31
+													[0]
+													Keyframe data
+														float time = 0
+														float value = 1.170022
+														float inSlope = 0.3295401
+														float outSlope = 0.3295401
+														int weightedMode = 0
+														float inWeight = 0
+														float outWeight = 0.1933986
+													[1]
+													Keyframe data
+														float time = 0.2508343
+														float value = 1.37069
+														float inSlope = 0
+														float outSlope = 0
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[2]
+													Keyframe data
+														float time = 0.7566344
+														float value = 0.9587482
+														float inSlope = -0.003849931
+														float outSlope = -0.003849931
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.2428762
+													[3]
+													Keyframe data
+														float time = 0.9956183
+														float value = 1.065344
+														float inSlope = 0.4466501
+														float outSlope = 0.4466501
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[4]
+													Keyframe data
+														float time = 1.290244
+														float value = 1.214784
+														float inSlope = 0.001128553
+														float outSlope = 0.001128553
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.2993968
+													[5]
+													Keyframe data
+														float time = 1.711992
+														float value = 0.7564186
+														float inSlope = -0.0002378609
+														float outSlope = -0.0002378609
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 1
+													[6]
+													Keyframe data
+														float time = 1.992044
+														float value = 0.9012506
+														float inSlope = 0.597638
+														float outSlope = 0.597638
+														int weightedMode = 0
+														float inWeight = 0.3530792
+														float outWeight = 0.2717847
+													[7]
+													Keyframe data
+														float time = 2.315039
+														float value = 1.017685
+														float inSlope = -0.0006209899
+														float outSlope = -0.0006209899
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.302466
+													[8]
+													Keyframe data
+														float time = 2.744243
+														float value = 0.7497119
+														float inSlope = 0.0006058713
+														float outSlope = 0.0006058713
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 1
+													[9]
+													Keyframe data
+														float time = 2.987387
+														float value = 0.8156895
+														float inSlope = 0.4242838
+														float outSlope = 0.4242838
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3260075
+													[10]
+													Keyframe data
+														float time = 3.260635
+														float value = 0.9902856
+														float inSlope = -0.00180217
+														float outSlope = -0.00180217
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[11]
+													Keyframe data
+														float time = 3.734262
+														float value = 0.7487248
+														float inSlope = 0.00016634
+														float outSlope = 0.00016634
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.8123589
+													[12]
+													Keyframe data
+														float time = 3.984805
+														float value = 0.8026245
+														float inSlope = 0.4452808
+														float outSlope = 0.4452808
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.4591108
+													[13]
+													Keyframe data
+														float time = 4.260444
+														float value = 0.9831117
+														float inSlope = -0.0006938027
+														float outSlope = -0.0006938027
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.2482711
+													[14]
+													Keyframe data
+														float time = 4.739722
+														float value = 0.7517678
+														float inSlope = 0.000727425
+														float outSlope = 0.000727425
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 1
+													[15]
+													Keyframe data
+														float time = 4.989882
+														float value = 0.8046997
+														float inSlope = 0.2442395
+														float outSlope = 0.2442395
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 1
+													[16]
+													Keyframe data
+														float time = 5.237381
+														float value = 0.9786314
+														float inSlope = -0.0006763963
+														float outSlope = -0.0006763963
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[17]
+													Keyframe data
+														float time = 5.726007
+														float value = 0.7512443
+														float inSlope = -0.0004544049
+														float outSlope = -0.0004544049
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.9470206
+													[18]
+													Keyframe data
+														float time = 5.987629
+														float value = 0.8028386
+														float inSlope = 0.2722619
+														float outSlope = 0.2722619
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.6937224
+													[19]
+													Keyframe data
+														float time = 6.236414
+														float value = 0.9789163
+														float inSlope = 0.002227101
+														float outSlope = 0.002227101
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[20]
+													Keyframe data
+														float time = 6.742204
+														float value = 0.7499585
+														float inSlope = -0.0006462421
+														float outSlope = -0.0006462421
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.9179536
+													[21]
+													Keyframe data
+														float time = 6.99014
+														float value = 0.8046398
+														float inSlope = 0.2601088
+														float outSlope = 0.2601088
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.8133994
+													[22]
+													Keyframe data
+														float time = 7.239679
+														float value = 0.9783133
+														float inSlope = 0.001221778
+														float outSlope = 0.001221778
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[23]
+													Keyframe data
+														float time = 7.739588
+														float value = 0.751359
+														float inSlope = 9.620516E-05
+														float outSlope = 9.620516E-05
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.7450281
+													[24]
+													Keyframe data
+														float time = 7.989065
+														float value = 0.8056344
+														float inSlope = 0.199244
+														float outSlope = 0.199244
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.8732456
+													[25]
+													Keyframe data
+														float time = 8.255558
+														float value = 0.9786955
+														float inSlope = -0.001110209
+														float outSlope = -0.001110209
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[26]
+													Keyframe data
+														float time = 8.747468
+														float value = 0.7525197
+														float inSlope = 0.0002077243
+														float outSlope = 0.0002077243
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 1
+													[27]
+													Keyframe data
+														float time = 8.987872
+														float value = 0.8038346
+														float inSlope = 0.2652359
+														float outSlope = 0.2652359
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.6500045
+													[28]
+													Keyframe data
+														float time = 9.242038
+														float value = 0.979123
+														float inSlope = 0.0005021095
+														float outSlope = 0.0005021095
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[29]
+													Keyframe data
+														float time = 9.728471
+														float value = 0.753102
+														float inSlope = -0.00150178
+														float outSlope = -0.00150178
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.8986645
+													[30]
+													Keyframe data
+														float time = 9.99262
+														float value = 0.8037372
+														float inSlope = -0.004294328
+														float outSlope = -0.004294328
+														int weightedMode = 0
+														float inWeight = 0.025486
+														float outWeight = 0
+											int m_PreInfinity = 2
+											int m_PostInfinity = 2
+											int m_RotationOrder = 4
+							ItemCurve mScaleZ
+								UInt8 mType = 1
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 1
+										[0]
+										AnimationCurve data
+											vector m_Curve
+												Array Array
+												int size = 4
+													[0]
+													Keyframe data
+														float time = 0
+														float value = 1.002136
+														float inSlope = 1.235145
+														float outSlope = 1.235145
+														int weightedMode = 0
+														float inWeight = 0
+														float outWeight = 0.3288661
+													[1]
+													Keyframe data
+														float time = 0.2522379
+														float value = 1.153387
+														float inSlope = -0.003525539
+														float outSlope = -0.003525539
+														int weightedMode = 0
+														float inWeight = 0.1460844
+														float outWeight = 0.3333333
+													[2]
+													Keyframe data
+														float time = 0.748553
+														float value = 0.8482512
+														float inSlope = 0.0007057195
+														float outSlope = 0.0007057195
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.1974545
+													[3]
+													Keyframe data
+														float time = 1
+														float value = 1.002136
+														float inSlope = 1.474788
+														float outSlope = 1.474788
+														int weightedMode = 0
+														float inWeight = 0.2497355
+														float outWeight = 0
+											int m_PreInfinity = 2
+											int m_PostInfinity = 1
+											int m_RotationOrder = 4
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						Param mOnMove
+							UInt8 mIsEnabled = 0
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						Param mOnDying
+							UInt8 mIsEnabled = 0
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						Param mOnEquipHang
+							UInt8 mIsEnabled = 1
+							Vector3 mAnchor
+								float x = 0
+								float y = 0
+								float z = 0
+							ItemCurve mScaleX
+								UInt8 mType = 1
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 1
+										[0]
+										AnimationCurve data
+											vector m_Curve
+												Array Array
+												int size = 3
+													[0]
+													Keyframe data
+														float time = 0
+														float value = 0.9994507
+														float inSlope = 0
+														float outSlope = 0
+														int weightedMode = 0
+														float inWeight = 0
+														float outWeight = 0
+													[1]
+													Keyframe data
+														float time = 0.5010165
+														float value = 1.130363
+														float inSlope = 0
+														float outSlope = 0
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[2]
+													Keyframe data
+														float time = 1
+														float value = 0.9994507
+														float inSlope = 0
+														float outSlope = 0
+														int weightedMode = 0
+														float inWeight = 0
+														float outWeight = 0
+											int m_PreInfinity = 2
+											int m_PostInfinity = 1
+											int m_RotationOrder = 4
+							ItemCurve mScaleY
+								UInt8 mType = 1
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 1
+										[0]
+										AnimationCurve data
+											vector m_Curve
+												Array Array
+												int size = 4
+													[0]
+													Keyframe data
+														float time = 0
+														float value = 1.004822
+														float inSlope = 0.1996948
+														float outSlope = 0.1996948
+														int weightedMode = 0
+														float inWeight = 0
+														float outWeight = 0.1807713
+													[1]
+													Keyframe data
+														float time = 0.2494543
+														float value = 1.056129
+														float inSlope = 0
+														float outSlope = 0
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.3333333
+													[2]
+													Keyframe data
+														float time = 0.7398715
+														float value = 0.9383878
+														float inSlope = 0.0005909807
+														float outSlope = 0.0005909807
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.2341832
+													[3]
+													Keyframe data
+														float time = 1
+														float value = 1.004822
+														float inSlope = 0.1984818
+														float outSlope = 0.1984818
+														int weightedMode = 0
+														float inWeight = 0.1204393
+														float outWeight = 0
+											int m_PreInfinity = 2
+											int m_PostInfinity = 1
+											int m_RotationOrder = 4
+							ItemCurve mScaleZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurveXYZ mRot
+								ItemCurve mX
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mY
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+								ItemCurve mZ
+									UInt8 mType = 0
+									vector mTypeParams
+										Array Array
+										int size = 0
+									vector mCurve
+										Array Array
+										int size = 0
+							ItemCurve mPositionX
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+							ItemCurve mPositionY
+								UInt8 mType = 1
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 1
+										[0]
+										AnimationCurve data
+											vector m_Curve
+												Array Array
+												int size = 4
+													[0]
+													Keyframe data
+														float time = 0
+														float value = 0
+														float inSlope = 0.1672665
+														float outSlope = 0.1672665
+														int weightedMode = 0
+														float inWeight = 0
+														float outWeight = 0.11955
+													[1]
+													Keyframe data
+														float time = 0.5020475
+														float value = 0.02514792
+														float inSlope = -0.0003982923
+														float outSlope = -0.0003982923
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.06472488
+													[2]
+													Keyframe data
+														float time = 1.502682
+														float value = -0.03154729
+														float inSlope = 0.0002521227
+														float outSlope = 0.0002521227
+														int weightedMode = 0
+														float inWeight = 0.3333333
+														float outWeight = 0.1806004
+													[3]
+													Keyframe data
+														float time = 1.997396
+														float value = 0
+														float inSlope = 0.1468419
+														float outSlope = 0.1468419
+														int weightedMode = 0
+														float inWeight = 0.08714671
+														float outWeight = 0
+											int m_PreInfinity = 2
+											int m_PostInfinity = 1
+											int m_RotationOrder = 4
+							ItemCurve mPositionZ
+								UInt8 mType = 0
+								vector mTypeParams
+									Array Array
+									int size = 0
+								vector mCurve
+									Array Array
+									int size = 0
+						UInt8 mIsSetVisibleOnFeverEquipAroundIfAnyEffortOnce = 0
+	float mEndingTime = 0
+	float mRunningTimeMin = 10
+	float mRunningTimeMax = 10
+	float mEndingDeg = 30
+	vector mTargetRank
+		Array Array
+		int size = 8
+			[0]
+			int data = 8
+			[1]
+			int data = 8
+			[2]
+			int data = 8
+			[3]
+			int data = 8
+			[4]
+			int data = 8
+			[5]
+			int data = 8
+			[6]
+			int data = 8
+			[7]
+			int data = 8
+	float mGravity = 0.018
+	float mHitWallTimeMax = 0.8
+	float mKillerRouteVel = 0.2
+	float mKillerRouteRatioMax = 0.9
+	float mKillerRouteRadiusMax = 100
+	float mSpeedMax = 1.05
+	UInt8 mIsUseSpeedMaxAC = 0
+	AnimationCurve mSpeedMaxAC
+		vector m_Curve
+			Array Array
+			int size = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	float mSpeedMaxCurve = 1.05
+	float mCurveRadMin = 0.1745329
+	float mCurveRadMax = 1.570796
+	float mSpeedRate = 1.05
+	UInt8 mIsUseSpeedRateAC = 0
+	AnimationCurve mSpeedRateAC
+		vector m_Curve
+			Array Array
+			int size = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	float mSpeedRateIncrease = 0.005
+	float mSpeedRateDecrease = 0.1
+	float mDefaultRunningTime = 5
+	PPtr<$GameObject> mKillerModelPrefabForKart
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	FollowerParam mFollower
+		float mAngleDeg = 1.2
+		float mDistance = 1.2
+	ParamKiller mParamLevelList
+		Array Array
+		int size = 1
+			[0]
+			ParamKiller data
+				float mRunningTimeMin = 10
+				float mRunningTimeMax = 10
+				float mSpeedMax = 1.2
+				UInt8 mIsUseSpeedMaxAC = 1
+				AnimationCurve mSpeedMaxAC
+					vector m_Curve
+						Array Array
+						int size = 3
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0.30477
+								float outSlope = 0.30477
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.2122926
+							[1]
+							Keyframe data
+								float time = 1.05692
+								float value = 1.228371
+								float inSlope = -0.01768723
+								float outSlope = -0.01768723
+								int weightedMode = 0
+								float inWeight = 0.2176678
+								float outWeight = 0.05381476
+							[2]
+							Keyframe data
+								float time = 10.00995
+								float value = 1.051064
+								float inSlope = -0.0003635282
+								float outSlope = -0.0003635282
+								int weightedMode = 0
+								float inWeight = 0.0594989
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				float mSpeedMaxCurve = 1.05
+				float mSpeedRate = 1.2
+				UInt8 mIsUseSpeedRateAC = 1
+				AnimationCurve mSpeedRateAC
+					vector m_Curve
+						Array Array
+						int size = 3
+							[0]
+							Keyframe data
+								float time = -0.01655018
+								float value = 1.000011
+								float inSlope = 0.2388503
+								float outSlope = 0.2388503
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3908799
+							[1]
+							Keyframe data
+								float time = 0.997047
+								float value = 1.255673
+								float inSlope = -0.04189169
+								float outSlope = -0.04189169
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.01752063
+							[2]
+							Keyframe data
+								float time = 10.00195
+								float value = 1.050099
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				float mSpeedRateIncrease = 1
+				float mSpeedRateDecrease = 0.1

@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2094441087577622512
+	string m_Name = "MarioIce"
+	PPtr<$GameObject> mModel
+		int m_FileID = 1
+		SInt64 m_PathID = -1585134973678460602
+	vector mFaceTextures
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Texture2D> data
+				int m_FileID = 3
+				SInt64 m_PathID = -928517060048171441
+			[1]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8615392759903073707
+			[2]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4463211363843350485
+			[3]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1017718273128060186
+			[4]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5059970691604231331
+			[5]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2944899600495688098
+			[6]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1969659110139702166
+			[7]
+			PPtr<$Texture2D> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2235737284263362470
+	UInt8 mIsFaceTextureEmission = 0
+	PPtr<$Texture2D> mEmblem
+		int m_FileID = 0
+		SInt64 m_PathID = 7184669270629739948
+	PPtr<$AnimatorOverrideController> mAnimatorOverrideController
+		int m_FileID = 2
+		SInt64 m_PathID = -8644037231005755752
+	float mKartScaleSize = 1
+	int mWingJointType = 0
+	PPtr<$ScriptableDriverMotionFaceChangeEvent> mFaceChangeEvent
+		int m_FileID = 0
+		SInt64 m_PathID = -4470736671686931611
+	IconInfo mIconInfo
+		Array Array
+		int size = 10
+			[0]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIce.png"
+				string mGuid = "f2f0724ebec7ffb4b966b4cd77ee628e"
+			[1]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIceMap.png"
+				string mGuid = "0272aa15b96856f4a8c0a3c4b1bb45bf"
+			[2]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIceFaceEntry.png"
+				string mGuid = "dc0e80d4c53198d41b2660eb5f0a7944"
+			[3]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIceWholeBody.png"
+				string mGuid = "1f9a2c6d20293d044a417fee8a2068fa"
+			[4]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIceUpperBody.png"
+				string mGuid = "eebceaa08634d364f8c305a636c3c619"
+			[5]
+			IconInfo data
+				string mPath = ""
+				string mGuid = ""
+			[6]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIce_Small.png"
+				string mGuid = "14a5122343d1a0e4aaf35d14c5677535"
+			[7]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIceFaceEntry_Small.png"
+				string mGuid = "937cb40f79777c247aa64852d99975f0"
+			[8]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIceWholeBody_Small.png"
+				string mGuid = "469b8bb5c8cf04c4b832f95268b9cd61"
+			[9]
+			IconInfo data
+				string mPath = "Assets/Main/Content/Driver/MarioIce/Icons/MarioIceUpperBody_Small.png"
+				string mGuid = "49fea1d0dd3de5543820436f5516408c"
+	int mColorGroup = 0
+	KartDriverColorTextureSettings mCharacterTextureList
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDriver> mBaseParameter
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mBodyMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> mEyeMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScriptableDynamicUnitMngInitData> mDynamicUnitMngInitData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	DriverMetamorphosisParameter mMetamorData
+		Array Array
+		int size = 0
+	PPtr<$ScriptableDotDriver> mDotDriverData
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string mDescription = ""
+	PPtr<$ScriptableEffectContainer> mEffectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

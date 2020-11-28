@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2590768194287000671
+	string m_Name = "Kinopio_DynamicUnitInit"
+	DynamicRigDynamicUnitInitProperty m_arInitProp
+		Array Array
+		int size = 0
+	vector m_arInvalidMotion
+		Array Array
+		int size = 0

@@ -1,0 +1,167 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -9073935527606922507
+	string m_Name = "ItemSlotResultResult024"
+	ItemSlotResultParam mParam
+		string mFileName = "ItemSlotResultInRaceResult024"
+		ItemSlotResultParamAI mAI
+			UInt8 mBehavior = 3
+			vector BehaviorParams
+				Array Array
+				int size = 3
+					[0]
+					float data = 2
+					[1]
+					float data = 8
+					[2]
+					float data = 3
+		int mSlotResult = 24
+		int mSlotResultOverrideForHavingList = 1
+		UInt8 mIsValid = 1
+		UInt8 mIsImplmented = 1
+		UInt8 mIsEnableProbTable = 1
+		UInt8 mIsUIImageOk = 1
+		UInt8 mIsSpecial = 1
+		ItemReleaseVersion mReleaseVersion
+			int mMajor = 1
+			int mMinor = 0
+			int mMicro = 0
+		UInt8 mIsFeverOnly = 0
+		UInt8 mIsEventOnly = 0
+		UInt8 mIsDisplayInRotatingSlot = 1
+		float mFirstAppearSec = 0
+		float mIntervalSec = 0
+		UInt8 mIsGorgeousSEItem = 1
+		UInt8 mIsDirectionalThrow = 1
+		UInt8 mCanHoldOnlyOne = 0
+		UInt8 mNoFeverOnHaving = 0
+		vector mItemsToEntry
+			Array Array
+			int size = 1
+				[0]
+				UInt8 data = 20
+		vector mItemsToAdditionalEntry
+			Array Array
+			int size = 0
+		UInt8 mIsAutoUseOnSlotDecide = 0
+		UInt8 mRandomReplaceType = 0
+		vector mReplacedSlotResult
+			Array Array
+			int size = 0
+		UInt8 mDriverAnimationType = 1
+		UInt8 mIsEnableDriverVoiceOnUse = 0
+		UInt8 mIsSingleFeverItem = 0
+		UInt8 mIsSlotRemainFeverItem = 0
+		vector mKartStateOnFever
+			Array Array
+			int size = 1
+				[0]
+				int data = 2
+		int mForFeverJudge = 24
+		int mFeverResult = 24
+		ItemTypeAndInt mFeverEquipItem
+			Array Array
+			int size = 1
+				[0]
+				ItemTypeAndInt data
+					UInt8 Item = 20
+					int Value = 6
+		ItemTypeAndInt mFeverAutoUseItem
+			Array Array
+			int size = 0
+		ItemTypeAndInt mFeverInfiniteItem
+			Array Array
+			int size = 1
+				[0]
+				ItemTypeAndInt data
+					UInt8 Item = 20
+					int Value = 6
+		vector mFeverInfiniteItemThrowDir
+			Array Array
+			int size = 0
+		UInt8 mFeverEquipType = 2
+		float mFeverFollowerFillingSec = 0
+		float mAroundRotVelFever = 3
+		UInt8 mStateInFeverAround = 5
+		float mFeverInfiniteCoolSec = 1
+		int mUseNumInFever = 1
+		ItemAdditionalInt mUseNumBackInFever
+			UInt8 Enabled = 0
+			int Value = 0
+		UInt8 mIsUseFixedThrowDirectionInFever = 0
+		UInt8 mFixedThrowDirInFever = 0
+		UInt8 mIsUseFixedThrowDefaultDirectionInFever = 0
+		UInt8 mFixedThrowDefaultDirInFever = 0
+		UInt8 mIsKeepFeverWhileAIItemRun = 0
+		UInt8 mIsEquipActionInFever = 0
+		float mFeverRandomYawAngleDegForward = 0
+		float mFeverRandomPitchAngleDegForward = 0
+		float mFeverRandomYawAngleDegBack = 0
+		float mFeverRandomPitchAngleDegBack = 0
+		UInt8 mIsEmitFromEquipPosInFever = 0
+		float mFeverEraseAroundSec = 0.3333333
+		float mAutoCoinGetSecInFever = 0
+		UInt8 mIsCoinGetEffectOnInAutoCoinGetInFever = 0
+		float mAutoCoinEmitSecInFever = 0
+		int mAutoCoinEmitNumInFever = 0
+		float mAutoCoinEmitOffsetFromHeadInFever = 0
+		float mAutoCoinEmitVelInFever = 0
+		float mAutoCoinEmitVelYawAngleInFever = 0
+		float mAutoCoinEmitVelKartInFever = 0
+		UInt8 mFeverItemUseType = 1
+		UInt8 mIsShortcutItem = 0
+		UInt8 mIsAutoItemPreferentially = 0
+		UInt8 mEquipType = 1
+		vector mEquipTypeParams
+			Array Array
+			int size = 0
+		ItemAdditionalAtt mEquipAtt
+			Array Array
+			int size = 0
+		ItemAdditionalPos mEquipPos
+			Array Array
+			int size = 0
+		UInt8 mIsUseFixedThrowDirection = 0
+		UInt8 mFixedThrowDir = 0
+		float mCoolTimeSecondThrowFront = 0
+		float mCoolTimeSecondThrowBack = 0
+		float mAroundRotVel = 3
+		UInt8 mAroundRotType = 1
+		UInt8 mIsUseAdditionalAroundRot = 0
+		Vector3 mAdditionalAttAround
+			float x = 0
+			float y = 0
+			float z = 0
+		float mFixedAroundRotRadius = 0
+		vector mForkAnglesFront
+			Array Array
+			int size = 1
+				[0]
+				float data = 0
+		vector mForkAnglesBack
+			Array Array
+			int size = 1
+				[0]
+				float data = 0
+		vector mThrowDelaySec
+			Array Array
+			int size = 0
+		int mReflectNumToHitInSameFork = 1
+		UInt8 mIsSameDirThrow = 1
+		ItemAdditionalInt mUseNumBack
+			UInt8 Enabled = 0
+			int Value = 0
+		UInt8 mIsChangeThrowDelaySecInBack = 0
+		vector mThrowDelaySecBack
+			Array Array
+			int size = 0
+		UInt8 mIsChangeThrowDelaySecInFever = 0
+		vector mThrowDelaySecFever
+			Array Array
+			int size = 0
+		int mLevel = 0

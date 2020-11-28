@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 980329048157257672
+	string m_Name = "Fbx_Gsfc_VanillaLake1_MapInfo"
+	Rectf rect
+		float x = -194.0829
+		float y = -191.4297
+		float width = 390.824
+		float height = 390.824
+	PPtr<$Sprite> sprite
+		int m_FileID = 0
+		SInt64 m_PathID = -2361877401653854395
+	Vector2f offset
+		float x = 10
+		float y = 0
